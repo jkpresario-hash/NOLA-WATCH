@@ -1,0 +1,4 @@
+beautifulsoup4>=4.12,<5
+trafilatura>=2.0,<3
+googlenewsdecoder>=0.1.7,<0.2
+selectolax>=0.3.27,<0.4

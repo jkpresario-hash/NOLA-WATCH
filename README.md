@@ -1,33 +1,30 @@
-# NOLA WATCH — 새로 구성한 시작 프로젝트
+# NOLA WATCH
 
-이 파일은 이전 대화의 ZIP 원본을 복원한 것이 아닙니다. 원본 파일에 접근할 수 없어 요청 내용을 바탕으로 새로 만들었습니다.
+뉴올리언스 펠리컨스 뉴스와 Reddit을 한국어로 읽는 GitHub Pages 피드.
 
-## 포함 기능과 범위
-- Google News RSS의 Pelicans 검색 결과와 NOLAPelicans Reddit RSS를 수집합니다.
-- 제목, 출처와 원문 링크만 표시하며 기사 본문은 복제하지 않습니다.
-- Python 표준 라이브러리만 사용합니다. 외부 패키지 설치가 필요 없습니다.
-- 한국시간 09:00 / 18:00에 GitHub Actions 실행을 예약합니다. 예약 실행은 지연되거나 비활성화될 수 있습니다.
-- 피드 오류를 화면과 data.json에 기록하고 기존 항목은 유지합니다.
-- X 자동 수집, 유료 기사 접근, ESPN/The Athletic/Yahoo/CBS/HoopsHype/RealGM 각각의 직접 수집은 구현하지 않았습니다. Google News에 노출되는 기사가 포함될 수 있으나 모든 매체를 보장하지 않습니다.
-- 최초에는 빈 시작 화면입니다. 실제 수집은 GitHub Actions에서 실행하세요.
+## 기능
+- Google News RSS와 r/NOLAPelicans RSS 수집, 중복·중계 스팸 제거
+- 한국어 제목, 기사 본문의 주요 문장 3개를 발췌한 한국어 요약
+- Reddit 텍스트 본문과 상위 댓글 최대 10개 번역, 댓글별 원문 링크
+- 원문 OG 이미지·Reddit 미리보기 썸네일 (없는 이미지나 로딩 실패 이미지 숨김)
+- 뉴스/Reddit 필터, 한·영 검색, 모바일 레이아웃, 20개씩 더 보기
+- 한국시간 09:00 / 18:00 GitHub Actions 수집 및 Pages 배포
 
-## GitHub 웹으로 설정
-1. https://github.com/new 에서 이름 nola-watch, Public, Add README를 선택해 저장소를 만듭니다.
-2. ZIP을 풀었다면 내부 파일을 저장소 루트에 추가합니다. ZIP 자체를 업로드하는 것은 설치가 아닙니다.
-3. 숨김 폴더 .github 업로드가 어려우면 Add file → Create new file에서 .github/workflows/update.yml 경로를 입력하고 내용을 붙여 넣습니다.
-4. Settings → Pages → Build and deployment → Source에서 GitHub Actions를 선택합니다.
-5. Actions → Update NOLA WATCH → Run workflow를 실행합니다.
-6. Pages 설정에 표시되는 주소로 접속합니다. 처음 게시되기까지 시간이 걸릴 수 있습니다.
+## 실행
+Python 3.12 환경에서:
+```
+pip install -r requirements.txt
+python -m unittest discover -s tests
+python collect.py --limit 40
+python -m http.server 8000
+```
+브라우저에서 http://localhost:8000 을 엽니다. `collect.py`는 data.json만 갱신하므로 화면 파일을 덮어쓰지 않습니다.
 
-## 다운로드 없이 설정
-함께 제공한 GITHUB-WEB-SETUP.md를 Codex에서 열고 각 코드 블록을 복사합니다.
-저장소의 Add file → Create new file에서 아래 세 파일을 각각 만들고 Commit changes를 누릅니다.
-- collect.py
-- .github/workflows/update.yml
-- index.html
-이후 위의 4–6 단계를 진행합니다. data.json은 첫 실행 때 생성됩니다.
+## 운영상 제한
+번역에는 API 키 없이 접근 가능한 Google Translate 웹 엔드포인트를 사용합니다. 정식 SLA가 있는 API가 아니며 이용량 제한이나 서비스 변경으로 실패할 수 있습니다. 실패는 원문 링크와 함께 표시되며 다음 수집에서 재시도합니다. 상용 규모 운영에는 정식 번역 API로 교체하는 것을 권장합니다.
 
-## 확인 범위
-압축 파일 전체를 다시 열고 각 항목의 CRC 및 압축 해제 결과를 비교했습니다.
-수집기 문법과 RSS/Atom 파싱 및 비HTTP URL 거부를 로컬 샘플로 확인했습니다.
-실제 외부 피드 접속과 GitHub 배포는 이 환경에서 검증하지 않았습니다.
+기사 요약은 생성형 요약이 아닌 주요 문장 발췌 번역입니다. 유료벽·차단·본문 추출 실패 시 제목만 번역될 수 있습니다. Google News 원문 주소 해석도 외부 서비스 동작에 의존합니다. Reddit JSON API 실패 시 공개 댓글 RSS로 대체 수집합니다. 두 경로 모두 실행 환경 IP에 따라 403/429를 반환할 수 있으며 이 경우 본문·댓글 번역이 제공되지 않습니다. RSS는 추천 수를 제공하지 않으며 피드에 포함된 댓글 최대 10개를 표시합니다. 전체 댓글이 아니라 API가 반환하는 상위 댓글 최대 10개입니다.
+
+실행당 40개를 처리하고 기존 성공 번역과 번역 캐시를 재사용합니다. Reddit 댓글은 6시간 이상 경과하면 다시 수집합니다. data.json에는 최근 200개까지 유지하며 수집 실패 시 기존 데이터를 유지합니다. 실행 일정은 GitHub에 의해 지연될 수 있습니다.
+
+GitHub Pages 설정은 기존처럼 Source: GitHub Actions를 유지합니다. 변경 커밋 후 Actions → Update NOLA WATCH → Run workflow를 실행하거나 정기 실행을 기다립니다. 번역 캐시는 GitHub Actions cache에 저장되며 공개 사이트 파일에 포함되지 않습니다.
