@@ -28,7 +28,18 @@ jobs:
         with:
           python-version: '3.12'
 
+      - run: pip install -r requirements.txt
+
+      - uses: actions/cache@v4
+        with:
+          path: .translation-cache.json
+          key: translations-${{ github.run_id }}
+          restore-keys: translations-
+
+      - run: python -m unittest discover -s tests
+
       - run: python collect.py
+        timeout-minutes: 25
 
       - name: Save feed
         run: |
