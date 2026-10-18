@@ -19,7 +19,7 @@ import trafilatura
 
 SOURCES = {
     "Google News · Pelicans": "https://news.google.com/rss/search?q=New+Orleans+Pelicans+when:7d&hl=en-US&gl=US&ceid=US:en",
-    "Reddit · NOLAPelicans": "https://www.reddit.com/r/NOLAPelicans/.rss",
+    "Reddit · NOLAPelicans": "https://www.reddit.com/r/NOLAPelicans/new/.rss?limit=100",
 }
 KEYWORDS = re.compile(r"pelicans|\bnola\b|new orleans|뉴올리언스|펠리컨스", re.I)
 SPAM = re.compile(r"livestream|watchlive|free streams?|live free|free reddit|universidad de", re.I)
@@ -75,6 +75,67 @@ def timestamp(value):
         except (ValueError, TypeError):
             return ""
 
+def is_reddit(item):
+    return item.get("kind") == "reddit" or item.get("source", "").startswith("Reddit")
+
+def item_key(item):
+    if is_reddit(item):
+        match = re.search(r"/comments/([a-z0-9]+)(?:/|$)", urllib.parse.urlsplit(item["url"]).path, re.I)
+        if match:
+            return "t3_" + match[1].lower()
+    return item["url"]
+
+def collect_reddit(old_items, errors, max_pages=10, checkpoint=None):
+    """Collect the new listing and resume pages interrupted on earlier runs."""
+    if checkpoint is None:
+        checkpoint = {}
+    source = "Reddit · NOLAPelicans"
+    base = SOURCES[source]
+    known = {item_key(i) for i in old_items if is_reddit(i)}
+    pending = [None] + list(dict.fromkeys(checkpoint.get("pending_after", [])))
+    collected, seen, requested = [], set(), set()
+    pages = 0
+    while pending and pages < max_pages:
+        cursor = pending.pop(0)
+        if cursor in requested:
+            continue
+        requested.add(cursor)
+        url = base + ("&" + urllib.parse.urlencode({"after": cursor}) if cursor else "")
+        if pages:
+            time.sleep(1)
+        pages += 1
+        try:
+            page = parse_feed(fetch(url), source)
+        except Exception as exc:
+            if cursor:
+                pending.insert(0, cursor)
+            errors.append(f"Reddit: 최신 글 목록 수집이 중단됐습니다 ({error_detail(exc)}). 다음 수집 때 이어서 재시도합니다.")
+            break
+        if not page:
+            continue
+        overlap = False
+        added = 0
+        for item in page:
+            key = item_key(item)
+            overlap = overlap or key in known
+            if key not in seen:
+                seen.add(key)
+                collected.append(item)
+                added += 1
+        # Retain every post on the overlap page, then resume any unfinished scan.
+        if overlap:
+            continue
+        next_cursor = item_key(page[-1])
+        if not added or not next_cursor.startswith("t3_") or next_cursor in requested:
+            errors.append("Reddit: 다음 페이지를 확인하지 못했습니다. 과거 글 수집이 완전하지 않을 수 있습니다.")
+            continue
+        if next_cursor not in pending:
+            pending.insert(0, next_cursor)
+    checkpoint["pending_after"] = [cursor for cursor in pending if cursor]
+    if pending and pages >= max_pages:
+        errors.append("Reddit: 이번 수집의 페이지 한도에 도달했습니다. 남은 페이지는 다음 수집 때 이어서 확인합니다.")
+    return collected
+
 def parse_feed(data, source):
     doc = ET.fromstring(data)
     atom = "{http://www.w3.org/2005/Atom}"
@@ -82,9 +143,9 @@ def parse_feed(data, source):
     for node in list(doc.findall(".//item")) + list(doc.findall(atom + "entry")):
         title = node.findtext("title") or node.findtext(atom + "title") or ""
         url = node.findtext("link") or next((x.get("href", "") for x in node.findall(atom + "link") if x.get("rel", "alternate") == "alternate"), "")
-        if not safe_url(url) or SPAM.search(unicodedata.normalize("NFKC", title)):
+        if not safe_url(url):
             continue
-        if not source.startswith("Reddit") and not KEYWORDS.search(title):
+        if not source.startswith("Reddit") and (SPAM.search(unicodedata.normalize("NFKC", title)) or not KEYWORDS.search(title)):
             continue
         content = node.findtext("description") or node.findtext(atom + "content") or ""
         soup = BeautifulSoup(content, "html.parser")
@@ -258,13 +319,14 @@ def translate_available(item):
     return failures
 
 def collect_items(entries, old_items, limit, content_seconds=900):
-    previous = {item["url"]: item for item in old_items}
+    previous = {item_key(item): item for item in old_items}
     seen, merged = set(), []
     for entry in entries + old_items:
-        if entry["url"] in seen or SPAM.search(unicodedata.normalize("NFKC", entry["title"])):
+        key = item_key(entry)
+        if key in seen or (not is_reddit(entry) and SPAM.search(unicodedata.normalize("NFKC", entry["title"]))):
             continue
-        seen.add(entry["url"])
-        item = {**entry, **previous.get(entry["url"], {})}
+        seen.add(key)
+        item = {**entry, **previous.get(key, {})}
         for field in ("body_en", "excerpt_en", "thumbnail"):
             if not item.get(field) and entry.get(field):
                 item[field] = entry[field]
@@ -272,7 +334,15 @@ def collect_items(entries, old_items, limit, content_seconds=900):
         item.setdefault("status", "pending")
         merged.append(item)
     merged.sort(key=lambda i: i.get("published", ""), reverse=True)
-    merged = merged[:200]
+    # Community posts must not age out when more news articles arrive.
+    news_count, retained = 0, []
+    for item in merged:
+        if is_reddit(item):
+            retained.append(item)
+        elif news_count < 200:
+            retained.append(item)
+            news_count += 1
+    merged = retained
     # The content-fetch budget must never prevent headline/available-text translation.
     for item in merged:
         translate_available(item)
@@ -327,7 +397,11 @@ def main():
         CACHE.update(json.loads(cache_path.read_text(encoding="utf-8")))
     seed_cache(old["items"])
     entries, errors = [], []
+    reddit_scan = old.get("reddit_scan", {})
     for name, url in SOURCES.items():
+        if name.startswith("Reddit"):
+            entries.extend(collect_reddit(old["items"], errors, checkpoint=reddit_scan))
+            continue
         try:
             entries.extend(parse_feed(fetch(url), name))
         except Exception as exc:
@@ -337,7 +411,7 @@ def main():
     community = [i for i in entries if i["kind"] == "reddit"]
     entries = [entry for pair in __import__('itertools').zip_longest(news, community) for entry in pair if entry]
     merged, processed = collect_items(entries, old["items"], args.limit)
-    state = dict(updated=datetime.now(timezone.utc).isoformat(), errors=errors, items=merged[:200])
+    state = dict(updated=datetime.now(timezone.utc).isoformat(), errors=errors, items=merged, reddit_scan=reddit_scan)
     path.write_text(json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")
     cache_path.write_text(json.dumps(CACHE, ensure_ascii=False), encoding="utf-8")
     print(f"Saved {len(state['items'])} entries; processed {processed}")

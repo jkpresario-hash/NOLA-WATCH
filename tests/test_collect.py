@@ -16,6 +16,10 @@ class FeedTests(unittest.TestCase):
         self.assertEqual(collect.parse_feed(data, 'Google'), [])
         self.assertEqual(collect.safe_url('javascript:alert(1)'), '')
 
+    def test_reddit_all_topics_are_included(self):
+        data = b'<rss><channel><item><title>Free streams discussion</title><link>https://www.reddit.com/r/NOLAPelicans/comments/abc/</link></item><item><title>Daily chat</title><link>https://www.reddit.com/r/NOLAPelicans/comments/def/</link></item><item><title>Image post</title><link>javascript:alert(1)</link></item></channel></rss>'
+        self.assertEqual(len(collect.parse_feed(data, 'Reddit')), 2)
+
     def test_reddit_comments_and_image(self):
         payload = [{'data':{'children':[{'data':{'selftext':'Hello','num_comments':3,'preview':{'images':[{'source':{'url':'https://example.com/img.jpg'}}]}}}]}}, {'data':{'children':[{'kind':'t1','data':{'body':'Great defense','author':'fan','score':4,'permalink':'/r/NOLAPelicans/comments/abc/comment/'}},{'kind':'t1','data':{'body':'[deleted]'}},{'kind':'more','data':{}}]}}]
         with patch.object(collect,'fetch',return_value=json.dumps(payload).encode()), patch.object(collect,'translate',side_effect=lambda s:'번역 '+s):
@@ -55,3 +59,4 @@ class FeedTests(unittest.TestCase):
         self.assertTrue(callable(gnewsdecoder))
 
 if __name__=='__main__': unittest.main()
+
