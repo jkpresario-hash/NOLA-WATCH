@@ -1,9 +1,236 @@
 {
-  "updated": "2026-10-18T15:39:01.452862+00:00",
+  "updated": "2026-10-18T15:43:37.092342+00:00",
   "errors": [
     "비영어 뉴스 2건은 출처·중복 확인이 끝날 때까지 보류합니다."
   ],
   "items": [
+    {
+      "kind": "youtube",
+      "source": "YouTube",
+      "video_id": "gHyXyxWqePg",
+      "title": "NBA 라이징 스타 허브 존스의 남다른 배스 낚시 사랑",
+      "url": "https://www.youtube.com/watch?v=gHyXyxWqePg",
+      "channel": "Bassmaster",
+      "thumbnail": "https://i.ytimg.com/vi/gHyXyxWqePg/hqdefault.jpg",
+      "published": "",
+      "discovered_at": "2026-10-18T15:41:48.382988Z",
+      "status": "partial",
+      "summary_policy": 3,
+      "summary_attempted_at": "2026-10-18T15:41:48.382988Z",
+      "title_ko": "NBA 라이징 스타 허브 존스의 남다른 배스 낚시 사랑",
+      "transcript_error": "RequestBlocked",
+      "upload_date": "2026-10-15",
+      "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
+      "summary_error": "ValueError"
+    },
+    {
+      "kind": "youtube",
+      "source": "YouTube",
+      "video_id": "pJUzAl8GDzo",
+      "title": "펠리컨스 프리시즌 팀 훈련 | NBA 시즌을 위한 준비",
+      "url": "https://www.youtube.com/watch?v=pJUzAl8GDzo",
+      "channel": "Pelican Post Game Report | All Things Pelicans",
+      "thumbnail": "https://i.ytimg.com/vi/pJUzAl8GDzo/hqdefault.jpg",
+      "published": "",
+      "discovered_at": "2026-10-18T15:41:48.382988Z",
+      "status": "partial",
+      "summary_policy": 3,
+      "summary_attempted_at": "2026-10-18T15:41:48.382988Z",
+      "title_ko": "펠리컨스 프리시즌 팀 훈련 | NBA 시즌을 위한 준비",
+      "transcript_error": "RequestBlocked",
+      "upload_date": "2026-10-14",
+      "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
+      "summary_error": "ValueError"
+    },
+    {
+      "kind": "youtube",
+      "source": "YouTube",
+      "video_id": "v5bkI2_9MD4",
+      "title": "Down in the Bayou with @HorizonAllGo Your place for Pelicans Basketball and collecting NBA Top Shot",
+      "url": "https://www.youtube.com/watch?v=v5bkI2_9MD4",
+      "channel": "Collectin & Connectin Network - Collectors Welcome",
+      "thumbnail": "https://i.ytimg.com/vi/v5bkI2_9MD4/hqdefault.jpg",
+      "published": "",
+      "discovered_at": "2026-10-18T15:41:48.382988Z",
+      "status": "partial",
+      "summary_policy": 3,
+      "summary_attempted_at": "2026-10-18T15:41:48.382988Z",
+      "title_ko": "@HorizonAllGo와 함께 Bayou에서 Pelicans 농구 및 NBA 최고 샷 수집을 위한 장소",
+      "transcript_error": "RequestBlocked",
+      "upload_date": "2026-10-11",
+      "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
+      "summary_error": "ValueError"
+    },
+    {
+      "kind": "youtube",
+      "source": "YouTube",
+      "video_id": "dljpSuxkBBc",
+      "title": "The pelicans did something so diabolical to The Thunder At Their Home Court.",
+      "url": "https://www.youtube.com/watch?v=dljpSuxkBBc",
+      "channel": "ReinaWhit727",
+      "thumbnail": "https://i.ytimg.com/vi/dljpSuxkBBc/hqdefault.jpg",
+      "published": "",
+      "discovered_at": "2026-10-18T15:41:48.382988Z",
+      "status": "partial",
+      "summary_policy": 3,
+      "summary_attempted_at": "2026-10-18T15:41:48.382988Z",
+      "title_ko": "펠리컨들은 The Thunder At their Home Court에 매우 사악한 짓을 했습니다.",
+      "transcript_error": "RequestBlocked",
+      "upload_date": "2026-10-11",
+      "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
+      "summary_error": "ValueError"
+    },
+    {
+      "kind": "youtube",
+      "source": "YouTube",
+      "video_id": "QCFCHcslOH8",
+      "title": "앤드류 넴하드, 제레마이아 피어스, GG 잭슨 새 시즌 브레이크아웃 후보들 By Sonic44",
+      "url": "https://www.youtube.com/watch?v=QCFCHcslOH8",
+      "channel": "배스킷볼 다이제스트",
+      "thumbnail": "https://i.ytimg.com/vi/QCFCHcslOH8/hqdefault.jpg",
+      "published": "",
+      "discovered_at": "2026-10-18T15:41:48.382988Z",
+      "status": "partial",
+      "summary_policy": 3,
+      "summary_attempted_at": "2026-10-18T15:41:48.382988Z",
+      "title_ko": "앤드류 넴하드, 제레마이아 피어스, GG 잭슨 새 시즌 브레이크아웃 후보들 By Sonic44",
+      "transcript_error": "RequestBlocked",
+      "upload_date": "2026-10-13",
+      "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
+      "summary_error": "ValueError"
+    },
+    {
+      "kind": "youtube",
+      "source": "YouTube",
+      "video_id": "htaaJeSwW0g",
+      "title": "New Orleans Pelicans vs Golden State Warriors ",
+      "url": "https://www.youtube.com/watch?v=htaaJeSwW0g",
+      "channel": "Active Phantom ",
+      "thumbnail": "https://i.ytimg.com/vi/htaaJeSwW0g/hqdefault.jpg",
+      "published": "",
+      "discovered_at": "2026-10-18T15:41:48.382988Z",
+      "status": "partial",
+      "summary_policy": 3,
+      "summary_attempted_at": "2026-10-18T15:41:48.382988Z",
+      "title_ko": "뉴올리언스 펠리컨스 vs 골든스테이트 워리어스",
+      "transcript_error": "RequestBlocked",
+      "upload_date": "2026-10-11",
+      "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
+      "summary_error": "ValueError"
+    },
+    {
+      "kind": "youtube",
+      "source": "YouTube",
+      "video_id": "DQKbWP7gzFU",
+      "title": "펠리컨스 vs 매브스 2",
+      "url": "https://www.youtube.com/watch?v=DQKbWP7gzFU",
+      "channel": "2K Analytics TV",
+      "thumbnail": "https://i.ytimg.com/vi/DQKbWP7gzFU/hqdefault.jpg",
+      "published": "",
+      "discovered_at": "2026-10-18T15:41:48.382988Z",
+      "status": "ready",
+      "summary_policy": 3,
+      "summary_attempted_at": "2026-10-18T15:41:48.382988Z",
+      "title_ko": "펠리컨스 vs 매브스 2",
+      "transcript_error": "RequestBlocked",
+      "upload_date": "2026-10-14",
+      "summary_source": "description",
+      "summary_original": [
+        "Today we run our full analytical NBA prediction model for this high-octane Western Conference battle: New Orleans Pelicans vs. Dallas Mavericks!",
+        "⚡ Key star matchups: Zion Williamson & Trey Murphy III vs. Cooper Flagg & Dallas's perimeter attack",
+        "📊 Projected team stats, rotation distributions, and bench depth comparisons"
+      ],
+      "summary_ko": [
+        "오늘 우리는 이 흥미진진한 서부 컨퍼런스 전투인 뉴올리언스 펠리컨스 대 뉴올리언스 펠리컨스에 대한 전체 분석 NBA 예측 모델을 실행합니다.\n댈러스 매버릭스!",
+        "⚡ 주요 스타 매치업: Zion Williamson & Trey Murphy III vs.\n쿠퍼 플래그와 댈러스의 경계 공격",
+        "📊 예상 팀 통계, 로테이션 분포 및 벤치 깊이 비교"
+      ]
+    },
+    {
+      "kind": "youtube",
+      "source": "YouTube",
+      "video_id": "RuJirx47jCA",
+      "title": "댈러스 매버릭스, 뉴올리언스 펠리컨스와의 짜릿한 프리시즌 경기 개최",
+      "url": "https://www.youtube.com/watch?v=RuJirx47jCA",
+      "channel": "Pod Maverick: A Dallas Mavericks Podcast",
+      "thumbnail": "https://i.ytimg.com/vi/RuJirx47jCA/hqdefault.jpg",
+      "published": "",
+      "discovered_at": "2026-10-18T15:41:48.382988Z",
+      "status": "partial",
+      "summary_policy": 3,
+      "summary_attempted_at": "2026-10-18T15:41:48.382988Z",
+      "title_ko": "댈러스 매버릭스, 뉴올리언스 펠리컨스와의 짜릿한 프리시즌 경기 개최",
+      "transcript_error": "RequestBlocked",
+      "upload_date": "2026-10-15",
+      "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
+      "summary_error": "ValueError"
+    },
+    {
+      "kind": "youtube",
+      "source": "YouTube",
+      "video_id": "GHxw41fmvNk",
+      "title": "📱댈러스 매버릭스, 뉴올리언스 펠리컨스와의 짜릿한 프리시즌 경기 개최📱",
+      "url": "https://www.youtube.com/watch?v=GHxw41fmvNk",
+      "channel": "Pod Maverick: A Dallas Mavericks Podcast",
+      "thumbnail": "https://i.ytimg.com/vi/GHxw41fmvNk/hqdefault.jpg",
+      "published": "",
+      "discovered_at": "2026-10-18T15:41:48.382988Z",
+      "status": "partial",
+      "summary_policy": 3,
+      "summary_attempted_at": "2026-10-18T15:41:48.382988Z",
+      "title_ko": "📱댈러스 매버릭스, 뉴올리언스 펠리컨스와의 짜릿한 프리시즌 경기 개최📱",
+      "transcript_error": "RequestBlocked",
+      "upload_date": "2026-10-15",
+      "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
+      "summary_error": "ValueError"
+    },
+    {
+      "kind": "youtube",
+      "source": "YouTube",
+      "video_id": "XdwoQkwTWhQ",
+      "title": "Why The NBA Finally Outgrew Zion Williamson",
+      "url": "https://www.youtube.com/watch?v=XdwoQkwTWhQ",
+      "channel": "Block Court",
+      "thumbnail": "https://i.ytimg.com/vi/XdwoQkwTWhQ/hqdefault.jpg",
+      "published": "",
+      "discovered_at": "2026-10-18T15:41:48.382988Z",
+      "status": "ready",
+      "summary_policy": 3,
+      "summary_attempted_at": "2026-10-18T15:41:48.382988Z",
+      "title_ko": "NBA가 마침내 자이언 윌리엄슨을 능가한 이유",
+      "transcript_error": "RequestBlocked",
+      "upload_date": "2026-10-14",
+      "summary_source": "description",
+      "summary_original": [
+        "Zion Williamson is entering Year 8, and the New Orleans Pelicans have officially drawn a line in the sand.",
+        "During the latest Media Day, Head Coach Jamal Mosley and Executive VP Joe Dumars didn't hold back.",
+        "In this video essay, we break down the tactical wall defenses use to stop Zion, the on-court fit with Derek Queen, and why the front office's refusal to offer a max extension means this season might be his last in New Orleans."
+      ],
+      "summary_ko": [
+        "Zion Williamson은 8년차에 접어들었고 New Orleans Pelicans는 공식적으로 선을 그었습니다.",
+        "최근 미디어 데이 동안 Jamal Mosley 수석 코치와 Joe Dumars 부사장은 주저하지 않았습니다.",
+        "이 비디오 에세이에서 우리는 Derek Queen과 함께 코트에 어울리는 Zion을 막기 위해 사용하는 전술적 벽 수비를 분석하고, 프론트 오피스가 최대 연장 제안을 거부한 것이 이번 시즌이 New Orleans에서의 그의 마지막 시즌이 될 수도 있음을 의미하는 이유를 분석합니다."
+      ]
+    },
+    {
+      "kind": "youtube",
+      "source": "YouTube",
+      "video_id": "Ksg8odqeUck",
+      "title": "The Pelicans Have More Help Than We Thought...",
+      "url": "https://www.youtube.com/watch?v=Ksg8odqeUck",
+      "channel": "Pelicans Digest",
+      "thumbnail": "https://i.ytimg.com/vi/Ksg8odqeUck/hqdefault.jpg",
+      "published": "",
+      "discovered_at": "2026-10-18T15:41:48.382988Z",
+      "status": "partial",
+      "summary_policy": 3,
+      "summary_attempted_at": "2026-10-18T15:41:48.382988Z",
+      "title_ko": "펠리컨들은 우리가 생각했던 것보다 더 많은 도움을 주고 있어요...",
+      "transcript_error": "RequestBlocked",
+      "upload_date": "2026-10-14",
+      "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
+      "summary_error": "ValueError"
+    },
     {
       "kind": "youtube",
       "source": "YouTube",
@@ -15,12 +242,12 @@
       "published": "",
       "discovered_at": "2026-10-18T15:37:16.141508Z",
       "status": "ready",
-      "summary_policy": 2,
-      "summary_attempted_at": "2026-10-18T15:37:16.141508Z",
+      "summary_policy": 3,
       "title_ko": "펠리컨스 vs 위저즈 107-106 요약 | 새디크 베이, 프리시즌 피날레 이끌다",
       "transcript_error": "RequestBlocked",
       "upload_date": "2026-10-17",
       "summary_source": "description",
+      "summary_attempted_at": "2026-10-18T15:41:48.382988Z",
       "summary_original": [
         "Pelicans vs. Wizards full recap: New Orleans wins 107–106 as Saddiq Bey scores 19 and the Pelicans finish preseason 3–1.",
         "Saddiq Bey’s 19 points, six rebounds and 3-of-5 three-point shooting.",
@@ -43,21 +270,21 @@
       "published": "",
       "discovered_at": "2026-10-18T15:37:16.141508Z",
       "status": "ready",
-      "summary_policy": 2,
-      "summary_attempted_at": "2026-10-18T15:37:16.141508Z",
+      "summary_policy": 3,
       "title_ko": "펠리컨스 프리시즌 최종 기자회견 | 자말 모슬리 & 사딕 베이",
       "transcript_error": "RequestBlocked",
       "upload_date": "2026-10-16",
       "summary_source": "description",
+      "summary_attempted_at": "2026-10-18T15:41:48.382988Z",
       "summary_original": [
         "Jamahl Mosley and Saddiq Bey discuss what they want to see from the New Orleans Pelicans in their final preseason game against the Washington Wizards.",
         "With the regular season approaching, this press conference puts the focus on expectations for the final tune-up and how the Pelicans want to finish their preseason work.",
-        "This video features the press conference with Jamahl Mosley and Saddiq Bey."
+        "🎙️ Featuring head coach Jamahl Mosley and forward Saddiq Bey"
       ],
       "summary_ko": [
         "Jamahl Mosley와 Saddiq Bey는 워싱턴 위저즈와의 프리시즌 마지막 경기에서 뉴올리언스 펠리컨스에게 보고 싶은 것이 무엇인지 논의합니다.",
         "정규 시즌이 다가옴에 따라 이번 기자 회견에서는 최종 조정에 대한 기대와 펠리컨스가 프리시즌 작업을 어떻게 마무리하고 싶어하는지에 초점을 맞췄습니다.",
-        "이 영상은 Jamahl Mosley와 Saddiq Bey의 기자회견을 담고 있습니다."
+        "🎙️ 감독 Jamahl Mosley와 포워드 Saddiq Bey가 출연합니다."
       ]
     },
     {
@@ -71,13 +298,13 @@
       "published": "",
       "discovered_at": "2026-10-18T15:37:16.141508Z",
       "status": "partial",
-      "summary_policy": 2,
-      "summary_attempted_at": "2026-10-18T15:37:16.141508Z",
+      "summary_policy": 3,
       "title_ko": "올타임 애틀랜타 호크스 vs 올타임 뉴올리언스 펠리컨스 | NBA 2K27 게임플레이 노 코멘터리",
       "transcript_error": "RequestBlocked",
       "upload_date": "2026-10-14",
       "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
-      "summary_error": "ValueError"
+      "summary_error": "ValueError",
+      "summary_attempted_at": "2026-10-18T15:41:48.382988Z"
     },
     {
       "kind": "youtube",
@@ -90,13 +317,13 @@
       "published": "",
       "discovered_at": "2026-10-18T15:37:16.141508Z",
       "status": "partial",
-      "summary_policy": 2,
-      "summary_attempted_at": "2026-10-18T15:37:16.141508Z",
+      "summary_policy": 3,
       "title_ko": "3점슛 대회에 참가하는 자말 모슬리 | 펠리컨스 프리시즌 2026",
       "transcript_error": "RequestBlocked",
       "upload_date": "2026-10-12",
       "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
-      "summary_error": "ValueError"
+      "summary_error": "ValueError",
+      "summary_attempted_at": "2026-10-18T15:41:48.382988Z"
     },
     {
       "kind": "youtube",
@@ -109,13 +336,13 @@
       "published": "",
       "discovered_at": "2026-10-18T15:37:16.141508Z",
       "status": "partial",
-      "summary_policy": 2,
-      "summary_attempted_at": "2026-10-18T15:37:16.141508Z",
+      "summary_policy": 3,
       "title_ko": "올타임 뉴올리언스 펠리컨스 vs 올타임 로스앤젤레스 클리퍼스｜NBA 2K27 게임플레이 노 코멘터리",
       "transcript_error": "RequestBlocked",
       "upload_date": "2026-10-14",
       "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
-      "summary_error": "ValueError"
+      "summary_error": "ValueError",
+      "summary_attempted_at": "2026-10-18T15:41:48.382988Z"
     },
     {
       "kind": "youtube",
@@ -128,13 +355,13 @@
       "published": "",
       "discovered_at": "2026-10-18T15:37:16.141508Z",
       "status": "partial",
-      "summary_policy": 2,
-      "summary_attempted_at": "2026-10-18T15:37:16.141508Z",
+      "summary_policy": 3,
       "title_ko": "자매 Angel Reese의 Julian Reese, 리바운드 | 펠리컨스 프리시즌 2026",
       "transcript_error": "RequestBlocked",
       "upload_date": "2026-10-12",
       "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
-      "summary_error": "ValueError"
+      "summary_error": "ValueError",
+      "summary_attempted_at": "2026-10-18T15:41:48.382988Z"
     },
     {
       "kind": "youtube",
@@ -147,13 +374,13 @@
       "published": "",
       "discovered_at": "2026-10-18T15:37:16.141508Z",
       "status": "partial",
-      "summary_policy": 2,
-      "summary_attempted_at": "2026-10-18T15:37:16.141508Z",
+      "summary_policy": 3,
       "title_ko": "Long 8 Pelicans vs Thunder Q1 하이라이트 🤯",
       "transcript_error": "RequestBlocked",
       "upload_date": "2026-10-11",
       "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
-      "summary_error": "ValueError"
+      "summary_error": "ValueError",
+      "summary_attempted_at": "2026-10-18T15:41:48.382988Z"
     },
     {
       "kind": "youtube",
@@ -166,12 +393,12 @@
       "published": "",
       "discovered_at": "2026-10-18T15:37:16.141508Z",
       "status": "ready",
-      "summary_policy": 2,
-      "summary_attempted_at": "2026-10-18T15:37:16.141508Z",
+      "summary_policy": 3,
       "title_ko": "뉴올리언스 펠리컨스 vs 댈러스 매버릭스 | NBA 2K27 게임 예측 | 2026년 10월 14일",
       "transcript_error": "RequestBlocked",
       "upload_date": "2026-10-14",
       "summary_source": "description",
+      "summary_attempted_at": "2026-10-18T15:41:48.382988Z",
       "summary_original": [
         "The New Orleans Pelicans take on the Dallas Mavericks in an action-packed Southwest Division showdown on October 14, 2026!",
         "Field Goal %: High-potency perimeter offense and fluid drive-and-kick playmaking",
@@ -194,13 +421,13 @@
       "published": "",
       "discovered_at": "2026-10-18T15:37:16.141508Z",
       "status": "partial",
-      "summary_policy": 2,
-      "summary_attempted_at": "2026-10-18T15:37:16.141508Z",
+      "summary_policy": 3,
       "title_ko": "펠리컨스가 승리한 후 Saddiq Bey의 코트 인터뷰\n마법사 2026년 10월 16일",
       "transcript_error": "RequestBlocked",
       "upload_date": "2026-10-17",
       "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
-      "summary_error": "ValueError"
+      "summary_error": "ValueError",
+      "summary_attempted_at": "2026-10-18T15:41:48.382988Z"
     },
     {
       "kind": "youtube",
@@ -217,9 +444,9 @@
       "upload_date": "2026-10-15",
       "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
       "summary_error": "ValueError",
-      "summary_policy": 2,
-      "summary_attempted_at": "2026-10-18T15:37:16.141508Z",
-      "transcript_error": "RequestBlocked"
+      "summary_policy": 3,
+      "transcript_error": "RequestBlocked",
+      "summary_attempted_at": "2026-10-18T15:41:48.382988Z"
     },
     {
       "kind": "youtube",
@@ -235,11 +462,11 @@
       "title_ko": "NBA 26-27시즌 프리뷰 with 염용근 기자",
       "upload_date": "2026-10-18",
       "summary_source": "description",
-      "summary_policy": 2,
-      "summary_attempted_at": "2026-10-18T15:37:16.141508Z",
+      "summary_policy": 3,
       "transcript_error": "RequestBlocked",
       "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
-      "summary_error": "ValueError"
+      "summary_error": "ValueError",
+      "summary_attempted_at": "2026-10-18T15:41:48.382988Z"
     },
     {
       "kind": "youtube",
@@ -255,11 +482,11 @@
       "title_ko": "2026 Crow NBA 토너먼트: #11 뉴올리언스 펠리컨스 vs.\n#6 미네소타 팀버울브스 | 게임 5",
       "upload_date": "2026-10-14",
       "summary_source": "description",
-      "summary_policy": 2,
-      "summary_attempted_at": "2026-10-18T15:37:16.141508Z",
+      "summary_policy": 3,
       "transcript_error": "RequestBlocked",
       "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
-      "summary_error": "ValueError"
+      "summary_error": "ValueError",
+      "summary_attempted_at": "2026-10-18T15:41:48.382988Z"
     },
     {
       "kind": "youtube",
@@ -275,11 +502,11 @@
       "title_ko": "뉴올리언스 펠리컨스 경기 시청 방법",
       "upload_date": "2026-10-15",
       "summary_source": "description",
-      "summary_policy": 2,
-      "summary_attempted_at": "2026-10-18T15:37:16.141508Z",
+      "summary_policy": 3,
       "transcript_error": "RequestBlocked",
       "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
-      "summary_error": "ValueError"
+      "summary_error": "ValueError",
+      "summary_attempted_at": "2026-10-18T15:41:48.382988Z"
     },
     {
       "kind": "youtube",
@@ -291,23 +518,15 @@
       "thumbnail": "https://i.ytimg.com/vi/HYwvmq7FIBs/hqdefault.jpg",
       "published": "",
       "discovered_at": "2026-10-18T15:32:00.257613Z",
-      "status": "ready",
+      "status": "partial",
       "title_ko": "르브론 떠난 돈치치의 레이커스, 웸반야마의 샌안토니오 · 2026-27 NBA 서부 15팀 프리뷰",
       "upload_date": "2026-10-18",
       "summary_source": "description",
-      "summary_policy": 2,
-      "summary_attempted_at": "2026-10-18T15:37:16.141508Z",
+      "summary_policy": 3,
       "transcript_error": "RequestBlocked",
-      "summary_original": [
-        "어빙 · 릴라드 · 밴블릿은 큰 부상을 딛고 돌아옵니다.",
-        "2026-27 NBA 개막 전, 서부 15팀을 숫자로 정리했습니다.",
-        "선수별 계약과 최근 5시즌 기록, 그리고 오프시즌 이야기까지."
-      ],
-      "summary_ko": [
-        "어빙 · 릴라드 · 밴블릿은 큰 부상을 딛고 돌아옵니다.",
-        "2026-27 NBA 개막 전, 서부 15팀을 숫자로 정리했습니다.",
-        "선수별 계약과 최근 5시즌 기록, 그리고 오프시즌 이야기까지."
-      ]
+      "summary_attempted_at": "2026-10-18T15:41:48.382988Z",
+      "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
+      "summary_error": "ValueError"
     },
     {
       "kind": "youtube",
@@ -324,9 +543,9 @@
       "upload_date": "2026-10-11",
       "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
       "summary_error": "ValueError",
-      "summary_policy": 2,
-      "summary_attempted_at": "2026-10-18T15:37:16.141508Z",
-      "transcript_error": "RequestBlocked"
+      "summary_policy": 3,
+      "transcript_error": "RequestBlocked",
+      "summary_attempted_at": "2026-10-18T15:41:48.382988Z"
     },
     {
       "kind": "youtube",
@@ -342,11 +561,11 @@
       "title_ko": "2026 Crow NBA 토너먼트: #6 미네소타 팀버울브스 vs.\n#11 뉴올리언스 펠리컨스 | 게임 4",
       "upload_date": "2026-10-11",
       "summary_source": "description",
-      "summary_policy": 2,
-      "summary_attempted_at": "2026-10-18T15:37:16.141508Z",
+      "summary_policy": 3,
       "transcript_error": "RequestBlocked",
       "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
-      "summary_error": "ValueError"
+      "summary_error": "ValueError",
+      "summary_attempted_at": "2026-10-18T15:41:48.382988Z"
     },
     {
       "kind": "youtube",
@@ -363,9 +582,9 @@
       "upload_date": "2026-10-17",
       "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
       "summary_error": "ValueError",
-      "summary_policy": 2,
-      "summary_attempted_at": "2026-10-18T15:37:16.141508Z",
-      "transcript_error": "RequestBlocked"
+      "summary_policy": 3,
+      "transcript_error": "RequestBlocked",
+      "summary_attempted_at": "2026-10-18T15:41:48.382988Z"
     },
     {
       "kind": "youtube",
@@ -377,23 +596,15 @@
       "thumbnail": "https://i.ytimg.com/vi/HxcRw97AqwU/hqdefault.jpg",
       "published": "",
       "discovered_at": "2026-10-18T15:32:00.257613Z",
-      "status": "ready",
+      "status": "partial",
       "title_ko": "펠리컨은 다양한 움직임을 보입니다...",
       "upload_date": "2026-10-17",
       "summary_source": "description",
-      "summary_policy": 2,
-      "summary_attempted_at": "2026-10-18T15:37:16.141508Z",
+      "summary_policy": 3,
       "transcript_error": "RequestBlocked",
-      "summary_original": [
-        "Anson Belt & Buckle: Step up your belt game this fall — get 2 bonus pieces FREE with the Box Set at",
-        "The Pelicans wrap up the preseason with a win as cut day arrives.",
-        "Saddiq Bey, Jeremiah Fears, Kobe Bufkin, Jalon Moore, Jamahl Mosley, NBA Trade Rumors, NBA Free Agency, NBA Draft, NBA Finals Preview, Fantasy Basketball Advice, NBA Betting Odds, NBA Jersey Review, Player Performance Breakdown, Sports Analytics, NBA Highlights, NBA News Update, NBA Stats, NBA Roster Moves, NBA Predictions"
-      ],
-      "summary_ko": [
-        "Anson 벨트 및 버클: 올 가을에 벨트 게임을 강화하세요. 에서 박스 세트로 보너스 2개를 무료로 받으세요.",
-        "펠리컨스는 컷 데이가 다가옴에 따라 승리로 프리시즌을 마무리했습니다.",
-        "Saddiq Bey, Jeremiah Fears, Kobe Bufkin, Jalon Moore, Jamahl Mosley, NBA 무역 소문, NBA 프리 에이전시, NBA 드래프트, NBA 결승전 미리보기, 환상적인 농구 조언, NBA 베팅 확률, NBA 저지 검토, 선수 성과 분석, 스포츠 분석, NBA 하이라이트, NBA 뉴스 업데이트, NBA 통계, NBA 선수 명단 이동, NBA 예측"
-      ]
+      "summary_attempted_at": "2026-10-18T15:41:48.382988Z",
+      "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
+      "summary_error": "ValueError"
     },
     {
       "kind": "youtube",
@@ -409,11 +620,11 @@
       "title_ko": "워싱턴 위저즈 vs 뉴올리언스 펠리컨스 전체 게임 하이라이트 - 2026년 10월 16일 | NBA 프리시즌",
       "upload_date": "2026-10-17",
       "summary_source": "description",
-      "summary_policy": 2,
-      "summary_attempted_at": "2026-10-18T15:37:16.141508Z",
+      "summary_policy": 3,
       "transcript_error": "RequestBlocked",
       "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
-      "summary_error": "ValueError"
+      "summary_error": "ValueError",
+      "summary_attempted_at": "2026-10-18T15:41:48.382988Z"
     },
     {
       "kind": "youtube",
@@ -429,18 +640,18 @@
       "title_ko": "가속화: Jeremiah는 프리시즌 성명서에서 Pelicans의 빠른 공격을 유도하는 것을 두려워합니다.",
       "upload_date": "2026-10-18",
       "summary_source": "description",
-      "summary_policy": 2,
-      "summary_attempted_at": "2026-10-18T15:37:16.141508Z",
+      "summary_policy": 3,
       "transcript_error": "RequestBlocked",
+      "summary_attempted_at": "2026-10-18T15:41:48.382988Z",
       "summary_original": [
         "New Orleans Pelicans unveil their high-octane identity with a thrilling 107-106 preseason win over the Washington Wizards as Jeremiah Fears rockets into the spotlight.",
-        "Key topics include the ongoing concerns with three-point shooting, Matkovic’s impact on lineup versatility, and Zion’s evolving shot selection.",
-        "Bonus issued as nonwithdrawable free bets that expires in 14 days."
+        "Jake Madison breaks down how the Pelicans’ second unit—powered by Saddiq Bey, Bennedict Mathurin, Karlo Matkovic, and Jordan Poole—sparked a game-changing run and forced crucial turnovers.",
+        "Key topics include the ongoing concerns with three-point shooting, Matkovic’s impact on lineup versatility, and Zion’s evolving shot selection."
       ],
       "summary_ko": [
         "뉴올리언스 펠리컨스는 Jeremiah Fears가 주목을 받는 가운데 워싱턴 위저즈를 상대로 스릴 넘치는 107-106 프리시즌 승리를 거두며 자신들의 활기 넘치는 정체성을 드러냈습니다.",
-        "주요 주제에는 3점슛에 대한 지속적인 우려, 라인업 다양성에 대한 Matkovic의 영향, Zion의 진화하는 샷 선택이 포함됩니다.",
-        "14일 내에 만료되는 인출 불가능한 무료 베팅으로 발행된 보너스."
+        "Jake Madison은 Saddiq Bey, Bennedict Mathurin, Karlo Matkovic 및 Jordan Poole이 지원하는 Pelicans의 두 번째 유닛이 어떻게 판도를 바꾸는 실행을 촉발하고 결정적인 이직을 강요했는지 분석합니다.",
+        "주요 주제에는 3점슛에 대한 지속적인 우려, 라인업 다양성에 대한 Matkovic의 영향, Zion의 진화하는 샷 선택이 포함됩니다."
       ]
     },
     {
@@ -458,9 +669,9 @@
       "upload_date": "2026-10-15",
       "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
       "summary_error": "ValueError",
-      "summary_policy": 2,
-      "summary_attempted_at": "2026-10-18T15:37:16.141508Z",
-      "transcript_error": "RequestBlocked"
+      "summary_policy": 3,
+      "transcript_error": "RequestBlocked",
+      "summary_attempted_at": "2026-10-18T15:41:48.382988Z"
     },
     {
       "kind": "youtube",
@@ -472,23 +683,15 @@
       "thumbnail": "https://i.ytimg.com/vi/33UVXgzDEqw/hqdefault.jpg",
       "published": "",
       "discovered_at": "2026-10-18T15:32:00.257613Z",
-      "status": "ready",
+      "status": "partial",
       "title_ko": "두 번째 유닛 매직: Pelicans의 Bennedict Mathurin 및 Jordan Poole SPARK 메이저 벤치 장점",
       "upload_date": "2026-10-13",
       "summary_source": "description",
-      "summary_policy": 2,
-      "summary_attempted_at": "2026-10-18T15:37:16.141508Z",
+      "summary_policy": 3,
       "transcript_error": "RequestBlocked",
-      "summary_original": [
-        "Jake Madison breaks down the explosive production from Jordan Poole, Bennedict Mathurin, Saddiq Bey, Derik Queen, and Jeremiah Fears, noting the reserves’ league-leading 72 points per game and red-hot three-point shooting.",
-        "Key topics include the blueprint from the Pelicans’ 49-win season, concerns about the second unit’s defense compared to past lineups featuring Jose Alvarado and Trey Murphy III, and Coach Jamahl Mosley’s looming rotation decisions.",
-        "Bonus issued as nonwithdrawable free bets that expires in 14 days."
-      ],
-      "summary_ko": [
-        "Jake Madison은 Jordan Poole, Bennedict Mathurin, Saddiq Bey, Derik Queen 및 Jeremiah Fears의 폭발적인 생산력을 분석하여 리저브 팀의 경기당 리그 선두인 72득점과 화끈한 3점슛을 언급했습니다.",
-        "주요 주제로는 펠리컨스의 49승 시즌 청사진, 호세 알바라도와 트레이 머피 3세가 등장한 과거 라인업과 비교한 2부대 수비에 대한 우려, 자말 모슬리 코치의 다가오는 로테이션 결정 등이 있습니다.",
-        "14일 내에 만료되는 인출 불가능한 무료 베팅으로 발행된 보너스."
-      ]
+      "summary_attempted_at": "2026-10-18T15:41:48.382988Z",
+      "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
+      "summary_error": "ValueError"
     },
     {
       "kind": "youtube",
@@ -505,9 +708,9 @@
       "upload_date": "2026-10-17",
       "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
       "summary_error": "ValueError",
-      "summary_policy": 2,
-      "summary_attempted_at": "2026-10-18T15:37:16.141508Z",
-      "transcript_error": "RequestBlocked"
+      "summary_policy": 3,
+      "transcript_error": "RequestBlocked",
+      "summary_attempted_at": "2026-10-18T15:41:48.382988Z"
     },
     {
       "kind": "youtube",
@@ -523,18 +726,18 @@
       "title_ko": "Derik Queen의 삭제된 트윗은 Pelicans의 사고방식에 큰 문제가 있음을 드러냅니다.",
       "upload_date": "2026-10-11",
       "summary_source": "description",
-      "summary_policy": 2,
-      "summary_attempted_at": "2026-10-18T15:37:16.141508Z",
+      "summary_policy": 3,
       "transcript_error": "RequestBlocked",
+      "summary_attempted_at": "2026-10-18T15:41:48.382988Z",
       "summary_original": [
         "New Orleans Pelicans spark controversy as Derik Queen echoes Zion Williamson’s “stay over there” message to doubters, despite the team’s lack of postseason success.",
-        "Key topics include frustrations over unfinished business since the 2018 playoff win, persistent issues like poor offensive spacing and defensive lapses, and fan pushback after back-to-back 20-win seasons.",
-        "Bonus issued as nonwithdrawable free bets that expires in 14 days."
+        "Jake Madison dissects the Pelicans’ attitude problem, spotlighting Queen’s deleted tweet and Zion’s repeated call-outs to fans.",
+        "Key topics include frustrations over unfinished business since the 2018 playoff win, persistent issues like poor offensive spacing and defensive lapses, and fan pushback after back-to-back 20-win seasons."
       ],
       "summary_ko": [
         "뉴올리언스 펠리컨스는 팀의 포스트시즌 성공이 부족함에도 불구하고 데릭 퀸이 의심하는 사람들에게 자이언 윌리엄슨의 \"그 곳에 머물러라\"는 메시지를 되풀이하면서 논란을 촉발시켰습니다.",
-        "주요 주제에는 2018년 플레이오프 승리 이후 완료되지 않은 사업에 대한 좌절감, 빈약한 공격 간격 및 수비 실수와 같은 지속적인 문제, 연속 20승 시즌 이후 팬 반발이 포함됩니다.",
-        "14일 내에 만료되는 인출 불가능한 무료 베팅으로 발행된 보너스."
+        "Jake Madison은 Queen의 삭제된 트윗과 Zion이 팬들을 향한 반복적인 외침에 초점을 맞추면서 Pelicans의 태도 문제를 분석합니다.",
+        "주요 주제에는 2018년 플레이오프 승리 이후 완료되지 않은 사업에 대한 좌절감, 빈약한 공격 간격 및 수비 실수와 같은 지속적인 문제, 연속 20승 시즌 이후 팬 반발이 포함됩니다."
       ]
     },
     {
@@ -552,9 +755,9 @@
       "upload_date": "2026-10-15",
       "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
       "summary_error": "ValueError",
-      "summary_policy": 2,
-      "summary_attempted_at": "2026-10-18T15:37:16.141508Z",
-      "transcript_error": "RequestBlocked"
+      "summary_policy": 3,
+      "transcript_error": "RequestBlocked",
+      "summary_attempted_at": "2026-10-18T15:41:48.382988Z"
     },
     {
       "kind": "youtube",
@@ -571,9 +774,9 @@
       "upload_date": "2026-10-15",
       "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
       "summary_error": "ValueError",
-      "summary_policy": 2,
-      "summary_attempted_at": "2026-10-18T15:37:16.141508Z",
-      "transcript_error": "RequestBlocked"
+      "summary_policy": 3,
+      "transcript_error": "RequestBlocked",
+      "summary_attempted_at": "2026-10-18T15:41:48.382988Z"
     },
     {
       "kind": "youtube",
@@ -590,9 +793,9 @@
       "upload_date": "2026-10-15",
       "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
       "summary_error": "ValueError",
-      "summary_policy": 2,
-      "summary_attempted_at": "2026-10-18T15:37:16.141508Z",
-      "transcript_error": "RequestBlocked"
+      "summary_policy": 3,
+      "transcript_error": "RequestBlocked",
+      "summary_attempted_at": "2026-10-18T15:41:48.382988Z"
     },
     {
       "kind": "youtube",
@@ -609,9 +812,9 @@
       "upload_date": "2026-10-16",
       "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
       "summary_error": "ValueError",
-      "summary_policy": 2,
-      "summary_attempted_at": "2026-10-18T15:37:16.141508Z",
-      "transcript_error": "RequestBlocked"
+      "summary_policy": 3,
+      "transcript_error": "RequestBlocked",
+      "summary_attempted_at": "2026-10-18T15:41:48.382988Z"
     },
     {
       "kind": "youtube",
@@ -628,9 +831,9 @@
       "upload_date": "2026-10-12",
       "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
       "summary_error": "ValueError",
-      "summary_policy": 2,
-      "summary_attempted_at": "2026-10-18T15:37:16.141508Z",
-      "transcript_error": "RequestBlocked"
+      "summary_policy": 3,
+      "transcript_error": "RequestBlocked",
+      "summary_attempted_at": "2026-10-18T15:41:48.382988Z"
     },
     {
       "kind": "youtube",
@@ -647,9 +850,9 @@
       "upload_date": "2026-10-17",
       "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
       "summary_error": "ValueError",
-      "summary_policy": 2,
-      "summary_attempted_at": "2026-10-18T15:37:16.141508Z",
-      "transcript_error": "RequestBlocked"
+      "summary_policy": 3,
+      "transcript_error": "RequestBlocked",
+      "summary_attempted_at": "2026-10-18T15:41:48.382988Z"
     },
     {
       "kind": "youtube",
@@ -666,9 +869,9 @@
       "upload_date": "2026-10-17",
       "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
       "summary_error": "ValueError",
-      "summary_policy": 2,
-      "summary_attempted_at": "2026-10-18T15:37:16.141508Z",
-      "transcript_error": "RequestBlocked"
+      "summary_policy": 3,
+      "transcript_error": "RequestBlocked",
+      "summary_attempted_at": "2026-10-18T15:41:48.382988Z"
     },
     {
       "kind": "youtube",
@@ -684,11 +887,11 @@
       "title_ko": "댈러스 매버릭스 vs 뉴올리언스 펠리컨스 전체 경기 하이라이트 - 2026년 10월 14일 | NBA 프리시즌",
       "upload_date": "2026-10-15",
       "summary_source": "description",
-      "summary_policy": 2,
-      "summary_attempted_at": "2026-10-18T15:37:16.141508Z",
+      "summary_policy": 3,
       "transcript_error": "RequestBlocked",
       "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
-      "summary_error": "ValueError"
+      "summary_error": "ValueError",
+      "summary_attempted_at": "2026-10-18T15:41:48.382988Z"
     },
     {
       "kind": "youtube",
@@ -704,18 +907,18 @@
       "title_ko": "Gayle Benson은 Pelicans의 Win-NOW 계획을 공개하는 강력한 메시지를 보냅니다.",
       "upload_date": "2026-10-14",
       "summary_source": "description",
-      "summary_policy": 2,
-      "summary_attempted_at": "2026-10-18T15:37:16.141508Z",
+      "summary_policy": 3,
       "transcript_error": "RequestBlocked",
+      "summary_attempted_at": "2026-10-18T15:41:48.382988Z",
       "summary_original": [
+        "New Orleans Pelicans face a win-now mandate as owner Gayle Benson sends a clear message: losing is no longer acceptable.",
         "Jake Madison spotlights Benson’s candid comments, questions whether the Pelicans can avoid a forced rebuild, and weighs the risks of prioritizing playoff contention over development.",
-        "Plus, the show stirs debate on team identity as calls for a Pelicans rebrand grow amid fears of staleness.",
-        "Bonus issued as nonwithdrawable free bets that expires in 14 days."
+        "Plus, the show stirs debate on team identity as calls for a Pelicans rebrand grow amid fears of staleness."
       ],
       "summary_ko": [
+        "뉴올리언스 펠리컨스는 구단주 게일 벤슨이 분명한 메시지를 보내면서 윈나우(win-now) 명령에 직면해 있습니다. 패배는 더 이상 용납되지 않습니다.",
         "Jake Madison은 Benson의 솔직한 의견을 강조하고 Pelicans가 강제 재건을 피할 수 있는지 의문을 제기하며 개발보다 플레이오프 경쟁을 우선시하는 위험에 대해 평가합니다.",
-        "게다가 이 쇼는 진부함에 대한 두려움 속에서 펠리컨스 브랜드 변경에 대한 요구가 커지면서 팀 정체성에 대한 논쟁을 불러일으킵니다.",
-        "14일 내에 만료되는 인출 불가능한 무료 베팅으로 발행된 보너스."
+        "게다가 이 쇼는 진부함에 대한 두려움 속에서 펠리컨스 브랜드 변경에 대한 요구가 커지면서 팀 정체성에 대한 논쟁을 불러일으킵니다."
       ]
     },
     {
@@ -728,23 +931,15 @@
       "thumbnail": "https://i.ytimg.com/vi/hXCq95tqU-4/hqdefault.jpg",
       "published": "",
       "discovered_at": "2026-10-18T15:32:00.257613Z",
-      "status": "ready",
+      "status": "partial",
       "title_ko": "펠리컨즈가 차세대 슈퍼스타를 찾았습니다...",
       "upload_date": "2026-10-15",
       "summary_source": "description",
-      "summary_policy": 2,
-      "summary_attempted_at": "2026-10-18T15:37:16.141508Z",
+      "summary_policy": 3,
       "transcript_error": "RequestBlocked",
-      "summary_original": [
-        "Anson Belt & Buckle: Step up your belt game this fall — get 2 bonus pieces FREE with the Box Set at",
-        "Jeremiah Fears showcased his continued progression in a preseason win against Dallas.",
-        "Jeremiah Fears, Karlo Matkovic, Yves Missi, Jamahl Mosley, NBA Trade Rumors, NBA Free Agency, NBA Draft, NBA Finals Preview, Fantasy Basketball Advice, NBA Betting Odds, NBA Jersey Review, Player Performance Breakdown, Sports Analytics, NBA Highlights, NBA News Update, NBA Stats, NBA Roster Moves, NBA Predictions"
-      ],
-      "summary_ko": [
-        "Anson 벨트 및 버클: 올 가을에 벨트 게임을 강화하세요. 에서 박스 세트로 보너스 2개를 무료로 받으세요.",
-        "Jeremiah Fears는 댈러스와의 프리시즌 승리에서 지속적인 발전을 보여주었습니다.",
-        "Jeremiah Fears, Karlo Matkovic, Yves Missi, Jamahl Mosley, NBA 무역 소문, NBA FA, NBA 드래프트, NBA 결승전 미리보기, 환상적인 농구 조언, NBA 베팅 확률, NBA 저지 검토, 선수 성과 분석, 스포츠 분석, NBA 하이라이트, NBA 뉴스 업데이트, NBA 통계, NBA 선수 명단 이동, NBA 예측"
-      ]
+      "summary_attempted_at": "2026-10-18T15:41:48.382988Z",
+      "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
+      "summary_error": "ValueError"
     },
     {
       "kind": "youtube",
@@ -761,9 +956,9 @@
       "upload_date": "2026-10-15",
       "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
       "summary_error": "ValueError",
-      "summary_policy": 2,
-      "summary_attempted_at": "2026-10-18T15:37:16.141508Z",
-      "transcript_error": "RequestBlocked"
+      "summary_policy": 3,
+      "transcript_error": "RequestBlocked",
+      "summary_attempted_at": "2026-10-18T15:41:48.382988Z"
     },
     {
       "title": "Trey Murphy’s Impression of Joel Meyers",
@@ -839,23 +1034,15 @@
       "thumbnail": "https://i.ytimg.com/vi/1_BUKeXxhHA/hqdefault.jpg",
       "published": "2026-10-18T01:52:14Z",
       "discovered_at": "2026-10-18T15:37:16.141508Z",
-      "status": "ready",
-      "summary_policy": 2,
-      "summary_attempted_at": "2026-10-18T15:37:16.141508Z",
+      "status": "partial",
+      "summary_policy": 3,
       "title_ko": "NBA 2K26 게임플레이: 뉴올리언스 펠리컨스 대 샌안토니오 스퍼스 - (Xbox Series X) [4K60FPS]",
       "transcript_error": "VideoUnplayable",
       "upload_date": "2026-10-18",
       "summary_source": "description",
-      "summary_original": [
-        "NBA 2K26 Gameplay: New Orleans Pelicans vs San Antonio Spurs - Full Match & Gameplay",
-        "The game was announced on July 11, 2024 and is the first instance in the NBA 2K series that features cover art with both NBA and WNBA players on the same release, with the All-Star Edition featuring Jayson Tatum of the Boston Celtics and A'ja Wilson of the Las Vegas Aces.",
-        "NBA 2K25 has ProPlay, a technology introduced in the predecessor NBA 2K24, which turns real NBA footage into animations in-game for players."
-      ],
-      "summary_ko": [
-        "NBA 2K26 게임플레이: 뉴올리언스 펠리컨스 vs 샌안토니오 스퍼스 - 전체 경기 및 게임플레이",
-        "이 게임은 2024년 7월 11일에 발표되었으며 동일한 릴리스에서 NBA 및 WNBA 선수 모두의 커버 아트를 특징으로 하는 NBA 2K 시리즈의 첫 번째 사례입니다. 올스타 에디션에는 Boston Celtics의 Jayson Tatum과 Las Vegas Aces의 A'ja Wilson이 등장합니다.",
-        "NBA 2K25에는 이전 NBA 2K24에 도입된 기술인 ProPlay가 탑재되어 있어 실제 NBA 장면을 플레이어가 즐길 수 있는 게임 내 애니메이션으로 바꿔줍니다."
-      ]
+      "summary_attempted_at": "2026-10-18T15:41:48.382988Z",
+      "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
+      "summary_error": "ValueError"
     },
     {
       "title": "Pelicans Waive Kobe Bufkin, Jalon Moore - Hoops Rumors",
@@ -1184,23 +1371,15 @@
       "thumbnail": "https://i.ytimg.com/vi/TKJ4R8XpRxc/hqdefault.jpg",
       "published": "2026-10-16T23:52:36Z",
       "discovered_at": "2026-10-18T15:37:16.141508Z",
-      "status": "ready",
-      "summary_policy": 2,
-      "summary_attempted_at": "2026-10-18T15:37:16.141508Z",
+      "status": "partial",
+      "summary_policy": 3,
       "title_ko": "NBA 2K26 게임플레이: 샬럿 호네츠 vs 뉴올리언스 펠리컨스 - (Xbox Series X) [4K60FPS]",
       "transcript_error": "VideoUnplayable",
       "upload_date": "2026-10-16",
       "summary_source": "description",
-      "summary_original": [
-        "NBA 2K26 Gameplay: Charlotte Hornets vs New Orleans Pelicans - Full Match & Gameplay",
-        "The game was announced on July 11, 2024 and is the first instance in the NBA 2K series that features cover art with both NBA and WNBA players on the same release, with the All-Star Edition featuring Jayson Tatum of the Boston Celtics and A'ja Wilson of the Las Vegas Aces.",
-        "NBA 2K25 has ProPlay, a technology introduced in the predecessor NBA 2K24, which turns real NBA footage into animations in-game for players."
-      ],
-      "summary_ko": [
-        "NBA 2K26 게임플레이: Charlotte Hornets vs New Orleans Pelicans - 전체 경기 및 게임플레이",
-        "이 게임은 2024년 7월 11일에 발표되었으며 동일한 릴리스에서 NBA 및 WNBA 선수 모두의 커버 아트를 특징으로 하는 NBA 2K 시리즈의 첫 번째 사례입니다. 올스타 에디션에는 Boston Celtics의 Jayson Tatum과 Las Vegas Aces의 A'ja Wilson이 등장합니다.",
-        "NBA 2K25에는 이전 NBA 2K24에 도입된 기술인 ProPlay가 탑재되어 있어 실제 NBA 장면을 플레이어가 즐길 수 있는 게임 내 애니메이션으로 바꿔줍니다."
-      ]
+      "summary_attempted_at": "2026-10-18T15:41:48.382988Z",
+      "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
+      "summary_error": "ValueError"
     },
     {
       "title": "Our stadium graphics person needs a proofreader smh",
@@ -3433,15 +3612,15 @@
   "channels": {
     "x": {
       "state": "needs_connection",
-      "checked_at": "2026-10-18T15:37:16.141508Z",
+      "checked_at": "2026-10-18T15:41:48.382988Z",
       "count": 0,
       "message": "X 수집 연결을 기다리고 있습니다. 연결되면 지정된 10개 계정의 10월 19일 이후 게시글을 표시합니다."
     },
     "youtube": {
       "state": "ready",
-      "checked_at": "2026-10-18T15:37:16.141508Z",
-      "count": 37,
-      "summarized": 12,
+      "checked_at": "2026-10-18T15:41:48.382988Z",
+      "count": 48,
+      "summarized": 8,
       "message": "매일 09:00·18:00에 펠리컨스 영상을 검색합니다. 자막 또는 영상 설명에서 핵심 내용 3개 이상을 한국어로 제공합니다."
     },
     "news": {
