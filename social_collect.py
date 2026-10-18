@@ -17,7 +17,7 @@ X_START = datetime.fromisoformat(CONFIG["x"]["start_date"]).replace(tzinfo=ZoneI
 ACCOUNTS = {name.casefold() for name in CONFIG["x"]["accounts"]}
 TOPIC = re.compile(r"pelicans|\bnola\b|펠리컨[스즈]|뉴올리언[스즈]", re.I)
 ADS = re.compile(r"subscribe|sponsor|promo code|prizepicks|fanduel|draftkings|patreon|merch|copyright|welcome back|locked on podcast network|구독|좋아요|광고|협찬", re.I)
-SUMMARY_POLICY = 3
+SUMMARY_POLICY = 4
 NON_CONTENT = re.compile(
     r"download|create an account|first purchase|\$\d|\d+% off|use (?:the )?code|"
     r"follow (?:us|@|this|the)|on instagram|fair use|rights reserved|"
@@ -151,6 +151,8 @@ def summary_points(text, minimum=3, content_only=False):
     candidates = []
     for line in re.split(r"(?<!vs\.)(?<=[.!?。！？])\s+|\n+", text):
         line = re.sub(r"https?://\S+|#\S+", "", line).strip(" -•\t")
+        if content_only and re.match(r"^\W*(?:featuring\b|guests?\s*:|presenters?\s*:)", line, re.I):
+            continue
         # Chapter titles, rhetorical questions and sentence fragments are not facts.
         if re.match(r"^(?:\d{1,2}:)?\d{1,2}:\d{2}\b", line) or line.endswith(('?', '？', ',', ':', 'vs.')):
             continue

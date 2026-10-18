@@ -63,6 +63,10 @@ NBA 2K25 features ProPlay, a technology that transforms real NBA footage into an
         self.assertEqual(social.summary_points(CONTENT + '\n' + extras, content_only=True), social.summary_points(CONTENT))
         self.assertEqual(social.summary_points(extras, content_only=True), [])
 
+    def test_guest_credit_cannot_supply_a_third_summary_point(self):
+        text = ' '.join(CONTENT.split('. ')[:2]) + '.\n🎙️ Featuring head coach Jamahl Mosley and forward Saddiq Bey.'
+        self.assertEqual(social.summary_points(text, content_only=True), [])
+
     def test_unpunctuated_captions_survive_subscription_request(self):
         words = ' '.join('different%d' % index for index in range(300))
         self.assertEqual(len(social.summary_points('subscribe ' + words)), 3)
