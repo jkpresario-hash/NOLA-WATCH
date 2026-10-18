@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-18T00:16:16.586430+00:00",
+  "updated": "2026-10-18T02:57:56.651435+00:00",
   "errors": [],
   "items": [
     {
@@ -11,7 +11,10 @@
       "thumbnail": "",
       "status": "partial",
       "title_ko": "뉴올리언스 펠리컨스 대 덴버 너기츠: 2026년 10월 24일 경기 요약 - NBA.com",
-      "error": "본문·댓글 수집 또는 번역을 완료하지 못했습니다. 원문을 확인해 주세요."
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "content_error": "HTTP 403"
     },
     {
       "title": "Four Takeaways From New Orleans Pelicans First Preseason Under Jamahl Mosley - Yahoo Sports",
@@ -19,9 +22,24 @@
       "source": "Google News · Pelicans",
       "kind": "news",
       "published": "2026-10-17T12:00:04+00:00",
-      "thumbnail": "",
-      "status": "pending",
-      "title_ko": "자말 모슬리 감독의 첫 펠리컨스 프리시즌에서 얻은 네 가지 시사점 - Yahoo Sports"
+      "thumbnail": "https://s.yimg.com/lo/mysterio/api/fba3d5b9371d52cc5640346a90de54cf441d8f21ab7d7b36b053fc1cf080fbfb/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Froundtable_sports_new_orleans_pelicans_611%2Fbea3a44a5a81a415e7a461a8bbc12b90.jpg",
+      "status": "ready",
+      "title_ko": "자말 모슬리 감독의 첫 펠리컨스 프리시즌에서 얻은 네 가지 시사점 - Yahoo Sports",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "original_url": "https://sports.yahoo.com/articles/four-takeaways-orleans-pelicans-first-120004824.html",
+      "summary_en": [
+        "The New Orleans wrapped up their first preseason under new head coach Jamahl Mosley on Friday night, going 3-1 over a promising stretch of games.",
+        "The Pelicans won all three games that finished within a single-digit difference.",
+        "New Orleans finished fourth in defensive rating, second in steals and 10th in blocks."
+      ],
+      "summary_source": "article",
+      "summary_ko": [
+        "뉴올리언스는 금요일 밤 신임 감독 자말 모슬리의 지휘 하에 첫 프리시즌을 마무리하며 유망한 경기에서 3-1로 승리했습니다.",
+        "펠리컨스는 한 자릿수 차이로 끝난 세 경기 모두에서 승리했습니다.",
+        "뉴올리언스는 수비 등급 4위, 스틸 2위, 블록 10위를 기록했습니다."
+      ],
+      "processed_at": "2026-10-18T02:53:15.742381+00:00"
     },
     {
       "title": "Preseason wrap: Pelicans 107, Wizards 106",
@@ -30,9 +48,81 @@
       "kind": "reddit",
       "published": "2026-10-17T11:36:40+00:00",
       "thumbnail": "",
-      "status": "partial",
+      "body_en": "https://www.nba.com/pelicans/news/preseason-postgame-wrap-pelicans-107-wizards-106\nFor three quarters, New Orleans and Washington treated Friday’s preseason game similarly to a regular season matchup, with starters logging relatively significant minutes. The rotations of head coaches Jamahl Mosley and Brian Keefe seemed to reflect what may be the case Wednesday, when both squads tip off their 2026-27 campaigns in separate games that count in the NBA standings. The Pelicans won those 36 minutes of exhibition hoops by double digits, showing more positive signs on the defensive end by limiting the Wizards to just 70 points and 35 percent shooting.",
+      "status": "ready",
       "title_ko": "프리시즌 정리: 펠리컨스 107, 위저즈 106",
-      "error": "본문·댓글 수집 또는 번역을 완료하지 못했습니다. 원문을 확인해 주세요."
+      "body_ko": "https://www.nba.com/pelicans/news/preseason-postgame-wrap-pelicans-107-wizards-106\n3쿼터 동안 뉴올리언스와 워싱턴은 금요일의 프리시즌 경기를 정규 시즌 매치업과 유사하게 처리했으며 선발 투수는 상대적으로 상당한 시간을 기록했습니다.\n자말 모슬리 감독과 브라이언 키프 감독의 로테이션은 수요일 두 팀 모두 NBA 순위에 포함되는 별도의 경기에서 2026~27년 캠페인을 마무리하는 상황을 반영한 것으로 보입니다.\n펠리컨스는 36분간의 시범 경기에서 두 자릿수 차이로 승리했으며, 위저즈를 70득점과 35%의 슈팅률로 제한함으로써 수비 측면에서 더 긍정적인 신호를 보였습니다.",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "comments": [
+        {
+          "author": "9_Nightwing_1",
+          "score": null,
+          "body_en": "Still lacking in elite, franchise-player level talent, but looks like we're legitimately 10-11 deep with our 6-11 being one of the best in the league. Really think we can wear some teams down this year. Maybe compete for play-in spot.",
+          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1x882dm/preseason_wrap_pelicans_107_wizards_106/phapvxi/",
+          "body_ko": "여전히 엘리트, 프랜차이즈 플레이어 수준의 재능이 부족하지만, 우리의 6-11이 리그 최고 중 하나인 만큼 우리는 합법적으로 10-11 깊이에 있는 것처럼 보입니다.\n올해는 몇몇 팀을 지치게 할 수 있을 것 같아요.\n어쩌면 플레이인 자리를 놓고 경쟁할 수도 있습니다."
+        },
+        {
+          "author": "ChocolateTemporary72",
+          "score": null,
+          "body_en": "Haven’t watched a game but read the post game threads. If it’s true that Mosley is actually talking to the players, coaching them during the games, and trying new lineups together, that’s a huge improvement alone that should contribute to more wins.",
+          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1x882dm/preseason_wrap_pelicans_107_wizards_106/phayihv/",
+          "body_ko": "게임을 시청하지는 않았지만 게임 후 스레드를 읽어보세요.\nMosley가 실제로 선수들과 대화하고, 경기 중에 그들을 코칭하고, 새로운 라인업을 함께 시도하고 있다는 것이 사실이라면, 그것만으로도 더 많은 승리에 기여할 수 있는 엄청난 개선입니다."
+        },
+        {
+          "author": "asanctarian",
+          "score": null,
+          "body_en": "I, for one, am ready to get hurt again",
+          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1x882dm/preseason_wrap_pelicans_107_wizards_106/phbiwx0/",
+          "body_ko": "나는 일단 또 상처받을 준비가 되어있다"
+        },
+        {
+          "author": "iircirc",
+          "score": null,
+          "body_en": "We couldn't hit the broadside of a barn on offense but the defense looked great. If we hadn't fouled so much it would have been a blowout",
+          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1x882dm/preseason_wrap_pelicans_107_wizards_106/phb2fmx/",
+          "body_ko": "우리는 공격 시 헛간 옆면을 칠 수 없었지만 수비는 훌륭해 보였습니다.\n우리가 그렇게 많이 파울을 하지 않았다면 정말 큰 일이 났을 거에요."
+        },
+        {
+          "author": "uptowndrooler",
+          "score": null,
+          "body_en": "Loving the way Mosely had this outfit looking right now.",
+          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1x882dm/preseason_wrap_pelicans_107_wizards_106/phcf6ya/",
+          "body_ko": "Mosely가 지금 이 옷을 입은 방식이 마음에 듭니다."
+        },
+        {
+          "author": "Mfoun10",
+          "score": null,
+          "body_en": "I really like the energy that this group of Pels are putting into playing defense under Mosley! I'm hoping for a healthy season for our players & at least making the NBA play-in! A successful season depends on player health & Missi improving his play this year! My personal opinion is that we have more talent on our team than the media gives us credit for. Lets Go Pels!",
+          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1x882dm/preseason_wrap_pelicans_107_wizards_106/phaeimi/",
+          "body_ko": "저는 이 Pels 그룹이 Mosley 밑에서 수비를 위해 쏟는 에너지를 정말 좋아합니다!\n나는 우리 선수들이 건강한 시즌을 보내고 적어도 NBA 플레이인이 되기를 바라고 있습니다!\n성공적인 시즌은 선수의 건강과 Missi가 올해 플레이를 향상시키는 데 달려 있습니다!\n내 개인적인 의견은 미디어에서 인정하는 것보다 우리 팀에 더 많은 재능이 있다는 것입니다.\n렛츠 고 펠스!"
+        },
+        {
+          "author": "signupsthrowaways",
+          "score": null,
+          "body_en": "So far I like how Mosely is actively trying to put his stamp on the team and really get these guys to buy into the \"no matter what we will play defense\" mindset. There are big name players on the team that got benched last game; those players played with a different level of intensity tonight. Also Jeremiah Fears needs to play 24 minutes a night bare minimum, whether he starts or comes off the bench. His ability to get into the paint is pretty much unmatched by anyone else on the team except Zion (at times)",
+          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1x882dm/preseason_wrap_pelicans_107_wizards_106/phcokgi/",
+          "body_ko": "지금까지 나는 Mosely가 팀에 자신의 도장을 찍으려고 적극적으로 노력하는 방식과 이 사람들이 \"우리가 무엇을 하든 수비를 하겠다\"는 사고방식을 받아들이도록 하는 방식을 좋아합니다.\n지난 경기에서 벤치에 앉은 팀에는 유명 선수들이 있습니다. 그 선수들은 오늘 밤 다른 수준의 강도로 플레이했습니다.\n또한 Jeremiah Fears는 선발 출전하든 벤치에서 나오든 최소한 하루에 24분씩 경기를 해야 합니다.\n페인트에 들어가는 그의 능력은 Zion을 제외한 팀의 다른 누구와도 거의 비교할 수 없습니다."
+        },
+        {
+          "author": "bronzefpg504",
+          "score": null,
+          "body_en": "I said it again and again this Mosley hire was gonna be a good one. He’s in their face and not being complacent and this is gonna be a great season. I get it most don’t like Joe but atleast I’ll say this man has man some good moves this offseason not flashy but good and I hope it all works out",
+          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1x882dm/preseason_wrap_pelicans_107_wizards_106/phchgjh/",
+          "body_ko": "나는 이 Mosley 고용이 좋은 사람이 될 것이라고 거듭해서 말했습니다.\n그는 그들의 얼굴에 있고 안주하지 않으며 이번 시즌은 좋은 시즌이 될 것입니다.\n나는 대부분 Joe를 좋아하지 않는다는 것을 알지만 적어도 이 사람이 이번 오프시즌에 화려하지는 않지만 좋은 움직임을 가지고 있다고 말하고 싶습니다. 그리고 모든 것이 잘 되길 바랍니다."
+        }
+      ],
+      "summary_en": [
+        "https://www.nba.com/pelicans/news/preseason-postgame-wrap-pelicans-107-wizards-106",
+        "For three quarters, New Orleans and Washington treated Friday’s preseason game similarly to a regular season matchup, with starters logging relatively significant minutes.",
+        "The Pelicans won those 36 minutes of exhibition hoops by double digits, showing more positive signs on the defensive end by limiting the Wizards to just 70 points and 35 percent shooting."
+      ],
+      "summary_ko": [
+        "https://www.nba.com/pelicans/news/preseason-postgame-wrap-pelicans-107-wizards-106",
+        "3쿼터 동안 뉴올리언스와 워싱턴은 금요일의 프리시즌 경기를 정규 시즌 매치업과 유사하게 처리했으며 선발 투수는 상대적으로 상당한 시간을 기록했습니다.",
+        "펠리컨스는 36분간의 시범 경기에서 두 자릿수 차이로 승리했으며, 위저즈를 70득점과 35%의 슈팅률로 제한함으로써 수비 측면에서 더 긍정적인 신호를 보였습니다."
+      ],
+      "processed_at": "2026-10-18T02:53:25.395174+00:00"
     },
     {
       "title": "New Orleans Pelicans vs. Washington Wizards - 2nd Quarter Highlights - NBA.com",
@@ -41,8 +131,12 @@
       "kind": "news",
       "published": "2026-10-17T07:04:24+00:00",
       "thumbnail": "",
-      "status": "pending",
-      "title_ko": "뉴올리언스 펠리컨스 대 워싱턴 위저즈: 2쿼터 하이라이트 - NBA.com"
+      "status": "partial",
+      "title_ko": "뉴올리언스 펠리컨스 대 워싱턴 위저즈: 2쿼터 하이라이트 - NBA.com",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "content_error": "HTTP 403",
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
     {
       "title": "Oklahoma City Thunder vs New Orleans Pelicans Dec 23, 2026 Game Summary - NBA.com",
@@ -51,8 +145,12 @@
       "kind": "news",
       "published": "2026-10-17T06:04:31+00:00",
       "thumbnail": "",
-      "status": "pending",
-      "title_ko": "오클라호마시티 선더 대 뉴올리언스 펠리컨스: 2026년 12월 23일 경기 요약 - NBA.com"
+      "status": "partial",
+      "title_ko": "오클라호마시티 선더 대 뉴올리언스 펠리컨스: 2026년 12월 23일 경기 요약 - NBA.com",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "content_error": "HTTP 403",
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
     {
       "title": "New Orleans Pelicans vs. Washington Wizards - 2nd Half Highlights - NBA.com",
@@ -61,8 +159,12 @@
       "kind": "news",
       "published": "2026-10-17T05:11:25+00:00",
       "thumbnail": "",
-      "status": "pending",
-      "title_ko": "뉴올리언스 펠리컨스 대 워싱턴 위저즈: 후반전 하이라이트 - NBA.com"
+      "status": "partial",
+      "title_ko": "뉴올리언스 펠리컨스 대 워싱턴 위저즈: 후반전 하이라이트 - NBA.com",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "content_error": "HTTP 403",
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
     {
       "title": "New Orleans Pelicans vs. Washington Wizards - 1st Quarter Highlights - NBA.com",
@@ -71,8 +173,12 @@
       "kind": "news",
       "published": "2026-10-17T05:11:19+00:00",
       "thumbnail": "",
-      "status": "pending",
-      "title_ko": "뉴올리언스 펠리컨스 대 워싱턴 위저즈: 1쿼터 하이라이트 - NBA.com"
+      "status": "partial",
+      "title_ko": "뉴올리언스 펠리컨스 대 워싱턴 위저즈: 1쿼터 하이라이트 - NBA.com",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "content_error": "HTTP 403",
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
     {
       "title": "Jeremiah Fears on team's progress | Pelicans vs Wizards Postgame Interview 10/16/26 - NBA.com",
@@ -81,8 +187,12 @@
       "kind": "news",
       "published": "2026-10-17T03:44:51+00:00",
       "thumbnail": "",
-      "status": "pending",
-      "title_ko": "제러마이아 피어스가 말하는 팀의 발전 | 펠리컨스 대 위저즈 경기 후 인터뷰, 2026년 10월 16일 - NBA.com"
+      "status": "partial",
+      "title_ko": "제러마이아 피어스가 말하는 팀의 발전 | 펠리컨스 대 위저즈 경기 후 인터뷰, 2026년 10월 16일 - NBA.com",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "content_error": "HTTP 403",
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
     {
       "title": "Pelicans Highlights vs. Wizards | 2026 NBA Preseason - NBA.com",
@@ -93,7 +203,10 @@
       "thumbnail": "",
       "status": "partial",
       "title_ko": "위저즈전 펠리컨스 하이라이트 | 2026 NBA 프리시즌 - NBA.com",
-      "error": "본문·댓글 수집 또는 번역을 완료하지 못했습니다. 원문을 확인해 주세요."
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "content_error": "HTTP 403"
     },
     {
       "title": "New Orleans Pelicans vs. Washington Wizards - 3rd Quarter Highlights - NBA.com",
@@ -102,8 +215,12 @@
       "kind": "news",
       "published": "2026-10-17T03:26:41+00:00",
       "thumbnail": "",
-      "status": "pending",
-      "title_ko": "뉴올리언스 펠리컨스 대 워싱턴 위저즈: 3쿼터 하이라이트 - NBA.com"
+      "status": "partial",
+      "title_ko": "뉴올리언스 펠리컨스 대 워싱턴 위저즈: 3쿼터 하이라이트 - NBA.com",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "content_error": "HTTP 403",
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
     {
       "title": "New Orleans Pelicans vs. Washington Wizards - 4th Quarter Highlights - NBA.com",
@@ -112,8 +229,12 @@
       "kind": "news",
       "published": "2026-10-17T03:24:35+00:00",
       "thumbnail": "",
-      "status": "pending",
-      "title_ko": "뉴올리언스 펠리컨스 대 워싱턴 위저즈: 4쿼터 하이라이트 - NBA.com"
+      "status": "partial",
+      "title_ko": "뉴올리언스 펠리컨스 대 워싱턴 위저즈: 4쿼터 하이라이트 - NBA.com",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "content_error": "HTTP 403",
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
     {
       "title": "New Orleans Pelicans vs. Washington Wizards - 1st Half Highlights - NBA.com",
@@ -122,8 +243,12 @@
       "kind": "news",
       "published": "2026-10-17T03:23:14+00:00",
       "thumbnail": "",
-      "status": "pending",
-      "title_ko": "뉴올리언스 펠리컨스 대 워싱턴 위저즈: 전반전 하이라이트 - NBA.com"
+      "status": "partial",
+      "title_ko": "뉴올리언스 펠리컨스 대 워싱턴 위저즈: 전반전 하이라이트 - NBA.com",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "content_error": "HTTP 403",
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
     {
       "title": "Saddiq Bey on‑court interview after Pelicans win vs. Wizards 10/16/2026 - NBA.com",
@@ -132,8 +257,12 @@
       "kind": "news",
       "published": "2026-10-17T02:58:28+00:00",
       "thumbnail": "",
-      "status": "pending",
-      "title_ko": "위저즈전 승리 후 사딕 베이의 코트 인터뷰, 2026년 10월 16일 - NBA.com"
+      "status": "partial",
+      "title_ko": "위저즈전 승리 후 사딕 베이의 코트 인터뷰, 2026년 10월 16일 - NBA.com",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "content_error": "HTTP 403",
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
     {
       "title": "Washington Wizards vs New Orleans Pelicans Oct 16, 2026 Game Summary - NBA.com",
@@ -142,8 +271,12 @@
       "kind": "news",
       "published": "2026-10-17T02:57:26+00:00",
       "thumbnail": "",
-      "status": "pending",
-      "title_ko": "워싱턴 위저즈 대 뉴올리언스 펠리컨스: 2026년 10월 16일 경기 요약 - NBA.com"
+      "status": "partial",
+      "title_ko": "워싱턴 위저즈 대 뉴올리언스 펠리컨스: 2026년 10월 16일 경기 요약 - NBA.com",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "content_error": "HTTP 403",
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
     {
       "title": "Washington Wizards vs. New Orleans Pelicans: Game Highlights - ESPN",
@@ -152,8 +285,13 @@
       "kind": "news",
       "published": "2026-10-17T02:51:50+00:00",
       "thumbnail": "",
-      "status": "pending",
-      "title_ko": "워싱턴 위저즈 대 뉴올리언스 펠리컨스: 경기 하이라이트 - ESPN"
+      "status": "partial",
+      "title_ko": "워싱턴 위저즈 대 뉴올리언스 펠리컨스: 경기 하이라이트 - ESPN",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "original_url": "https://www.espn.com/video/clip/_/id/50199336/game-highlights",
+      "content_error": "RuntimeError",
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
     {
       "title": "Washington Wizards vs New Orleans Pelicans Oct 16, 2026 Game - Scores, Stats & Highlights - NBA.com",
@@ -164,7 +302,10 @@
       "thumbnail": "",
       "status": "partial",
       "title_ko": "워싱턴 위저즈 대 뉴올리언스 펠리컨스, 2026년 10월 16일: 점수·기록·하이라이트 - NBA.com",
-      "error": "본문·댓글 수집 또는 번역을 완료하지 못했습니다. 원문을 확인해 주세요."
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "content_error": "HTTP 403"
     },
     {
       "title": "New Orleans Pelicans vs. Washington Wizards - Game Highlights - Yahoo Sports",
@@ -172,9 +313,38 @@
       "source": "Google News · Pelicans",
       "kind": "news",
       "published": "2026-10-17T02:50:08+00:00",
+      "thumbnail": "https://s.yimg.com/lo/mysterio/api/76c45f5b6b49f628066225550e31e666609b77cc19334090eef390c0aa6360ce/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fcf-images.us-east-1.prod.boltdns.net%2Fv1%2Fjit%2F6415665815001%2F255090c2-ed9f-439c-bc7b-7b5dec994a57%2Fmain%2F1280x720%2F1m501ms%2Fmatch%2Fimage.jpg",
+      "status": "ready",
+      "title_ko": "뉴올리언스 펠리컨스 대 워싱턴 위저즈: 경기 하이라이트 - Yahoo Sports",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "original_url": "https://sports.yahoo.com/videos/orleans-pelicans-vs-washington-wizards-025008319.html",
+      "summary_en": [
+        "Washington Wizards - Game HighlightsWatch the Game Highlights from New Orleans Pelicans vs.",
+        "Washington Wizards, 10/16/2026 2:01 Now PlayingPausedAd Playing New Orleans Pelicans vs.",
+        "New Orleans Pelicans - Game Highlights 1:55 Now PlayingPausedAd Playing Oklahoma City Thunder vs."
+      ],
+      "summary_source": "article",
+      "summary_ko": [
+        "워싱턴 위저즈 - 경기 하이라이트뉴올리언스 펠리컨스 대 워싱턴 위저즈의 경기 하이라이트를 시청하세요.",
+        "워싱턴 위저즈, 2026년 10월 16일 2:01 현재 재생중지됨광고 재생 중 뉴올리언스 펠리컨스 vs.",
+        "New Orleans Pelicans - 게임 하이라이트 1:55 현재 재생중 일시중지광고 재생 중 Oklahoma City Thunder 대."
+      ],
+      "processed_at": "2026-10-18T02:53:49.095993+00:00"
+    },
+    {
+      "title": "Preseason postgame wrap: Pelicans 107, Wizards 106 - NBA.com",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQMnVua05wRjltZVZBT2hqS04ybVg1Rl9VQXV5VllEcE92cllhLVlTWDlVaGNhZ1d5WjRUUTJpOTB6eXFjYXJpak9FTy1WamJUR2pWdjBqano4UXhSd3JUd3B5aWg0WXFyQUFXb0xjb0M5Y3hKdXF2M1JIR29aM28?oc=5",
+      "source": "Google News · Pelicans",
+      "kind": "news",
+      "published": "2026-10-17T02:35:00+00:00",
       "thumbnail": "",
-      "status": "pending",
-      "title_ko": "뉴올리언스 펠리컨스 대 워싱턴 위저즈: 경기 하이라이트 - Yahoo Sports"
+      "status": "partial",
+      "title_ko": "프리시즌 경기 후 마무리: Pelicans 107, Wizards 106 - NBA.com",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "content_error": "HTTP 403",
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
     {
       "title": "JEREMIAH FEARS",
@@ -183,9 +353,14 @@
       "kind": "reddit",
       "published": "2026-10-17T01:45:27+00:00",
       "thumbnail": "",
+      "body_en": "Also fuck AD",
       "status": "partial",
       "title_ko": "제러마이아 피어스",
-      "error": "본문·댓글 수집 또는 번역을 완료하지 못했습니다. 원문을 확인해 주세요."
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
+      "body_ko": "광고도 엿먹어",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "content_error": "HTTP 429"
     },
     {
       "title": "Photos: Pelicans vs. Wizards | Game Action 10/16/26 - NBA.com",
@@ -196,7 +371,27 @@
       "thumbnail": "",
       "status": "partial",
       "title_ko": "사진: 펠리컨스 대 위저즈 경기 장면, 2026년 10월 16일 - NBA.com",
-      "error": "본문·댓글 수집 또는 번역을 완료하지 못했습니다. 원문을 확인해 주세요."
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "content_error": "HTTP 403"
+    },
+    {
+      "title": "New Orleans Pelicans vs Washington Wizards Box Score - October 16, 2026 - The Athletic - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZDZCUUF2U0U4VnRGaU92cGRraWt3c3JmX3VLRGVkTFlpXy04clJSXzIwd1d2UE5wX2d1a2xsaHBWcURJUDdkczZ1Z3dpaGRPZXJ0d2sxSDlhaU9qaHZ0ckFLdWNVUTNFMmpUU2dTczFfTVFoZnJYUEZwdlVKaVZwaEE5Qm9GLUVGTzhqVDNlQmdKaXZ6aU9INVg5ckQ5d0lpaDA0NVR0YWowckZk?oc=5",
+      "source": "Google News · Pelicans",
+      "kind": "news",
+      "published": "2026-10-17T01:05:58+00:00",
+      "thumbnail": "",
+      "status": "partial",
+      "title_ko": "뉴올리언스 펠리컨스 vs 워싱턴 위저즈 박스 스코어 - 2026년 10월 16일 - The Athletic - The New York Times",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "original_url": "https://www.nytimes.com/athletic/nba/game/stats/new-orleans-pelicans-vs-washington-wizards/03pSrDNWg4FeiiCe/",
+      "summary_en": [],
+      "summary_source": "article",
+      "content_error": "RuntimeError",
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
     {
       "title": "Watching this defense? Don't make me say it...",
@@ -207,7 +402,10 @@
       "thumbnail": "https://preview.redd.it/v6ll2t52dxvh1.jpeg?width=320&crop=smart&auto=webp&s=54360e2314cbd57912c3cbb6d20b454438b8d510",
       "status": "partial",
       "title_ko": "이 수비 보고 있나요? 그 말까지 하게 만들지는 마세요…",
-      "error": "본문·댓글 수집 또는 번역을 완료하지 못했습니다. 원문을 확인해 주세요."
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "content_error": "HTTP 429"
     },
     {
       "title": "Jeremiah Fears should start game 1",
@@ -216,9 +414,14 @@
       "kind": "reddit",
       "published": "2026-10-17T00:29:07+00:00",
       "thumbnail": "",
+      "body_en": "That's the post. We spend too much time talking about DQ forcing him to be ready sooner than he's ready to be because we gave up a first rounder for him. Fears, the actual true #1 pick, is ready now.",
       "status": "partial",
       "title_ko": "제러마이아 피어스가 개막전 선발로 나서야 한다",
-      "error": "본문·댓글 수집 또는 번역을 완료하지 못했습니다. 원문을 확인해 주세요."
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
+      "body_ko": "그 게시물입니다.\n우리는 그를 위해 첫 번째 라운드를 포기했기 때문에 그가 준비되는 것보다 더 빨리 준비하도록 강요하는 DQ에 대해 이야기하는 데 너무 많은 시간을 소비합니다.\n실제 진정한 1위 픽인 Fears가 이제 준비되었습니다.",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "content_error": "HTTP 429"
     },
     {
       "title": "[GDT] PELICANS - WIZARDS",
@@ -304,7 +507,8 @@
         }
       ],
       "summary_ko": [],
-      "processed_at": "2026-10-18T00:15:17.262494+00:00"
+      "processed_at": "2026-10-18T00:15:17.262494+00:00",
+      "translation_errors": {}
     },
     {
       "title": "Photos: Pelicans close preseason with win over Wizards - NOLA.com",
@@ -312,9 +516,24 @@
       "source": "Google News · Pelicans",
       "kind": "news",
       "published": "2026-10-16T23:43:00+00:00",
-      "thumbnail": "",
-      "status": "pending",
-      "title_ko": "사진: 위저즈전 승리로 프리시즌을 마친 펠리컨스 - NOLA.com"
+      "thumbnail": "https://bloximages.newyork1.vip.townnews.com/nola.com/content/tncms/assets/v3/editorial/9/bc/9bcf123d-93a9-5f90-8c33-90736e0c206e/6ad2d4566da29.image.jpg?crop=1824%2C958%2C0%2C0&resize=1200%2C630&order=crop%2Cresize",
+      "status": "ready",
+      "title_ko": "사진: 위저즈전 승리로 프리시즌을 마친 펠리컨스 - NOLA.com",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "original_url": "https://www.nola.com/sports/photos-pelicans-close-preseason-with-win-over-wizards/collection_7606f7ba-e8dd-4457-b876-b83f7d1fe1b0.html",
+      "summary_en": [
+        "The New Orleans Pelicans defeated the Washington Wizards at the Smoothie King Center to finish the preseason with a 3–1 record.",
+        "The victory capped the team’s exhibition schedule as New Orleans prepares for the regular season under head coach Jamahl Mosley.",
+        "New Orleans Pelicans forward Zion Williamson (1) is hammered by Washington Wizards center Alex Sarr (20) during the first half of the basketball game at the Smoothie King Center in New Orleans, Friday, Oct."
+      ],
+      "summary_source": "article",
+      "summary_ko": [
+        "New Orleans Pelicans는 스무디 킹 센터에서 Washington Wizards를 물리치고 프리시즌을 3-1 기록으로 마무리했습니다.",
+        "이번 승리로 뉴올리언스가 자말 모슬리 감독의 지휘 하에 정규 시즌을 준비하는 가운데 팀의 전시 일정이 마무리됐다.",
+        "뉴올리언스 펠리컨스의 포워드 자이언 윌리엄슨(1)이 10월 10일 금요일 뉴올리언스의 스무디 킹 센터에서 열린 농구 경기 전반전에서 워싱턴 위저즈의 센터 알렉스 사르(20)에게 두들겨 맞아지고 있다."
+      ],
+      "processed_at": "2026-10-18T02:54:00.068945+00:00"
     },
     {
       "title": "Our stadium graphics person needs a proofreader smh",
@@ -323,9 +542,54 @@
       "kind": "reddit",
       "published": "2026-10-16T23:39:34+00:00",
       "thumbnail": "https://preview.redd.it/nczm5fot0xvh1.jpeg?width=640&crop=smart&auto=webp&s=f864581668cd3c2c25c7baf73dabeb838ab2291a",
-      "status": "partial",
+      "status": "ready",
       "title_ko": "우리 경기장 그래픽 담당자에게 교정자가 필요하네요, 참…",
-      "error": "본문·댓글 수집 또는 번역을 완료하지 못했습니다. 원문을 확인해 주세요."
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "body_en": "",
+      "comments": [
+        {
+          "author": "akarikawamato",
+          "score": null,
+          "body_en": "Gonna walk up to u and tap you on the shoulder in 5 mins",
+          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1x7vis8/our_stadium_graphics_person_needs_a_proofreader/ph7lri6/",
+          "body_ko": "5분 안에 너한테 다가가서 어깨를 두드릴 거야"
+        },
+        {
+          "author": "js-4-",
+          "score": null,
+          "body_en": "Preseason for everyone",
+          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1x7vis8/our_stadium_graphics_person_needs_a_proofreader/ph7wcgh/",
+          "body_ko": "모두를 위한 프리시즌"
+        }
+      ],
+      "summary_en": [],
+      "processed_at": "2026-10-18T02:54:02.582572+00:00"
+    },
+    {
+      "title": "Wizards at Pelicans Discussion - Yahoo Sports",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOS1hzNk10TlZjNVpLUTk2RVl6ZVBXTE1MSnItQ3NQSVFZTkVJb2g3a0ZFRmYza1lGMnB6YWpqNktvUGFNVHpsU0N1czlGeGVRQUZkZkRuQ0ZVS2E4MzAyejJOdm1jck1RQ1p1OXJYc3ZoQXpBYzY1elFoWS04ZXpoclNn?oc=5",
+      "source": "Google News · Pelicans",
+      "kind": "news",
+      "published": "2026-10-16T23:00:00+00:00",
+      "thumbnail": "https://s.yimg.com/lo/mysterio/api/78e2376fad297d8d118b83ae405edc4ee691b34e2af4ec69d1c8d94945b07e89/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fsb_nation_articles_115%2Fe2f19c83a14f86b44d5ee1f1851f1c77.jpg",
+      "status": "ready",
+      "title_ko": "위저즈의 펠리컨스 원정 경기 토론 - Yahoo Sports",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "original_url": "https://sports.yahoo.com/articles/wizards-pelicans-discussion-230000301.html",
+      "summary_en": [
+        "Story by Wizards at Pelicans Discussion Story by Wizards at Pelicans Discussion OKLAHOMA CITY, OK - OCTOBER 30: Isaiah Joe #11 of the Oklahoma City Thunder shoots a three point basket during the game against the Washington Wizards on October 30, 2025 at Paycom Center in Oklahoma City, Oklahoma.",
+        "NOTE TO USER: User expressly acknowledges and agrees that, by downloading and or using this photograph, User is consenting to the terms and conditions of the Getty Images License Agreement.",
+        "Mandatory Copyright Notice: Copyright 2025 NBAE (Photo by Zach Beeker/NBAE via Getty Images) | NBAE via Getty Images Marcus Atkinson Fri, October 16, 2026 at 11:00 PM UTC· 1 min read"
+      ],
+      "summary_source": "article",
+      "summary_ko": [
+        "스토리 작성자: Wizards at Pelicans 토론 스토리 작성자: Wizards at Pelicans 토론 오클라호마 시티, OK - 10월 30일: 오클라호마 시티 썬더의 이사야 조 #11이 2025년 10월 30일 오클라호마 주 오클라호마 시티의 페이컴 센터에서 열린 워싱턴 위저즈와의 경기에서 3점슛을 날립니다.",
+        "사용자 참고 사항: 사용자는 이 사진을 다운로드하거나 사용함으로써 게티 이미지 라이선스 계약의 이용 약관에 동의한다는 점을 명시적으로 인정하고 이에 동의합니다.",
+        "필수 저작권 공지: 저작권 2025 NBAE(Photo by Zach Beeker/NBAE via Getty Images) | NBAE via Getty Images Marcus Atkinson 2026년 10월 16일 금요일 오후 11:00 UTC· 1분 읽기"
+      ],
+      "processed_at": "2026-10-18T02:54:07.744830+00:00"
     },
     {
       "title": "Los Angeles Lakers vs New Orleans Pelicans Dec 31, 2026 Game Summary - NBA.com",
@@ -336,7 +600,10 @@
       "thumbnail": "",
       "status": "partial",
       "title_ko": "LA 레이커스 대 뉴올리언스 펠리컨스: 2026년 12월 31일 경기 요약 - NBA.com",
-      "error": "본문·댓글 수집 또는 번역을 완료하지 못했습니다. 원문을 확인해 주세요."
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "content_error": "HTTP 403"
     },
     {
       "title": "Wild 24 hours I guess",
@@ -347,7 +614,10 @@
       "thumbnail": "https://preview.redd.it/v0o8wfgkawvh1.png?width=640&crop=smart&auto=webp&s=f0128870a2a755116d485eb82374946e6de820fe",
       "status": "partial",
       "title_ko": "정말 정신없는 24시간이었네요",
-      "error": "본문·댓글 수집 또는 번역을 완료하지 못했습니다. 원문을 확인해 주세요."
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "content_error": "HTTP 429"
     },
     {
       "title": "New Orleans Pelicans have waived Hunter Dickinson, - HoopsHype",
@@ -356,8 +626,12 @@
       "kind": "news",
       "published": "2026-10-16T20:53:00+00:00",
       "thumbnail": "",
-      "status": "pending",
-      "title_ko": "뉴올리언스 펠리컨스, 헌터 디킨슨 방출 - HoopsHype"
+      "status": "partial",
+      "title_ko": "뉴올리언스 펠리컨스, 헌터 디킨슨 방출 - HoopsHype",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "content_error": "HTTP 402",
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
     {
       "title": "Good News Emerge About Zion Williamson For New Orleans Pelicans - Yahoo Sports",
@@ -365,9 +639,24 @@
       "source": "Google News · Pelicans",
       "kind": "news",
       "published": "2026-10-16T19:19:49+00:00",
-      "thumbnail": "",
-      "status": "pending",
-      "title_ko": "펠리컨스의 자이언 윌리엄슨에 관한 반가운 소식 - Yahoo Sports"
+      "thumbnail": "https://s.yimg.com/lo/mysterio/api/f9c9779b8cd95332fd86bac65fd3613308041777e7a866343c83ec3c7a12692a/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fheavy_214%2Ffa0284e530a2e992a6aec5f9249b68af.jpg",
+      "status": "ready",
+      "title_ko": "펠리컨스의 자이언 윌리엄슨에 관한 반가운 소식 - Yahoo Sports",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "original_url": "https://sports.yahoo.com/articles/good-news-emerge-zion-williamson-191949556.html",
+      "summary_en": [
+        "Zion Williamson could be in for a very promising NBA season in his eighth year with the New Orleans Pelicans.",
+        "According to NBA insider and analyst Tim MacMahon in the Hoop Collective podcast with Brian Windhorst, Pelicans head coach Jamahl Mosley is excited about Williamson's return to the court, citing his health, shape, and sustained athletic abilities.",
+        "According to multiple reports, Williamson enters the 2026-2027 NBA season in some of the best physical shape of his career, though his long-term durability remains a central question for the Pelicans."
+      ],
+      "summary_source": "article",
+      "summary_ko": [
+        "자이언 윌리엄슨은 뉴올리언스 펠리컨스와 함께한 8년차에 매우 유망한 NBA 시즌을 맞이할 수 있습니다.",
+        "Brian Windhorst와 함께 Hoop Collective 팟캐스트에서 NBA 내부자이자 분석가인 Tim MacMahon에 따르면, Pelicans의 감독 Jamahl Mosley는 그의 건강, 몸매, 지속적인 운동 능력을 언급하며 Williamson의 코트 복귀에 대해 기뻐하고 있습니다.",
+        "여러 보고서에 따르면 윌리엄슨은 자신의 경력 중 최고의 신체적 형태로 2026-2027 NBA 시즌에 돌입하지만, 그의 장기적인 내구성은 펠리컨스의 핵심 문제로 남아 있습니다."
+      ],
+      "processed_at": "2026-10-18T02:54:16.124136+00:00"
     },
     {
       "title": "Washington Wizards vs New Orleans Pelicans Live Stream: How to Watch NBA (Oct. 16, 2026) - Fubo",
@@ -375,9 +664,16 @@
       "source": "Google News · Pelicans",
       "kind": "news",
       "published": "2026-10-16T18:05:24+00:00",
-      "thumbnail": "",
-      "status": "pending",
-      "title_ko": "워싱턴 위저즈 대 뉴올리언스 펠리컨스 생중계: 2026년 10월 16일 NBA 시청 방법 - Fubo"
+      "thumbnail": "https://www.fubo.tv/news/wp-content/uploads/2026/10/Washington_Wizards_at_New_Orleans_Pelicans_-_Where_to_Watch_Stream_Info_TV_Channel_and_Live_Updates_October_16_2026.webp",
+      "status": "partial",
+      "title_ko": "워싱턴 위저즈 대 뉴올리언스 펠리컨스 생중계: 2026년 10월 16일 NBA 시청 방법 - Fubo",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "original_url": "https://www.fubo.tv/news/nba/washington-wizards-vs-new-orleans-pelicans-live-stream-how-to-watch-nba-oct-16-2026/",
+      "summary_en": [],
+      "summary_source": "article",
+      "content_error": "RuntimeError",
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
     {
       "title": "Does anyone know where I can find this Pelicans pinstripe sweatshirt?",
@@ -386,9 +682,14 @@
       "kind": "reddit",
       "published": "2026-10-16T17:04:43+00:00",
       "thumbnail": "https://preview.redd.it/ap08r1sv1vvh1.jpeg?width=640&crop=smart&auto=webp&s=eac97b22a7ff7d59cc76efade440226fc521993e",
+      "body_en": "I saw this in MSY airport around December of last year and it was my exact style, but it was a bit out of my price range so I let it go for a minute and figured I'd mull it over and come to a decision. Unfortunately by the time I had another opportunity to stop by the store in the airport they'd already moved on past this. I was wondering if there was maybe another listing of it somewhere online that someone had found?",
       "status": "partial",
       "title_ko": "이 펠리컨스 핀스트라이프 맨투셔츠를 어디서 구할 수 있는지 아시나요?",
-      "error": "본문·댓글 수집 또는 번역을 완료하지 못했습니다. 원문을 확인해 주세요."
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
+      "body_ko": "작년 12월쯤 MSY 공항에서 봤는데 딱 제 스타일이었는데 가격대를 좀 벗어나서 잠시 고민하다가 결정을 하게 됐어요.\n불행하게도 내가 공항에 있는 매장에 들를 또 다른 기회가 있었을 때 그들은 이미 이 시간을 지나 이동하고 있었습니다.\n누군가가 발견한 온라인 어딘가에 다른 목록이 있는지 궁금합니다.",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "content_error": "HTTP 429"
     },
     {
       "title": "Pelicans shootaround update: New Orleans aims to repeat defensive showing in Dallas - NBA.com",
@@ -399,7 +700,35 @@
       "thumbnail": "",
       "status": "partial",
       "title_ko": "펠리컨스 슛어라운드 소식: 댈러스에서의 수비력을 재현하려는 뉴올리언스 - NBA.com",
-      "error": "본문·댓글 수집 또는 번역을 완료하지 못했습니다. 원문을 확인해 주세요."
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "content_error": "HTTP 403"
+    },
+    {
+      "title": "Pelicans' New Top Priority Centers Around Jeremiah Fears - Sports Illustrated",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNV1htRTZWMHpmWEhLRlpueDJja1FGcDZrekt6aTZ2REhkcXBiOERfODRxWTVWRVpPOExOOWNlQkdHWlVjUmpxNGozVEtlR1A0Z2N2el9razg4OWRBaVBSSHJ5d19RUU9QTnA1ZmxtMUlnZFA3VldRc0pMdE9HTEhmZl9fRFFfT0U1a2R5ejFLV09GazM5WWFNTXhOeHVGX0dPVk9QWi1maW0?oc=5",
+      "source": "Google News · Pelicans",
+      "kind": "news",
+      "published": "2026-10-16T17:00:01+00:00",
+      "thumbnail": "https://images2.minutemediacdn.com/image/upload/c_crop,x_2333,y_366,w_2473,h_1391/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/pelicans_scoop/01m5179803d171t1f9a6.jpg",
+      "status": "ready",
+      "title_ko": "펠리컨스의 새로운 최우선 과제, 제러마이아 피어스에 달렸다 - Sports Illustrated",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "original_url": "https://www.si.com/nba/pelicans/onsi/pelicans-new-top-priority-centers-around-jeremiah-fears-01m5173sh7zq",
+      "summary_en": [
+        "Pelicans' New Top Priority Centers Around Jeremiah Fears",
+        "The New Orleans Pelicans have spent seven years trying to figure out how to build around Zion Williamson.",
+        "In 2008, New Orleans won 56 games and came within one victory of the Western Conference finals."
+      ],
+      "summary_source": "article",
+      "summary_ko": [
+        "Jeremiah Fears 주변의 Pelicans의 새로운 최우선 센터",
+        "뉴올리언스 펠리컨스는 자이언 윌리엄슨을 기반으로 구축하는 방법을 찾기 위해 7년을 보냈습니다.",
+        "2008년 뉴올리언스는 56승을 거두며 서부컨퍼런스 결승전에서 1승 이내로 승리했다."
+      ],
+      "processed_at": "2026-10-18T02:54:25.023620+00:00"
     },
     {
       "title": "Athletic's Position Rankings for Start and Backup for Each Position",
@@ -408,9 +737,14 @@
       "kind": "reddit",
       "published": "2026-10-16T15:15:35+00:00",
       "thumbnail": "",
+      "body_en": "24\nDejounte Murray\nJeremiah Fears\nI think this is a little low. Nugs, Magic, Hawks (with CJ and Flemings) are rated higher.\n16\nHerbert Jones\nJordan Poole\nThis would seem high at first, until you glance at the rest of the league and see how bad other teams are at SG.\n14\nTrey Murphy III\nBennedict Mathurin\nI think this is low as well. Trey has not made an all star team, but he's a very solid player. I think he's much better than Kon and Jaden McDaniels. How do we know if Markkanen is any good if he hasn't played in a competitive basketball game the 5 years he's been in Utah? Although Franz has an all star appearance, I think the combo of Trey and Mathurin is better than Franz and Cain with the Magic.\n13\nZion Williamson\nSaddiq Bey\nNotable players/teams ranked above are Nets/Randle, Knicks and Utah/JJJ. Behind are squads like Denver with Gordon, Charlotte with Naz Reid and Rockets. Bey doesn't exactly fit as a power forward, but for this exercise, the combo of Zion/Bey seems appropriate.\n27\nYves Missi\nDerik Queen\nNot many situations deemed worse than this. It's hard to argue based on potential and performance that this duo is a bit behind. This could jump if improvement is made, but I find it hard to argue with this ranking.\nIn sum, they do not have a top 10 positional group. They have decent depth at each position, but no superstar to drag up the entire ranking.",
       "status": "partial",
       "title_ko": "디 애슬레틱이 선정한 포지션별 주전·백업 선수 순위",
-      "error": "본문·댓글 수집 또는 번역을 완료하지 못했습니다. 원문을 확인해 주세요."
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
+      "body_ko": "24\n디준트 머레이\n예레미야는 두려워한다\n이건 좀 낮은 것 같아요.\n너그스, 매직, 호크스(CJ, 플레밍스 포함)가 더 높은 평가를 받았습니다.\n16\n허버트 존스\n조던 풀\n리그의 나머지 부분을 살펴보고 다른 팀이 SG에서 얼마나 나쁜지 확인하기 전까지는 처음에는 높은 것처럼 보일 것입니다.\n14\n트레이 머피 3세\n베네딕트 마투랭\n이것도 낮은 것 같아요.\n트레이는 올스타 팀을 이루지는 못했지만 매우 탄탄한 선수입니다.\n나는 그가 Kon과 Jaden McDaniels보다 훨씬 낫다고 생각합니다.\nMarkkanen이 유타에서 5년 동안 농구 경기에 출전하지 않았다면 그가 좋은 선수인지 어떻게 알 수 있습니까?\n프란츠는 올스타급 외모를 갖고 있지만 프란츠와 케인이 매직을 하는 것보다는 트레이와 마투린의 콤보가 더 낫다고 생각합니다.\n13\n자이언 윌리엄슨\n사디크 베이\n위에 순위가 매겨진 주목할만한 선수/팀은 Nets/Randle, Knicks 및 Utah/JJJ입니다.\n뒤에는 Gordon이 있는 Denver, Naz Reid가 있는 Charlotte, Rockets와 같은 팀이 있습니다.\nBey는 파워 포워드로서 꼭 맞는 선수는 아니지만 이번 연습에서는 Zion/Bey 콤보가 적절해 보입니다.\n27\n이브 미시\n데릭 퀸\n이보다 더 나쁜 상황은 많지 않습니다.\n잠재력과 성과로 볼 때 이 듀오가 약간 뒤쳐져 있다고 주장하기는 어렵습니다.\n개선이 이루어지면 급등할 수도 있지만 이 순위에 대해 논쟁을 벌이기는 어렵습니다.\n요약하자면, 그들은 상위 10위권의 위치 그룹을 갖고 있지 않습니다.\n각 포지션마다 괜찮은 깊이를 갖고 있지만 전체 순위를 끌어올 슈퍼스타는 없습니다.",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "content_error": "HTTP 429"
     },
     {
       "title": "Everything to Know Ahead of Wizards at Pelicans - Sports Illustrated",
@@ -418,9 +752,24 @@
       "source": "Google News · Pelicans",
       "kind": "news",
       "published": "2026-10-16T15:12:56+00:00",
-      "thumbnail": "",
-      "status": "pending",
-      "title_ko": "위저즈의 펠리컨스 원정 경기를 앞두고 알아야 할 모든 것 - Sports Illustrated"
+      "thumbnail": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_0,w_6189,h_3481/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/inside_the_wizards/01m52krz32nshj3st4cf.jpg",
+      "status": "ready",
+      "title_ko": "위저즈의 펠리컨스 원정 경기를 앞두고 알아야 할 모든 것 - Sports Illustrated",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "original_url": "https://www.si.com/nba/wizards/onsi/everything-to-know-ahead-of-wizards-at-pelicans-01m52khaq25s",
+      "summary_en": [
+        "Everything to Know Ahead of Wizards at Pelicans",
+        "Now, they travel to the swamp to take on the New Orleans Pelicans.",
+        "The Pelicans are stuck in what seems like purgatory."
+      ],
+      "summary_source": "article",
+      "summary_ko": [
+        "펠리컨스의 마법사에 앞서 알아야 할 모든 것",
+        "이제 그들은 뉴올리언스 펠리컨스를 상대하기 위해 늪지로 이동합니다.",
+        "펠리컨들은 연옥처럼 보이는 곳에 갇혀 있습니다."
+      ],
+      "processed_at": "2026-10-18T02:54:30.319329+00:00"
     },
     {
       "title": "If you have a Jordan Poole tattoo you deserve a game used and signed jersey",
@@ -431,7 +780,10 @@
       "thumbnail": "https://external-preview.redd.it/OHl4bGtraTZodXZoMbRgDbnHSfqzBL5kdkWQ3_McKoRV00P_fyv-lDEcNNxX.png?width=320&crop=smart&auto=webp&s=0ef42e012afa965cd2eee2edd1dfc4f8ee5c3886",
       "status": "partial",
       "title_ko": "조던 풀 문신까지 했다면 경기에서 입은 사인 유니폼을 받을 자격이 있죠",
-      "error": "본문·댓글 수집 또는 번역을 완료하지 못했습니다. 원문을 확인해 주세요."
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "content_error": "HTTP 429"
     },
     {
       "title": "Washington Wizards at New Orleans Pelicans - Where to Watch, Stream Info, TV Channel, and Live Updates (October 16, 2026) - Fubo",
@@ -443,8 +795,12 @@
       "status": "partial",
       "title_ko": "워싱턴 위저즈의 뉴올리언스 펠리컨스 원정: 중계·스트리밍·실시간 소식, 2026년 10월 16일 - Fubo",
       "original_url": "https://www.fubo.tv/news/nba/washington-wizards-at-new-orleans-pelicans-where-to-watch-stream-info-tv-channel-and-live-updates-october-16-2026/",
-      "error": "본문·댓글 수집 또는 번역을 완료하지 못했습니다. 원문을 확인해 주세요.",
-      "summary_ko": []
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "summary_en": [],
+      "summary_source": "article",
+      "content_error": "RuntimeError"
     },
     {
       "title": "Poole, Missi and a couple of second-round picks for Myles Turner",
@@ -453,9 +809,14 @@
       "kind": "reddit",
       "published": "2026-10-16T09:07:52+00:00",
       "thumbnail": "",
+      "body_en": "would you guys make this trade?",
       "status": "partial",
       "title_ko": "풀, 미시와 2라운드 지명권 몇 장을 마일스 터너와 바꾸면 어떨까요?",
-      "error": "본문·댓글 수집 또는 번역을 완료하지 못했습니다. 원문을 확인해 주세요."
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
+      "body_ko": "너희들 이 거래를 할래?",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "content_error": "HTTP 429"
     },
     {
       "title": "Target Kel’el Ware?",
@@ -464,9 +825,14 @@
       "kind": "reddit",
       "published": "2026-10-16T02:47:45+00:00",
       "thumbnail": "",
+      "body_en": "If the pelicans tear it down this year would targeting Kel’el Ware be the best fit as a center for a future team lead by Queen and Fears?",
       "status": "partial",
       "title_ko": "켈엘 웨어를 노려볼까요?",
-      "error": "본문·댓글 수집 또는 번역을 완료하지 못했습니다. 원문을 확인해 주세요."
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
+      "body_ko": "만약 올해 펠리컨들이 그것을 무너뜨린다면 Kel'el Ware를 목표로 삼는 것이 Queen and Fears가 이끄는 미래 팀의 센터로서 가장 적합할까요?",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "content_error": "HTTP 429"
     },
     {
       "title": "New York Knicks vs New Orleans Pelicans Dec 16, 2026 Game Summary - NBA.com",
@@ -475,8 +841,12 @@
       "kind": "news",
       "published": "2026-10-16T01:57:46+00:00",
       "thumbnail": "",
-      "status": "pending",
-      "title_ko": "뉴욕 닉스 대 뉴올리언스 펠리컨스: 2026년 12월 16일 경기 요약 - NBA.com"
+      "status": "partial",
+      "title_ko": "뉴욕 닉스 대 뉴올리언스 펠리컨스: 2026년 12월 16일 경기 요약 - NBA.com",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "content_error": "HTTP 403",
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
     {
       "title": "Why would we sign Hunter Dickinson",
@@ -487,7 +857,10 @@
       "thumbnail": "",
       "status": "partial",
       "title_ko": "우리가 헌터 디킨슨과 계약하려는 이유가 뭘까요?",
-      "error": "본문·댓글 수집 또는 번역을 완료하지 못했습니다. 원문을 확인해 주세요."
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "content_error": "HTTP 429"
     },
     {
       "title": "Photos: Pelicans Training Camp practice 10/15/2026 - NBA.com",
@@ -498,7 +871,10 @@
       "thumbnail": "",
       "status": "partial",
       "title_ko": "사진: 펠리컨스 트레이닝캠프 훈련, 2026년 10월 15일 - NBA.com",
-      "error": "본문·댓글 수집 또는 번역을 완료하지 못했습니다. 원문을 확인해 주세요."
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "content_error": "HTTP 403"
     },
     {
       "title": "Final New Orleans Pelicans Roster Decisions Have Become Clear - Yahoo Sports",
@@ -515,7 +891,8 @@
         "그 후에는 로스터를 표준 플레이어 15명과 양방향 플레이어 3명으로 줄여야 합니다.",
         "Pelicans는 이미 Caleb Houstan을 방출하고 Christian Koloko처럼 그를 교체하지 않고 명단을 줄이기 시작했습니다."
       ],
-      "processed_at": "2026-10-17T15:18:10.059787+00:00"
+      "processed_at": "2026-10-17T15:18:10.059787+00:00",
+      "translation_errors": {}
     },
     {
       "title": "Karlo Matković on his performance, Zion Williamson | Pelicans Preseason 2026 - NBA.com",
@@ -526,7 +903,10 @@
       "thumbnail": "",
       "status": "partial",
       "title_ko": "카를로 마트코비치가 말하는 자신의 활약과 자이언 윌리엄슨 | 펠리컨스 2026 프리시즌 - NBA.com",
-      "error": "본문·댓글 수집 또는 번역을 완료하지 못했습니다. 원문을 확인해 주세요."
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "content_error": "HTTP 403"
     },
     {
       "title": "Herb Jones on team defense, Jeremiah Fears | Pelicans Preseason 2026 - NBA.com",
@@ -535,8 +915,26 @@
       "kind": "news",
       "published": "2026-10-15T21:04:09+00:00",
       "thumbnail": "",
-      "status": "pending",
-      "title_ko": "허브 존스가 말하는 팀 수비와 제러마이아 피어스 | 펠리컨스 2026 프리시즌 - NBA.com"
+      "status": "partial",
+      "title_ko": "허브 존스가 말하는 팀 수비와 제러마이아 피어스 | 펠리컨스 2026 프리시즌 - NBA.com",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "content_error": "HTTP 403",
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
+    },
+    {
+      "title": "Jamahl Mosley on goals for final preseason game, Herb Jones | Pelicans Preseason 2026 - NBA.com",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQeHc0NlVtcS1TR3czSUFBYlVuTFVOdGthck5USHhhWWQ3azVRSjJ0UWxtdnc4YThqbXAyNkFKeG1KclcxaVlfeDVvV0ZOYjdROG43Ty16Sm5VOTJrQy16Q1ZqMHd6SDFvcHdGdnBhUVlfZHpCbFI4aE52SkJnbDN6dm55bHdmYkt2MFl4Q2VsZzJDT3M?oc=5",
+      "source": "Google News · Pelicans",
+      "kind": "news",
+      "published": "2026-10-15T21:04:09+00:00",
+      "thumbnail": "",
+      "status": "partial",
+      "title_ko": "프리시즌 마지막 경기에서 득점에 성공한 Jamahl Mosley, Herb Jones | 펠리컨스 프리시즌 2026 - NBA.com",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "content_error": "HTTP 403",
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
     {
       "title": "Any one out there find this as interesting as I do?",
@@ -545,9 +943,14 @@
       "kind": "reddit",
       "published": "2026-10-15T20:06:09+00:00",
       "thumbnail": "https://external-preview.redd.it/8EvSTdruVz0trFb0qbKqaSvu3ohvBJXNqISWX2YB3Q8.jpeg?width=640&crop=smart&auto=webp&s=933e62989e53aed7981fb1835e6cd6922d66c6a9",
+      "body_en": "Tracking the Alonzo Mourning trade from 1992 helps Hornets/Pelicans land Trey Murphy and Dejounte Murray:\nCharlotte drafts Mourning in 1992 then traded to Miami for Glen Rice\nRice → Eddie Jones → PJ Brown → Tyson Chandler → Emeka Okafor → 2012 2nd Rd pick → draft Darius Miller\n→ Steven Adams & Eric Bledsoe →\nTrey Murphy\n→ 2025 1st Rd pick → Larry Nance →\nDejounte Murray",
       "status": "partial",
       "title_ko": "저처럼 이게 흥미롭다고 생각하는 분 있나요?",
-      "error": "본문·댓글 수집 또는 번역을 완료하지 못했습니다. 원문을 확인해 주세요."
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
+      "body_ko": "1992년부터 Alonzo Mourning 거래를 추적하면 Hornets/Pelicans가 Trey Murphy와 Dejounte Murray를 영입하는 데 도움이 됩니다.\nCharlotte는 1992년 Mourning을 드래프트한 후 Glen Rice를 위해 마이애미로 트레이드되었습니다.\n라이스 → 에디 존스 → PJ 브라운 → 타이슨 챈들러 → 에메카 오카포 → 2012년 2번픽 → 드래프트 다리우스 밀러\n→ 스티븐 아담스 & Eric Bledsoe →\n트레이 머피\n→ 2025년 1차 Rd 픽 → 래리 낸스 →\n디준트 머레이",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "content_error": "HTTP 429"
     },
     {
       "title": "New Orleans Pelicans season preview: Opening schedule, win projection and everything to know for 2026-27 - Yahoo Sports",
@@ -564,7 +967,8 @@
         "우려되는 점: Zion은 62경기를 치렀고 Pelicans는 여전히 26승 56패를 기록했습니다.",
         "서부: 댈러스 매버릭스 • 덴버 너기츠 • 골든스테이트 워리어스 • 휴스턴 로케츠 • LA 클리퍼스 • 로스앤젤레스 레이커스 • 멤피스 그리즐리스 • 미네소타 팀버울브스 • 뉴올리언스 펠리컨스 • 오클라호마시티 썬더 • 피닉스 선즈 • 포틀랜드 트레일블레이저스 • 새크라멘토 킹스 • 샌안토니오 스퍼스 • 유타 재즈"
       ],
-      "processed_at": "2026-10-18T00:15:02.924138+00:00"
+      "processed_at": "2026-10-18T00:15:02.924138+00:00",
+      "translation_errors": {}
     },
     {
       "title": "How Jamahl Mosley is radically changing ways of doing Pelicans business from Willie Green’s failures",
@@ -573,9 +977,14 @@
       "kind": "reddit",
       "published": "2026-10-15T11:41:13+00:00",
       "thumbnail": "",
+      "body_en": "https://sports.yahoo.com/articles/jamahl-mosley-radically-changing-ways-231639694.html\n\"Mosley is replacing Green's familiar 10-game evaluation windows with shorter, playoff-style assessments designed to identify problems before they become entrenched habits. Essentially, the philosophy is to not wait three weeks to\naddress an issue\nthat might cost the team a win tomorrow.\"",
       "status": "partial",
       "title_ko": "자말 모슬리는 윌리 그린의 실패를 딛고 펠리컨스 운영 방식을 어떻게 바꾸고 있나",
-      "error": "본문·댓글 수집 또는 번역을 완료하지 못했습니다. 원문을 확인해 주세요."
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
+      "body_ko": "https://sports.yahoo.com/articles/jamahl-mosley-radically-changing-ways-231639694.html\n\"Mosley는 Green의 친숙한 10경기 평가 창을 문제가 습관화되기 전에 문제를 식별하도록 설계된 더 짧은 플레이오프 스타일 평가로 대체하고 있습니다.\n기본적으로 철학은 3주를 기다리지 않는 것입니다.\n문제를 다루다\n그러면 팀이 내일 승리를 거두지 못할 수도 있습니다.\"",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "content_error": "HTTP 429"
     },
     {
       "title": "New Orleans Pelicans watch guide 2026-27: TV info, Global Games for Zion Williamson’s crew - The New York Times",
@@ -586,7 +995,10 @@
       "thumbnail": "",
       "status": "partial",
       "title_ko": "뉴올리언스 펠리컨스 2026-27시즌 시청 안내: 자이언 윌리엄슨과 동료들의 TV 중계·글로벌 경기 - The New York Times",
-      "error": "본문·댓글 수집 또는 번역을 완료하지 못했습니다. 원문을 확인해 주세요."
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "content_error": "HTTP 403"
     },
     {
       "title": "Dallas Mavericks vs. New Orleans Pelicans - 4th Quarter Highlights - NBA.com",
@@ -597,7 +1009,10 @@
       "thumbnail": "",
       "status": "partial",
       "title_ko": "댈러스 매버릭스 대 뉴올리언스 펠리컨스: 4쿼터 하이라이트 - NBA.com",
-      "error": "본문·댓글 수집 또는 번역을 완료하지 못했습니다. 원문을 확인해 주세요."
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "content_error": "HTTP 403"
     },
     {
       "title": "Yves Missi talks Pelicans preseason win vs. Mavericks 10/14/2026 - NBA.com",
@@ -606,8 +1021,12 @@
       "kind": "news",
       "published": "2026-10-15T04:26:42+00:00",
       "thumbnail": "",
-      "status": "pending",
-      "title_ko": "이브 미시가 말하는 매버릭스전 프리시즌 승리, 2026년 10월 14일 - NBA.com"
+      "status": "partial",
+      "title_ko": "이브 미시가 말하는 매버릭스전 프리시즌 승리, 2026년 10월 14일 - NBA.com",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "content_error": "HTTP 403",
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
     {
       "title": "Pelicans Highlights vs. Mavericks | 2026 NBA Preseason - NBA.com",
@@ -618,7 +1037,10 @@
       "thumbnail": "",
       "status": "partial",
       "title_ko": "매버릭스전 펠리컨스 하이라이트 | 2026 NBA 프리시즌 - NBA.com",
-      "error": "본문·댓글 수집 또는 번역을 완료하지 못했습니다. 원문을 확인해 주세요."
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "content_error": "HTTP 403"
     },
     {
       "title": "Dallas Mavericks vs. New Orleans Pelicans - 2nd Half Highlights - NBA.com",
@@ -629,7 +1051,24 @@
       "thumbnail": "",
       "status": "partial",
       "title_ko": "댈러스 매버릭스 대 뉴올리언스 펠리컨스: 후반전 하이라이트 - NBA.com",
-      "error": "본문·댓글 수집 또는 번역을 완료하지 못했습니다. 원문을 확인해 주세요."
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "content_error": "HTTP 403"
+    },
+    {
+      "title": "Jamahl Mosley recaps Pelicans' preseason win vs. Mavericks 10/14/2026 - NBA.com",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOeDdiTWhWOVV0dFpwSGxEM2Q3aEVhQ21CS2NhSU5nVWt2OWtKV216OThwMGZrd3NBMWZoOFVpcVFSel9ZbWxkMWxHcHNmNHR1UlBOcXI1bXRiVjJtZ3dob19JRm05UHJ3VWZvTzdOZWNGQ0IzT2ZKLUlwU254ZE00dDZzaFRNcThJVmNIRkpxVjNBbFE4SUpOd2UxbUJjYXNxNU1vQmFn?oc=5",
+      "source": "Google News · Pelicans",
+      "kind": "news",
+      "published": "2026-10-15T03:37:57+00:00",
+      "thumbnail": "",
+      "status": "partial",
+      "title_ko": "자말 모슬리가 펠리컨스의 프리시즌 승리를 요약했습니다.\n매버릭스 2026년 10월 14일 - NBA.com",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "content_error": "HTTP 403",
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
     {
       "title": "Dallas Mavericks vs. New Orleans Pelicans - 1st Half Highlights - NBA.com",
@@ -640,7 +1079,10 @@
       "thumbnail": "",
       "status": "partial",
       "title_ko": "댈러스 매버릭스 대 뉴올리언스 펠리컨스: 전반전 하이라이트 - NBA.com",
-      "error": "본문·댓글 수집 또는 번역을 완료하지 못했습니다. 원문을 확인해 주세요."
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "content_error": "HTTP 403"
     },
     {
       "title": "New Orleans Pelicans vs. Dallas Mavericks: Game Highlights - ESPN",
@@ -652,7 +1094,10 @@
       "status": "partial",
       "title_ko": "뉴올리언스 펠리컨스 대 댈러스 매버릭스: 경기 하이라이트 - ESPN",
       "original_url": "https://www.espn.com/video/clip/_/id/50186718/game-highlights",
-      "error": "본문·댓글 수집 또는 번역을 완료하지 못했습니다. 원문을 확인해 주세요."
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "content_error": "RuntimeError"
     },
     {
       "title": "Dallas Mavericks vs. New Orleans Pelicans - Game Highlights - Yahoo Sports",
@@ -660,9 +1105,24 @@
       "source": "Google News · Pelicans",
       "kind": "news",
       "published": "2026-10-15T03:01:30+00:00",
-      "thumbnail": "",
-      "status": "pending",
-      "title_ko": "댈러스 매버릭스 대 뉴올리언스 펠리컨스: 경기 하이라이트 - Yahoo Sports"
+      "thumbnail": "https://s.yimg.com/lo/mysterio/api/1ff5ffed62941c3b982fe1872def8cf1bd9cc75a9c6a491b95b1a7eca83bc5d9/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fcf-images.us-east-1.prod.boltdns.net%2Fv1%2Fjit%2F6415665815001%2F9f2fc33c-0c0c-41e6-911a-6b61aba1ed17%2Fmain%2F1280x720%2F29s578ms%2Fmatch%2Fimage.jpg",
+      "status": "ready",
+      "title_ko": "댈러스 매버릭스 대 뉴올리언스 펠리컨스: 경기 하이라이트 - Yahoo Sports",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "original_url": "https://sports.yahoo.com/videos/dallas-mavericks-vs-orleans-pelicans-030130314.html",
+      "summary_en": [
+        "New Orleans Pelicans - Game HighlightsWatch the Game Highlights from Dallas Mavericks vs.",
+        "New Orleans Pelicans, 10/14/2026 0:59 Now PlayingPausedAd Playing Dallas Mavericks vs.",
+        "New Orleans Pelicans - Game Highlights 2:01 Now PlayingPausedAd Playing Oklahoma City Thunder vs."
+      ],
+      "summary_source": "article",
+      "summary_ko": [
+        "뉴올리언스 펠리컨스 - 경기 하이라이트Dallas Mavericks vs. New Orleans Pelicans의 경기 하이라이트를 시청하세요.",
+        "New Orleans Pelicans, 2026년 10월 14일 0:59 현재 재생중지광고 Dallas Mavericks vs.",
+        "뉴올리언스 펠리컨스 - 게임 하이라이트 2:01 현재 재생중 일시중지광고 재생 중 Oklahoma City Thunder 대."
+      ],
+      "processed_at": "2026-10-18T02:55:00.729487+00:00"
     },
     {
       "title": "Jeremiah Fears Leads New Orleans Pelicans To Win Over Mavericks On His Birthday - Yahoo Sports",
@@ -679,7 +1139,8 @@
         "몇 가지가 더 있었지만 요점은 펠리컨스가 완전한 스쿼드를 상대하지 않았다는 것입니다.",
         "하지만 Thunder와의 경기와는 달리 New Orleans의 주요 기여자들은 다양한 깊이와 역할 플레이어를 상대로 해야 할 것처럼 플레이할 수 있었습니다."
       ],
-      "processed_at": "2026-10-18T00:15:46.211412+00:00"
+      "processed_at": "2026-10-18T00:15:46.211412+00:00",
+      "translation_errors": {}
     },
     {
       "title": "Preseason postgame wrap: Pelicans 101, Mavericks 97 - NBA.com",
@@ -690,7 +1151,10 @@
       "thumbnail": "",
       "status": "partial",
       "title_ko": "프리시즌 경기 정리: 펠리컨스 101, 매버릭스 97 - NBA.com",
-      "error": "본문·댓글 수집 또는 번역을 완료하지 못했습니다. 원문을 확인해 주세요."
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "content_error": "HTTP 403"
     },
     {
       "title": "What y’all think of the article?",
@@ -699,9 +1163,85 @@
       "kind": "reddit",
       "published": "2026-10-15T02:08:14+00:00",
       "thumbnail": "https://preview.redd.it/01m3v4nhhjvh1.jpg?width=140&height=140&crop=1:1,smart&auto=webp&s=a8dab4442136267bb5bff1f599c9554ede68d2a0",
-      "status": "partial",
+      "status": "ready",
       "title_ko": "이 기사에 대해 어떻게 생각하세요?",
-      "error": "본문·댓글 수집 또는 번역을 완료하지 못했습니다. 원문을 확인해 주세요."
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "body_en": "",
+      "comments": [
+        {
+          "author": "linemen8",
+          "score": null,
+          "body_en": "I think Dorignac's got some good wine prices 😆",
+          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1x69nqo/what_yall_think_of_the_article/pgtltno/",
+          "body_ko": "도리냑은 와인 가격이 괜찮은 것 같아요 😆"
+        },
+        {
+          "author": "Entire_Chicken_2630",
+          "score": null,
+          "body_en": "🍷🍷🍷🍷 Thought about editing that out but swear I have no relation",
+          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1x69nqo/what_yall_think_of_the_article/pgto1e0/",
+          "body_ko": "🍷🍷🍷🍷 편집할까 생각도 해봤지만 맹세코 난 아무 관계도 없어"
+        },
+        {
+          "author": "kingralek",
+          "score": null,
+          "body_en": "I think the Editor’s Note is spot on. This sub also reflects these differing mindsets throughout the season and this sub’s recent history.",
+          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1x69nqo/what_yall_think_of_the_article/pgtk1jr/",
+          "body_ko": "편집자 노트가 딱 맞는 것 같아요.\n이 서브는 또한 시즌 전반에 걸쳐 이러한 다양한 사고방식과 이 서브의 최근 역사를 반영합니다."
+        },
+        {
+          "author": "JBinNOLA",
+          "score": null,
+          "body_en": "He strikes the right tone of skeptical optimism. I mean, the pieces are clearly here for this to be a competitive and entertaining team, they just have to prove it on the court before anyone believes it.",
+          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1x69nqo/what_yall_think_of_the_article/pgu40f4/",
+          "body_ko": "그는 회의적인 낙관주의의 올바른 어조를 뽐냅니다.\n제 말은, 이 팀이 경쟁적이고 재미있는 팀이 되기 위해서는 분명히 필요한 부분이 있다는 것입니다. 누군가가 그것을 믿기 전에 코트에서 그것을 증명해야 한다는 것입니다."
+        },
+        {
+          "author": "X-Filer",
+          "score": null,
+          "body_en": "Lots of solid pieces but the actual fit is so strange:. A very limited 3 point shooting ability. Not the strongest defenders. This is going to be a weird season.",
+          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1x69nqo/what_yall_think_of_the_article/pgucaos/",
+          "body_ko": "단단한 조각이 많지만 실제 핏이 너무 이상합니다.\n3점슛 능력이 매우 제한적입니다.\n가장 강력한 수비수는 아닙니다.\n이번 시즌은 이상한 시즌이 될 것입니다."
+        },
+        {
+          "author": "Julep2005",
+          "score": null,
+          "body_en": "I’m tired of getting my hopes up. Every year we have a great team on paper or atleast middle of the pack and by game 30 we just want it to be over from either coaching issues injuries or both. I expect nothing from this season. I would love to be wrong but they’ve exhausted me. I’m tired of getting clowned in at work for having faith in them.",
+          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1x69nqo/what_yall_think_of_the_article/pgw5fer/",
+          "body_ko": "나는 희망을 키우는 것에 지쳤습니다.\n매년 우리는 서류상으로나 적어도 중간 정도의 훌륭한 팀을 보유하고 있으며 30경기까지는 코칭 문제나 부상 또는 두 가지 모두에서 끝나기를 원합니다.\n이번 시즌에는 아무것도 기대하지 않습니다.\n나는 틀리고 싶지만 그들은 나를 지쳤습니다.\n나는 직장에서 그들을 믿는다는 이유로 광대 취급을 받는 것에 지쳤습니다."
+        },
+        {
+          "author": "ultra-saurus",
+          "score": null,
+          "body_en": "So what you're saying is, GO PELS?!",
+          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1x69nqo/what_yall_think_of_the_article/ph14q9d/",
+          "body_ko": "그럼 당신이 말하는 것은 GO PELS?!"
+        },
+        {
+          "author": "Wet_Lengthiness_5000",
+          "score": null,
+          "body_en": "Well written and well thought out. I couldn’t agree more.",
+          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1x69nqo/what_yall_think_of_the_article/pgtr3y8/",
+          "body_ko": "잘 작성되었고 잘 생각되었습니다.\n나는 더 이상 동의할 수 없었다."
+        },
+        {
+          "author": "wjustice721",
+          "score": null,
+          "body_en": "I’m ready! The beginning of the season is the most exciting… I think they are going to come out trying to prove something. New coach, DJ back for a full season (hopefully). Zion looking like he’s in pretty good shape. If they can string some wins together early on, they might start believing they can win. They’re still a long way away from where they need to be: expecting to win. But you have to start somewhere.",
+          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1x69nqo/what_yall_think_of_the_article/ph03vud/",
+          "body_ko": "난 준비됐어!\n시즌 초반이 가장 흥미진진한데… 무언가를 증명하려고 나올 것 같아요.\n새로운 코치, DJ가 풀 시즌으로 돌아왔습니다(희망적으로).\n자이언은 몸이 꽤 좋아 보이는데요.\n초기에 몇 가지 승리를 함께 묶을 수 있다면 승리할 수 있다고 믿기 시작할 수도 있습니다.\n그들은 그들이 있어야 할 곳, 즉 승리를 기대하는 곳과는 아직 거리가 멀습니다.\n하지만 어딘가에서 시작해야 합니다."
+        },
+        {
+          "author": "urban_vermin19",
+          "score": null,
+          "body_en": "I think it’s pretty cool that local journalism is writing a big story like this about the Pels.",
+          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1x69nqo/what_yall_think_of_the_article/ph1c6bo/",
+          "body_ko": "나는 지역 저널리즘이 펠스 가문에 대해 이와 같은 큰 기사를 쓰고 있다는 것이 꽤 멋지다고 생각합니다."
+        }
+      ],
+      "summary_en": [],
+      "processed_at": "2026-10-18T02:55:15.503892+00:00"
     },
     {
       "title": "Who is going to lead the team in FGA this season?",
@@ -710,9 +1250,9 @@
       "kind": "reddit",
       "published": "2026-10-15T02:02:57+00:00",
       "thumbnail": "",
+      "body_en": "This team has a lot of mouths to feed. It’s not like SGA always going to lead the team, or Edwards/Ball on Minny, or KAT/Brunson on Knicks. There are a lot of guys that would like a steady shot diet. Let’s go through those with a chance:\n3rd String - Bryce, Pierre Jr, Jordan, etc. just deserve a mention because they’re on the team. Bryce can do it in April if the team is mathematically eliminated and others are hurt/pulled.d\n2nd string but highly unlikely - Missi, Karlo just won’t’ get enough shot attempts. They do not create on their own.\n2nd string but possible a couple of times a month - Mathurin, Poole and sometimes Queen. Mathurin and Poole are shooters. They can get hot and if they do, only Mosley can slow them down. Queen has scored more than 30 in a game and he will operate as the hub of the offense. I could imagine him having the most shots a few times this season. Bey can fit in this category as well if he goes on a heater, but he too usually seems to thrive if someone sets the table for him\nDefensive wing that seems unlikely - Herb. He’s just not going to shoot the ball 20 times in a game. And that’s ok.\nPoint guards - DJM and Fears. Both will have the ball in their respective hands. Fears will likely have it more due to DJM’s injury history. Fears has taken a lot of shots tonight, and this could be the best way for him in the event he can maintain above average shooting. Last season we saw DJM shoot more, which could result in some inefficient performances.\nVeterans forwards - Trey and Zion. These 2 should lead the team in shot attempts. Zion shoots a very high percentage from the paint, who knows if he’ll shoot a 3 during the season. We know Trey can. Trey can light it up and shoots well above league average from deep.\nI think this will be interesting development this season. I would think at the end of the season Zion will lead and Trey will be second. However, I think that on any night DJM, Fears, Queen, Mathurin and Poole could have the most shots. If they can figure out to use this efficiently, they can improve offense along with defense.",
       "status": "ready",
       "title_ko": "이번 시즌 팀에서 야투를 가장 많이 시도할 선수는 누구일까요?",
-      "body_en": "This team has a lot of mouths to feed. It’s not like SGA always going to lead the team, or Edwards/Ball on Minny, or KAT/Brunson on Knicks. There are a lot of guys that would like a steady shot diet. Let’s go through those with a chance:\n3rd String - Bryce, Pierre Jr, Jordan, etc. just deserve a mention because they’re on the team. Bryce can do it in April if the team is mathematically eliminated and others are hurt/pulled.d\n2nd string but highly unlikely - Missi, Karlo just won’t’ get enough shot attempts. They do not create on their own.\n2nd string but possible a couple of times a month - Mathurin, Poole and sometimes Queen. Mathurin and Poole are shooters. They can get hot and if they do, only Mosley can slow them down. Queen has scored more than 30 in a game and he will operate as the hub of the offense. I could imagine him having the most shots a few times this season. Bey can fit in this category as well if he goes on a heater, but he too usually seems to thrive if someone sets the table for him\nDefensive wing that seems unlikely - Herb. He’s just not going to shoot the ball 20 times in a game. And that’s ok.\nPoint guards - DJM and Fears. Both will have the ball in their respective hands. Fears will likely have it more due to DJM’s injury history. Fears has taken a lot of shots tonight, and this could be the best way for him in the event he can maintain above average shooting. Last season we saw DJM shoot more, which could result in some inefficient performances.\nVeterans forwards - Trey and Zion. These 2 should lead the team in shot attempts. Zion shoots a very high percentage from the paint, who knows if he’ll shoot a 3 during the season. We know Trey can. Trey can light it up and shoots well above league average from deep.\nI think this will be interesting development this season. I would think at the end of the season Zion will lead and Trey will be second. However, I think that on any night DJM, Fears, Queen, Mathurin and Poole could have the most shots. If they can figure out to use this efficiently, they can improve offense along with defense.",
       "body_ko": "이 팀에는 슛 기회를 원하는 선수가 많습니다. SGA가 항상 공격을 이끄는 팀이나 미네소타의 에드워즈·볼, 닉스의 KAT·브런슨처럼 구도가 뚜렷한 상황은 아닙니다. 꾸준히 슛을 던지고 싶은 선수들이 여럿 있죠. 가능성이 있는 선수들을 살펴보겠습니다.\n\n3군 — 브라이스, 피에르 주니어, 조던 등도 팀의 일원이니 언급은 해야겠죠. 브라이스는 팀의 플레이오프 진출이 수학적으로 불가능해지고 다른 선수들이 부상이나 휴식으로 빠지는 4월이라면 가능할 수 있습니다.\n\n2군이지만 가능성이 매우 낮은 선수 — 미시와 카를로는 슛 시도 자체가 충분하지 않을 겁니다. 스스로 공격 기회를 만들어내는 유형도 아닙니다.\n\n2군이지만 한 달에 몇 번은 가능할 선수 — 매서린, 풀, 그리고 때에 따라 퀸입니다. 매서린과 풀은 슈터라서 한번 슛 감각이 달아오르면 모슬리 감독만이 이들을 멈출 수 있겠죠. 퀸은 한 경기에서 30점 이상 넣은 적이 있고 공격의 중심 역할도 맡을 겁니다. 이번 시즌 몇 경기에서는 그가 가장 많은 슛을 던질 수도 있다고 봅니다. 베이도 슛 감각이 좋을 때는 여기에 들어갈 수 있지만, 보통은 동료가 기회를 만들어줄 때 더 잘하는 것 같습니다.\n\n가능성이 낮아 보이는 수비형 윙 — 허브입니다. 한 경기에서 슛을 20개씩 던질 선수는 아니죠. 그래도 괜찮습니다.\n\n포인트가드 — DJM과 피어스입니다. 둘 다 공을 다룰 기회가 많겠지만, DJM의 부상 이력을 생각하면 피어스가 더 많이 공을 잡을 가능성이 있습니다. 피어스는 오늘 밤 슛을 많이 던졌는데, 평균 이상의 슛 성공률을 유지할 수 있다면 이 방식이 가장 좋을 수도 있습니다. 지난 시즌에는 DJM의 슛 시도가 늘었고, 그로 인해 효율이 떨어지는 경기도 나올 수 있었습니다.\n\n베테랑 포워드 — 트레이와 자이언입니다. 두 선수가 팀에서 가장 많은 슛을 던져야 한다고 봅니다. 자이언은 페인트존에서 매우 높은 성공률을 보이지만 이번 시즌 3점슛을 던질지는 모르겠습니다. 트레이는 3점슛을 넣을 수 있다는 걸 알고 있죠. 한번 터지면 득점을 쏟아낼 수 있고, 3점 성공률도 리그 평균보다 훨씬 높습니다.\n\n이번 시즌 흥미롭게 지켜볼 부분이라고 생각합니다. 시즌이 끝났을 때는 자이언이 야투 시도 1위, 트레이가 2위일 것으로 예상합니다. 다만 경기마다 DJM, 피어스, 퀸, 매서린, 풀이 가장 많은 슛을 던지는 날도 있을 겁니다. 이런 자원을 효율적으로 활용할 방법을 찾으면 수비와 함께 공격도 좋아질 수 있습니다.",
       "comments": [
         {
@@ -747,7 +1287,8 @@
         "It’s not like SGA always going to lead the team, or Edwards/Ball on Minny, or KAT/Brunson on Knicks.",
         "There are a lot of guys that would like a steady shot diet.",
         "just deserve a mention because they’re on the team."
-      ]
+      ],
+      "translation_errors": {}
     },
     {
       "title": "Photos: Pelicans at Mavericks | Game Action 10/14/26 - NBA.com",
@@ -758,7 +1299,24 @@
       "thumbnail": "",
       "status": "partial",
       "title_ko": "사진: 펠리컨스의 매버릭스 원정 경기 장면, 2026년 10월 14일 - NBA.com",
-      "error": "본문·댓글 수집 또는 번역을 완료하지 못했습니다. 원문을 확인해 주세요."
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "content_error": "HTTP 403"
+    },
+    {
+      "title": "Pelicans banking on better health and a new coaching staff to improve their unchanged core - Bozeman Daily Chronicle",
+      "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxQbjl4Sk00MURZNk4yWEdOZmNCS252Q0VqVUQ2c1dDWThZcVRUM3B4SFN0dmJMU25tdjlBd0d1QU81TUxzVkdRdVlocHhTMFEwOHEzelFhY2tzaWRrYnQ5Yk5YLTNjcmFzYi1qd3d4Umkyc2x6VnBtOWFQM0ZuLUNJZl9sb212eENkemt4UEFtZ1QxVHEyY3lMZ0JVU2k3WGRNOTB3dFZlM1Q5am96ZEhmdDBGSkhXOWxhN1RibDJYZnliOUM4T0t0QjZ6aUxqakpxaHpJU1VzZXNIU1piWVBEbVRfSmVtbVphZXRNWWtjTFl5VFllbU9WQ28xQlpjeU1iUTNGVFBMb3NBcTMyVDBGeGRhZVJfRUE0NFE?oc=5",
+      "source": "Google News · Pelicans",
+      "kind": "news",
+      "published": "2026-10-15T01:28:32+00:00",
+      "thumbnail": "",
+      "status": "partial",
+      "title_ko": "펠리컨들은 더 나은 건강과 변함없는 핵심을 향상시키기 위한 새로운 코칭 스태프를 원합니다 - Bozeman Daily Chronicle",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "content_error": "HTTP 429",
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
     {
       "title": "Fears is clearly the best guard on the team at this point hopefully the coming off the bench gimmick doesn’t last too long",
@@ -767,9 +1325,14 @@
       "kind": "reddit",
       "published": "2026-10-15T01:10:56+00:00",
       "thumbnail": "",
+      "body_en": "Dejounte is clearly on the decline and not the same player he once was the writing is on the wall need Fears starting by the 20th game mark or something",
       "status": "partial",
       "title_ko": "지금 피어스는 분명 팀 최고의 가드예요. 벤치에서 출발시키는 실험이 오래가지는 않길 바랍니다",
-      "error": "본문·댓글 수집 또는 번역을 완료하지 못했습니다. 원문을 확인해 주세요."
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
+      "body_ko": "Dejounte는 확실히 쇠퇴하고 있으며 예전과 같은 선수가 아닙니다. 벽에 글을 쓴 것은 20번째 게임 마크부터 시작하는 Fears가 필요하다는 것입니다.",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "content_error": "HTTP 429"
     },
     {
       "title": "Mavericks vs Pelicans Preview and Injury Update: Back in the AAC - Mavs Moneyball",
@@ -777,9 +1340,24 @@
       "source": "Google News · Pelicans",
       "kind": "news",
       "published": "2026-10-14T23:00:00+00:00",
-      "thumbnail": "",
-      "status": "pending",
-      "title_ko": "매버릭스 대 펠리컨스 전망과 부상 소식: 다시 AAC에서 - Mavs Moneyball"
+      "thumbnail": "https://platform.mavsmoneyball.com/wp-content/uploads/sites/104/2026/10/gettyimages-2267234978.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+      "status": "ready",
+      "title_ko": "매버릭스 대 펠리컨스 전망과 부상 소식: 다시 AAC에서 - Mavs Moneyball",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "original_url": "https://www.mavsmoneyball.com/dallas-mavericks-game-coverage/62815/mavericks-vs-pelicans-preview-start-time-tv-stream-injury-report-how-to-watch",
+      "summary_en": [
+        "The Dallas Mavericks host the New Orleans Pelicans in their third contest of the preseason.",
+        "The Pelicans played the Oklahoma City Thunder and Miami Heat last week in their effort to tune up before the start of the regular season.",
+        "Mavericks vs Pelicans Preview and Injury Update: Back in the AAC"
+      ],
+      "summary_source": "article",
+      "summary_ko": [
+        "댈러스 매버릭스는 프리시즌 세 번째 대회에서 뉴올리언스 펠리컨스를 개최합니다.",
+        "펠리컨스는 정규 시즌이 시작되기 전에 조율을 위해 지난주 오클라호마시티 썬더와 마이애미 히트를 상대로 경기를 펼쳤습니다.",
+        "Mavericks vs Pelicans 미리보기 및 부상 업데이트: AAC로 돌아옴"
+      ],
+      "processed_at": "2026-10-18T02:55:23.999878+00:00"
     },
     {
       "title": "[GDT] New Orleans Pelicans vs Dallas Mavs -- Preseason Game 3",
@@ -788,9 +1366,14 @@
       "kind": "reddit",
       "published": "2026-10-14T17:21:39+00:00",
       "thumbnail": "",
+      "body_en": "Fuck the Mavs. Game @ 19:00 CST\nIf anyone else wants to put up a post-game thread after, I'm likely gonna be asleep",
       "status": "partial",
       "title_ko": "[경기 토론] 뉴올리언스 펠리컨스 대 댈러스 매버릭스 — 프리시즌 3차전",
-      "error": "본문·댓글 수집 또는 번역을 완료하지 못했습니다. 원문을 확인해 주세요."
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
+      "body_ko": "Mavs 엿 먹어라.\n게임 @ 19:00 CST\n혹시 나중에 게임 후 글을 올리고 싶은 분이 계시다면 저는 아마 자고 있을 것 같습니다.",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "content_error": "HTTP 429"
     },
     {
       "title": "New Orleans Pelicans at Dallas Mavericks - Where to Watch, Stream Info, TV Channel, and Live Updates (October 14, 2026) - Fubo",
@@ -798,11 +1381,16 @@
       "source": "Google News · Pelicans",
       "kind": "news",
       "published": "2026-10-14T14:14:34+00:00",
-      "thumbnail": "",
+      "thumbnail": "https://www.fubo.tv/news/wp-content/uploads/2026/10/New_Orleans_Pelicans_at_Dallas_Mavericks_-_Where_to_Watch_Stream_Info_TV_Channel_and_Live_Updates_October_14_2026.webp",
       "status": "partial",
       "title_ko": "뉴올리언스 펠리컨스의 댈러스 매버릭스 원정: 중계·스트리밍·실시간 소식, 2026년 10월 14일 - Fubo",
-      "error": "본문·댓글 수집 또는 번역을 완료하지 못했습니다. 원문을 확인해 주세요.",
-      "original_url": "https://www.fubo.tv/news/nba/new-orleans-pelicans-at-dallas-mavericks-where-to-watch-stream-info-tv-channel-and-live-updates-october-14-2026/"
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
+      "original_url": "https://www.fubo.tv/news/nba/new-orleans-pelicans-at-dallas-mavericks-where-to-watch-stream-info-tv-channel-and-live-updates-october-14-2026/",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "summary_en": [],
+      "summary_source": "article",
+      "content_error": "RuntimeError"
     },
     {
       "title": "Asking Pelicans fans of all generations!",
@@ -811,9 +1399,14 @@
       "kind": "reddit",
       "published": "2026-10-14T14:06:53+00:00",
       "thumbnail": "",
+      "body_en": "Hey Pelicans fans, so I’m making a video on each franchise’s biggest upset (when they were not expected to win) and each franchise’s biggest choke (sorry if that strikes a chord). I have my guesses for each but I wanted to ask actual Pelicans fans to see what you guys think and if you have better answers that I should look at.\nI'm considering an\nupset\nstrictly as when that team was not supposed to win or were big underdogs and won. A\nchoke\ncan either be when your team was expected to win and underperformed, or blew a big lead in an important game or in the playoffs (something around those lines). It can also be a blown playoff lead (example: 3-1 lead)\nLet me know what you guys think, I will link the video here when it’s done. Good luck to you guys this season!!",
       "status": "partial",
       "title_ko": "모든 세대의 펠리컨스 팬들에게 묻습니다!",
-      "error": "본문·댓글 수집 또는 번역을 완료하지 못했습니다. 원문을 확인해 주세요."
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
+      "body_ko": "안녕하세요, Pelicans 팬 여러분, 저는 각 프랜차이즈의 가장 큰 이변(승리할 것으로 예상되지 않았을 때)과 각 프랜차이즈의 가장 큰 질식(심각하게 느껴지셨다면 죄송합니다)에 대한 영상을 만들고 있습니다.\n각각에 대해 추측이 있지만 실제 펠리컨스 팬들에게 여러분이 어떻게 생각하는지, 그리고 제가 살펴보아야 할 더 나은 답변이 있는지 물어보고 싶었습니다.\n나는 ~을 고려하고 있다\n당황하다\n엄밀히 말하면 그 팀이 이기지 못하거나 큰 약자여서 이겼을 때와 마찬가지입니다.\n에이\n초크\n팀이 승리할 것으로 예상됐지만 성과가 저조했을 때일 수도 있고, 중요한 경기나 플레이오프에서 큰 선두를 날렸을 때(이런 수준에 해당하는 것)일 수도 있습니다.\n플레이오프에서 리드가 터질 수도 있습니다(예: 3-1 리드).\n여러분의 생각을 알려주세요. 완료되면 여기에 동영상을 링크하겠습니다.\n이번시즌도 잘 부탁드려요!!",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "content_error": "HTTP 429"
     },
     {
       "title": "Now do the Pelicans",
@@ -824,7 +1417,10 @@
       "thumbnail": "https://preview.redd.it/4iij09r4tavh1.jpeg?width=640&crop=smart&auto=webp&s=037e2f023970a6343156cf92cf4508f90d66acaa",
       "status": "partial",
       "title_ko": "이제 펠리컨스도 해주세요",
-      "error": "본문·댓글 수집 또는 번역을 완료하지 못했습니다. 원문을 확인해 주세요."
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "content_error": "HTTP 429"
     },
     {
       "title": "Where New Orleans Pelicans Stars Landed in Top 150 Fantasy Basketball Ranking - Yahoo Sports",
@@ -841,7 +1437,8 @@
         "펠리컨스는 부상 운, 선수들의 불매, 그리고 낮은 리더십 등이 복합적으로 문제를 안고 있었습니다.",
         "ESPN의 Andre Snelling이 선정한 프리시즌 상위 150위 안에 든 뉴올리언스 스타를 살펴보세요."
       ],
-      "processed_at": "2026-10-17T15:18:26.723419+00:00"
+      "processed_at": "2026-10-17T15:18:26.723419+00:00",
+      "translation_errors": {}
     },
     {
       "title": "Call me crazy",
@@ -850,8 +1447,14 @@
       "kind": "reddit",
       "published": "2026-10-11T16:08:17+00:00",
       "thumbnail": "",
-      "status": "pending",
-      "title_ko": "제가 이상하다고 해도 좋습니다"
+      "body_en": "Just wanna see what y'all think, I'm guessing nobody in new orleans is ready to give up on zion, but if the organization chooses to center around queens and give up on zion this might be a decent deal",
+      "status": "partial",
+      "title_ko": "제가 이상하다고 해도 좋습니다",
+      "body_ko": "다들 어떻게 생각하시는지 알고 싶습니다. 뉴올리언스의 누구도 Zion을 포기할 준비가 되어 있지 않을 것 같습니다. 하지만 조직이 Queens를 중심으로 Zion을 포기하기로 선택한다면 이는 괜찮은 거래가 될 수 있습니다.",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "content_error": "HTTP 429",
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
     {
       "title": "Tip-Off Time: A curmudgeon’s guide to the New Orleans Pelicans’ 2026 season - NOLA.com",
@@ -859,9 +1462,24 @@
       "source": "Google News · Pelicans",
       "kind": "news",
       "published": "2026-10-11T15:30:00+00:00",
-      "thumbnail": "",
-      "status": "pending",
-      "title_ko": "개막이 다가온다: 까칠한 팬을 위한 펠리컨스 2026시즌 안내 - NOLA.com"
+      "thumbnail": "https://bloximages.newyork1.vip.townnews.com/nola.com/content/tncms/assets/v3/editorial/0/e2/0e296e75-f403-44c2-a05d-468daf4a78c1/6ac661f15fe24.image.jpg?crop=1726%2C907%2C0%2C146&resize=1200%2C631&order=crop%2Cresize",
+      "status": "ready",
+      "title_ko": "개막이 다가온다: 까칠한 팬을 위한 펠리컨스 2026시즌 안내 - NOLA.com",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "original_url": "https://www.nola.com/gambit/events/tip-off-time-a-curmudgeon-s-guide-to-the-new-orleans-pelicans-2026-season/article_82a38864-5fe2-45f5-8cfe-d18fbff2c703.html",
+      "summary_en": [
+        "Editor's note: With the NBA season ready to kick off this month, weary eyes here in New Orleans are turning once again toward the Smoothie King Center, home of the always rebuilding Pelicans.",
+        "There are generally two types of Pelicans fans.",
+        "For these Pelicans faithful, they start off the year already seeing the doom on the horizon and not only expect but embrace the crushing letdown the preseason has foretold."
+      ],
+      "summary_source": "article",
+      "summary_ko": [
+        "편집자 주: 이번 달 NBA 시즌이 시작될 준비가 되면서 이곳 뉴올리언스의 지친 눈이 다시 한 번 재건되고 있는 펠리컨의 본거지인 스무디 킹 센터로 향하고 있습니다.",
+        "펠리컨스 팬에는 일반적으로 두 가지 유형이 있습니다.",
+        "이 펠리컨의 충실한 사람들은 이미 파멸이 다가오고 있음을 보고 한 해를 시작하고 프리시즌이 예고한 엄청난 실망을 예상할 뿐만 아니라 받아들입니다."
+      ],
+      "processed_at": "2026-10-18T02:55:29.708110+00:00"
     },
     {
       "title": "Yves Messi",
@@ -870,8 +1488,14 @@
       "kind": "reddit",
       "published": "2026-10-10T18:09:14+00:00",
       "thumbnail": "",
-      "status": "pending",
-      "title_ko": "이브 미시"
+      "body_en": "Do you think he has defensive player of the year potential or all defensive team?\nI seen him play and he is getting better every year. I am annoyed by his shooting inside.\nBut I’ve been pleasantly surprised by him. I think defensive player of the year is a stretch, but who knows I’ll love to be wrong.",
+      "status": "partial",
+      "title_ko": "이브 미시",
+      "body_ko": "당신은 그가 올해의 수비 선수 잠재력을 가지고 있다고 생각합니까, 아니면 전체 수비 팀을 가지고 있다고 생각합니까?\n나는 그가 플레이하는 것을 보았고 그는 매년 나아지고 있습니다.\n나는 그가 내부에서 총격을 가하는 것에 짜증이 난다.\n하지만 나는 그에게 기분 좋게 놀랐습니다.\n올해의 수비 선수는 무리라고 생각하지만, 내가 틀리고 싶어할 줄 누가 알겠어요.",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "content_error": "HTTP 429",
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
     {
       "title": "How can the Pels lock 🔒 down The Haliban and ultimately defeat the Pacers?",
@@ -880,8 +1504,12 @@
       "kind": "reddit",
       "published": "2026-10-10T03:17:23+00:00",
       "thumbnail": "https://preview.redd.it/p1n4y7qa5kuh1.jpeg?width=640&crop=smart&auto=webp&s=c4b539b964dc060ea3c9229b4c3cacb9ee87f080",
-      "status": "pending",
-      "title_ko": "펠리컨스는 어떻게 '할리반'을 봉쇄하고 페이서스를 이길 수 있을까요?"
+      "status": "partial",
+      "title_ko": "펠리컨스는 어떻게 '할리반'을 봉쇄하고 페이서스를 이길 수 있을까요?",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "content_error": "HTTP 429",
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
     {
       "title": "Anyone just bored of this org at this point",
@@ -890,320 +1518,715 @@
       "kind": "reddit",
       "published": "2026-10-09T20:20:23+00:00",
       "thumbnail": "",
-      "status": "pending",
-      "title_ko": "이제 이 구단에 지친 분 있나요?"
+      "body_en": "The constant fence sitting from them wanting to win but absolutely no positive moves or not just starting again, it's so tiring knowing our peak is maybe sneaking a play-in appearance how depressing is that, feel like I'm 90% out at this point, how far are some of you guys just from calling quits?",
+      "status": "partial",
+      "title_ko": "이제 이 구단에 지친 분 있나요?",
+      "body_ko": "이기기를 원하지만 전혀 긍정적인 움직임이 없거나 다시 시작하지 않는 끊임없는 울타리, 우리의 정점이 몰래 플레이인 모습을 보일 수도 있다는 것을 아는 것은 너무 피곤합니다. 이 시점에서 제가 90% 아웃된 것 같은 느낌이 듭니다. 여러분 중 일부는 그만 두기까지 얼마나 남았습니까?",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "content_error": "HTTP 429",
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
     {
       "title": "Washington Wizards vs New Orleans Pelicans Oct 16, 2026 Play-by-Play - NBA.com",
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5BbzRfLUthVUQwVGVhQ2VWUTBueGNDZnlZc0JpNkJEcnd1a1ZDVTZFNEtQYmVPS0lVemQ2VjdESFBUUF8wUVg4eF93M2pkR191MzhyaUxLQWMtOU5xUWF2MXhoYk9UQ2hhQTVF?oc=5",
       "source": "Google News · Pelicans",
       "kind": "news",
-      "status": "pending",
-      "title_ko": "워싱턴 위저즈 대 뉴올리언스 펠리컨스: 2026년 10월 16일 경기 진행 기록 - NBA.com"
+      "status": "partial",
+      "title_ko": "워싱턴 위저즈 대 뉴올리언스 펠리컨스: 2026년 10월 16일 경기 진행 기록 - NBA.com",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "content_error": "HTTP 403",
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
     {
       "title": "Recap | Wizards drop preseason finale to Pelicans, 107-106 - Bullets Forever",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOX3BYb1pHdERlYXR3OHpYa0RTMGJPZ2E4LVBGNlBWS2g1c2FVLWlZblAxRE92dFFaNHpIblY2ZGdZaUhJUU15VGx1QnpMN0dOb2VrbmRwWUV3T1czdFJCaXZEcjMzTGZ2NGJ3OWVQTGNZYVBObzVZT21ZRnduZFVnWHk5SFNiZHdKTFc3cTE5Z3E1N3dDRGhlQ3ViNlpRLXpvOWhYTlVsWFItOGR4RDg2cTdn?oc=5",
       "source": "Google News · Pelicans",
       "kind": "news",
-      "status": "pending",
-      "title_ko": "경기 정리: 위저즈, 프리시즌 최종전에서 펠리컨스에 107-106으로 패배 - Bullets Forever"
+      "status": "ready",
+      "title_ko": "경기 정리: 위저즈, 프리시즌 최종전에서 펠리컨스에 107-106으로 패배 - Bullets Forever",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "thumbnail": "https://platform.bulletsforever.com/wp-content/uploads/sites/52/2026/10/gettyimages-2300028149.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+      "original_url": "https://www.bulletsforever.com/washington-wizards-recaps/73447/wizards-drop-preseason-finale-to-pelicans-107-106",
+      "summary_en": [
+        "In their preseason finale, the Washington Wizards lost to a New Orleans Pelicans squad well-stocked with former Wizards, 107-106.",
+        "Recap | Wizards drop preseason finale to Pelicans, 107-106",
+        "Finally, when New Orleans passed to the wing, Young and George switched while the ball was in the air — George going back to the bigger Jones, and Young picking up the smaller guard."
+      ],
+      "summary_source": "article",
+      "summary_ko": [
+        "프리시즌 피날레에서 워싱턴 위저즈는 이전 위저즈로 가득 찬 뉴올리언스 펠리컨스 팀(107-106)에게 패했습니다.",
+        "요약 | 위저즈, 107-106으로 펠리컨스에게 프리시즌 피날레를 선사",
+        "마지막으로 New Orleans가 윙으로 패스했을 때 Young과 George는 공이 공중에 있는 동안 방향을 바꿨습니다. George는 더 큰 Jones에게 돌아가고 Young은 더 작은 가드를 집어 들었습니다."
+      ],
+      "processed_at": "2026-10-18T02:55:37.034375+00:00"
     },
     {
       "title": "Wizards vs. Pelicans (Oct 16, 2026) Live Odds, Player Props, and more - ESPN",
       "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5abkYxQTdMc1U5Z00yUnkyM2J3V2hGaFM1R2ltSUw3RDJwVTB6a0dtSlRpYVNzdGZLOWRsOHZZU3VwaFF3N1QxOUhieThsVlVzdlRvdldjWG1ua2Yx?oc=5",
       "source": "Google News · Pelicans",
       "kind": "news",
-      "status": "pending",
-      "title_ko": "위저즈 대 펠리컨스, 2026년 10월 16일: 실시간 배당과 선수별 베팅 정보 등 - ESPN"
+      "status": "partial",
+      "title_ko": "위저즈 대 펠리컨스, 2026년 10월 16일: 실시간 배당과 선수별 베팅 정보 등 - ESPN",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "original_url": "https://www.espn.com/nba/odds/_/gameId/401906509",
+      "content_error": "RuntimeError",
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
     {
       "title": "4 things as the Mavericks’ late comeback falls short in 101-97 preseason loss to New Orleans Pelicans - Mavs Moneyball",
       "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQSXFhak5saHpjWXJNaTlXa3ZSRS03VXNxSUthWmIzYVZ0UDlXZkxLdHhObjdhTThtdW1HcmVMMTBHMFdvZzg5SnN1YjVOM2ZnWmFhZWd5VEpZZlpvSTVBb2h3Vi1BOXozSGJjTGE4czdHYl9rb2UzYUJWanR2VzB2NmwyUGRNelJtaGxoeW8zRTc3RzhCR3VWcU1fRnA5MmRrRHlEYTI0OXpQMC1oUjBwN0taenlad3lPcmFQR1YySzEzdlRrNXlsaWYwUE1kWFZkaFlRYkNVQnBsVUxDZ1RicTJpckJGTWM2eUFFVg?oc=5",
       "source": "Google News · Pelicans",
       "kind": "news",
-      "status": "pending",
-      "title_ko": "매버릭스, 막판 추격에도 펠리컨스에 101-97 프리시즌 패배: 네 가지 관전 포인트 - Mavs Moneyball"
+      "status": "ready",
+      "title_ko": "매버릭스, 막판 추격에도 펠리컨스에 101-97 프리시즌 패배: 네 가지 관전 포인트 - Mavs Moneyball",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "thumbnail": "https://platform.mavsmoneyball.com/wp-content/uploads/sites/104/2026/10/gettyimages-2299693201.jpg?quality=90&strip=all&crop=0%2C14.550735946368%2C100%2C41.882478909723&w=1200",
+      "original_url": "https://www.mavsmoneyball.com/dallas-mavericks-game-coverage/62820/mavericks-vs-pelicans-preseason-recap-final-score-dallas-comeback-falls-short-101-97-loss",
+      "summary_en": [
+        "The Dallas Mavericks (1-2) spent most of Wednesday night’s preseason game against the New Orleans Pelicans (2-1) playing from behind.",
+        "While the deep reserves eventually made the final few minutes interesting, Dallas could never completely erase an ugly offensive start in a 101-97 preseason loss to the Pelicans.",
+        "Pelicans Preseason Recap: Dallas’ late comeback falls short in 101-97 loss"
+      ],
+      "summary_source": "article",
+      "summary_ko": [
+        "댈러스 매버릭스(1-2)는 수요일 밤 프리시즌 경기 대부분을 뉴올리언스 펠리컨스(2-1)와의 역전에서 보냈다.",
+        "깊은 예비군이 결국 마지막 몇 분을 흥미롭게 만들었지만 댈러스는 펠리컨스에게 101-97로 패한 프리시즌에서 추악한 공격 출발을 결코 완전히 지울 수 없었습니다.",
+        "펠리컨스 프리시즌 요약: 댈러스의 늦은 복귀는 101-97 패배로 부족함"
+      ],
+      "processed_at": "2026-10-18T02:55:44.844104+00:00"
     },
     {
       "title": "New Orleans Pelicans vs Dallas Mavericks Oct 14, 2026 Box Scores - NBA.com",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBYZzJMTk02cHhoa01pRlZGVTM1QUFHX0NGVmFxZXM3MkhwOVdmNjJQZ2g0QTd6MTJZNTllX2ItMDFsSlpJM2VIRDdQV3JfTHJzXzBuVnJoblU3T1l5aVJyb182LW40bUk?oc=5",
       "source": "Google News · Pelicans",
       "kind": "news",
-      "status": "pending",
-      "title_ko": "뉴올리언스 펠리컨스 대 댈러스 매버릭스: 2026년 10월 14일 박스스코어 - NBA.com"
+      "status": "partial",
+      "title_ko": "뉴올리언스 펠리컨스 대 댈러스 매버릭스: 2026년 10월 14일 박스스코어 - NBA.com",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "content_error": "HTTP 403",
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
     {
       "title": "Pelicans’ win-by-committee center experiment is already falling apart - Pelican Debrief",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQS3hpX3JqcHZmYk9abTM2NWo0bmpNaWNFQlRvV1pPYS05VVRFYzBQU2ljUTNFOFJIMDVmTG81TVNLWDJoSkpEbEt5eDREQnUzMjFfaGJUSU5zNzVYV2cxT2tRYlhKQ3dPTm9IRDNLX3BsRGwxaXZUNG5ESE9mQUtpRzN1czAzY1ZEZ3JONDljN2t3WFBJMjNKeWtBMA?oc=5",
       "source": "Google News · Pelicans",
       "kind": "news",
-      "status": "pending",
-      "title_ko": "펠리컨스의 센터 역할 분담 실험, 벌써 흔들리고 있다 - Pelican Debrief"
+      "status": "ready",
+      "title_ko": "펠리컨스의 센터 역할 분담 실험, 벌써 흔들리고 있다 - Pelican Debrief",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "thumbnail": "https://images2.minutemediacdn.com/image/upload/c_crop,x_459,y_66,w_1435,h_807/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/73/01m502tj8je8p22hqz1r.jpg",
+      "original_url": "https://pelicandebrief.com/pelicans-win-by-committee-center-experiment-is-already-falling-apart",
+      "summary_en": [
+        "I entered the preseason optimistic about the New Orleans Pelicans’ center rotation, believing a win-by-committee approach could work.",
+        "When you look on paper at a combination of Derik Queen, Karlo Matkovic, and Yves Missi, if everyone focuses on their specific role, in the aggregate it could give the Pelicans a solid starting center.",
+        "The Pelicans' big man rotation has been abysmal, and it’s really concerning considering this group is already heading into the regular season with a million other issues."
+      ],
+      "summary_source": "article",
+      "summary_ko": [
+        "나는 뉴올리언스 펠리컨스의 센터 로테이션에 대해 낙관적으로 프리시즌에 들어섰고, 위원회별 승리 접근 방식이 효과가 있을 것이라고 믿었습니다.",
+        "Derik Queen, Karlo Matkovic 및 Yves Missi의 조합을 서류상으로 볼 때 모두가 특정 역할에 집중한다면 전체적으로 Pelicans에게 견고한 출발 센터가 될 수 있습니다.",
+        "Pelicans의 빅맨 로테이션은 형편없었고, 이 그룹이 이미 백만 가지 다른 문제를 안고 정규 시즌으로 향하고 있다는 점을 고려하면 정말 걱정스럽습니다."
+      ],
+      "processed_at": "2026-10-18T02:55:52.404569+00:00"
     },
     {
       "title": "New Orleans Pelicans - Flashscore.com",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOa3NKMHlJOEIzTTBtd2laZmlYWEhOSy1sY003U05kN0N2ZldTdTJGV2doR0pwZnFaZEVOVldKR2d6aVQ0bXI2R2VPMGtoMXI2SGFNTEJHZ2kyQzdjUEZHc010NEtrSFc0WFA5WnEzY05NTUxLMW81V21hWXcyVUZkblpDaEo0VnVSSWlvaHRxdG1kQkRZTFlQZzJpek95RlNpTEtjY2pNWGdHMG1mWV81NGozSW1mWEllbUNWSkJjVVMxOXlqNy1OaVcwQQ?oc=5",
       "source": "Google News · Pelicans",
       "kind": "news",
-      "status": "pending",
-      "title_ko": "뉴올리언스 펠리컨스 - Flashscore.com"
+      "status": "ready",
+      "title_ko": "뉴올리언스 펠리컨스 - Flashscore.com",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "thumbnail": "https://static.flashscore.com/res/image/data/8zSALSil-vT0nSjtm-zNBiPbd0.png",
+      "original_url": "https://www.flashscore.com/match/basketball/new-orleans-pelicans-U3yc9SkP/washington-wizards-W6vGWPsn/summary/lineups/?mid=hxLSBKvQ",
+      "summary_en": [
+        "Les jeux d’argent et de hasard peuvent être dangereux : pertes d’argent, conflits familiaux, addiction…",
+        "Retrouvez nos conseils sur www.joueurs-info-service.fr (09-74-75-13-13, appel non surtaxé)",
+        "18+ | Erlaubtes Glücksspiel gemäß der Whitelist | Suchtrisiken | Hilfe unter buwei.de"
+      ],
+      "summary_source": "article",
+      "summary_ko": [
+        "도박은 금전 손실, 가족 갈등, 중독 등 위험할 수 있습니다.",
+        "www.joueurs-info-service.fr(09-74-75-13-13, 비프리미엄 요금 전화)에서 조언을 찾아보세요.",
+        "18세 이상 | 화이트리스트에 따라 허용된 도박 | 중독의 위험 | buwei.de에서 도움을 받으세요"
+      ],
+      "processed_at": "2026-10-18T02:56:01.939054+00:00"
     },
     {
       "title": "Here are five things we learned about the Pelicans in the preseason - NOLA.com",
       "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPa0FyQWJiMWphSE5fQmZUOW5TTE9jX2FNSTc5cU5oYXlUTjh5OXcxcjhwQlhrN2JVb1BPWTQtNXJvQ3lYNDQ0LU11TGs0dVZPUUtKN1FDWFVRYnNjU2VIZkp1VTRNX3B1TkI1NzY3VGtDdEFmbUtTRzNOZDRtX25zcU5HdWtlZ0RwNVU0NUcyLWVUY0FHeWFZaXdKY25taFMwbFkxT1NqZk5kVzJfVl9pLTlRZWRRajMwU1p5ZkdlWEthRnpFN3N3QWh5aG5vWUhpaUpLY05SRy1JVjlSdVHSAeMBQVVfeXFMUDRuWmtELXByNTZrMDFvME01VE5KMHhrYTY4N1J3Y1lub3JMUVl6a2xmdG1qOVp2V1p3WllRSi03REVjVXZaS1VIYk1LajFvR2RBWUlsN1VvUTE2LVRjdzViekYyaGROTnNaUWJJcG8yY0RYdWhOX3B2NzNFX29NYTF5ZVA0bXdNdTNxUmFWVmlDZkpkZXJZSWVjYkU1YUcybG1OWW9kRjRmb1BXcjFqVDFtakRVY0Z6SkJCaHlZdU5fb1QxUzhxMUlPUWhOMUdacFlDWGJVMWJTQzVlQ29UTkVYMkE?oc=5",
       "source": "Google News · Pelicans",
       "kind": "news",
-      "status": "pending",
-      "title_ko": "프리시즌에서 확인한 펠리컨스의 다섯 가지 모습 - NOLA.com"
+      "status": "ready",
+      "title_ko": "프리시즌에서 확인한 펠리컨스의 다섯 가지 모습 - NOLA.com",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "thumbnail": "https://bloximages.newyork1.vip.townnews.com/nola.com/content/tncms/assets/v3/editorial/c/7c/c7c84860-c29d-5cee-9ce8-ef734f8d69d3/6ad2d44b270a6.image.jpg?crop=1911%2C1003%2C0%2C40&resize=1200%2C630&order=crop%2Cresize",
+      "original_url": "https://www.nola.com/sports/here-are-five-things-we-learned-about-the-pelicans-in-the-preseason/article_c2d9eb4d-6047-4ace-a2fd-593692e4dd0e.html",
+      "summary_en": [
+        "The New Orleans Pelicans wrapped up preseason play Friday night with a 107-106 win over the Washington Wizards at the Smoothie King Center to finish the preseason 3-1.",
+        "The real games begin Wednesday when the Pelicans open up at home against the Indiana Pacers.",
+        "Here are five things we learned about the Pelicans in their four preseason games."
+      ],
+      "summary_source": "article",
+      "summary_ko": [
+        "뉴올리언스 펠리컨스는 금요일 밤 스무디 킹 센터에서 열린 워싱턴 위저즈를 상대로 107-106으로 승리하며 프리시즌을 3-1로 마무리했습니다.",
+        "실제 경기는 수요일 펠리컨스가 홈에서 인디애나 페이서스와의 경기를 시작하면서 시작됩니다.",
+        "네 번의 프리시즌 경기에서 펠리컨스에 대해 우리가 배운 다섯 가지 사실은 다음과 같습니다."
+      ],
+      "processed_at": "2026-10-18T02:56:07.623590+00:00"
     },
     {
       "title": "4 Burning Pelicans Questions Ahead of Preseason Finale vs. Wizards - Sports Illustrated",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYXhDR0VPNDVTZkN4cmtyVE0yQVRxMDlnamlseVFWbW4wU0g0Tnl1ejNPczlNbVhHaVd3RHdYVnpjcGcycTcwSlg3V0xyTkZUbnpTbVdILVFQaWJ2cmlfNmhGb0NmUWJUS01jUTlUclpSYTlDRGFOQ0pzcmZKUkxTVXZ6LWIwQzE1SFFWOEhZLTJseklqSi1ZVHoxRkVzYkJNdlVPNnd4QTZPcHItUkF6V1Zn?oc=5",
       "source": "Google News · Pelicans",
       "kind": "news",
-      "status": "pending",
-      "title_ko": "위저즈와의 프리시즌 최종전을 앞둔 펠리컨스의 네 가지 핵심 질문 - Sports Illustrated"
+      "status": "ready",
+      "title_ko": "위저즈와의 프리시즌 최종전을 앞둔 펠리컨스의 네 가지 핵심 질문 - Sports Illustrated",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "thumbnail": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_0,w_2568,h_1444/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/pelicans_scoop/01m51ax91x98gsb40qgx.jpg",
+      "original_url": "https://www.si.com/nba/pelicans/onsi/4-burning-pelicans-questions-ahead-preseason-finale-vs-wizards-01m51asd7y48",
+      "summary_en": [
+        "4 Burning Pelicans Questions Ahead of Preseason Finale vs.",
+        "The New Orleans Pelicans' final preseason game should tell us more about how they intend to play when the results count.",
+        "Now the focus shifts to whether New Orleans can repeat those habits and give its rotation some definition."
+      ],
+      "summary_source": "article",
+      "summary_ko": [
+        "프리시즌 결승전을 앞두고 불타는 펠리컨스의 4가지 질문 vs.",
+        "뉴올리언스 펠리컨스의 마지막 프리시즌 경기는 결과가 중요할 때 그들이 어떻게 플레이할 것인지에 대해 더 많은 것을 말해줄 것입니다.",
+        "이제 초점은 뉴올리언스가 이러한 습관을 반복하고 로테이션에 어느 정도 정의를 내릴 수 있는지 여부로 이동합니다."
+      ],
+      "processed_at": "2026-10-18T02:56:13.183752+00:00"
     },
     {
       "title": "Washington Wizards at New Orleans Pelicans - NBA Game Summary - Oct 16, 2026 - USA Today",
       "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPR2M1dXNkVGk3V1VJT3RmVmpfeWozNXRoUnl3NHpIZGQycTNMT0RQbWc5M1ExX1AyTHRIOHpleU5Hd1BQVS1DQ045eDVKVlpOQ0RHVWd5X2dka3ZxZERQVVBobVRsc2tWR0U5M3M5VGF2Zk1GMDdIemtWQU9JUXhZZlF6cE13OF9mNE1ndUhrVm9pa3ZudHB1VzBMRVhoYmhqekxvMGNzSVdvWXN4RWpqRGpwSm8zRlMyMGkzZ0s4ODlISmRBcFN1TXpRUkJUNlZwZGlZQkZIcHEzQmJWTlFsOUdjdGFjQnF6aEM4M3BMYw?oc=5",
       "source": "Google News · Pelicans",
       "kind": "news",
-      "status": "pending",
-      "title_ko": "워싱턴 위저즈의 뉴올리언스 펠리컨스 원정: NBA 경기 요약, 2026년 10월 16일 - USA Today"
+      "status": "partial",
+      "title_ko": "워싱턴 위저즈의 뉴올리언스 펠리컨스 원정: NBA 경기 요약, 2026년 10월 16일 - USA Today",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "content_error": "HTTP 402",
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
     {
       "title": "Gameday update: Pelicans at Mavericks (10/14/26) - NBA.com",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9wc05HTVZfTzlUcGNKUWRVRVRaTlNNNk1xS3llUDVXOE9xYnBGTDBUcjZuZy1VVU5Eb1lHWjNwa2hPUlBrc203blFmSXVnTVF5SnpJNkoxbnRJWExMWXpremQ5dTZjdk9iRlFGT0JOaXBwbTV2cWlDU2FQaw?oc=5",
       "source": "Google News · Pelicans",
       "kind": "news",
-      "status": "pending",
-      "title_ko": "경기 당일 소식: 펠리컨스의 매버릭스 원정, 2026년 10월 14일 - NBA.com"
+      "status": "partial",
+      "title_ko": "경기 당일 소식: 펠리컨스의 매버릭스 원정, 2026년 10월 14일 - NBA.com",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "content_error": "HTTP 403",
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
     {
       "title": "Wizards at Pelicans Preview: Washington wraps up preseason in New Orleans - Bullets Forever",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOX0VBQXNiZTd1X3g1R0ZlaHNxcjFTSkM5eG1vODRidjZyRmdocXhLUXBtN2IyZmtJOGJnYmlTaHpGUDR4QXZUaUlmdzFCN3U4VFFIZzZMN2FCNWxRa3NYMW4yOGg4cU5MYXNtRUNmT2pQN0F2a3VXQnNtWS1WQzcwQi1XbkJ2MFVHZGluVDY4V0ljT1Y2ZlptRFN3R3g5Q29WeU9xRHR0NEdad0VHYXd3enVlWWx1b00zNkhUSDRFVUZCNnFmbWl4RDdB?oc=5",
       "source": "Google News · Pelicans",
       "kind": "news",
-      "status": "pending",
-      "title_ko": "위저즈 대 펠리컨스 전망: 워싱턴, 뉴올리언스에서 프리시즌 마무리 - Bullets Forever"
+      "status": "ready",
+      "title_ko": "위저즈 대 펠리컨스 전망: 워싱턴, 뉴올리언스에서 프리시즌 마무리 - Bullets Forever",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "thumbnail": "https://platform.bulletsforever.com/wp-content/uploads/sites/52/2026/09/gettyimages-2266522028.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+      "original_url": "https://www.bulletsforever.com/washington-wizards-preview/73407/washington-wizards-new-orleans-pelicans-nba-preseason-game-preview",
+      "summary_en": [
+        "Wizards at Pelicans Preview: Washington wraps up preseason in New Orleans",
+        "Both the Wizards and Pelicans matchup to finish the preseason in New Orleans.",
+        "Pelicans: Dejounte Murray - Questionable (Toe)"
+      ],
+      "summary_source": "article",
+      "summary_ko": [
+        "Pelicans 미리보기의 Wizards: 워싱턴, 뉴올리언스에서 프리시즌 마무리",
+        "뉴올리언스에서 프리시즌을 마무리하기 위해 위저즈와 펠리컨스가 대결합니다.",
+        "펠리컨: Dejounte Murray - 의심스럽습니다(발가락)"
+      ],
+      "processed_at": "2026-10-18T02:56:22.300730+00:00"
     },
     {
       "title": "Cooper Flagg, Kyrie Irving out vs. Pelicans as Mavericks eye 'dress rehearsal' game - Dallas News",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUTNtOTdwT0pvZDRYZmFQNEFILUozY1h0WGtpTm1meklyQk84X0EzWFBENUtSSFh4OHBpMmt5Z3NQYmROXzlXOVR6R2V2S3JJX1JGQXV0UDdEVllBWmh3bTMyYVlhTWNLMzVPU0N6Um5DakY3WEtsUE9ZXzI5UkFERXhmMEVPdk5PeUJKSmdka2otcDhtSC1hbUlCMDlUSEU1bVNBOGFoalU3czg1dzJB?oc=5",
       "source": "Google News · Pelicans",
       "kind": "news",
-      "status": "pending",
-      "title_ko": "매버릭스의 실전 리허설 경기: 쿠퍼 플래그·카이리 어빙, 펠리컨스전 결장 - Dallas News"
+      "status": "ready",
+      "title_ko": "매버릭스의 실전 리허설 경기: 쿠퍼 플래그·카이리 어빙, 펠리컨스전 결장 - Dallas News",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "original_url": "https://www.dallasnews.com/sports/mavericks/article/cooper-flagg-kyrie-irving-mavericks-preseason-22477633.php",
+      "summary_en": [
+        "This may be due to a browser extension, network issues, or browser settings.",
+        "Please check your connection, disable any ad blockers, or try using a different browser."
+      ],
+      "summary_source": "article",
+      "summary_ko": [
+        "이는 브라우저 확장, 네트워크 문제 또는 브라우저 설정 때문일 수 있습니다.",
+        "연결을 확인하고 광고 차단기를 비활성화하거나 다른 브라우저를 사용해 보십시오."
+      ],
+      "processed_at": "2026-10-18T02:56:25.921996+00:00"
     },
     {
       "title": "3 Biggest takeaways from Pelicans' second preseason win against the Mavericks - Pelican Debrief",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWnkwQnd2Uk1ZX1V0YVh6cHBwaElweGxieVRKWWJDN1FGSlFpd2ZRT0o0dVVDU3JaRzRoeU5wektsQWlLOU1KRVQ1WU5JbjFEYldZQm1BY1RsY2xkbkVsd1c5a3B5bTI3eWJyeWJ5SUZGZDlyU0JVTWRvWFd2d2lic3l6RzhoWUtwR2puYXJQdFFKb2J1YTk1ZUdsUlFvNG9Za1NKOTZn?oc=5",
       "source": "Google News · Pelicans",
       "kind": "news",
-      "status": "pending",
-      "title_ko": "매버릭스전 프리시즌 두 번째 승리에서 얻은 펠리컨스의 세 가지 시사점 - Pelican Debrief"
+      "status": "ready",
+      "title_ko": "매버릭스전 프리시즌 두 번째 승리에서 얻은 펠리컨스의 세 가지 시사점 - Pelican Debrief",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "thumbnail": "https://images2.minutemediacdn.com/image/upload/c_crop,x_105,y_59,w_2239,h_1259/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/73/01m4yqp5t22dw2n3kbq5.jpg",
+      "original_url": "https://pelicandebrief.com/3-biggest-takeaways-from-pelicans-second-preseason-win-against-the-mavericks",
+      "summary_en": [
+        "The New Orleans Pelicans picked up their second preseason win, 101-97 over the Dallas Mavericks on Wednesday night.",
+        "Even though the Mavericks didn't roll out their A team, there was plenty to like if you’re a New Orleans Pelicans fan, so let's get into my three major takeaways from this dub.",
+        "Fears looked like he was ready to take the mantle from Zion Williamson as the Pelicans' franchise player, given the way he played in this game."
+      ],
+      "summary_source": "article",
+      "summary_ko": [
+        "뉴올리언스 펠리컨스는 수요일 밤 댈러스 매버릭스를 상대로 101-97로 프리시즌 두 번째 승리를 거두었습니다.",
+        "Mavericks가 A팀을 구성하지는 않았지만 New Orleans Pelicans 팬이라면 좋아할 만한 점이 많았으므로 이 더빙에서 세 가지 주요 내용을 살펴보겠습니다.",
+        "Fears는 그가 이 게임에서 플레이한 방식을 고려할 때 펠리컨스의 프랜차이즈 플레이어로서 Zion Williamson의 역할을 맡을 준비가 된 것처럼 보였습니다."
+      ],
+      "processed_at": "2026-10-18T02:56:32.066403+00:00"
     },
     {
       "title": "New Orleans Pelicans vs Dallas Mavericks Oct 14, 2026 Play-by-Play - NBA.com",
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBJeFpYUlFTM2N1bjVWNVQxM1Z2N0RoQjZCSDJJT3hVYXhJbXpwN21CRU1YUTRLUWtUcFRGMXVBMXZPcEFNRWVvaVdUOTB6Ylp6aXQtNG1ZdzhlSWRfMWpiQjhEU3JHNV9YTzJn?oc=5",
       "source": "Google News · Pelicans",
       "kind": "news",
-      "status": "pending",
-      "title_ko": "뉴올리언스 펠리컨스 대 댈러스 매버릭스: 2026년 10월 14일 경기 진행 기록 - NBA.com"
+      "status": "partial",
+      "title_ko": "뉴올리언스 펠리컨스 대 댈러스 매버릭스: 2026년 10월 14일 경기 진행 기록 - NBA.com",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "content_error": "HTTP 403",
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
     {
       "title": "Wizards vs. Pelicans (17 Oct, 2026) Live Score - ESPN Philippines",
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1udVMtNkdfT0xiZk51eHNGUjhFTDZCa0pUVVRYaUVOYVdUM3EzaUptWTN6R3ZxVGNTWU9RVXRwc0p4OEJsbFhmQk95VW9Na1RyRXdRaXNWNzQ?oc=5",
       "source": "Google News · Pelicans",
       "kind": "news",
-      "status": "pending",
-      "title_ko": "위저즈 대 펠리컨스, 2026년 10월 17일: 실시간 점수 - ESPN Philippines"
+      "status": "partial",
+      "title_ko": "위저즈 대 펠리컨스, 2026년 10월 17일: 실시간 점수 - ESPN Philippines",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "original_url": "https://www.espn.ph/nba/game?gameId=401906509",
+      "content_error": "RuntimeError",
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
     {
       "title": "Pelicans 101-97 Mavericks (15 Oct, 2026) Final Score - ESPN",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9CNmhJVUN2TmFWdjdYQkFmNURpVVJRQkxRSVRPeDg2U0xnaTNqT2Yzc3htbWNmRWZWaV9GTWlPYXA2YWN1UTZmdXI5RUg0eGJzOXNzeEd3U1FUbFBjQUE?oc=5",
       "source": "Google News · Pelicans",
       "kind": "news",
-      "status": "pending",
-      "title_ko": "펠리컨스 101-97 매버릭스, 2026년 10월 15일: 최종 점수 - ESPN"
+      "status": "partial",
+      "title_ko": "펠리컨스 101-97 매버릭스, 2026년 10월 15일: 최종 점수 - ESPN",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "original_url": "https://www.espn.com.au/nba/game?gameId=401901825",
+      "content_error": "RuntimeError",
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
     {
       "title": "New Orleans Pelicans introduce Wednesday Night Hoops - NBA.com",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbDBmYmlya0N3YjREQTB2UTY4ZWExZThpVFlOSGEzWU4ySVJycWRxQ3pFOE85cGVvVVJyM0xkUTdDeG9tTWRadkxXd0pUWEZwWTJ0QXZ6UHFFVkJ1X3dQdEgtOUVvUzRvZXhYY0ZHam1wcEFxSkhYRE0tQWtlZjdTeUZhM3FNRUlDU25CQTV2b0hEemVj?oc=5",
       "source": "Google News · Pelicans",
       "kind": "news",
-      "status": "pending",
-      "title_ko": "뉴올리언스 펠리컨스, '수요일 밤 농구' 프로그램 도입 - NBA.com"
+      "status": "partial",
+      "title_ko": "뉴올리언스 펠리컨스, '수요일 밤 농구' 프로그램 도입 - NBA.com",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "content_error": "HTTP 403",
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
     {
       "title": "New Orleans Pelicans sign Hunter Dickinson - NBA.com",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxORkNITG51dnplRk0waWY3M2NDNHRlek1EcVh4NlpQQy1GSVNuMnl3NVJwSkg4Sk1VTFlhZUZpOHd6OTc5dEM3Ri1jbXBid3dGbGlaOHM0R1NhUll2QXRINnJXMTJhY1UyRW5jMkxlQUw3eTZJdFlrSGNvbVJrVnFPRkZuWUU3Q3F3NFNjRXNXUUg?oc=5",
       "source": "Google News · Pelicans",
       "kind": "news",
-      "status": "pending",
-      "title_ko": "뉴올리언스 펠리컨스, 헌터 디킨슨과 계약 - NBA.com"
+      "status": "partial",
+      "title_ko": "뉴올리언스 펠리컨스, 헌터 디킨슨과 계약 - NBA.com",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "content_error": "HTTP 403",
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
     {
       "title": "New Orleans Pelicans vs. Washington Wizards - Game Highlights - Yahoo Sports",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUHpxSUE1Um5BanBrQlp1TlBpUW1HTHhLVVk2NGFJZWVaVlFJZldYeUJwdFp2b1NZMUdNOTZzTXlVRFNtVXplemVJbzVKTWFmNXlnR1JaeHlkdFlMV2xYQU5lTEpkTHFsTkFhZXpFSkcwLWtyS1I5eWRmaWk5eXBWMUtrcE9LenZGbmJpTnlR?oc=5",
       "source": "Google News · Pelicans",
       "kind": "news",
-      "status": "pending",
-      "title_ko": "뉴올리언스 펠리컨스 대 워싱턴 위저즈: 경기 하이라이트 - Yahoo Sports"
+      "status": "ready",
+      "title_ko": "뉴올리언스 펠리컨스 대 워싱턴 위저즈: 경기 하이라이트 - Yahoo Sports",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "thumbnail": "https://s.yimg.com/lo/mysterio/api/a7a6c43275b68382f2044fac8b6ce654e2a9bc2bf9017c1f63396d6d6fcb3230/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fcf-images.us-east-1.prod.boltdns.net%2Fv1%2Fjit%2F6415665815001%2Fe6aadc70-02ec-4050-8275-0dd2e8cd6441%2Fmain%2F1280x720%2F33s600ms%2Fmatch%2Fimage.jpg",
+      "original_url": "https://sports.yahoo.com/videos/orleans-pelicans-vs-washington-wizards-025427337.html",
+      "summary_en": [
+        "Washington Wizards - Game HighlightsWatch the Game Highlights from New Orleans Pelicans vs.",
+        "Washington Wizards, 10/16/2026 1:07 Now PlayingPausedAd Playing New Orleans Pelicans vs.",
+        "New Orleans Pelicans - Game Highlights 1:00 Now PlayingPausedAd Playing Oklahoma City Thunder vs."
+      ],
+      "summary_source": "article",
+      "summary_ko": [
+        "워싱턴 위저즈 - 경기 하이라이트뉴올리언스 펠리컨스 대 워싱턴 위저즈의 경기 하이라이트를 시청하세요.",
+        "워싱턴 위저즈, 2026년 10월 16일 1:07 현재 재생중지됨광고 재생 중 뉴올리언스 펠리컨스 vs.",
+        "뉴올리언스 펠리컨스 - 게임 하이라이트 1:00 현재 재생중 일시중지광고 재생 중 Oklahoma City Thunder 대."
+      ],
+      "processed_at": "2026-10-18T02:56:46.347954+00:00"
     },
     {
       "title": "New Orleans Pelicans waive Caleb Houstan - NBA.com",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxONXFfLTlzV1d3RE8zRHJ5ek1HVWNYZlpIZkV5TmFiSjd5TnZzenhyUWdvc1VucW5lYmZjVk1BRVNXMl9OZmNVMENvbzhWem5STHh0M2xkNUpPd0swUXNrVnRLeDg5VGhUUTBBdHB4VVdnUVRrR2lTVHJYZ1BPUVFEYWxsZF9Od1Q4YkZqT0FvQTJWWDF5?oc=5",
       "source": "Google News · Pelicans",
       "kind": "news",
-      "status": "pending",
-      "title_ko": "뉴올리언스 펠리컨스, 케일럽 휴스턴 방출 - NBA.com"
+      "status": "partial",
+      "title_ko": "뉴올리언스 펠리컨스, 케일럽 휴스턴 방출 - NBA.com",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "content_error": "HTTP 403",
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
     {
       "title": "Washington Wizards vs. New Orleans Pelicans: Game Highlights - ESPN Philippines",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5pbXc2N3FocGFLTERYRWNidnNKVE5NR2RmMTZpLXVOcWxfQUlZa1pZSVlfZGI4TFVrbE9MaWQ3U2NzNElQZjhSbHJ3dVhXLWg5alhUVXVBN0l0QlI0am4wT0RXVXhyMHpFVEFUQg?oc=5",
       "source": "Google News · Pelicans",
       "kind": "news",
-      "status": "pending",
-      "title_ko": "워싱턴 위저즈 대 뉴올리언스 펠리컨스: 경기 하이라이트 - ESPN Philippines"
-    },
-    {
-      "title": "Wizards at Pelicans Discussion - Yahoo Sports",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOS1hzNk10TlZjNVpLUTk2RVl6ZVBXTE1MSnItQ3NQSVFZTkVJb2g3a0ZFRmYza1lGMnB6YWpqNktvUGFNVHpsU0N1czlGeGVRQUZkZkRuQ0ZVS2E4MzAyejJOdm1jck1RQ1p1OXJYc3ZoQXpBYzY1elFoWS04ZXpoclNn?oc=5",
-      "source": "Google News · Pelicans",
-      "kind": "news",
-      "status": "pending",
-      "title_ko": "위저즈의 펠리컨스 원정 경기 토론 - Yahoo Sports"
+      "status": "partial",
+      "title_ko": "워싱턴 위저즈 대 뉴올리언스 펠리컨스: 경기 하이라이트 - ESPN Philippines",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "original_url": "https://www.espn.ph/video/clip/_/id/50199336/game-highlights",
+      "content_error": "RuntimeError",
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
     {
       "title": "Saddiq Bey Highlights vs. Wizards | 2026 NBA Preseason | New Orleans Pelicans - NBA.com",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNNlp4Mm53YnB4S0d4NHdRWUNaMEY0bzc0SkJWdDZKdXE0WU1fSldUMllCdVZnU1FSNjV0X3ZWajQ5RnBSdFNER2JIOWVmeWpQb1NkUUZFeDJmVGlkQXE4TlctdUZCaFF5OTMwSGJsSUMweTBQTVBHN0FtTkRiSTVsQkJkUnJ1WEJHVlljV2ZjN1M?oc=5",
       "source": "Google News · Pelicans",
       "kind": "news",
-      "status": "pending",
-      "title_ko": "위저즈전 사딕 베이 하이라이트 | 2026 NBA 프리시즌 | 뉴올리언스 펠리컨스 - NBA.com"
+      "status": "partial",
+      "title_ko": "위저즈전 사딕 베이 하이라이트 | 2026 NBA 프리시즌 | 뉴올리언스 펠리컨스 - NBA.com",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "content_error": "HTTP 403",
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
     {
       "title": "Washington Wizards 106 - New Orleans Pelicans 107: Final score, results, recap, box score, stats - Yahoo Sports",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOMV9YallKd1MtMENaWXlRUzM0VUxUVXFOdl9JQjdXVDdQWGtqRHVqclFTbnk0b0N1dmctVHFONzJOWTEwTVVidFRnRFR3bkRoRm9maURNbTBEWkI5eVZCY1k3TWdqM2lGdEJxUzhEWnJhdmlGc1JFazdOQ3NwYWMxbHE5dWxFX1k?oc=5",
       "source": "Google News · Pelicans",
       "kind": "news",
-      "status": "pending",
-      "title_ko": "워싱턴 위저즈 106 - 뉴올리언스 펠리컨스 107: 최종 점수·결과·경기 요약·박스스코어·기록 - Yahoo Sports"
+      "status": "ready",
+      "title_ko": "워싱턴 위저즈 106 - 뉴올리언스 펠리컨스 107: 최종 점수·결과·경기 요약·박스스코어·기록 - Yahoo Sports",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "thumbnail": "https://sports.yahoo.com/assets/og/boxscore/nba/2026101603/",
+      "original_url": "https://sports.yahoo.com/nba/washington-wizards-new-orleans-pelicans-2026101603/",
+      "summary_en": [
+        "AJ Dybantsa’s Wizards debut in jeopardy after ankle injury in preseason finale",
+        "AJ Dybantsa exited the Washington Wizards' preseason …",
+        "AJ Dybantsa’s Wizards debut in jeopardy after ankle injury in preseason finale"
+      ],
+      "summary_source": "article",
+      "summary_ko": [
+        "AJ Dybantsa의 위저즈 데뷔 프리시즌 피날레에서 발목 부상으로 위기에 처함",
+        "AJ 디반차, 워싱턴 위저즈 프리시즌 하차…",
+        "AJ Dybantsa의 위저즈 데뷔 프리시즌 피날레에서 발목 부상으로 위기에 처함"
+      ],
+      "processed_at": "2026-10-18T02:56:56.115728+00:00"
     },
     {
       "title": "Two New Orleans Pelicans Stars Crack Top 100 NBA Players List - Yahoo Sports",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQT3Z2anpPdFpIaUl0T2ZDOElUYkUyMVZyUW1oWXk3QlVBQVcteFhYb3B4MlhjNUQ2MXAya1F2UzFJZDVjUk92aW9pZEZNQXhJZk5kQWdxSDRERHdESHhMMDRmM2dsTVdxM1hncWI2MGFFVDJGQWFWVFZMdUlVMERrZHVYbnZmVlZV?oc=5",
       "source": "Google News · Pelicans",
       "kind": "news",
-      "status": "pending",
-      "title_ko": "NBA 선수 상위 100명 명단에 펠리컨스 스타 두 명 포함 - Yahoo Sports"
+      "status": "ready",
+      "title_ko": "NBA 선수 상위 100명 명단에 펠리컨스 스타 두 명 포함 - Yahoo Sports",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "thumbnail": "https://s.yimg.com/lo/mysterio/api/f6e47f10b09e1983d740b36da073d601180722b0a851d4a0eadc02b723c47890/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Froundtable_sports_new_orleans_pelicans_611%2F0e899bb5353b37bc722c50a5ed516841.jpg",
+      "original_url": "https://sports.yahoo.com/articles/two-orleans-pelicans-stars-crack-014435173.html",
+      "summary_en": [
+        "The New Orleans Pelicans roster is more talented than most people give them credit for.",
+        "These always serve as a good reminder of what the outside view of the Pelicans roster is.",
+        "Veterans like Dejounte Murray and Herb Jones had been in this range before (Jordan Poole actually made it last year), but the basketball world is very wary about everything in New Orleans right now."
+      ],
+      "summary_source": "article",
+      "summary_ko": [
+        "New Orleans Pelicans 명단은 대부분의 사람들이 인정하는 것보다 더 재능이 있습니다.",
+        "이는 항상 Pelicans 명단의 외부 관점이 무엇인지를 상기시켜주는 좋은 역할을 합니다.",
+        "Dejounte Murray 및 Herb Jones와 같은 베테랑들은 이전에도 이 범위에 속해 있었지만(Jordan Poole은 실제로 작년에 이 범위에 포함되었습니다), 농구계는 현재 뉴올리언스의 모든 것에 대해 매우 경계하고 있습니다."
+      ],
+      "processed_at": "2026-10-18T02:57:02.659384+00:00"
     },
     {
       "title": "Pelicans edge Wizards in preseason finale, finish 3-1 - Crescent City Sports",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQcGNBYkdjSHl1RGwyNm5uMkliQllzOVVJUHJhRmc3bVp4enZhSHVHa3oybmcyYTMwelk4emNrTzJmaFBfcnpxQ3RSVEtaMG1vZkFJSjhtNWFOTGM4elI4LWo4N3FFOXgtQUU2ZkludzNVSnpTTkdqS3hfX0xnMjFDUXJWOGVkNkRld201VQ?oc=5",
       "source": "Google News · Pelicans",
       "kind": "news",
-      "status": "pending",
-      "title_ko": "펠리컨스, 프리시즌 최종전에서 위저즈에 신승…3승 1패로 마무리 - Crescent City Sports"
+      "status": "ready",
+      "title_ko": "펠리컨스, 프리시즌 최종전에서 위저즈에 신승…3승 1패로 마무리 - Crescent City Sports",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "thumbnail": "https://crescentcitysports.com/wp-content/uploads/2026/10/NOP-WAS-tip.webp",
+      "original_url": "https://crescentcitysports.com/pelicans-edge-wizards-in-preseason-finale-finish-3-1/",
+      "summary_en": [
+        "Pelicans edge Wizards in preseason finale, finish 3-1",
+        "The New Orleans Pelicans closed out their preseason schedule with a 107-106 victory over the Washington Wizards on Friday night at the Smoothie King Center, finishing exhibition play with a 3-1 record.",
+        "New Orleans held off a late Washington rally to secure the narrow victory, giving the Pelicans a winning finish to the preseason ahead of their regular-season opener against the Indiana Pacers on Wednesday."
+      ],
+      "summary_source": "article",
+      "summary_ko": [
+        "프리시즌 피날레에서 펠리컨스가 위저즈를 꺾고 3-1로 마무리",
+        "뉴올리언스 펠리컨스는 금요일 밤 스무디 킹 센터에서 열린 워싱턴 위저즈와의 경기에서 107-106으로 승리하며 프리시즌 일정을 마감했으며, 시범경기를 3-1로 마무리했습니다.",
+        "뉴올리언스는 아슬아슬한 승리를 확보하기 위해 워싱턴 후반 랠리를 막아내며 펠리컨스가 수요일 인디애나 페이서스와의 정규 시즌 개막전을 앞두고 프리시즌을 승리로 마무리했습니다."
+      ],
+      "processed_at": "2026-10-18T02:57:07.497404+00:00"
     },
     {
       "title": "Pelicans’ preseason finale proved Jeremiah Fears must start on opening night - Pelican Debrief",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNR01WSW1FNFJkMkFPMjJoaS1UdjdiSkhFY0plX1pvMmVFZlo5eFg5ZmRwWVBOUW4zYW1BR1hnT2xPNG9UQ0IyY1VYSjRLeGIwMWdSaloxMnJtd0VPNG5XQUxHSFhVb2l5d0NMLXdRLUt4OE5jYnlNUWphU0ZyUUtmTlpJOGNhTHF5RXBWU3pnNHhmZDYyOXNSMlpMSUZrZWVXN0FyTQ?oc=5",
       "source": "Google News · Pelicans",
       "kind": "news",
-      "status": "pending",
-      "title_ko": "프리시즌 최종전이 보여줬다: 제러마이아 피어스는 개막전 선발이어야 한다 - Pelican Debrief"
+      "status": "ready",
+      "title_ko": "프리시즌 최종전이 보여줬다: 제러마이아 피어스는 개막전 선발이어야 한다 - Pelican Debrief",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "thumbnail": "https://images2.minutemediacdn.com/image/upload/c_crop,x_1490,y_95,w_3477,h_1955/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/73/01m53vygry3re8ryz40m.jpg",
+      "original_url": "https://pelicandebrief.com/pelicans-preseason-finale-proved-jeremiah-fears-must-start-on-opening-night",
+      "summary_en": [
+        "The New Orleans Pelicans wrapped up preseason by beating the Washington Wizards 107-106.",
+        "A big reason the Pelicans for these notes was because of Jeremiah Fears.",
+        "After a great showing on his 20th birthday in the Pelicans’ previous preseason game, Fears brought the same energy on Friday."
+      ],
+      "summary_source": "article",
+      "summary_ko": [
+        "뉴올리언스 펠리컨스가 워싱턴 위저즈를 107-106으로 꺾고 프리시즌을 마무리했습니다.",
+        "Pelicans가 이 메모를 작성한 가장 큰 이유는 Jeremiah Fears 때문이었습니다.",
+        "펠리컨스의 이전 프리시즌 경기에서 20번째 생일에 멋진 모습을 보여준 후, Fears는 금요일에도 같은 에너지를 가져왔습니다."
+      ],
+      "processed_at": "2026-10-18T02:57:13.547664+00:00"
     },
     {
       "title": "Photos: Pelicans at Mavericks | Shootaround 10/14/26 - NBA.com",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRkU5SHBKSmR6Sy1VQnNrbUNSY0d1WkZDZWtDN3JERnFHQS01WjNEZzNUNVNYekdWY2ZJaTlrWGVKSVFvZ2Zmb28xdTlDeW5vM2V5bkVqY2sxZTl1X2FSUGN1LVpTT0RMa3J1SHBudXV4OFdhRU02cnFoVTZOVE1BNi02U1BmQnNXeEZ4X0tjQ3ZMWTJvZUk3NE9kNE9wRURVcEx2UV91SQ?oc=5",
       "source": "Google News · Pelicans",
       "kind": "news",
-      "status": "pending",
-      "title_ko": "사진: 펠리컨스의 매버릭스 원정 슛어라운드, 2026년 10월 14일 - NBA.com"
+      "status": "partial",
+      "title_ko": "사진: 펠리컨스의 매버릭스 원정 슛어라운드, 2026년 10월 14일 - NBA.com",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "content_error": "HTTP 403",
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
     {
       "title": "New Orleans Pelicans waive former Orlando Magic second round pick - NOLA.com",
       "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNRUdkYVFVV29mcmd2UXdCZGMybEVCNlV2aW5xNGpQVldQNnRwaDJvdW14U1oxNGxTeDl6VVpaZWt4T1Y2dGJ4ZnRORllUalg5YTJlNjNDLV9nQ25SMUxqdDVvcmFFcWh5dnE3Yk94bm1TMm51N3lhN25iZGNfdm1NdFRMNHZjSTVSSHFlMDM5ZWZHS0F0SDIxRDJjMDdtM2pMaUhuV01scGh0ZlpJdTdiVFY3N3BWTlQ0ZlNzVE1lLW4xZmdoX3pIMHN5TXhibUJHeXZnazdlZHlmN0lMOG5KdFlWRXNiOEXSAewBQVVfeXFMT29VS1pXZW5rWkdFczlKUUs5eGVpVGxUal9zdFVsSE1rTE5zTlJVM3pKSU83anh6RG4yOW9keTVaQXJ1TE1QRnR4YWszVEtSTEk2WWIycng0RlhrMGFpeHJmZVEya2tYTlpScEo3Z3ZHTzB3QXgtcFhiSm1XZEVvQlpocHFQWUV6aGVSUWoyYjB6RC1jU05xaHYzVkg3ZEI3cFdKb1Y3UGxLUjVhU2V1SDNqWlVkQndfT3hSZjJaeXpTYllJWnF5WmZNdmJUU1VabE9CYUdqWFZXbV92MG9Yd1NuRUtTR2UxUmFUV1g?oc=5",
       "source": "Google News · Pelicans",
       "kind": "news",
-      "status": "pending",
-      "title_ko": "뉴올리언스 펠리컨스, 전 올랜도 매직 2라운드 지명 선수 방출 - NOLA.com"
+      "status": "ready",
+      "title_ko": "뉴올리언스 펠리컨스, 전 올랜도 매직 2라운드 지명 선수 방출 - NOLA.com",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "thumbnail": "https://bloximages.newyork1.vip.townnews.com/nola.com/content/tncms/assets/v3/editorial/d/ee/dee2b671-f534-536b-9e00-bf8496bf4c63/65206e4e31e66.image.jpg?crop=1709%2C897%2C300%2C0&resize=1200%2C630&order=crop%2Cresize",
+      "original_url": "https://www.nola.com/sports/pelicans/new-orleans-pelicans-waive-former-orlando-magic-second-round-pick/article_49c0e13a-227c-401e-9e11-9662456a8666.html",
+      "summary_en": [
+        "The New Orleans Pelicans waived forward Caleb Houstan, the team announced Tuesday.",
+        "He played his first three seasons with the Magic under current Pelicans coach Jamahl Mosley.",
+        "It is the second transaction the Pelicans have made over the last four days."
+      ],
+      "summary_source": "article",
+      "summary_ko": [
+        "뉴올리언스 펠리컨스는 포워드 칼렙 휴스턴(Caleb Houstan)을 포기했다고 팀이 화요일 발표했습니다.",
+        "그는 현 펠리컨스 감독인 자말 모슬리 밑에서 매직에서 처음 세 시즌을 뛰었습니다.",
+        "이는 지난 4일 동안 펠리컨스가 체결한 두 번째 거래입니다."
+      ],
+      "processed_at": "2026-10-18T02:57:20.841665+00:00"
     },
     {
       "title": "Saddiq Bey \"I try to be a Swiss Army knife\" | Pelicans Preseason 2026 - NBA.com",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQ0dOVmRVM0hGeW94TEZFRnJ3OWtBR1BCSl9uWDBWWEdobFdzb3k3dDlILUljTnFGdVlqWktOWWRjU0JVTDJJeUduSmFnVFhnMkV1dnREeXh6bzIwUjFVQ3VSdVFGazB2bWtmU25MVWFVLXBPLVh0NV9NRnRIWlV5RkE3cm5OQmV5TTVUZmtUYnZJMnFFOTBqRGNKdm50SWRuOGpj?oc=5",
       "source": "Google News · Pelicans",
       "kind": "news",
-      "status": "pending",
-      "title_ko": "사딕 베이 “스위스 군용칼 같은 선수가 되려 해요” | 펠리컨스 2026 프리시즌 - NBA.com"
-    },
-    {
-      "title": "Pelicans' New Top Priority Centers Around Jeremiah Fears - Sports Illustrated",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNV1htRTZWMHpmWEhLRlpueDJja1FGcDZrekt6aTZ2REhkcXBiOERfODRxWTVWRVpPOExOOWNlQkdHWlVjUmpxNGozVEtlR1A0Z2N2el9razg4OWRBaVBSSHJ5d19RUU9QTnA1ZmxtMUlnZFA3VldRc0pMdE9HTEhmZl9fRFFfT0U1a2R5ejFLV09GazM5WWFNTXhOeHVGX0dPVk9QWi1maW0?oc=5",
-      "source": "Google News · Pelicans",
-      "kind": "news",
-      "status": "pending",
-      "title_ko": "펠리컨스의 새로운 최우선 과제, 제러마이아 피어스에 달렸다 - Sports Illustrated"
+      "status": "partial",
+      "title_ko": "사딕 베이 “스위스 군용칼 같은 선수가 되려 해요” | 펠리컨스 2026 프리시즌 - NBA.com",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "content_error": "HTTP 403",
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
     {
       "title": "New Orleans Pelicans Hold Practice At St. Augustine To Show Support For Community - Yahoo Sports",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPbUg5bmNhMWJyT2tybmJEZmtUcnBVUHBNMEsyZlJsanVZNVBqcnFIcnF5ZXdRZWt1OVg0NGpGNnUzOWtKOXVTOE1TNDFkZkNHV25vRldKRUh5VjFPXzNFRFRQMkM3c0FMaW0wemhNXzlleHpYMFh6VXpRVmFRNjlvcmE2WVE3cVVGZ0E?oc=5",
       "source": "Google News · Pelicans",
       "kind": "news",
-      "status": "pending",
-      "title_ko": "뉴올리언스 펠리컨스, 지역사회 지지 위해 세인트오거스틴에서 훈련 - Yahoo Sports"
+      "status": "ready",
+      "title_ko": "뉴올리언스 펠리컨스, 지역사회 지지 위해 세인트오거스틴에서 훈련 - Yahoo Sports",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "thumbnail": "https://s.yimg.com/lo/mysterio/api/8f1aaca1bb1d95aae114d9b71ddb4a20170a883d2edee2a8ebae8d352965c25b/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Froundtable_sports_new_orleans_pelicans_611%2F57a27d3e35973f4e80d4dae020e818be.jpg",
+      "original_url": "https://sports.yahoo.com/articles/orleans-pelicans-hold-practice-st-012340602.html",
+      "summary_en": [
+        "One of the first things that New Orleans Pelicans head coach Jamahl Mosley said at his introductory press conference was that he was serious about the connection between an NBA team and its city.",
+        "\"I'm extremely and truly grateful for this opportunity to be a part of this organization, to be a part of this franchise, to be a part of this community.",
+        "On Saturday, the Pelicans held practice at the gym of St."
+      ],
+      "summary_source": "article",
+      "summary_ko": [
+        "뉴올리언스 펠리컨스의 자말 모슬리 감독이 취임 기자회견에서 가장 먼저 말한 것 중 하나는 NBA 팀과 도시 사이의 관계에 대해 진지하게 생각하고 있다는 것이었습니다.",
+        "\"저는 이 조직의 일원이 될 수 있는 기회, 이 프랜차이즈의 일원이 될 수 있는 기회, 이 커뮤니티의 일원이 될 수 있는 기회에 진심으로 감사드립니다.",
+        "토요일에 펠리컨스는 세인트루이스 체육관에서 연습을 했습니다."
+      ],
+      "processed_at": "2026-10-18T02:57:29.341709+00:00"
     },
     {
       "title": "New Orleans Pelicans 101 - Dallas Mavericks 97: Final score, results, recap, box score, stats - Yahoo Sports",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWlUzY0V1dXpCdHZzSVlrQk9aNUpHQ1VnUFBZcU16ZHpLYXFTNHdEMnQxbXk1Zl80NHBnOXI1UWVabm16VEJ2MHJTc2N0eDNxblpOeXZUUy14RUYwVkZFSUx1QzlDVHZjUVMwQmprc25HWkNWVEVqYThtNnliTm5vNElvTzA?oc=5",
       "source": "Google News · Pelicans",
       "kind": "news",
-      "status": "pending",
-      "title_ko": "뉴올리언스 펠리컨스 101 - 댈러스 매버릭스 97: 최종 점수·결과·경기 요약·박스스코어·기록 - Yahoo Sports"
+      "status": "ready",
+      "title_ko": "뉴올리언스 펠리컨스 101 - 댈러스 매버릭스 97: 최종 점수·결과·경기 요약·박스스코어·기록 - Yahoo Sports",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "thumbnail": "https://sports.yahoo.com/assets/og/boxscore/nba/2026101406/",
+      "original_url": "https://sports.yahoo.com/nba/new-orleans-pelicans-dallas-mavericks-2026101406/",
+      "summary_en": [
+        "Naji Marshall with the last basket of the period",
+        "Naji Marshall with the last basket of the period",
+        "Zion Williamson Scores 10 Points Off Bench In New Role"
+      ],
+      "summary_source": "article",
+      "summary_ko": [
+        "시대의 마지막 바구니를 들고 있는 나지 마샬",
+        "시대의 마지막 바구니를 들고 있는 나지 마샬",
+        "Zion Williamson, 새로운 역할에서 벤치에서 10점 득점"
+      ],
+      "processed_at": "2026-10-18T02:57:34.577932+00:00"
     },
     {
       "title": "Game Preview: New Orleans Pelicans vs. Washington Wizards - 10/16/26 - roundtable.io",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUVJUSVR4bHVleVQtM0lvVkNjdjNTTkdzT2ZobnZHMlRPdEJDd2FYM291bEl1TWdPX3ltS0N6OXU0ZE85aUkxYXZsN3Z4dVU1eFRhWDJfRHNiaGdxYkJ6UEFhWEpGalRjd2wtVjBuTXJFQkVXMUx4VHhKeGhaejhmcUpvOWpnVkVxSFFCVDhSSzM1dVFaQkh6TnNpbkwxdEY2UXptSEdhdU1ITEdOeWNqUXhwb2doNFdK?oc=5",
       "source": "Google News · Pelicans",
       "kind": "news",
-      "status": "pending",
-      "title_ko": "경기 전망: 뉴올리언스 펠리컨스 대 워싱턴 위저즈, 2026년 10월 16일 - roundtable.io"
+      "status": "ready",
+      "title_ko": "경기 전망: 뉴올리언스 펠리컨스 대 워싱턴 위저즈, 2026년 10월 16일 - roundtable.io",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "thumbnail": "https://deweb-519a7.b-cdn.net/post-images/6b962fe3-bb5f-4e75-8db5-25565d68776d.jpeg",
+      "original_url": "https://roundtable.io/sports/nba/pelicans/game-day/game-preview-new-orleans-pelicans-vs-washington-wizards---10-16-26",
+      "summary_en": [
+        "The New Orleans Pelicans return home for the first time since last season as they close out the preseason against the Washington Wizards.",
+        "The New Orleans Pelicans will return home for the first time this year as they take on the rebuilding but confident Washington Wizards.",
+        "It will also be another return to the city for former Pelicans star Anthony Davis."
+      ],
+      "summary_source": "article",
+      "summary_ko": [
+        "뉴올리언스 펠리컨스가 워싱턴 위저즈와의 프리시즌을 마무리하며 지난 시즌 이후 처음으로 홈으로 돌아왔습니다.",
+        "뉴올리언스 펠리컨스는 재건 중이지만 자신감이 넘치는 워싱턴 위저즈를 상대하면서 올해 처음으로 고국으로 돌아올 것입니다.",
+        "이는 또한 전 펠리컨스 스타 앤서니 데이비스의 또 다른 도시 복귀가 될 것입니다."
+      ],
+      "processed_at": "2026-10-18T02:57:39.821103+00:00"
     },
     {
       "title": "Indiana Pacers vs New Orleans Pelicans | October 22, 2026 | NBA Matchup - theScore",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1HUTBmVWJhU09mT3JMT2tvTmFtenRVWjNIQWtmSDQzSENnY09ORURjR3RNZjFtWlduYlktSG5GVnpBSjFWbGdjRURzVFc3RXRWaG9jZQ?oc=5",
       "source": "Google News · Pelicans",
       "kind": "news",
-      "status": "pending",
-      "title_ko": "인디애나 페이서스 대 뉴올리언스 펠리컨스 | 2026년 10월 22일 | NBA 맞대결 - theScore"
+      "status": "partial",
+      "title_ko": "인디애나 페이서스 대 뉴올리언스 펠리컨스 | 2026년 10월 22일 | NBA 맞대결 - theScore",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "thumbnail": "https://www.thescore.com/nba/event/2462730/og-image",
+      "original_url": "https://www.thescore.com/nba/event/2462730",
+      "summary_en": [],
+      "summary_source": "article",
+      "content_error": "RuntimeError",
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
     {
       "title": "Washington Wizards Close Preseason with Narrow Loss vs. Pelicans - Yahoo Sports",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNdDI3X041LWxBY0VtbGlsU1JVYXc4V1Bvdmh6Wld5QU1DMHhGdEstZ2tfVGNFMC1uU3lhTGdqcGdpeXBQQkVOUjBHcFRnM1FtODNGSERwT3NMbFFmQXNxM255SWhQLUpWSjJOZF80SW1VWk9FTEhlakRNSFFDYjF3aUw2RVN3Q19kQnhSdm9LdjZxd054?oc=5",
       "source": "Google News · Pelicans",
       "kind": "news",
-      "status": "pending",
-      "title_ko": "워싱턴 위저즈, 펠리컨스에 석패하며 프리시즌 마무리 - Yahoo Sports"
+      "status": "ready",
+      "title_ko": "워싱턴 위저즈, 펠리컨스에 석패하며 프리시즌 마무리 - Yahoo Sports",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "thumbnail": "https://s.yimg.com/lo/mysterio/api/db45692bcddb3e3ae7a362fee3d2f0db177f4ec7926690c7a5f6b9679a007e96/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Froundtable_sports_washington_wizards_236%2Fba76a8758fd5fc3b29de5692d80c135d.jpg",
+      "original_url": "https://sports.yahoo.com/articles/washington-wizards-close-preseason-narrow-030128037.html",
+      "summary_en": [
+        "The Washington Wizards closed out the preseason slate with an uninspiring showing against the Pelicans in New Orleans, falling 107-106 on Friday night despite late comeback efforts falling just short.",
+        "Anthony Davis and Kyshawn George finished with a team-high 14 points, while Davis notched another double-double after tallying 11 rebounds in just shy of 27 minutes.",
+        "Two of Young's turnovers materialized in the first quarter, though similar to what head coach Brian Keefe noted days ago, some stemmed from the players still ironing out chemistry with positioning and entry passes, but it allowed the Pelicans to jump out to an early lead that they held onto for the entirety of Friday night."
+      ],
+      "summary_source": "article",
+      "summary_ko": [
+        "워싱턴 위저즈는 뉴올리언스에서 열린 펠리컨스를 상대로 늦은 복귀 노력에도 불구하고 금요일 밤 107-106으로 뒤진 실망스러운 경기로 프리시즌 일정을 마감했습니다.",
+        "앤서니 데이비스(Anthony Davis)와 카이숀 조지(Kyshawn George)는 팀 최고 득점인 14득점을 기록했고, 데이비스는 27분도 안 되는 시간에 11리바운드를 기록하며 또 다른 더블더블을 기록했습니다.",
+        "Young의 매출 중 두 번은 1쿼터에 구체화되었습니다. Brian Keefe 감독이 며칠 전에 언급한 것과 유사하지만 일부는 선수들이 포지셔닝 및 진입 패스로 여전히 케미스트리를 다듬고 있기 때문에 발생했지만 Pelicans는 금요일 밤 내내 버틸 수 있었던 초기 선두로 뛰어올 수 있었습니다."
+      ],
+      "processed_at": "2026-10-18T02:57:47.441716+00:00"
     },
     {
       "title": "How to Watch Miami Heat-New Orleans Pelicans: Injuries, Betting Lines, Starters, Storylines - Sports Illustrated",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQTWtGX05GTG0tRzJVUTl3b21DaDVqMW16SThUY1VZSDY2Q09RaHIyT0R3T3ktNE5fMFV4TGZBVTd3Q1FsWnp1LVBJN2tQUGFUekd0WXpNeDk3aWNzSmpDZm1VQ21iWHdkcy05OHRiMEVobXd6RDZoVXdFSm1IZWNQWTdMcmJObmFueXBnSlA1aVJFbTNJU1V3THNjci1NbFVfV0xYZ0hDakpoU0pKamVMQkFJcVNjTTIxa1FXa3VWWURDNFM4bE9fYWhsNHFHUQ?oc=5",
       "source": "Google News · Pelicans",
       "kind": "news",
-      "status": "pending",
-      "title_ko": "마이애미 히트 대 뉴올리언스 펠리컨스 시청 안내: 부상·배당·선발·관전 포인트 - Sports Illustrated"
+      "status": "ready",
+      "title_ko": "마이애미 히트 대 뉴올리언스 펠리컨스 시청 안내: 부상·배당·선발·관전 포인트 - Sports Illustrated",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "thumbnail": "https://images2.minutemediacdn.com/image/upload/c_crop,x_0,y_33,w_2417,h_1359/c_fill,w_1440,ar_1440:810,f_auto,q_auto,g_auto/images/ReutersImages/mmsport/inside_the_heat/01m4ccd8g33fzt04r0c1.jpg",
+      "original_url": "https://www.si.com/nba/heat/onsi/how-to-watch-miami-heat-new-orleans-pelicans-injuries-betting-lines-starters-storylines-01m4cc1sg8ej",
+      "summary_en": [
+        "How to Watch Miami Heat-New Orleans Pelicans: Injuries, Betting Lines, Starters, Storylines",
+        "TV: WPLG Channel 10 (South Florida), Gulf Coast Sports & Entertainment Network, Pelicans+ (New Orleans)",
+        "Radio: 104.3 FM, 1140 AM (South Florida), 870 AM/105.3 FM (New Orleans)"
+      ],
+      "summary_source": "article",
+      "summary_ko": [
+        "마이애미 히트-뉴올리언스 펠리컨스 시청 방법: 부상, 베팅 라인, 선발 투수, 스토리라인",
+        "TV: WPLG 채널 10(사우스 플로리다), Gulf Coast Sports & Entertainment Network, Pelicans+(뉴올리언스)",
+        "라디오: 104.3 FM, 1140 AM(사우스 플로리다), 870 AM/105.3 FM(뉴올리언스)"
+      ],
+      "processed_at": "2026-10-18T02:57:52.716056+00:00"
     },
     {
       "title": "4 Burning Pelicans Questions Ahead of Preseason Finale vs. Wizards - Yahoo Sports",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOb0U0ZHhqNHplTmFUblc5RWVwRkhhaEVUQmRxSU5VZk5aNjNoVFp4NnFReG9uVmwxUFZDcXd3ckRrbnhrSmdsTkpDTnhfd2RTc1pGNjNGMUo0U1FLS2ZObU5GUWg1OXAzMnFrWlVZQzc2dGZnWl9fNy1ZN0t3cmNwT2NvZkNmb2tPOVhV?oc=5",
       "source": "Google News · Pelicans",
       "kind": "news",
-      "status": "pending",
-      "title_ko": "위저즈와의 프리시즌 최종전을 앞둔 펠리컨스의 네 가지 핵심 질문 - Yahoo Sports"
+      "status": "ready",
+      "title_ko": "위저즈와의 프리시즌 최종전을 앞둔 펠리컨스의 네 가지 핵심 질문 - Yahoo Sports",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "thumbnail": "https://s.yimg.com/lo/mysterio/api/0a119c711572cfa58074255dd16fd091f7771e0e2718d44b6b05470f689f58e3/lightyear_networkapi/resizefill_w912_h513%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fnew_orleans_pelicans_on_si_articles_332%2F9644dd88d4bc04c0554a2a0688f362fb.jpg",
+      "original_url": "https://sports.yahoo.com/articles/4-burning-pelicans-questions-ahead-130008054.html",
+      "summary_en": [
+        "The New Orleans Pelicans' final preseason game should tell us more about how they intend to play when the results count.",
+        "Now the focus shifts to whether New Orleans can repeat those habits and give its rotation some definition.",
+        "Yves Missi's four blocks helped give the Pelicans a defensive presence on the interior Wednesday."
+      ],
+      "summary_source": "article",
+      "summary_ko": [
+        "뉴올리언스 펠리컨스의 마지막 프리시즌 경기는 결과가 중요할 때 그들이 어떻게 플레이할 것인지에 대해 더 많은 것을 말해줄 것입니다.",
+        "이제 초점은 뉴올리언스가 이러한 습관을 반복하고 로테이션에 어느 정도 정의를 내릴 수 있는지 여부로 이동합니다.",
+        "이브 미시(Yves Missi)의 4개 블록은 수요일 펠리컨스가 내부에서 수비적인 존재감을 제공하는 데 도움이 되었습니다."
+      ],
+      "processed_at": "2026-10-18T02:57:56.651383+00:00"
     }
   ]
 }
