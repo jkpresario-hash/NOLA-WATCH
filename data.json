@@ -1,7 +1,7 @@
 {
-  "updated": "2026-10-18T05:49:06.687606+00:00",
+  "updated": "2026-10-18T05:50:17.823348+00:00",
   "errors": [
-    "비영어 뉴스 2건은 영어와의 중복 확인이 끝날 때까지 보류합니다."
+    "비영어 뉴스 2건은 출처·중복 확인이 끝날 때까지 보류합니다."
   ],
   "items": [
     {
@@ -2358,26 +2358,6 @@
       "event_facts_en": []
     },
     {
-      "title": "코비 버프킨을 웨이브한 뉴올리언스 - 에펨코리아",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5qeXRuWUliTy1qQjF3ZjM0bzRidkV0RV8tVkJ5aGZSZkRNVXBGR1ZIQ19aMDB0LUZQcDNRNkFzbGNGaG1tM1hwbTJpaw?oc=5",
-      "source": "에펨코리아 (미국농구)",
-      "kind": "news",
-      "published": "2026-10-18T00:42:00+00:00",
-      "thumbnail": "",
-      "language": "ko",
-      "publisher": "에펨코리아",
-      "publisher_url": "https://www.fmkorea.com",
-      "status": "partial",
-      "source_id": "fmkorea",
-      "dedupe_text_en": "New Orleans waves Kobe Buffkin",
-      "dedupe_original_title": "코비 버프킨을 웨이브한 뉴올리언스",
-      "title_ko": "코비 버프킨을 웨이브한 뉴올리언스 - 에펨코리아",
-      "translation_errors": {},
-      "last_attempt_at": "2026-10-18T05:37:59.276949+00:00",
-      "content_error": "HTTP 430",
-      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
-    },
-    {
       "title": "本场比赛新奥尔良街球队比赛表现下列哪个最抽象？ - 虎扑体育",
       "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBFZHgxNDJ1SHhhYUVubkFpSG4xMHFKVjVfNHNlZlpiT0M4bE9VVThWLWFOS2NaaG1yenZQM0JqTXFTQUZWNzVMdFlTSQ?oc=5",
       "source": "후푸 (虎扑)",
@@ -2518,15 +2498,13 @@
   "news_policy": {
     "version": 1,
     "english_complete": true,
-    "non_article": 5,
+    "non_article": 4,
     "outside_date_window": 30,
-    "unknown_date": 1,
     "kept_en": 12,
-    "kept_ko": 1,
     "duplicate_story": 1,
     "kept_zh": 2,
     "deferred": 2,
-    "outside_allowlist": 7,
+    "kept_ko": 0,
     "kept_ja": 0
   }
 }
