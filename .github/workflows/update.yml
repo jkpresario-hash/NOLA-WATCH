@@ -8,6 +8,9 @@ on:
       - 'news_policy.py'
       - 'news_sources.json'
       - 'index.html'
+      - 'feed.js'
+      - 'social_collect.py'
+      - 'social_sources.json'
       - 'requirements.txt'
       - 'tests/**'
       - '.github/workflows/update.yml'
@@ -48,7 +51,12 @@ jobs:
 
       - run: python -m unittest discover -s tests
 
+      - run: node --test tests/feed.test.js
+
       - run: python collect.py
+        env:
+          X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN || secrets.X_API_BEARER_TOKEN || secrets.TWITTER_BEARER_TOKEN }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         timeout-minutes: 25
 
       - name: Save feed
@@ -62,7 +70,7 @@ jobs:
       - name: Prepare public files
         run: |
           mkdir -p public
-          cp index.html data.json public/
+          cp index.html feed.js data.json public/
 
       - uses: actions/configure-pages@v5
 

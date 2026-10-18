@@ -2,3 +2,7 @@ beautifulsoup4>=4.12,<5
 trafilatura>=2.0,<3
 googlenewsdecoder>=0.1.7,<0.2
 selectolax>=0.3.27,<0.4
+yt-dlp>=2025.9.26
+youtube-transcript-api>=1.2,<2
+requests>=2.32,<3
+

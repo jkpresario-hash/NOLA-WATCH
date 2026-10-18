@@ -1,0 +1,17 @@
+{
+  "timezone": "Asia/Seoul",
+  "schedule_kst": ["09:00", "18:00"],
+  "youtube": {
+    "queries": ["뉴올리언스 펠리컨스", "New Orleans Pelicans"],
+    "results_per_query": 20,
+    "lookback_days": 7,
+    "minimum_summary_points": 3
+  },
+  "x": {
+    "start_date": "2026-10-19",
+    "accounts": [
+      "PelicansLead", "PelicansNOW", "InTheNOPod", "retro_pels", "PelsFilmRoom",
+      "Jim_Eichenhofer", "FearTheBrown", "_Andrew_Lopez", "PelicansNBA", "PelsCommunity"
+    ]
+  }
+}

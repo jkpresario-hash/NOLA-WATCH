@@ -1,6 +1,6 @@
 # NOLA WATCH
 
-뉴올리언스 펠리컨스 뉴스와 Reddit을 한국어로 읽는 GitHub Pages 피드.
+뉴올리언스 펠리컨스 뉴스·Reddit·X.com·YouTube를 한국어로 읽는 GitHub Pages 피드. 첫 페이지는 뉴스이며 전체 모음 탭은 제공하지 않습니다.
 
 ## 기능
 - 첨부 허용 목록(news_sources.json)에 있는 소스만 site: 조건으로 검색. RSS 발행 매체, 실제 기사 주소와 리디렉션도 확인하며 목록 밖 뉴스는 기존 피드에서도 제외
@@ -8,7 +8,9 @@
 - 한국어 제목, 기사 본문의 주요 문장 3개를 발췌한 한국어 요약
 - Reddit 텍스트 본문과 상위 댓글 최대 10개 번역, 댓글별 원문 링크
 - 원문 OG 이미지·Reddit 미리보기 썸네일 (없는 이미지나 로딩 실패 이미지 숨김)
-- 뉴스/Reddit 필터, 한·영 검색, 모바일 레이아웃, 20개씩 더 보기
+- 뉴스 / Reddit / X.com / YouTube의 4개 탭, 한·영 검색, 모바일 레이아웃, 20개씩 더 보기
+- 하루 두 번 한국어·영어로 펠리컨스 YouTube 검색, 자막 또는 영상 설명의 서로 다른 핵심 내용 3개 이상을 발췌해 한국어 번역
+- 지정한 X 계정 10개의 2026년 10월 19일 이후 게시글 전문 한국어 번역 (X 연결 필요)
 - 한국시간 09:00 / 18:00 GitHub Actions 수집 및 Pages 배포
 
 ## 실행
@@ -16,6 +18,7 @@ Python 3.12 환경에서:
 ```
 pip install -r requirements.txt
 python -m unittest discover -s tests
+node --test tests/feed.test.js
 python collect.py --limit 40
 python -m http.server 8000
 ```
@@ -26,7 +29,7 @@ python -m http.server 8000
 
 기사 요약은 생성형 요약이 아닌 주요 문장 발췌 번역입니다. 유료벽·차단·본문 추출 실패 시 제목만 번역될 수 있습니다. Google News 원문 주소 해석도 외부 서비스 동작에 의존합니다. Reddit JSON API 실패 시 공개 댓글 RSS로 대체 수집합니다. 두 경로 모두 실행 환경 IP에 따라 403/429를 반환할 수 있으며 이 경우 본문·댓글 번역이 제공되지 않습니다. RSS는 추천 수를 제공하지 않으며 피드에 포함된 댓글 최대 10개를 표시합니다. 전체 댓글이 아니라 API가 반환하는 상위 댓글 최대 10개입니다.
 
-제목과 저장된 본문·댓글은 본문 수집 한도와 별도로 번역합니다. 본문 수집은 실행당 최대 200개, 15분의 예산으로 처리하고 기존 성공 번역과 번역 캐시를 재사용합니다. Reddit 댓글은 6시간 이상 경과하면 다시 수집합니다. data.json에는 뉴스는 최근 200개까지, 수집된 Reddit 게시글은 개수 제한 없이 유지하며 수집 실패 시 기존 데이터와 성공한 번역을 유지합니다. 아직 시도하지 않은 글부터 처리하고 실패 항목은 6시간 이후 재시도합니다. 제목 번역과 본문·댓글 수집 실패는 별도로 기록합니다. 실행 일정은 GitHub에 의해 지연될 수 있습니다.
+제목과 저장된 본문·댓글은 본문 수집 한도와 별도로 번역합니다. 뉴스·Reddit 본문 수집은 실행당 최대 200개, 10분의 예산으로 처리하고 기존 성공 번역과 번역 캐시를 재사용합니다. X·YouTube에는 별도 5분의 수집 예산을 두며 X가 YouTube 예산을 전부 사용하지 않도록 제한합니다. Reddit 댓글은 6시간 이상 경과하면 다시 수집합니다. data.json에는 뉴스는 최근 200개까지, 수집된 Reddit·X 게시글은 개수 제한 없이 유지하며 수집 실패 시 기존 데이터와 성공한 번역을 유지합니다. 아직 시도하지 않은 글부터 처리하고 실패 항목은 6시간 이후 재시도합니다. 제목 번역과 본문·댓글 수집 실패는 별도로 기록합니다. 실행 일정은 GitHub에 의해 지연될 수 있습니다.
 
 GitHub Pages 설정은 기존처럼 Source: GitHub Actions를 유지합니다. 수집기·화면·테스트·워크플로 변경을 main에 반영하면 테스트 후 자동 수집·배포합니다. 데이터만 저장하는 자동 커밋은 재실행을 유발하지 않습니다. Actions → Update NOLA WATCH → Run workflow로 수동 실행하거나 정기 실행을 기다릴 수도 있습니다. 번역 캐시는 GitHub Actions cache에 저장되며 공개 사이트 파일에 포함되지 않습니다.
 
@@ -39,7 +42,7 @@ GitHub Pages 설정은 기존처럼 Source: GitHub Actions를 유지합니다. �
 
 ## 뉴스 소스 및 언어 정책
 
-news_sources.json이 허용 소스의 단일 기준입니다. NOLA.com, The Athletic, HoopsRumors, RealGM/SportSpyder, Pelicans Report, Pelican Debrief/The Bird Writes 및 첨부된 한국어·일본어·중국어 매체와 커뮤니티만 검색합니다. The Athletic은 NYTimes의 /athletic 경로, Sporting News는 /jp/nba, 네이버는 점프볼(065)·루키(398), 디시인사이드는 NBA 갤러리로 제한합니다. Reddit은 별도 최신순 전체 글 수집을 유지합니다. X와 Locked On Pelicans 등 인증/추가 연결이 필요한 항목은 허용 목록의 대기 항목에만 기록하며 활성 수집으로 표시하지 않습니다.
+news_sources.json이 뉴스 허용 소스의 단일 기준입니다. NOLA.com, The Athletic, HoopsRumors, RealGM/SportSpyder, Pelicans Report, Pelican Debrief/The Bird Writes 및 첨부된 한국어·일본어·중국어 매체와 커뮤니티만 검색합니다. The Athletic은 NYTimes의 /athletic 경로, Sporting News는 /jp/nba, 네이버는 점프볼(065)·루키(398), 디시인사이드는 NBA 갤러리로 제한합니다. Reddit은 별도 최신순 전체 글 수집을 유지합니다. X·YouTube는 social_sources.json의 별도 범위를 사용하며 뉴스 중복·소스 정책을 적용하지 않습니다.
 
 영어를 우선 보관하고, 한·중·일어는 영어로 비교용 제목을 번역해 72시간 이내 제목의 핵심 단어·사건·숫자를 비교합니다. 영어 기사 또는 영어 Reddit 글과 중복되는 비영어 기사는 제외하며, 같은 선수라도 사건이나 점수가 다르면 구분합니다. 동일 URL의 추적 파라미터도 제거해 비교합니다. 새 영어 글이 나중에 발견되면 기존 비영어 중복 글도 다시 정리합니다.
 
@@ -48,3 +51,24 @@ news_sources.json이 허용 소스의 단일 기준입니다. NOLA.com, The Athl
 최신 피드에서는 발행일이 확인된 최근 7일 기사만 남기고, 목차·선수 소개·경기 박스스코어 페이지는 제외합니다. 비영어 제목의 버프킨(Bufkin/Bavkin), waive/wave 같은 번역 표기도 정규화합니다. 영어 본문을 읽을 수 있으면 선수·사건의 짧은 식별 정보만 저장해 단신 모음 기사에 이미 나온 소식도 중복 비교에 사용하며, 기사 전체 본문은 저장하지 않습니다. 본문 수집 뒤 중복을 한 번 더 검사합니다.
 
 후푸는 게시글의 '发表在' 게시판 표시가 pelicans(鹈鹕专区)인지 확인하며, 다른 팀 게시판이나 공통 NBA 게시판 글은 제외합니다. 바이두는 鹈鹕吧를 확인합니다. 게시판 출처를 검증하지 못한 글도 공개하지 않고 deferred_news에서 재시도합니다.
+
+## X 연결 방법
+
+1. [X 개발자 콘솔](https://console.x.com/)에서 개발자 계정과 앱을 만들고, 사용자 조회·사용자 게시글 읽기 권한이 있는 Bearer Token을 발급합니다. X의 요금·이용 가능 범위를 확인하세요.
+2. [저장소 Actions Secrets](https://github.com/jkpresario-hash/NOLA-WATCH/settings/secrets/actions)에서 New repository secret을 선택합니다.
+3. Name에 `X_BEARER_TOKEN`, Secret에 Bearer Token을 입력해 저장합니다. 토큰을 코드·data.json·대화에 입력하지 않습니다.
+4. [수집 워크플로](https://github.com/jkpresario-hash/NOLA-WATCH/actions/workflows/update.yml)에서 Run workflow를 실행하거나 다음 정기 수집을 기다립니다.
+
+기존 `X_API_BEARER_TOKEN` / `TWITTER_BEARER_TOKEN` Secret도 지원합니다. 연결 전에는 X 탭에 연결 대기를 표시하며, 인증 실패·요금 제한·계정 조회 실패를 성공으로 표시하지 않습니다. X API 토큰과 YouTube API 키는 Actions 실행 환경에만 전달하고 공개 파일에는 저장하지 않습니다.
+
+대상은 @PelicansLead, @PelicansNOW, @InTheNOPod, @retro_pels, @PelsFilmRoom, @Jim_Eichenhofer, @FearTheBrown, @_Andrew_Lopez, @PelicansNBA, @PelsCommunity입니다. 사용자명을 정확히 조회하고 비슷한 계정으로 대체하지 않습니다. 한국시간 **2026-10-19 00:00**(UTC 2026-10-18 15:00)부터 게시한 글·답글·인용·재게시를 타임라인에서 수집합니다. 게시글이 길면 note_tweet 전문을 번역합니다. 페이지 수집이 중단되면 커서를 저장하고 이전 페이지를 끝까지 처리한 뒤 최신 ID를 갱신합니다. 삭제·비공개 글과 API가 제공하는 이력 범위 밖 자료는 가져올 수 없습니다.
+
+## YouTube 검색·요약
+
+매일 한국시간 09:00·18:00에 `뉴올리언스 펠리컨스`와 `New Orleans Pelicans`를 최신순으로 검색합니다. 검색어당 최대 20개의 최근 7일 영상을 확인하고 영상 ID로 중복 제거하며 최신 200개를 유지합니다. 펠리컨스 언급이 제목·검색 설명에서 확인된 영상만 추가합니다.
+
+기본 검색은 공개 YouTube 검색을 사용합니다. 공식 검색을 사용하려면 Google Cloud에서 YouTube Data API v3를 활성화한 API 키를 `YOUTUBE_API_KEY`라는 Actions Secret으로 등록합니다. 이 키는 영상 검색·설명을 가져오는 용도이며 비공개 자막 접근 권한을 주지는 않습니다.
+
+공개 자막을 먼저 확인하고, 없거나 접근할 수 없으면 영상 설명을 사용합니다. 서로 다른 원문 내용 3개 이상을 확인해야 한국어 요약으로 표시하며 자막 기반인지 설명 기반인지 구분합니다. 같은 문장을 반복하거나 제목·채널명으로 3개를 채우지 않습니다. 원문 발췌 방식이며 생성형 재작성 요약은 아닙니다. 광고·구독 안내를 제외하고 영상의 앞·중간·뒤 구간에서 핵심 문장을 선택합니다. 영상 설명 기반일 때는 실제 발언 전체를 요약한 것으로 표시하지 않습니다.
+
+자막이 없거나 YouTube가 실행 환경의 접근을 제한하고 설명도 짧으면 영상은 요약 대기로 남습니다. 짧은 하이라이트처럼 내용 3개를 확인할 수 없는 영상의 내용을 추정하지 않습니다. 다음 수집에서 재시도하고 기존 성공 요약은 유지합니다. 검색·수집 상태는 각 탭에 따로 표시합니다.

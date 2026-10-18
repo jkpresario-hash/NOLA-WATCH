@@ -17,6 +17,7 @@ from pathlib import Path
 from bs4 import BeautifulSoup
 import trafilatura
 import news_policy
+import social_collect
 
 SOURCES = {
     "Reddit · NOLAPelicans": "https://www.reddit.com/r/NOLAPelicans/new/.rss?limit=100",
@@ -49,6 +50,7 @@ def seed_cache(items):
                  (item.get("body_en"), item.get("body_ko"))]
         pairs.extend((c.get("body_en"), c.get("body_ko")) for c in item.get("comments", []))
         pairs.extend(zip(item.get("summary_en", []), item.get("summary_ko", [])))
+        pairs.extend(zip(item.get("summary_original", []), item.get("summary_ko", [])))
         for original, translated in pairs:
             if original and translated:
                 CACHE[hashlib.sha256(original.encode()).hexdigest()] = translated
@@ -470,8 +472,10 @@ def main():
         selected, deferred, stats = news_policy.curate(items, lambda text: translate(text, target="en"), english_complete, now=datetime.now(timezone.utc))
         policy_result.update(deferred=deferred, stats=stats)
         return selected
-    previous = old["items"] + old.get("deferred_news", [])
-    merged, processed = collect_items(entries, previous, args.limit, news_filter=curate)
+    # Social channels have their own scope; never send them through news allowlisting.
+    social_items, social_state, channels = social_collect.collect(old["items"], old.get("social_state"), translate)
+    previous = [item for item in old["items"] if item.get("kind") not in ("x", "youtube")] + old.get("deferred_news", [])
+    merged, processed = collect_items(entries, previous, args.limit, content_seconds=600, news_filter=curate)
     merged, final_deferred, final_stats = news_policy.curate(merged, lambda text: translate(text, target="en"), english_complete,
         now=datetime.now(timezone.utc), require_context=True)
     policy_result["deferred"].extend(final_deferred)
@@ -483,7 +487,13 @@ def main():
         policy_result["stats"]["kept_" + language] = sum(item.get("kind") != "reddit" and item.get("language") == language for item in merged)
     if policy_result["deferred"]:
         errors.append(f"비영어 뉴스 {len(policy_result['deferred'])}건은 출처·중복 확인이 끝날 때까지 보류합니다.")
+    channels["news"] = dict(state="ready" if english_complete else "partial", message=" · ".join(error for error in errors if not error.startswith("Reddit")))
+    channels["reddit"] = dict(state="partial" if any(error.startswith("Reddit") for error in errors) else "ready",
+        message=" · ".join(error for error in errors if error.startswith("Reddit")))
+    merged.extend(social_items)
+    merged.sort(key=lambda item: item.get("published") or item.get("discovered_at", ""), reverse=True)
     state = dict(updated=datetime.now(timezone.utc).isoformat(), errors=errors, items=merged, reddit_scan=reddit_scan,
+                 social_state=social_state, channels=channels,
                  deferred_news=policy_result["deferred"], news_policy=dict(version=news_policy.CONFIG["version"],
                  english_complete=english_complete, **policy_result["stats"]))
     path.write_text(json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")
