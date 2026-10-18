@@ -1,0 +1,405 @@
+{
+  "version": 1,
+  "description": "첨부된 펠리컨스 소스 목록만 허용. 영어 우선, 한국어·일본어·중국어는 영어와 중복되지 않는 내용만 게시.",
+  "sources": [
+    {
+      "id": "nola",
+      "name": "NOLA.com (Times-Picayune)",
+      "language": "en",
+      "hosts": [
+        "nola.com"
+      ],
+      "search": [
+        "nola.com/sports/pelicans"
+      ],
+      "aliases": [
+        "NOLA.com",
+        "Times-Picayune"
+      ],
+      "paths": [
+        "/sports/pelicans"
+      ]
+    },
+    {
+      "id": "athletic",
+      "name": "The Athletic (Pelicans)",
+      "language": "en",
+      "hosts": [
+        "nytimes.com",
+        "theathletic.com"
+      ],
+      "search": [
+        "nytimes.com/athletic",
+        "theathletic.com"
+      ],
+      "aliases": [
+        "The Athletic",
+        "The New York Times"
+      ],
+      "paths": [
+        "/athletic/"
+      ],
+      "legacy_host": "theathletic.com"
+    },
+    {
+      "id": "hoopsrumors",
+      "name": "HoopsRumors",
+      "language": "en",
+      "hosts": [
+        "hoopsrumors.com"
+      ],
+      "search": [
+        "hoopsrumors.com"
+      ],
+      "aliases": [
+        "Hoops Rumors",
+        "HoopsRumors"
+      ]
+    },
+    {
+      "id": "realgm",
+      "name": "RealGM",
+      "language": "en",
+      "hosts": [
+        "basketball.realgm.com"
+      ],
+      "search": [
+        "basketball.realgm.com"
+      ],
+      "aliases": [
+        "RealGM"
+      ]
+    },
+    {
+      "id": "sportspyder",
+      "name": "SportSpyder (Pelicans)",
+      "language": "en",
+      "hosts": [
+        "sportspyder.com"
+      ],
+      "search": [
+        "sportspyder.com/nba/new-orleans-pelicans"
+      ],
+      "aliases": [
+        "SportSpyder"
+      ],
+      "paths": [
+        "/nba/new-orleans-pelicans"
+      ]
+    },
+    {
+      "id": "pelicansreport",
+      "name": "Pelicans Report",
+      "language": "en",
+      "hosts": [
+        "pelicansreport.com"
+      ],
+      "search": [
+        "pelicansreport.com"
+      ],
+      "aliases": [
+        "Pelicans Report"
+      ]
+    },
+    {
+      "id": "debrief",
+      "name": "Pelican Debrief",
+      "language": "en",
+      "hosts": [
+        "pelicandebrief.com"
+      ],
+      "search": [
+        "pelicandebrief.com"
+      ],
+      "aliases": [
+        "Pelican Debrief"
+      ]
+    },
+    {
+      "id": "birdwrites",
+      "name": "The Bird Writes",
+      "language": "en",
+      "hosts": [
+        "thebirdwrites.com"
+      ],
+      "search": [
+        "thebirdwrites.com"
+      ],
+      "aliases": [
+        "The Bird Writes"
+      ]
+    },
+    {
+      "id": "nbamania",
+      "name": "NBA 매니아",
+      "language": "ko",
+      "hosts": [
+        "mania.kr"
+      ],
+      "search": [
+        "mania.kr"
+      ],
+      "aliases": [
+        "NBA Mania",
+        "NBA매니아",
+        "NBA 매니아"
+      ]
+    },
+    {
+      "id": "fmkorea",
+      "name": "에펨코리아 (미국농구)",
+      "language": "ko",
+      "hosts": [
+        "fmkorea.com"
+      ],
+      "search": [
+        "fmkorea.com"
+      ],
+      "aliases": [
+        "에펨코리아",
+        "FM코리아"
+      ]
+    },
+    {
+      "id": "dcinside",
+      "name": "디시인사이드 NBA 갤러리",
+      "language": "ko",
+      "hosts": [
+        "gall.dcinside.com",
+        "m.dcinside.com"
+      ],
+      "search": [
+        "gall.dcinside.com NBA",
+        "m.dcinside.com/board/nba"
+      ],
+      "aliases": [
+        "디시인사이드"
+      ],
+      "board": "nba"
+    },
+    {
+      "id": "jumpball",
+      "name": "점프볼",
+      "language": "ko",
+      "hosts": [
+        "jumpball.co.kr"
+      ],
+      "search": [
+        "jumpball.co.kr"
+      ],
+      "aliases": [
+        "점프볼"
+      ]
+    },
+    {
+      "id": "rookie",
+      "name": "루키",
+      "language": "ko",
+      "hosts": [
+        "rookie.co.kr"
+      ],
+      "search": [
+        "rookie.co.kr"
+      ],
+      "aliases": [
+        "루키",
+        "ROOKIE"
+      ]
+    },
+    {
+      "id": "naver_jumpball",
+      "name": "점프볼 (네이버 스포츠)",
+      "language": "ko",
+      "hosts": [
+        "sports.news.naver.com",
+        "m.sports.naver.com",
+        "sports.naver.com"
+      ],
+      "search": [
+        "sports.news.naver.com/basketball/article/065",
+        "m.sports.naver.com/basketball/article/065"
+      ],
+      "aliases": [],
+      "publisher_id": "065"
+    },
+    {
+      "id": "naver_rookie",
+      "name": "루키 (네이버 스포츠)",
+      "language": "ko",
+      "hosts": [
+        "sports.news.naver.com",
+        "m.sports.naver.com",
+        "sports.naver.com"
+      ],
+      "search": [
+        "sports.news.naver.com/basketball/article/398",
+        "m.sports.naver.com/basketball/article/398"
+      ],
+      "aliases": [],
+      "publisher_id": "398"
+    },
+    {
+      "id": "rakuten",
+      "name": "NBA Rakuten",
+      "language": "ja",
+      "hosts": [
+        "nba.rakuten.co.jp"
+      ],
+      "search": [
+        "nba.rakuten.co.jp"
+      ],
+      "aliases": [
+        "NBA Rakuten"
+      ]
+    },
+    {
+      "id": "sportingnews_jp",
+      "name": "Sporting News JP",
+      "language": "ja",
+      "hosts": [
+        "sportingnews.com"
+      ],
+      "search": [
+        "sportingnews.com/jp/nba"
+      ],
+      "aliases": [
+        "スポーティングニュース",
+        "Sporting News"
+      ],
+      "paths": [
+        "/jp/nba"
+      ]
+    },
+    {
+      "id": "basketballking",
+      "name": "Basketball King",
+      "language": "ja",
+      "hosts": [
+        "basketballking.jp"
+      ],
+      "search": [
+        "basketballking.jp"
+      ],
+      "aliases": [
+        "バスケットボールキング",
+        "Basketball King"
+      ]
+    },
+    {
+      "id": "basketcount",
+      "name": "Basket Count",
+      "language": "ja",
+      "hosts": [
+        "basket-count.com"
+      ],
+      "search": [
+        "basket-count.com"
+      ],
+      "aliases": [
+        "BASKET COUNT",
+        "バスケットカウント"
+      ]
+    },
+    {
+      "id": "5ch",
+      "name": "5ch (NBA)",
+      "language": "ja",
+      "hosts": [
+        "5ch.net"
+      ],
+      "search": [
+        "5ch.net/test/read.cgi/basket"
+      ],
+      "aliases": [
+        "5ch"
+      ],
+      "path_contains": "/basket/"
+    },
+    {
+      "id": "hupu",
+      "name": "후푸 (虎扑)",
+      "language": "zh",
+      "hosts": [
+        "bbs.hupu.com"
+      ],
+      "search": [
+        "bbs.hupu.com"
+      ],
+      "aliases": [
+        "虎扑",
+        "虎扑社区",
+        "Hupu"
+      ]
+    },
+    {
+      "id": "tieba",
+      "name": "바이두 티에바 (鹈鹕吧)",
+      "language": "zh",
+      "hosts": [
+        "tieba.baidu.com"
+      ],
+      "search": [
+        "tieba.baidu.com"
+      ],
+      "aliases": [
+        "百度贴吧",
+        "百度"
+      ]
+    },
+    {
+      "id": "zhibo8",
+      "name": "지보바 (直播吧)",
+      "language": "zh",
+      "hosts": [
+        "zhibo8.com",
+        "zhibo8.cc"
+      ],
+      "search": [
+        "news.zhibo8.com",
+        "news.zhibo8.cc"
+      ],
+      "aliases": [
+        "直播吧"
+      ]
+    },
+    {
+      "id": "tencent",
+      "name": "텐센트 스포츠",
+      "language": "zh",
+      "hosts": [
+        "sports.qq.com"
+      ],
+      "search": [
+        "sports.qq.com/nba"
+      ],
+      "aliases": [
+        "腾讯体育",
+        "腾讯网",
+        "Tencent Sports"
+      ]
+    }
+  ],
+  "community": {
+    "reddit": {
+      "url": "https://www.reddit.com/r/NOLAPelicans/new/.rss?limit=100",
+      "all_topics": true
+    }
+  },
+  "pending_integrations": [
+    {
+      "name": "X / Locked On Pelicans",
+      "references": [
+        "https://x.com/NOLAJake",
+        "https://x.com/PelicansNBA"
+      ],
+      "reason": "X API 인증 및 별도 연동 필요. 자동 검색 소스로 활성화하지 않음."
+    },
+    {
+      "name": "X (Twitter Japan)",
+      "hashtags": [
+        "ペリカンズ"
+      ],
+      "reason": "X API 인증 및 별도 연동 필요. 자동 검색 소스로 활성화하지 않음."
+    }
+  ]
+}

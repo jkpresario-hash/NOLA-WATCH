@@ -16,12 +16,12 @@ from email.utils import parsedate_to_datetime
 from pathlib import Path
 from bs4 import BeautifulSoup
 import trafilatura
+import news_policy
 
 SOURCES = {
-    "Google News · Pelicans": "https://news.google.com/rss/search?q=New+Orleans+Pelicans+when:7d&hl=en-US&gl=US&ceid=US:en",
     "Reddit · NOLAPelicans": "https://www.reddit.com/r/NOLAPelicans/new/.rss?limit=100",
 }
-KEYWORDS = re.compile(r"pelicans|\bnola\b|new orleans|뉴올리언스|펠리컨스", re.I)
+KEYWORDS = re.compile(r"pelicans|\bnola\b|new orleans|뉴올리언[스즈]|펠리컨[스즈]|ペリカンズ|ニューオーリンズ|鹈鹕|鵜鶘|新奥尔良|자이언|ザイオン|锡安|錫安|zion williamson|trey murphy|herb jones|jeremiah fears|dejounte murray", re.I)
 SPAM = re.compile(r"livestream|watchlive|free streams?|live free|free reddit|universidad de", re.I)
 UA = "NOLAWatch/2.0 (public Pelicans news reader; https://jkpresario-hash.github.io/NOLA-WATCH/)"
 CACHE = {}
@@ -58,9 +58,19 @@ def safe_url(value):
     parsed = urllib.parse.urlsplit(value)
     return value if parsed.scheme in ("http", "https") and parsed.hostname and not parsed.username else ""
 
-def fetch(url):
+class NewsRedirectHandler(urllib.request.HTTPRedirectHandler):
+    def redirect_request(self, req, fp, code, msg, headers, newurl):
+        if not news_policy.allowed_news_url(newurl):
+            raise ValueError("redirect outside news allowlist")
+        return super().redirect_request(req, fp, code, msg, headers, newurl)
+
+def fetch(url, news=False):
     req = urllib.request.Request(url, headers={"User-Agent": UA})
-    with urllib.request.urlopen(req, timeout=20) as response:
+    if news and not news_policy.allowed_news_url(url):
+        raise ValueError("article outside news allowlist")
+    opener = urllib.request.build_opener(NewsRedirectHandler()) if news else None
+    request = opener.open if opener else urllib.request.urlopen
+    with request(req, timeout=20) as response:
         return response.read(4_000_000)
 
 def plain(markup):
@@ -136,7 +146,7 @@ def collect_reddit(old_items, errors, max_pages=10, checkpoint=None):
         errors.append("Reddit: 이번 수집의 페이지 한도에 도달했습니다. 남은 페이지는 다음 수집 때 이어서 확인합니다.")
     return collected
 
-def parse_feed(data, source):
+def parse_feed(data, source, language="en"):
     doc = ET.fromstring(data)
     atom = "{http://www.w3.org/2005/Atom}"
     result = []
@@ -157,18 +167,25 @@ def parse_feed(data, source):
             # Google News descriptions usually repeat only linked headlines.
             if soup.find("a") or excerpt.strip() == plain(title).strip():
                 excerpt = ""
-        result.append(dict(title=title, url=url, source=source,
+        publisher = node.find("source")
+        item = dict(title=title, url=url, source=source,
             kind="reddit" if source.startswith("Reddit") else "news",
             published=timestamp(node.findtext("pubDate") or node.findtext(atom + "published") or node.findtext(atom + "updated")),
             thumbnail=safe_url(img["src"]) if img else "",
             **({"body_en": excerpt} if source.startswith("Reddit") and excerpt else
-               {"excerpt_en": excerpt} if excerpt else {})))
+               {"excerpt_en": excerpt} if excerpt else {}))
+        if not source.startswith("Reddit"):
+            item["language"] = language
+            if publisher is not None:
+                item["publisher"] = publisher.text or ""
+                item["publisher_url"] = publisher.get("url", "")
+        result.append(item)
     return result
 
-def translate(text):
+def translate(text, target="ko"):
     if not text.strip():
         return ""
-    key = hashlib.sha256(text.encode()).hexdigest()
+    key = ("" if target == "ko" else target + ":") + hashlib.sha256(text.encode()).hexdigest()
     if key in CACHE:
         return CACHE[key]
     # Split at paragraph/sentence boundaries, retaining every character.
@@ -183,7 +200,7 @@ def translate(text):
         chunks.append(current)
     translated = []
     for chunk in chunks:
-        query = urllib.parse.urlencode(dict(client="gtx", sl="auto", tl="ko", dt="t", q=chunk))
+        query = urllib.parse.urlencode(dict(client="gtx", sl="auto", tl=target, dt="t", q=chunk))
         last = None
         for attempt in range(3):
             try:
@@ -218,7 +235,14 @@ def article(item):
         if not decoded.get("status"):
             raise RuntimeError("article URL unavailable")
         url = decoded["decoded_url"]
-    raw = fetch(url)
+    if not news_policy.allowed_news_url(url):
+        item["policy_rejected"] = True
+        raise ValueError("resolved article outside news allowlist")
+    try:
+        raw = fetch(url, news=True)
+    except ValueError:
+        item["policy_rejected"] = True
+        raise
     soup = BeautifulSoup(raw, "html.parser")
     image = soup.find("meta", attrs={"property": "og:image"}) or soup.find("meta", attrs={"name": "twitter:image"})
     if image:
@@ -318,7 +342,7 @@ def translate_available(item):
     item["translation_errors"] = failures
     return failures
 
-def collect_items(entries, old_items, limit, content_seconds=900):
+def collect_items(entries, old_items, limit, content_seconds=900, news_filter=None):
     previous = {item_key(item): item for item in old_items}
     seen, merged = set(), []
     for entry in entries + old_items:
@@ -334,6 +358,8 @@ def collect_items(entries, old_items, limit, content_seconds=900):
         item.setdefault("status", "pending")
         merged.append(item)
     merged.sort(key=lambda i: i.get("published", ""), reverse=True)
+    if news_filter:
+        merged = news_filter(merged)
     # Community posts must not age out when more news articles arrive.
     news_count, retained = 0, []
     for item in merged:
@@ -397,6 +423,14 @@ def main():
         CACHE.update(json.loads(cache_path.read_text(encoding="utf-8")))
     seed_cache(old["items"])
     entries, errors = [], []
+    english_complete = True
+    for language, url in news_policy.search_feeds():
+        try:
+            entries.extend(parse_feed(fetch(url), "Curated news", language=language))
+        except Exception as exc:
+            if language == "en":
+                english_complete = False
+            errors.append(f"허용 소스 {language} 검색 수집 실패 ({error_detail(exc)})")
     reddit_scan = old.get("reddit_scan", {})
     for name, url in SOURCES.items():
         if name.startswith("Reddit"):
@@ -410,8 +444,23 @@ def main():
     news = [i for i in entries if i["kind"] == "news"]
     community = [i for i in entries if i["kind"] == "reddit"]
     entries = [entry for pair in __import__('itertools').zip_longest(news, community) for entry in pair if entry]
-    merged, processed = collect_items(entries, old["items"], args.limit)
-    state = dict(updated=datetime.now(timezone.utc).isoformat(), errors=errors, items=merged, reddit_scan=reddit_scan)
+    policy_result = {}
+    def curate(items):
+        selected, deferred, stats = news_policy.curate(items, lambda text: translate(text, target="en"), english_complete)
+        policy_result.update(deferred=deferred, stats=stats)
+        return selected
+    previous = old["items"] + old.get("deferred_news", [])
+    merged, processed = collect_items(entries, previous, args.limit, news_filter=curate)
+    rejected = sum(bool(item.get("policy_rejected")) for item in merged)
+    merged = [item for item in merged if not item.get("policy_rejected")]
+    policy_result["stats"]["outside_allowlist"] = policy_result["stats"].get("outside_allowlist", 0) + rejected
+    for language in news_policy.LANGUAGES:
+        policy_result["stats"]["kept_" + language] = sum(item.get("kind") != "reddit" and item.get("language") == language for item in merged)
+    if policy_result["deferred"]:
+        errors.append(f"비영어 뉴스 {len(policy_result['deferred'])}건은 영어와의 중복 확인이 끝날 때까지 보류합니다.")
+    state = dict(updated=datetime.now(timezone.utc).isoformat(), errors=errors, items=merged, reddit_scan=reddit_scan,
+                 deferred_news=policy_result["deferred"], news_policy=dict(version=news_policy.CONFIG["version"],
+                 english_complete=english_complete, **policy_result["stats"]))
     path.write_text(json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")
     cache_path.write_text(json.dumps(CACHE, ensure_ascii=False), encoding="utf-8")
     print(f"Saved {len(state['items'])} entries; processed {processed}")
