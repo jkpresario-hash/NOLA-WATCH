@@ -1,6 +1,8 @@
 {
-  "updated": "2026-10-18T05:42:19.758426+00:00",
-  "errors": [],
+  "updated": "2026-10-18T05:49:06.687606+00:00",
+  "errors": [
+    "비영어 뉴스 2건은 영어와의 중복 확인이 끝날 때까지 보류합니다."
+  ],
   "items": [
     {
       "title": "Preseason wrap: Pelicans 107, Wizards 106",
@@ -1963,7 +1965,7 @@
       "dedupe_original_title": "Pelicans Waive Kobe Bufkin, Jalon Moore",
       "title_ko": "Pelicans Waive Kobe Bufkin, Jalon Moore - 농구 소문",
       "translation_errors": {},
-      "last_attempt_at": "2026-10-18T05:37:59.276949+00:00",
+      "last_attempt_at": "2026-10-18T05:48:34.526828+00:00",
       "original_url": "https://www.hoopsrumors.com/2026/10/pelicans-waive-kobe-bufkin-jalon-moore.html",
       "summary_en": [
         "The Pelicans announced that Kobe Bufkin and Jalon Moore have been placed on waivers, bringing the team down to the regular season roster limit.",
@@ -1976,7 +1978,8 @@
         "2023년 드래프트에서 15순위로 애틀랜타에 지명된 버프킨은 뉴올리언스에서 자신의 경력을 되살리길 희망하고 있었습니다.",
         "그는 7월에 펠리컨스와 훈련 캠프 계약을 체결하여 명단 자리를 놓고 경쟁할 기회를 얻었습니다."
       ],
-      "processed_at": "2026-10-18T05:38:04.520683+00:00"
+      "processed_at": "2026-10-18T05:48:38.299938+00:00",
+      "event_facts_en": []
     },
     {
       "title": "Pelicans’ preseason finale proved Jeremiah Fears must start on opening night - Pelican Debrief",
@@ -1991,7 +1994,7 @@
       "status": "ready",
       "title_ko": "프리시즌 최종전이 보여줬다: 제러마이아 피어스는 개막전 선발이어야 한다 - Pelican Debrief",
       "translation_errors": {},
-      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "last_attempt_at": "2026-10-18T05:48:34.526828+00:00",
       "original_url": "https://pelicandebrief.com/pelicans-preseason-finale-proved-jeremiah-fears-must-start-on-opening-night",
       "summary_en": [
         "The New Orleans Pelicans wrapped up preseason by beating the Washington Wizards 107-106.",
@@ -2004,10 +2007,11 @@
         "Pelicans가 이 메모를 작성한 가장 큰 이유는 Jeremiah Fears 때문이었습니다.",
         "펠리컨스의 이전 프리시즌 경기에서 20번째 생일에 멋진 모습을 보여준 후, Fears는 금요일에도 같은 에너지를 가져왔습니다."
       ],
-      "processed_at": "2026-10-18T02:57:13.547664+00:00",
+      "processed_at": "2026-10-18T05:48:34.891388+00:00",
       "source_id": "debrief",
       "dedupe_text_en": "Pelicans’ preseason finale proved Jeremiah Fears must start on opening night",
-      "dedupe_original_title": "Pelicans’ preseason finale proved Jeremiah Fears must start on opening night"
+      "dedupe_original_title": "Pelicans’ preseason finale proved Jeremiah Fears must start on opening night",
+      "event_facts_en": []
     },
     {
       "title": "Minor Moves: Thunder, Rockets, Cavs, Pelicans, Blazers, Spurs - Hoops Rumors",
@@ -2025,7 +2029,7 @@
       "dedupe_original_title": "Minor Moves: Thunder, Rockets, Cavs, Pelicans, Blazers, Spurs",
       "title_ko": "사소한 움직임: Thunder, Rockets, Cavs, Pelicans, Blazers, Spurs - Hoops Rumors",
       "translation_errors": {},
-      "last_attempt_at": "2026-10-18T05:37:59.276949+00:00",
+      "last_attempt_at": "2026-10-18T05:48:34.526828+00:00",
       "original_url": "https://www.hoopsrumors.com/2026/10/minor-moves-thunder-rockets-cavs-pelicans-blazers-spurs.html",
       "summary_en": [
         "The Thunder have signed forward Dariq Whitehead and guards Lamar Wilkerson and Nate Johnson to non-guaranteed Exhibit 10 contracts, the team announced today.",
@@ -2038,28 +2042,8 @@
         "오클라호마시티와 윌커슨 및 존슨의 계약은 두 선수 모두 드래프트가 취소된 직후인 6월에 처음 보고되었습니다.",
         "2023년 1라운드 픽인 화이트헤드는 지난 시즌 대부분을 오클라호마시티 블루와 함께 G리그에서 보냈고, 2025/26시즌을 마무리하기 위해 멤피스와 10일 간의 고난 계약을 체결했습니다."
       ],
-      "processed_at": "2026-10-18T05:38:10.589344+00:00"
-    },
-    {
-      "title": "New Orleans Pelicans vs Washington Wizards Box Score - October 16, 2026 - The Athletic - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZDZCUUF2U0U4VnRGaU92cGRraWt3c3JmX3VLRGVkTFlpXy04clJSXzIwd1d2UE5wX2d1a2xsaHBWcURJUDdkczZ1Z3dpaGRPZXJ0d2sxSDlhaU9qaHZ0ckFLdWNVUTNFMmpUU2dTczFfTVFoZnJYUEZwdlVKaVZwaEE5Qm9GLUVGTzhqVDNlQmdKaXZ6aU9INVg5ckQ5d0lpaDA0NVR0YWowckZk?oc=5",
-      "source": "The Athletic (Pelicans)",
-      "kind": "news",
-      "published": "2026-10-17T01:05:58+00:00",
-      "thumbnail": "",
-      "status": "partial",
-      "title_ko": "뉴올리언스 펠리컨스 vs 워싱턴 위저즈 박스 스코어 - 2026년 10월 16일 - The Athletic - The New York Times",
-      "translation_errors": {},
-      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
-      "original_url": "https://www.nytimes.com/athletic/nba/game/stats/new-orleans-pelicans-vs-washington-wizards/03pSrDNWg4FeiiCe/",
-      "summary_en": [],
-      "summary_source": "article",
-      "content_error": "RuntimeError",
-      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
-      "source_id": "athletic",
-      "language": "en",
-      "dedupe_text_en": "New Orleans Pelicans vs Washington Wizards Box Score - October 16, 2026 - The Athletic",
-      "dedupe_original_title": "New Orleans Pelicans vs Washington Wizards Box Score - October 16, 2026 - The Athletic"
+      "processed_at": "2026-10-18T05:48:38.491311+00:00",
+      "event_facts_en": []
     },
     {
       "title": "Pelicans’ shooting woes need help, and Jaron Pierre Jr. deserves a look - Pelican Debrief",
@@ -2077,7 +2061,7 @@
       "dedupe_original_title": "Pelicans’ shooting woes need help, and Jaron Pierre Jr. deserves a look",
       "title_ko": "펠리컨스의 총격 사건에는 도움이 필요하며 Jaron Pierre Jr.\n한 번 볼 가치가 있습니다 - 펠리컨 보고",
       "translation_errors": {},
-      "last_attempt_at": "2026-10-18T05:37:59.276949+00:00",
+      "last_attempt_at": "2026-10-18T05:48:34.526828+00:00",
       "original_url": "https://pelicandebrief.com/pelicans-shooting-woes-need-help-and-jaron-pierre-jr-deserves-a-look",
       "summary_en": [
         "With the lack of floor spacing the New Orleans Pelicans have, I’m not sure I can make it through 82 games.",
@@ -2090,7 +2074,8 @@
         "Pelicans의 침체된 공격은 Jamahl Mosley에게 약간 떨어지지만, Mosley에게 주어진 끔찍한 비슈팅 선수 컬렉션에 대한 비난의 대부분은 Joe Dumars에게 있어야 합니다.",
         "리그 내 대부분의 팀은 이번 프리시즌에 경기당 거의 40회 이상의 3점 시도를 하고 있습니다. 뉴올리언스는 지난 정규 시즌보다 2.2회 더 많은 시도를 했을 뿐입니다."
       ],
-      "processed_at": "2026-10-18T05:38:16.811512+00:00"
+      "processed_at": "2026-10-18T05:48:39.164865+00:00",
+      "event_facts_en": []
     },
     {
       "title": "Minor Roster Moves: Pelicans, Spurs, Kings, Mavericks - Hoops Rumors",
@@ -2108,7 +2093,7 @@
       "dedupe_original_title": "Minor Roster Moves: Pelicans, Spurs, Kings, Mavericks",
       "title_ko": "마이너 로스터 이동: Pelicans, Spurs, Kings, Mavericks - Hoops Rumors",
       "translation_errors": {},
-      "last_attempt_at": "2026-10-18T05:37:59.276949+00:00",
+      "last_attempt_at": "2026-10-18T05:48:34.526828+00:00",
       "original_url": "https://www.hoopsrumors.com/2026/10/minor-roster-moves-pelicans-spurs-kings-mavericks.html",
       "summary_en": [
         "After waiving him from his two-way contract in August, the Pelicans have officially re-signed center Hunter Dickinson, the team announced in a press release.",
@@ -2121,7 +2106,23 @@
         "25세의 센터는 G 리그로 돌아가 뉴올리언스의 브랜드 변경 및 재배치된 제휴 팀인 Laketown Squadron에서 뛰게 될 수도 있습니다.",
         "7'1인치의 빅맨은 지난 시즌 펠리컨스에서 5경기에 출전했으며 양방향 계약을 맺고 총 42분 동안 12득점, 5리바운드, 2어시스트, 2블록을 기록했습니다."
       ],
-      "processed_at": "2026-10-18T05:38:22.737051+00:00"
+      "processed_at": "2026-10-18T05:48:39.382331+00:00",
+      "event_facts_en": [
+        {
+          "action": "sign",
+          "players": [
+            "hunter_dickinson"
+          ],
+          "hypothetical": false
+        },
+        {
+          "action": "waive",
+          "players": [
+            "hunter_dickinson"
+          ],
+          "hypothetical": false
+        }
+      ]
     },
     {
       "title": "Pelicans’ win-by-committee center experiment is already falling apart - Pelican Debrief",
@@ -2136,7 +2137,7 @@
       "status": "ready",
       "title_ko": "펠리컨스의 센터 역할 분담 실험, 벌써 흔들리고 있다 - Pelican Debrief",
       "translation_errors": {},
-      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "last_attempt_at": "2026-10-18T05:48:34.526828+00:00",
       "original_url": "https://pelicandebrief.com/pelicans-win-by-committee-center-experiment-is-already-falling-apart",
       "summary_en": [
         "I entered the preseason optimistic about the New Orleans Pelicans’ center rotation, believing a win-by-committee approach could work.",
@@ -2149,10 +2150,11 @@
         "Derik Queen, Karlo Matkovic 및 Yves Missi의 조합을 서류상으로 볼 때 모두가 특정 역할에 집중한다면 전체적으로 Pelicans에게 견고한 출발 센터가 될 수 있습니다.",
         "Pelicans의 빅맨 로테이션은 형편없었고, 이 그룹이 이미 백만 가지 다른 문제를 안고 정규 시즌으로 향하고 있다는 점을 고려하면 정말 걱정스럽습니다."
       ],
-      "processed_at": "2026-10-18T02:55:52.404569+00:00",
+      "processed_at": "2026-10-18T05:48:35.271639+00:00",
       "source_id": "debrief",
       "dedupe_text_en": "Pelicans’ win-by-committee center experiment is already falling apart",
-      "dedupe_original_title": "Pelicans’ win-by-committee center experiment is already falling apart"
+      "dedupe_original_title": "Pelicans’ win-by-committee center experiment is already falling apart",
+      "event_facts_en": []
     },
     {
       "title": "New Orleans Pelicans watch guide 2026-27: TV info, Global Games for Zion Williamson’s crew - The New York Times",
@@ -2185,23 +2187,39 @@
       "status": "ready",
       "title_ko": "매버릭스전 프리시즌 두 번째 승리에서 얻은 펠리컨스의 세 가지 시사점 - Pelican Debrief",
       "translation_errors": {},
-      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "last_attempt_at": "2026-10-18T05:48:34.526828+00:00",
       "original_url": "https://pelicandebrief.com/3-biggest-takeaways-from-pelicans-second-preseason-win-against-the-mavericks",
       "summary_en": [
         "The New Orleans Pelicans picked up their second preseason win, 101-97 over the Dallas Mavericks on Wednesday night.",
-        "Even though the Mavericks didn't roll out their A team, there was plenty to like if you’re a New Orleans Pelicans fan, so let's get into my three major takeaways from this dub.",
-        "Fears looked like he was ready to take the mantle from Zion Williamson as the Pelicans' franchise player, given the way he played in this game."
+        "This was the third straight game in which new head coach Jamahl Mosley experimented with a different starting lineup, opting to roll with Jeremiah Fears, Bennedict Mathurin, Saddiq Bey, Karlo Matkovic, and Yves Missi.",
+        "You’d assume that the usual stars like Zion Williamson and Trey Murphy III would be out for Mosley to roll with a starting five like this, but no, he had them come off the bench."
       ],
       "summary_source": "article",
-      "summary_ko": [
-        "뉴올리언스 펠리컨스는 수요일 밤 댈러스 매버릭스를 상대로 101-97로 프리시즌 두 번째 승리를 거두었습니다.",
-        "Mavericks가 A팀을 구성하지는 않았지만 New Orleans Pelicans 팬이라면 좋아할 만한 점이 많았으므로 이 더빙에서 세 가지 주요 내용을 살펴보겠습니다.",
-        "Fears는 그가 이 게임에서 플레이한 방식을 고려할 때 펠리컨스의 프랜차이즈 플레이어로서 Zion Williamson의 역할을 맡을 준비가 된 것처럼 보였습니다."
-      ],
-      "processed_at": "2026-10-18T02:56:32.066403+00:00",
+      "processed_at": "2026-10-18T05:48:38.046362+00:00",
       "source_id": "debrief",
       "dedupe_text_en": "3 Biggest takeaways from Pelicans' second preseason win against the Mavericks",
-      "dedupe_original_title": "3 Biggest takeaways from Pelicans' second preseason win against the Mavericks"
+      "dedupe_original_title": "3 Biggest takeaways from Pelicans' second preseason win against the Mavericks",
+      "event_facts_en": [
+        {
+          "action": "coach",
+          "players": [
+            "jeremiah_fears"
+          ],
+          "hypothetical": false
+        },
+        {
+          "action": "injury",
+          "players": [
+            "dejounte_murray"
+          ],
+          "hypothetical": false
+        }
+      ],
+      "summary_ko": [
+        "뉴올리언스 펠리컨스는 수요일 밤 댈러스 매버릭스를 상대로 101-97로 프리시즌 두 번째 승리를 거두었습니다.",
+        "이것은 새로운 감독 Jamahl Mosley가 Jeremiah Fears, Bennedict Mathurin, Saddiq Bey, Karlo Matkovic 및 Yves Missi와 함께 롤링하기로 결정하면서 다른 선발 라인업을 실험한 세 번째 연속 게임이었습니다.",
+        "Zion Williamson 및 Trey Murphy III와 같은 일반적인 스타가 Mosley가 이와 같은 선발 5명으로 롤아웃할 것이라고 가정할 수 있지만 아니요, 그는 그들을 벤치에서 내리게 했습니다."
+      ]
     },
     {
       "title": "Tyran Stokes could be the Pelicans’ answer to finding their next franchise player - Pelican Debrief",
@@ -2219,7 +2237,7 @@
       "dedupe_original_title": "Tyran Stokes could be the Pelicans’ answer to finding their next franchise player",
       "title_ko": "Tyran Stokes는 다음 프랜차이즈 선수를 찾는 Pelicans의 대답이 될 수 있습니다 - Pelican Debrief",
       "translation_errors": {},
-      "last_attempt_at": "2026-10-18T05:37:59.276949+00:00",
+      "last_attempt_at": "2026-10-18T05:48:34.526828+00:00",
       "original_url": "https://pelicandebrief.com/tyran-stokes-could-be-the-pelicans-answer-to-finding-their-next-franchise-player",
       "summary_en": [
         "No Ceilings just dropped their first 2027 mock draft of the cycle, and I’m going to share my take on who they selected for the New Orleans Pelicans.",
@@ -2232,38 +2250,8 @@
         "그러나 Pelicans의 경우 2027 클래스의 상위 3개 픽으로 끝난다면 이것이 실제로 그들이 찾고 있는 것일 수 있습니다.",
         "뉴올리언스가 또 다른 실망스러운 한 해를 보낸다면 마침내 Jeremiah Fears와 Derik Queen을 중심으로 Zion Williamson 코어의 플러그가 뽑힐 것으로 예상됩니다."
       ],
-      "processed_at": "2026-10-18T05:38:28.675585+00:00"
-    },
-    {
-      "title": "New Orleans Pelicans Draft News, Picks, Rumors, Analysis - Pelican Debrief",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE10WmMzaVVVQUVjUDdlYXV2Qm1Vck9HbkNrSkw0cFVURkwtNXpsZTF4ZFpuT3FtdjU4ZWRwZ1BkRDc4VzRxWWMtRmxTeXBhc2xzSlhTYkNTMDljR24zZnBUTDJiazk?oc=5",
-      "source": "Pelican Debrief",
-      "kind": "news",
-      "published": "2026-10-14T15:49:15+00:00",
-      "thumbnail": "https://images2.minutemediacdn.com/image/upload/c_fill,w_1440,ar_16:9,f_auto,q_auto,g_auto/shape/cover/entertainment/dataimagejpegbase649j4AAQSkZJRgABAQAAAQABAAD2wBDAA-c73c466810fb33c2cd672fc1d55565c4.jpg",
-      "language": "en",
-      "publisher": "Pelican Debrief",
-      "publisher_url": "https://pelicandebrief.com",
-      "status": "ready",
-      "source_id": "debrief",
-      "dedupe_text_en": "New Orleans Pelicans Draft News, Picks, Rumors, Analysis",
-      "dedupe_original_title": "New Orleans Pelicans Draft News, Picks, Rumors, Analysis",
-      "title_ko": "뉴올리언스 펠리컨스 초안 뉴스, 추천, 소문, 분석 - 펠리칸 보고",
-      "translation_errors": {},
-      "last_attempt_at": "2026-10-18T05:37:59.276949+00:00",
-      "original_url": "https://pelicandebrief.com/new-orleans-pelicans-draft/",
-      "summary_en": [
-        "Tyran Stokes could be the Pelicans’ answer to finding their next franchise player",
-        "Pelicans fans should get to know Jordan Smith Jr.",
-        "Pelicans may have landed a hidden gem with the No."
-      ],
-      "summary_source": "article",
-      "summary_ko": [
-        "Tyran Stokes는 다음 프랜차이즈 선수를 찾는 Pelicans의 대답이 될 수 있습니다.",
-        "펠리컨스 팬들은 Jordan Smith Jr.를 알아야 합니다.",
-        "펠리컨은 숨겨진 보석을 발견했을 수도 있습니다."
-      ],
-      "processed_at": "2026-10-18T05:38:34.624995+00:00"
+      "processed_at": "2026-10-18T05:48:39.987389+00:00",
+      "event_facts_en": []
     },
     {
       "title": "Pelicans Waive Caleb Houstan; Mavericks Sign Matt Cross - Hoops Rumors",
@@ -2281,7 +2269,7 @@
       "dedupe_original_title": "Pelicans Waive Caleb Houstan; Mavericks Sign Matt Cross",
       "title_ko": "Pelicans는 Caleb Houstan을 포기합니다. 매버릭스, 맷 크로스와 계약 - Hoops Rumors",
       "translation_errors": {},
-      "last_attempt_at": "2026-10-18T05:37:59.276949+00:00",
+      "last_attempt_at": "2026-10-18T05:48:34.526828+00:00",
       "original_url": "https://www.hoopsrumors.com/2026/10/pelicans-waive-caleb-houstan-mavericks-sign-matt-cross.html",
       "summary_en": [
         "The Pelicans have waived Caleb Houstan, according to NBA.com’s transaction log.",
@@ -2294,7 +2282,16 @@
         "Houstan은 8월 초 뉴올리언스와 Exhibit 9 훈련 캠프 계약을 체결한 4년차 NBA 베테랑입니다.",
         "그는 뉴올리언스와의 두 번의 프리시즌 출전 동안 10.7 MPG에서 평균 1.5 PPG를 기록했습니다."
       ],
-      "processed_at": "2026-10-18T05:38:40.215861+00:00"
+      "processed_at": "2026-10-18T05:48:40.151419+00:00",
+      "event_facts_en": [
+        {
+          "action": "waive",
+          "players": [
+            "caleb_houstan"
+          ],
+          "hypothetical": false
+        }
+      ]
     },
     {
       "title": "Jamahl Mosley’s offensive issues in Orlando might be resurfacing with the Pelicans - Pelican Debrief",
@@ -2312,7 +2309,7 @@
       "dedupe_original_title": "Jamahl Mosley’s offensive issues in Orlando might be resurfacing with the Pelicans",
       "title_ko": "올랜도에서 자말 모슬리의 공격적인 문제가 펠리컨스와 함께 다시 표면화될 수도 있습니다 - Pelican Debrief",
       "translation_errors": {},
-      "last_attempt_at": "2026-10-18T05:37:59.276949+00:00",
+      "last_attempt_at": "2026-10-18T05:48:34.526828+00:00",
       "original_url": "https://pelicandebrief.com/jamahl-mosley-s-offensive-issues-in-orlando-might-be-resurfacing-with-the-pelicans",
       "summary_en": [
         "Although it’s only been two preseason games for the New Orleans Pelicans, that doesn’t mean I can’t have my concerns about some of the stuff I’ve seen from new coach Jamahl Mosley, right?",
@@ -2325,7 +2322,8 @@
         "나는 Mosley가 뉴올리언스에 도착한 이후로 여러 번 그를 위해 타석에 나섰습니다.",
         "펠리컨의 연극은 한 번의 읽기가 있는 것처럼 느껴지고, 그 읽기가 없으면 자유투가 됩니다."
       ],
-      "processed_at": "2026-10-18T05:38:46.195893+00:00"
+      "processed_at": "2026-10-18T05:48:40.775919+00:00",
+      "event_facts_en": []
     },
     {
       "title": "Three overlooked Pelicans have shown this preseason they could be perfect role players - Pelican Debrief",
@@ -2343,7 +2341,7 @@
       "dedupe_original_title": "Three overlooked Pelicans have shown this preseason they could be perfect role players",
       "title_ko": "간과되었던 세 명의 펠리컨이 이번 프리시즌에서 완벽한 롤 플레이어가 될 수 있음을 보여주었습니다 - Pelican Debrief",
       "translation_errors": {},
-      "last_attempt_at": "2026-10-18T05:37:59.276949+00:00",
+      "last_attempt_at": "2026-10-18T05:48:34.526828+00:00",
       "original_url": "https://pelicandebrief.com/three-overlooked-pelicans-have-shown-this-preseason-they-could-be-perfect-role-players",
       "summary_en": [
         "The New Orleans Pelicans' starting lineups have been so-so through two preseason games, but the second unit and fringe second unit players have stood out.",
@@ -2356,818 +2354,8 @@
         "나는 펠리컨스 선수단이 많은 기능을 갖추고 스스로 창조할 때 최고의 기량을 발휘하는 온볼 선수들로 가득 차 있다는 것에 대해 많은 글을 썼습니다.",
         "나는 일반적인 재능의 관점에서 볼 때 뉴올리언스에는 이 세 사람보다 재능 있는 선수가 더 많을 수 있지만 재능이 항상 적합한 선수보다 중요하지는 않다는 것을 이해합니다."
       ],
-      "processed_at": "2026-10-18T05:38:52.082464+00:00"
-    },
-    {
-      "title": "Pelicans Maintain Interest In Bennedict Mathurin - Hoops Rumors",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNaVZGQnJidlpEd0NTUEF4by1DLUlpTTJmWGdJejVMMlh0UExzYktxemFXRkpUSHpxOXhmTGFkWnZuRlNESlpEbDBOd21hUkRzdnFXSEhaSi13alUxbUsxVjZnZk0yUkhPR3dhT3VnXzNQOEN4MGh5dDdmaE91ckxrUzNXTm5UeHdrQ1ZKOGE3WVhNRm8?oc=5",
-      "source": "HoopsRumors",
-      "kind": "news",
-      "published": "2026-08-26T07:00:00+00:00",
-      "thumbnail": "https://cdn.hoopsrumors.com/files/2026/04/Bennedict-Mathurin1-900x600.jpg",
-      "language": "en",
-      "publisher": "Hoops Rumors",
-      "publisher_url": "https://www.hoopsrumors.com",
-      "status": "ready",
-      "source_id": "hoopsrumors",
-      "dedupe_text_en": "Pelicans Maintain Interest In Bennedict Mathurin",
-      "dedupe_original_title": "Pelicans Maintain Interest In Bennedict Mathurin",
-      "title_ko": "펠리컨은 Bennedict Mathurin에 대한 관심을 유지합니다.",
-      "translation_errors": {},
-      "last_attempt_at": "2026-10-18T05:37:59.276949+00:00",
-      "original_url": "https://www.hoopsrumors.com/2026/08/pelicans-maintain-interest-in-bennedict-mathurin.html",
-      "summary_en": [
-        "Bennedict Mathurin‘s restricted free agency seems likely to come down to two paths, according to NBA insider Jake Fischer, who suggested on a Bleacher Report live stream that a sign-and-trade to the Pelicans or accepting his qualifying offer from the Clippers look like the most viable outcomes for Mathurin.",
-        "While the Pelicans are Mathurin’s “primary” suitor, per Fischer, they likely won’t be able to use their mid-level exception to accommodate a sign-and-trade for the Clippers RFA without sending out some salary of their own.",
-        "New Orleans is currently operating just $5.8MM below the luxury tax line and $7.4MM below the first tax apron."
-      ],
-      "summary_source": "article",
-      "summary_ko": [
-        "NBA 내부 인사인 Jake Fischer에 따르면 베네딕트 마투린의 제한된 자유계약선수(FA)는 두 가지 경로로 귀결될 것으로 보입니다. 그는 Bleacher Report 라이브 스트림에서 펠리컨스와의 계약 및 거래 또는 클리퍼스의 적격 제안을 수락하는 것이 마투린에게 가장 실행 가능한 결과처럼 보일 것이라고 제안했습니다.",
-        "Fischer에 따르면 Pelicans는 Mathurin의 \"주요\" 구혼자이지만, 그들 자신의 급여를 보내지 않고서는 Clippers RFA의 사인 앤 트레이드를 수용하기 위해 중간 수준 예외를 사용할 수 없을 가능성이 높습니다.",
-        "뉴올리언스는 현재 사치세 한도 아래로 580만 달러, 첫 번째 세금 앞치마 아래로 740만 달러만 운영하고 있습니다."
-      ],
-      "processed_at": "2026-10-18T05:38:58.037704+00:00"
-    },
-    {
-      "title": "Trendon Watford Signs One-Year Deal With Pelicans - Hoops Rumors",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNc1c1dnU4Z0ptTWJ0N09NQ0o0X1Exc2FXTW5lWTE4ck1xTjF4QTliWm1uX3dickFhTGxvYllGZDV6QkZDREJ6Wm5iTEF5SzNaeWw0ZC1NaUR6QW9laFhFNk81Z0Nla3RXV3B3UW9KTF8yUVg1N3c2a1M5ME9tTlpHSTByQlc3WDU1NnQ4OGxJOGQ0b0xxTFdn?oc=5",
-      "source": "HoopsRumors",
-      "kind": "news",
-      "published": "2026-08-17T07:00:00+00:00",
-      "thumbnail": "https://cdn.hoopsrumors.com/files/2026/08/Trendon-Watford-900x601.jpg",
-      "language": "en",
-      "publisher": "Hoops Rumors",
-      "publisher_url": "https://www.hoopsrumors.com",
-      "status": "ready",
-      "source_id": "hoopsrumors",
-      "dedupe_text_en": "Trendon Watford Signs One-Year Deal With Pelicans",
-      "dedupe_original_title": "Trendon Watford Signs One-Year Deal With Pelicans",
-      "title_ko": "Trendon Watford는 Pelicans와 1년 계약을 체결했습니다.",
-      "translation_errors": {},
-      "last_attempt_at": "2026-10-18T05:37:59.276949+00:00",
-      "original_url": "https://www.hoopsrumors.com/2026/08/trendon-watford-to-sign-one-year-deal-with-pelicans.html",
-      "summary_en": [
-        "8:33 am: Free agent forward Trendon Watford will join the Pelicans on a one-year, $2.9MM contract, sources tell ESPN’s Shams Charania (Twitter link).",
-        "He considered multiple options before choosing New Orleans, Charania adds.",
-        "Watford is the first veteran offseason addition for the Pelicans, who have been in the midst of a quiet summer so far."
-      ],
-      "summary_source": "article",
-      "summary_ko": [
-        "오전 8시 33분: FA 포워드 Trendon Watford가 1년 290만 달러 계약으로 Pelicans에 합류할 것이라고 소식통이 ESPN의 Shams Charania에 전했습니다(트위터 링크).",
-        "Charania는 뉴올리언스를 선택하기 전에 여러 옵션을 고려했다고 덧붙였습니다.",
-        "왓포드는 지금까지 조용한 여름을 보내고 있는 펠리컨스로서는 첫 베테랑 오프시즌 영입이다."
-      ],
-      "processed_at": "2026-10-18T05:39:03.345505+00:00"
-    },
-    {
-      "title": "Rod Walker: Jeremiah Fears' record night a nice keepsake for Pelicans fans in home finale - NOLA.com",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNWjhIU1hIYXFNcTR6ZVdlU2pKQ3FLRXZrb0V5RU1hbV9MMl9BdE54b0FmUWpOV1NZMjNPc2dlZ29MRTVfQW83OHNlemNyUGZtYmVCYWNwMzNnTFJoUHNiN0IyMFM2YzJ3eFdvcE5UTFdlYVRjUElzUkQ2Zm8tczlubGJUTXpYUGNoRFdyZkFrVVBoNXZlSGdHempScVZMc0c2LS01TVg5ZDExNUY1ZlR4dXQ3Z3VDZHRZcU9qSFpsVjhWaXlaOTVFcEtNXzRPV2ZPMmQ5ejF0aUROT0F1Wkcw0gHkAUFVX3lxTE9NUTZ3UU1jdjltWHhPQ2pFeDNTeHVGWEpTdjlmd0NDemVPT1I3VWQzNFZhejNucURhaFRMMERLS2xvZ0JIbUxIS1BYMEQtU0hDMmJTU3paekNjYTVnbW93SEE0VWdfdzBMY0lqVm5Sajk1TmtHZ3ZEX0EtMzhmMkVNOXdBQVNGZVNTM3J6bmxBcFZ6OTU1anVCVUx1OFpXVlhwNDRPLUxSbk9rRU9lcnBhcjZMOU45X000UXVWQThJQktZT1BDNTg4RTd3UU9IUVZZSVZWSzQ2WnBiRUlBLXByR3pqTg?oc=5",
-      "source": "NOLA.com (Times-Picayune)",
-      "kind": "news",
-      "published": "2026-04-08T07:00:00+00:00",
-      "thumbnail": "https://bloximages.newyork1.vip.townnews.com/nola.com/content/tncms/assets/v3/editorial/c/de/cde0dcd6-7cd3-56cf-af0e-043b1b971e0c/69d2fe9bdf75d.image.jpg?crop=1235%2C648%2C0%2C514&resize=1200%2C630&order=crop%2Cresize",
-      "language": "en",
-      "publisher": "NOLA.com",
-      "publisher_url": "https://www.nola.com",
-      "status": "ready",
-      "source_id": "nola",
-      "dedupe_text_en": "Rod Walker: Jeremiah Fears' record night a nice keepsake for Pelicans fans in home finale",
-      "dedupe_original_title": "Rod Walker: Jeremiah Fears' record night a nice keepsake for Pelicans fans in home finale",
-      "title_ko": "로드 워커: Jeremiah Fears의 기록적인 밤은 홈 피날레에서 펠리컨스 팬들에게 좋은 기념품이 될 것입니다 - NOLA.com",
-      "translation_errors": {},
-      "last_attempt_at": "2026-10-18T05:37:59.276949+00:00",
-      "original_url": "https://www.nola.com/sports/pelicans/jeremiah-fears-goes-out-with-a-bang-in-pelicans-home-finale/article_e027c33f-df32-4628-acc0-d344e966329a.html",
-      "summary_en": [
-        "Neither did Anthony Davis nor Zion Williamson.",
-        "In fact, no rookie who has ever put on a New Orleans Pelicans or Hornets uniform ever had done what Jeremiah Fears did Tuesday night in the Smoothie King Center.",
-        "But truth be told, there was plenty of craziness on this record-setting night in the Pelicans' home finale."
-      ],
-      "summary_source": "article",
-      "summary_ko": [
-        "앤서니 데이비스나 자이언 윌리엄슨도 마찬가지였습니다.",
-        "사실, 뉴올리언스 펠리컨스나 호네츠 유니폼을 입어본 신인 중 누구도 화요일 밤 스무디 킹 센터에서 Jeremiah Fears가 한 일을 해본 적이 없습니다.",
-        "하지만 사실, 펠리컨스의 홈 피날레에서 기록적인 이 밤에는 많은 광란이 있었습니다."
-      ],
-      "processed_at": "2026-10-18T05:39:08.337974+00:00"
-    },
-    {
-      "title": "Zion Williamson - NBA Power forward - News, Stats, Bio and more - Page 3 - The Athletic - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOV0JHUGR3ZnVacHZoNXdpMEpCZHNfRGFiYURoLU5fYmRaRG9RUDFoeGFpN3NfeThXNzk1ODV0ZFVKbHVMXzVVbS1laGcxNGdkTk55QUFqN01pazlrSm9MeVdLeGdSTzhFVlhMdGlsUVVZWXBBVDF5dEswaFZ3VVdtM1JTT2FhOFktLXFnYQ?oc=5",
-      "source": "The Athletic (Pelicans)",
-      "kind": "news",
-      "published": "2026-03-14T06:44:31+00:00",
-      "thumbnail": "",
-      "language": "en",
-      "publisher": "The New York Times",
-      "publisher_url": "https://www.nytimes.com",
-      "status": "ready",
-      "source_id": "athletic",
-      "dedupe_text_en": "Zion Williamson - NBA Power forward - News, Stats, Bio and more - Page 3 - The Athletic",
-      "dedupe_original_title": "Zion Williamson - NBA Power forward - News, Stats, Bio and more - Page 3 - The Athletic",
-      "title_ko": "Zion Williamson - NBA 파워 포워드 - 뉴스, 통계, 약력 등 - 페이지 3 - The Athletic - The New York Times",
-      "translation_errors": {},
-      "last_attempt_at": "2026-10-18T05:37:59.276949+00:00",
-      "original_url": "https://www.nytimes.com/athletic/nba/player/zion-williamson-l6xjgWmi8X4OMdjm/?page=3",
-      "summary_en": [
-        "Williamson's excellent play helps, but he is going to have to set the tone off the court for the Pelicans to move forward.",
-        "By dealing Ingram to Toronto, New Orleans ended one new era and now embarks on another.",
-        "Five years ago, anything seemed possible for Zion Williamson and the Pelicans."
-      ],
-      "summary_source": "article",
-      "summary_ko": [
-        "Williamson의 뛰어난 플레이가 도움이 되지만 Pelicans가 앞으로 전진하려면 코트 밖에서 분위기를 조성해야 할 것입니다.",
-        "잉그램을 토론토로 트레이드함으로써 뉴올리언스는 새로운 시대를 마감하고 이제 다른 시대를 시작합니다.",
-        "5년 전만 해도 자이언 윌리엄슨과 펠리컨스에게는 무엇이든 가능해 보였습니다."
-      ],
-      "processed_at": "2026-10-18T05:39:14.591170+00:00"
-    },
-    {
-      "title": "Pelicans Notes: Queen, Murray, Williamson, Murphy, Missi - Hoops Rumors",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPaFpRbnJWMHcxeWdSc0hmb3BIaHQ0cjdNVzhqTHpPdFpRbXlaMmQyeVMyR2pGSEk3RzYtYlpWekJxRmJUX3JXbVkwb1ZXVWdWWWg2SnhnZWRNejhjSklLYmxuTjFUOWZfT0JIYUlpaFVDNTVaem1iRDk1bnJIVWxRUzlRejRBdU9mSmsyTjR4Qjd5Z1J5Sldr?oc=5",
-      "source": "HoopsRumors",
-      "kind": "news",
-      "published": "2026-02-25T08:00:00+00:00",
-      "thumbnail": "https://cdn.hoopsrumors.com/files/2026/02/Derik-Queen-900x600.jpg",
-      "language": "en",
-      "publisher": "Hoops Rumors",
-      "publisher_url": "https://www.hoopsrumors.com",
-      "status": "ready",
-      "source_id": "hoopsrumors",
-      "dedupe_text_en": "Pelicans Notes: Queen, Murray, Williamson, Murphy, Missi",
-      "dedupe_original_title": "Pelicans Notes: Queen, Murray, Williamson, Murphy, Missi",
-      "title_ko": "펠리컨 노트: 퀸, 머레이, 윌리엄슨, 머피, 미시 - Hoops Rumors",
-      "translation_errors": {},
-      "last_attempt_at": "2026-10-18T05:37:59.276949+00:00",
-      "original_url": "https://www.hoopsrumors.com/2026/02/pelicans-notes-queen-murray-williamson-murphy-missi.html",
-      "summary_en": [
-        "Without control of their own 2026 first-round pick, the Pelicans have no reason to tank during the second half of the season despite being out of the playoff race, and that has shown in recent weeks.",
-        "After opening the season with a 10-36 record, New Orleans has gone 7-6 since January 23, most recently picking up home wins over Philadelphia on Saturday and Golden State on Tuesday.",
-        "As Les East of NOLA.com writes, interim head coach James Borrego referred to Tuesday’s victory as a “big, clutch win for our group” and singled out rookie Derik Queen for his contributions."
-      ],
-      "summary_source": "article",
-      "summary_ko": [
-        "2026년 1라운드 픽을 통제할 수 없는 펠리컨스는 플레이오프 레이스에서 탈락했음에도 불구하고 시즌 후반기에 탱커할 이유가 없으며, 이는 최근 몇 주 동안 나타났습니다.",
-        "10승 36패로 시즌을 시작한 뉴올리언스는 1월 23일부터 7승 6패를 기록했고, 가장 최근에는 토요일 필라델피아, 화요일 골든스테이트를 상대로 홈 승리를 거두었습니다.",
-        "NOLA.com의 Les East가 쓴 것처럼 임시 감독 James Borrego는 화요일의 승리를 \"우리 그룹의 큰 승리\"라고 언급하고 그의 공헌에 대해 신인 Derik Queen을 뽑았습니다."
-      ],
-      "processed_at": "2026-10-18T05:39:19.781848+00:00"
-    },
-    {
-      "title": "The Pelicans, from Zion to reserves, ahead of NBA trade deadline: What I’m hearing - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWjRTdHpFcjByVXpIaHZtS2dOVWhoaUtHcVdjbjB2ZUc0RTlxbFZGcE5iQm9WRlRLR0pFS3F4emdISm5WVWo2X2F5cXpCbkJHNWtNbHdzaHZWbG4wbGlsYUJ5LTA2X1hnZEtwVVRSWUVwY1prNTQ5ZkM1Q0RHeWxXT1l0QTN0ZlhqUldnaGllVHhNWE9oU0JvaU4xRng4SUNaNWpz?oc=5",
-      "source": "The Athletic (Pelicans)",
-      "kind": "news",
-      "published": "2026-01-29T08:00:00+00:00",
-      "thumbnail": "",
-      "language": "en",
-      "publisher": "The New York Times",
-      "publisher_url": "https://www.nytimes.com",
-      "status": "partial",
-      "source_id": "athletic",
-      "dedupe_text_en": "The Pelicans, from Zion to reserves, ahead of NBA trade deadline: What I’m hearing",
-      "dedupe_original_title": "The Pelicans, from Zion to reserves, ahead of NBA trade deadline: What I’m hearing",
-      "title_ko": "NBA 트레이드 마감을 앞두고 자이언부터 리저브까지 펠리컨스: 내가 듣고 있는 것 - The New York Times",
-      "translation_errors": {},
-      "last_attempt_at": "2026-10-18T05:37:59.276949+00:00",
-      "content_error": "HTTP 403",
-      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
-    },
-    {
-      "title": "Jack-of-all-trades: Saints' Justin Reid shows off versatility with latest gig at Pelicans' game - NOLA.com",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxObzNGUm51a1Z6VDVrVUtxSGVfNjIzZkZkNzFtclM4YlRJOTVxNmY4dG9NZGhCc3pQVk5YTFdTcDF5LTJnc0daalZOc0RRb09mSlRmY21Eb0NNX0p4cndiU3lSQkxpYnpXaXZpTVIwZjl3SXVWWUwtRVhaZ0dUMV9OanVBMnRNbG5lVkVoWTl4T0ZDLUM1aGwzVHJzNlEzNm5vTVlDZzNMaWZ3Qnh5Q29IQW9BUFpCYUVJQmwzOG5JTnVSNldNb29hRWxnY01SbVZrX1V6RlBzT2Jub21sWEHSAeMBQVVfeXFMUEx6dWVJQUNQT3lpWE1RRzlXdk5IdDd2NWRKMHhWSXpkQWN2blFVNGxGekNDU1E0X0xWZXJyVGVxbE5ZSEM5X1BFN00yY1VXbnVCZlYwQms3VEQtRkkzYTh3b0JPUUhiaUF6dXdwV29YbldQajA3NWhjbjFYR3V5dG5DZmFqZFlGUEtOV3hRUUdaQ25mdnh2ekpWWmV1Qk9fYnc5Uk9JVzNHQnZiUExaU0VkUDRLSzl6OVE4UUhPbVd4ZHhTUkd4TlBFdWppeXNwS01GYzRqazhoaXRjN0tuT1h0dVk?oc=5",
-      "source": "NOLA.com (Times-Picayune)",
-      "kind": "news",
-      "published": "2026-01-24T08:00:00+00:00",
-      "thumbnail": "https://bloximages.newyork1.vip.townnews.com/nola.com/content/tncms/assets/v3/editorial/f/11/f11dfd59-07dd-5fb3-8a95-a3c95b5aeb12/697281c06b476.image.jpg?crop=1540%2C809%2C0%2C0&resize=1200%2C630&order=crop%2Cresize",
-      "language": "en",
-      "publisher": "NOLA.com",
-      "publisher_url": "https://www.nola.com",
-      "status": "ready",
-      "source_id": "nola",
-      "dedupe_text_en": "Jack-of-all-trades: Saints' Justin Reid shows off versatility with latest gig at Pelicans' game",
-      "dedupe_original_title": "Jack-of-all-trades: Saints' Justin Reid shows off versatility with latest gig at Pelicans' game",
-      "title_ko": "팔방미인: Saints의 Justin Reid가 Pelicans의 게임에서 최근 공연으로 다재다능함을 과시했습니다. - NOLA.com",
-      "translation_errors": {},
-      "last_attempt_at": "2026-10-18T05:37:59.276949+00:00",
-      "original_url": "https://www.nola.com/sports/pelicans/saints-justin-reid-dives-into-photography-at-pelicans-game/article_a5590d77-dc76-4473-9fdc-180367c6266a.html",
-      "summary_en": [
-        "If you know anything about the New Orleans Saints safety, that shouldn’t come as a surprise.",
-        "Reid officially added “photographer” to his resume Wednesday night as he sat on the baseline at the Smoothie King Center to take pictures and shoot video for the New Orleans Pelicans’ social media team for the game against the Detroit Pistons.",
-        "The Saints and Pelicans take their social media content seriously."
-      ],
-      "summary_source": "article",
-      "summary_ko": [
-        "뉴올리언스 세인츠의 안전에 대해 아는 것이 있다면 이는 놀라운 일이 아닙니다.",
-        "리드는 수요일 밤 스무디 킹 센터의 베이스라인에 앉아 디트로이트 피스톤스와의 경기를 위해 뉴올리언스 펠리컨스의 소셜 미디어 팀을 위해 사진과 비디오를 촬영하면서 자신의 이력서에 공식적으로 \"사진가\"를 추가했습니다.",
-        "Saints and Pelicans는 소셜 미디어 콘텐츠를 진지하게 받아들입니다."
-      ],
-      "processed_at": "2026-10-18T05:39:27.244776+00:00"
-    },
-    {
-      "title": "Pelicans Notes: Queen, Jones, Murphy, Poole, Zion - Hoops Rumors",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdDdFc0R4c3hyblREQWRaUVhEblJCTldZc2U0VW4xTmFUWmpuaUcxMzN3WVBDc0wtemF6UG1LV2VyZlFCMkxVaGtIMmJwaXo5UUh3ckVoVzNrdHp1OHlJU3RKb3BGdGE0bjg0WjgzVHZCaEF4ZG9qZkt4cE9oSzlJZHZBeENfS3Q1bXlNN29R?oc=5",
-      "source": "HoopsRumors",
-      "kind": "news",
-      "published": "2025-12-09T08:00:00+00:00",
-      "thumbnail": "https://cdn.hoopsrumors.com/files/2025/12/Derik-Queen1-900x600.jpg",
-      "language": "en",
-      "publisher": "Hoops Rumors",
-      "publisher_url": "https://www.hoopsrumors.com",
-      "status": "ready",
-      "source_id": "hoopsrumors",
-      "dedupe_text_en": "Pelicans Notes: Queen, Jones, Murphy, Poole, Zion",
-      "dedupe_original_title": "Pelicans Notes: Queen, Jones, Murphy, Poole, Zion",
-      "title_ko": "펠리컨 노트: 퀸, 존스, 머피, 풀, 자이언 - Hoops Rumors",
-      "translation_errors": {},
-      "last_attempt_at": "2026-10-18T05:37:59.276949+00:00",
-      "original_url": "https://www.hoopsrumors.com/2025/12/pelicans-notes-queen-jones-murphy-poole-zion.html",
-      "summary_en": [
-        "Two of the league’s most promising rookies had the best games of their respective NBA careers on Monday in New Orleans.",
-        "The Spurs and Dylan Harper, who scored 22 points and handed out six assists in 26 minutes off the bench, ultimately came out on top, with a three-point win over the Pelicans and Derik Queen.",
-        "“Special night for him,” Pelicans interim head coach James Borrego said of his standout rookie."
-      ],
-      "summary_source": "article",
-      "summary_ko": [
-        "리그에서 가장 유망한 신인 두 명이 월요일 뉴올리언스에서 각자의 NBA 경력 중 최고의 경기를 펼쳤습니다.",
-        "벤치 밖에서 26분 만에 22득점과 6개의 어시스트를 기록한 스퍼스와 딜런 하퍼는 결국 펠리컨스와 데릭 퀸을 상대로 3점차 승리를 거두며 1위에 올랐습니다.",
-        "제임스 보레고 펠리컨스 임시 감독은 그의 뛰어난 신인에 대해 \"그에게 특별한 밤\"이라고 말했습니다."
-      ],
-      "processed_at": "2026-10-18T05:39:31.022019+00:00"
-    },
-    {
-      "title": "Zion? Trey Murphy? NBA trade deadline is nearing; how should Pelicans approach? - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNOE5GRl9jYkZYeGhFTFQ2cWlKT09DWUxwb251WDRKX18tYzNGVzZmVzAwUUdjekp0ZXo3Ymd4S2FnY3BpeFhBTnpOOWNMd1RTN01wMGYxNkIxSE1XbWdMNFJfamtSV0JlWHB5SzRVMk8xV0VFbnNFRDM5cW9XdDdUODBtaXBKVjZMWF9PZGhIZTFTY09mOVlieC1RY3ZfQWVF?oc=5",
-      "source": "The Athletic (Pelicans)",
-      "kind": "news",
-      "published": "2025-12-08T08:00:00+00:00",
-      "thumbnail": "",
-      "language": "en",
-      "publisher": "The New York Times",
-      "publisher_url": "https://www.nytimes.com",
-      "status": "partial",
-      "source_id": "athletic",
-      "dedupe_text_en": "Zion? Trey Murphy? NBA trade deadline is nearing; how should Pelicans approach?",
-      "dedupe_original_title": "Zion? Trey Murphy? NBA trade deadline is nearing; how should Pelicans approach?",
-      "title_ko": "시온?\n트레이 머피?\nNBA 트레이드 마감일이 다가오고 있습니다. 펠리컨스는 어떻게 접근해야 할까요?\n- 뉴욕타임스",
-      "translation_errors": {},
-      "last_attempt_at": "2026-10-18T05:37:59.276949+00:00",
-      "content_error": "HTTP 403",
-      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
-    },
-    {
-      "title": "NBA 2025 Offseason Check-In: New Orleans Pelicans - Hoops Rumors",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVkdJaG9GZU5JbnczYXdIZnRCcVhyZmNPUE90VXAtalJkYjI1UU5taTlYX1ZSZjVkc2dUOGhWNmoxcHh2eU55TzF5OG5NUTZOMW4zTmZnVGxVdHJQcnQ1aWxhTkZKSGN0YUlrQ0RQcWFmN3BUUXl4QlVJTVBvdzVqcFdLWVRuTWJYNjZWd2RkeWlyZGM?oc=5",
-      "source": "HoopsRumors",
-      "kind": "news",
-      "published": "2025-08-28T07:00:00+00:00",
-      "thumbnail": "https://cdn.hoopsrumors.com/files/2025/03/Zion-Williamson-1-e1741294786540-900x599.jpg",
-      "language": "en",
-      "publisher": "Hoops Rumors",
-      "publisher_url": "https://www.hoopsrumors.com",
-      "status": "ready",
-      "source_id": "hoopsrumors",
-      "dedupe_text_en": "NBA 2025 Offseason Check-In: New Orleans Pelicans",
-      "dedupe_original_title": "NBA 2025 Offseason Check-In: New Orleans Pelicans",
-      "title_ko": "NBA 2025 오프시즌 체크인: 뉴올리언스 펠리컨스 - Hoops Rumors",
-      "translation_errors": {},
-      "last_attempt_at": "2026-10-18T05:37:59.276949+00:00",
-      "original_url": "https://www.hoopsrumors.com/2025/08/nba-2025-offseason-check-in-new-orleans-pelicans.html",
-      "summary_en": [
-        "Today, we’re focusing on the New Orleans Pelicans.",
-        "- Note: The Pelicans had acquired the Pacers’ 2026 first-round pick (with top-four protection) in a previous trade; the Pacers got it back in this deal.",
-        "23 pick) and either the Pelicans’ or Bucks’ 2026 first-round pick (whichever is more favorable)."
-      ],
-      "summary_source": "article",
-      "summary_ko": [
-        "오늘은 뉴올리언스 펠리컨스에 집중하겠습니다.",
-        "- 참고: Pelicans는 이전 거래에서 Pacers의 2026년 1라운드 픽(상위 4위 보호 포함)을 인수했습니다. Pacers는 이번 거래에서 그것을 되찾았습니다.",
-        "23픽) 및 Pelicans 또는 Bucks의 2026년 1라운드 픽(둘 중 더 유리한 쪽)."
-      ],
-      "processed_at": "2026-10-18T05:39:37.934300+00:00"
-    },
-    {
-      "title": "Trade Zion Williamson and start a rebuild? Assessing Pelicans’ options - The Athletic - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMHExMkpzTmt0azhJcFhxT0QyOU93a0RUTXdwb1lQdXZ5NUFmNzNmT0Q1VGhEM2kwdEJGTE9CdERHUTZCRGpDYnNERnZDdWNlZnB0MGJrQkZZYUJTVVR6eGEtVk1RaE8tWTA5b1lfa0NsSWZzZUcyZ3MwWE1OaUl3WEFyQXAxcWwxOXdmZzk1VlhMa250NUQ1VGtIamk3aUFDbjhGcDVn?oc=5",
-      "source": "The Athletic (Pelicans)",
-      "kind": "news",
-      "published": "2025-01-10T08:00:00+00:00",
-      "thumbnail": "",
-      "language": "en",
-      "publisher": "The New York Times",
-      "publisher_url": "https://www.nytimes.com",
-      "status": "partial",
-      "source_id": "athletic",
-      "dedupe_text_en": "Trade Zion Williamson and start a rebuild? Assessing Pelicans’ options - The Athletic",
-      "dedupe_original_title": "Trade Zion Williamson and start a rebuild? Assessing Pelicans’ options - The Athletic",
-      "title_ko": "자이언 윌리엄슨을 트레이드하고 리빌딩을 시작하시겠습니까?\n펠리컨의 옵션 평가 - The Athletic - The New York Times",
-      "translation_errors": {},
-      "last_attempt_at": "2026-10-18T05:37:59.276949+00:00",
-      "content_error": "HTTP 403",
-      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
-    },
-    {
-      "title": "Zion Williamson and the Pelicans need to give reasons to believe before it’s too late - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRmRIUXdlUXBXM2xZUmNLbFNVS2F6WkItb1NmTmpfWUFUekc3Tm43bm1rYnNWRWhlQUU5aWM5bXo2R04xVTZfdnNGSkxiZWhzb3N6RVN1ekpCRzJBQmlZYVRLTFdwak5zZzBTME9ncER0Und6MDFXb2hycTZabUpoZ181UUwtaDBSZ1dtaW1hOA?oc=5",
-      "source": "The Athletic (Pelicans)",
-      "kind": "news",
-      "published": "2024-11-06T08:00:00+00:00",
-      "thumbnail": "",
-      "language": "en",
-      "publisher": "The New York Times",
-      "publisher_url": "https://www.nytimes.com",
-      "status": "partial",
-      "source_id": "athletic",
-      "dedupe_text_en": "Zion Williamson and the Pelicans need to give reasons to believe before it’s too late",
-      "dedupe_original_title": "Zion Williamson and the Pelicans need to give reasons to believe before it’s too late",
-      "title_ko": "자이언 윌리엄슨과 펠리컨스는 너무 늦기 전에 믿을 만한 이유를 제시해야 합니다 - The New York Times",
-      "translation_errors": {},
-      "last_attempt_at": "2026-10-18T05:37:59.276949+00:00",
-      "content_error": "HTTP 403",
-      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
-    },
-    {
-      "title": "The Pelicans signed Trey Murphy to an extension prior to a deadline. Here are the details. - NOLA.com",
-      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNa0dmV05Udmd6dkxCenY5NmFaZERQeVoyZnhOTXhHSi04RnNoOXVFckthb2JLNjFmaE5uTEtxekpNbm9yeWNza2t5X3hROUpNaERXMTF5WjVjNWt2RWhuRU94dFBfdGp1cy1uMDIyd2wtNzFQS2Yyd25zSHg1clI5RG1WSWx3c3F1d3d4REJyUTdRblIxMHRRa2RtdzNwVGx1bDQwakM5My1OLVRTTURyRkF1Y1plT1pRMGxHSGE4M29TZW51ak14VkdTSzVPbGU2aXVDZVlLd2ZtXzJU0gHiAUFVX3lxTFByb2lndm9ndGVoTUo0RmE0RGdEWS0yUXV4bWRfM01Kc0xIOFZzaEtWTW5CSmVfY2UyVE12RjMtNy1ZUHhrbUF0ampxek40ellJQlk0WVF2akszR3hqWkxLNFRaR3dyWk52LXFoU3BDek5mRThvOXp0UzcxTUJyRHFvU3VkRzV6QTRJcVdWdjFhaDNtZ0JyUG1YdHhDNFkyZk1uMTdpTmpBQnoxSkNtVkFoc2w4Z1lHMG5xcUFtQnNGLUl0MEhNX2t3SHJ4MjRYZzJZUTBNcHpoQ2xxQVVOblVRdGc?oc=5",
-      "source": "NOLA.com (Times-Picayune)",
-      "kind": "news",
-      "published": "2024-10-21T07:00:00+00:00",
-      "thumbnail": "https://bloximages.newyork1.vip.townnews.com/nola.com/content/tncms/assets/v3/editorial/a/a5/aa531980-fbb9-5065-bc24-df1fcf53c1c6/6608ab326f53f.image.jpg?crop=1490%2C782%2C5%2C87&resize=1200%2C630&order=crop%2Cresize",
-      "language": "en",
-      "publisher": "NOLA.com",
-      "publisher_url": "https://www.nola.com",
-      "status": "ready",
-      "source_id": "nola",
-      "dedupe_text_en": "The Pelicans signed Trey Murphy to an extension prior to a deadline. Here are the details.",
-      "dedupe_original_title": "The Pelicans signed Trey Murphy to an extension prior to a deadline. Here are the details.",
-      "title_ko": "Pelicans는 마감일 이전에 Trey Murphy와 연장 계약을 체결했습니다.\n자세한 내용은 다음과 같습니다.\n-NOLA.com",
-      "translation_errors": {},
-      "last_attempt_at": "2026-10-18T05:37:59.276949+00:00",
-      "original_url": "https://www.nola.com/sports/pelicans/pelicans-and-trey-murphy-finalize-huge-contract-extension/article_b1cc38c6-8fca-11ef-8437-bf6b42a5f1a0.html",
-      "summary_en": [
-        "The New Orleans Pelicans have signed one of their best young players to a contract extension that will tie him to the franchise for the next five years.",
-        "On Monday, the Pelicans and Trey Murphy agreed to a four-year, $112 million extension, which came roughly six hours before the 5 p.m.",
-        "He will make $28 million in average annual value over the life of his extension — a nice payday for the 24-year-old forward who has helped New Orleans make the playoffs twice in the past three years."
-      ],
-      "summary_source": "article",
-      "summary_ko": [
-        "뉴올리언스 펠리컨스는 최고의 젊은 선수 중 한 명을 향후 5년 동안 프랜차이즈에 묶어두는 계약 연장에 서명했습니다.",
-        "월요일, 펠리컨스와 트레이 머피는 4년 1억 1200만 달러 연장에 합의했는데, 이는 오후 5시가 되기 약 6시간 전에 이루어졌습니다.",
-        "그는 연장 기간 동안 연평균 2,800만 달러의 가치를 벌게 될 것입니다. 이는 지난 3년 동안 뉴올리언스가 플레이오프에 두 번 진출하는 데 도움을 준 24세의 포워드에게 좋은 급여입니다."
-      ],
-      "processed_at": "2026-10-18T05:39:46.745807+00:00"
-    },
-    {
-      "title": "Don’t trade Brandon Ingram: Why Pelicans keeping him is smartest move for both - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPVzZKT1NGenRmdkpoNmd0dXVvRDVkUkZvTmNVaXFwU3IxWlN5dkJGZjBYX2tnOWtRUlhkc3RlN0J1TDU4azZONDg4eEVPc2kycUFOanREbXVPRjd4WDA0Q3ZpNkVTaHlzc1JxdWRlQkd6aDlYaEZYa3Z3dnE3MEVxc1FVTnlxUTdFMmpRd2dKLWZqUkItQWh4QmJwSEI?oc=5",
-      "source": "The Athletic (Pelicans)",
-      "kind": "news",
-      "published": "2024-09-28T07:00:00+00:00",
-      "thumbnail": "",
-      "language": "en",
-      "publisher": "The New York Times",
-      "publisher_url": "https://www.nytimes.com",
-      "status": "partial",
-      "source_id": "athletic",
-      "dedupe_text_en": "Don’t trade Brandon Ingram: Why Pelicans keeping him is smartest move for both",
-      "dedupe_original_title": "Don’t trade Brandon Ingram: Why Pelicans keeping him is smartest move for both",
-      "title_ko": "Brandon Ingram을 트레이드하지 마세요: Pelicans가 그를 유지하는 것이 두 사람 모두에게 가장 현명한 조치인 이유 - The New York Times",
-      "translation_errors": {},
-      "last_attempt_at": "2026-10-18T05:37:59.276949+00:00",
-      "content_error": "HTTP 403",
-      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
-    },
-    {
-      "title": "NBA 2024 Offseason Check-In: New Orleans Pelicans - Hoops Rumors",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQUVRjVGZCZTdRQmxkakRFbXpoQXd6TV92aE5rX2s0blNJRV9WaHU0NFh0TDl4T3gwWlBNWWU1em5vTjlRd3ZMcTVzV0Vnb0NNS09xMmNGd2hZT291bnl1YlBjMWI2R3V3MlF3TVczM1FxZ2VJQUlVcnp6REx3dGp2MFRTbnZLMFNxM3NqV2xWRjBST3c?oc=5",
-      "source": "HoopsRumors",
-      "kind": "news",
-      "published": "2024-08-29T07:00:00+00:00",
-      "thumbnail": "https://cdn.hoopsrumors.com/files/2024/05/Brandon-Ingram-900x600.jpg",
-      "language": "en",
-      "publisher": "Hoops Rumors",
-      "publisher_url": "https://www.hoopsrumors.com",
-      "status": "ready",
-      "source_id": "hoopsrumors",
-      "dedupe_text_en": "NBA 2024 Offseason Check-In: New Orleans Pelicans",
-      "dedupe_original_title": "NBA 2024 Offseason Check-In: New Orleans Pelicans",
-      "title_ko": "NBA 2024 오프시즌 체크인: 뉴올리언스 펠리컨스 - Hoops Rumors",
-      "translation_errors": {},
-      "last_attempt_at": "2026-10-18T05:37:59.276949+00:00",
-      "original_url": "https://www.hoopsrumors.com/2024/08/nba-2024-offseason-check-in-new-orleans-pelicans.html",
-      "summary_en": [
-        "Today, we’re focusing on the New Orleans Pelicans.",
-        "- Acquired Dejounte Murray from the Hawks in exchange for Larry Nance Jr., Dyson Daniels, E.J.",
-        "Liddell, Cody Zeller (sign-and-trade), the Lakers’ 2025 first-round pick, and either the Pelicans’ or Bucks’ 2027 first-round pick (whichever is least favorable; top-four protected)."
-      ],
-      "summary_source": "article",
-      "summary_ko": [
-        "오늘은 뉴올리언스 펠리컨스에 집중하겠습니다.",
-        "- Larry Nance Jr., Dyson Daniels, E.J.와 교환하여 Hawks에서 Dejounte Murray를 인수했습니다.",
-        "Liddell, Cody Zeller(사인 앤 트레이드), Lakers의 2025년 1라운드 픽, Pelicans 또는 Bucks의 2027년 1라운드 픽(둘 중 가장 불리한 것, 상위 4위는 보호됨)."
-      ],
-      "processed_at": "2026-10-18T05:39:51.942924+00:00"
-    },
-    {
-      "title": "Hawks trade Dejounte Murray to Pelicans for 2 first-round picks: Sources - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObjJ6RjRnaUtUa1VfQXNQZ2lHX2JERnJHSjY1ZDF3WmRBMkoyWU5JZW96OE1XLWQzVEl0WWRnZDNsTTdlclZ0djlCS0dSSW9GVjJzeVlKRlR1dERKcndxZHNUaktUMHJYUXFMVlo4SGc1ZUJaSngwZTI2LXU5U3ZQMkZ1ZmpzUF9ZX0ItbldmblBaVGc?oc=5",
-      "source": "The Athletic (Pelicans)",
-      "kind": "news",
-      "published": "2024-06-28T07:00:00+00:00",
-      "thumbnail": "",
-      "language": "en",
-      "publisher": "The New York Times",
-      "publisher_url": "https://www.nytimes.com",
-      "status": "partial",
-      "source_id": "athletic",
-      "dedupe_text_en": "Hawks trade Dejounte Murray to Pelicans for 2 first-round picks: Sources",
-      "dedupe_original_title": "Hawks trade Dejounte Murray to Pelicans for 2 first-round picks: Sources",
-      "title_ko": "Hawks는 1라운드 픽 2개를 위해 Dejounte Murray를 Pelicans로 트레이드했습니다. 출처 - The New York Times",
-      "translation_errors": {},
-      "last_attempt_at": "2026-10-18T05:37:59.276949+00:00",
-      "content_error": "HTTP 403",
-      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
-    },
-    {
-      "title": "Rod Walker: Pelicans' players (and fans) need to show up for Game 3 against OKC Thunder - NOLA.com",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQVUZ2OG5LRHU1bXBpeHVxRXRQeU5Ya0tkeS1TVTdsV3VqYWJhc1pBZXdsNnV0VkE5Q05SQWMyZW1OWXRadDg2NzNnM3VJWW9hMVV4akY2aS13SmN2Y3V6bGk1MVRzWmtKOE9DZ3ZUMHdJYnphcGJEVGJkNXk2SE5wdncxMTRrdGRsWXJaT1ZHUGc4U3l0eU1HTkxUT2RHbUdNR0lTZmZoMV9vbnpnLV9sLXVBOGRoS0xGY1pOTkFtMHlUWW16X091RHdmRy1iSEd00gHWAUFVX3lxTE9aTmZCaGFKUzViZXp3RDBrYXRsRGo0N1Q5UnNlUGxLMGlGQTNKT0dRaGVGNnB2MWFCT3lWLVNzQV9NSlpOcEd4UkpMWFV3TXVGY0lKbUFBVU1felNYSG50Q21DR212VjlrbXo3ZnJGN0ZqQWRrc091TkhzY0FXVkhLeTh6YmctR05oSTh1Qjk5TjlRQlFuNl9FT0QxLU8zUEk4Zkh0M1ZGR1REcjlPdjhlQm1veHUzZXduSFhuVnFNaXlUZktsSHBkTWNXSW5QbTZEem1nZUE?oc=5",
-      "source": "NOLA.com (Times-Picayune)",
-      "kind": "news",
-      "published": "2024-04-26T07:00:00+00:00",
-      "thumbnail": "",
-      "language": "en",
-      "publisher": "NOLA.com",
-      "publisher_url": "https://www.nola.com",
-      "status": "partial",
-      "source_id": "nola",
-      "dedupe_text_en": "Rod Walker: Pelicans' players (and fans) need to show up for Game 3 against OKC Thunder",
-      "dedupe_original_title": "Rod Walker: Pelicans' players (and fans) need to show up for Game 3 against OKC Thunder",
-      "title_ko": "로드 워커: 펠리컨스의 선수들(그리고 팬들)은 OKC 썬더와의 3차전에 출전해야 합니다 - NOLA.com",
-      "translation_errors": {},
-      "last_attempt_at": "2026-10-18T05:37:59.276949+00:00",
-      "content_error": "HTTP 429",
-      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
-    },
-    {
-      "title": "NBA Play-In Tournament odds, expert picks for Lakers at Pelicans and Warriors at Kings - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWnM2MWNQSElFQmtBYXFyeGd4d2oyajBFeHY4eEpNa3BDUG5NUkRsSWNYWnRKVy1qczZYSldGZ2g5NVJSS2xhaFkyVXpuUHFVQUtxUXhOWFV2X1ZLTUVXTEZDNWtRQWM5SC1rRXlZYUFLcVZJY3lXWXFlU2twckwzLXFSMzRzNHowaXhVVElTWDZGR2hEREh2Wmx4cFdqTzZoSFVnMEFPZW1UcGJMU0VfVmszSFBETVRL?oc=5",
-      "source": "The Athletic (Pelicans)",
-      "kind": "news",
-      "published": "2024-04-16T07:00:00+00:00",
-      "thumbnail": "",
-      "language": "en",
-      "publisher": "The New York Times",
-      "publisher_url": "https://www.nytimes.com",
-      "status": "partial",
-      "source_id": "athletic",
-      "dedupe_text_en": "NBA Play-In Tournament odds, expert picks for Lakers at Pelicans and Warriors at Kings",
-      "dedupe_original_title": "NBA Play-In Tournament odds, expert picks for Lakers at Pelicans and Warriors at Kings",
-      "title_ko": "NBA 플레이인 토너먼트 확률, Pelicans의 Lakers와 Kings의 Warriors에 대한 전문가 추천 - The New York Times",
-      "translation_errors": {},
-      "last_attempt_at": "2026-10-18T05:37:59.276949+00:00",
-      "content_error": "HTTP 403",
-      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
-    },
-    {
-      "title": "The TV ratings are in for the Pelicans' WVUE game. Here's how they stack up vs. Bally. - NOLA.com",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPNHlJMjZwbFJ4X015d204TGpnanVoLWk3bENKVWc4aS1LUHBEN2xGaTFOdU14NXZJbXRFTEk4ZzMyWHhRMGp2Qk1lUlI3WFNzeDVFWmpjb0VxVi1VbDBnbmp6ek1Ka2RwU2tnN3l2dDRNN3hVVUZ5M0Y4akc0aUN5TjlCbTQ5RFM0T0pybUpjQ3J2Ul9FS0NadlZmTmxOcTZrV2pMWjl2aU1ZQ0x3TmZwSmdiOGVQOFllTkFzVjB2aWZuNEVlVWcyLXpNVzhpSU1xWmRtNVJ1eEXSAd4BQVVfeXFMTjRCcFN5dkoxMTNraW9HV1BIRFB6SUlDLU5mUW84Q3dubGNscFhJNTR2R01nUTlNR3hQVndPNXRTZzgzZjJOOTR6OHhMeTBVTk9fYlBVcnNRYTJjMGhvZlJlWTdEZ0xXOFhkaWFrV2VSeFdEUUtaSkFJWjJHZlk3NEpaMXdtMFh6WE92N3ZFTFYwNElvY0swYjRSSWd1RVh3UW1uYnlSMUZ3aTZZSW9zY0tzYk1tVVdsUnN5S3Q5UjhsWlBza0xTVk5PdTRpV182TEtFbDdZNU1BRWdQQWZ3?oc=5",
-      "source": "NOLA.com (Times-Picayune)",
-      "kind": "news",
-      "published": "2024-01-16T08:00:00+00:00",
-      "thumbnail": "",
-      "language": "en",
-      "publisher": "NOLA.com",
-      "publisher_url": "https://www.nola.com",
-      "status": "partial",
-      "source_id": "nola",
-      "dedupe_text_en": "The TV ratings are in for the Pelicans' WVUE game. Here's how they stack up vs. Bally.",
-      "dedupe_original_title": "The TV ratings are in for the Pelicans' WVUE game. Here's how they stack up vs. Bally.",
-      "title_ko": "TV 시청률은 Pelicans의 WVUE 게임에 적용됩니다.\n여기에 그들이 어떻게 쌓이는지 비교합니다.\n발리.\n-NOLA.com",
-      "translation_errors": {},
-      "last_attempt_at": "2026-10-18T05:37:59.276949+00:00",
-      "content_error": "HTTP 429",
-      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
-    },
-    {
-      "title": "Saints, Pelicans pull of rare daily double with wins on Sunday. How often does that happen? - NOLA.com",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOaGV2czRobV9YUThhTUxKRy02QkYtYWp0aXkwU3V2dWY2VXV2WnpyVVBScXlIM3ZvcXlaVWxzY0RkWnBJcUpMVWZfQ3NqZU93dU5kdGs4ZExQOWdwWnpyUnViNEkxMkdHZ0RVUlRqTTFSaTR5Q2RVdW9IOTFhWlZIRFdBWmY0UlJYeG1SNWIwbWxiaUpFY201dnptUmtydS1hSkxvcGhqUi10b2ZyZ0dqTFp1NVBlcVhnckpoLTJiREZEWTFzWkNYckpHTEVTNDZvdzFCdDVtR0ItUVXSAeABQVVfeXFMT084X21FSUhpS3dfZnhRYWFQUzRUOS1yQWZpdW4tbkZib3BIRDFRQjlYaUl1WFNVM3ZSYU1qWFdGWDFHWFhqQ0Yyb0pzXzZBV2pidzVLNjRPNVVEWURpX2wtOFAxOVFUd0NJNHc2VUo2Y0EtVWRfajJCTDV3M2Q2ZGlBVkVWc3NsQzBIeXg0dVRTYTZkTUYzRWdpckEzalZ3dFkxeTkyV0pFVDVWQ0RBS2c5dHBuYVp1dVF5akhYWGY3NWVTMTV3R19tNnNMRDhjMWpMZThuc2l6cER6X1J4N3E?oc=5",
-      "source": "NOLA.com (Times-Picayune)",
-      "kind": "news",
-      "published": "2023-12-17T08:00:00+00:00",
-      "thumbnail": "",
-      "language": "en",
-      "publisher": "NOLA.com",
-      "publisher_url": "https://www.nola.com",
-      "status": "partial",
-      "source_id": "nola",
-      "dedupe_text_en": "Saints, Pelicans pull of rare daily double with wins on Sunday. How often does that happen?",
-      "dedupe_original_title": "Saints, Pelicans pull of rare daily double with wins on Sunday. How often does that happen?",
-      "title_ko": "세인츠와 펠리컨스는 일요일에 승리를 거두며 보기 드문 일일 더블을 달성했습니다.\n그런 일이 얼마나 자주 발생합니까?\n-NOLA.com",
-      "translation_errors": {},
-      "last_attempt_at": "2026-10-18T05:37:59.276949+00:00",
-      "content_error": "HTTP 429",
-      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
-    },
-    {
-      "title": "Zion Williamson and Anthony Edwards headline The Athletic’s NBA All-23-and-Under mock draft - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVklYX3dhZlVBakJpZkYzem1PaEJxVUpXdzRMWXhSSjVKOU5EaHJCd1NjdWRNLUptYWxLNnRCMk82eWdwdXRkTXd3dlFfOV9YVEdUV3pVSk5jRmg4UUZIYkI4WmxUVUcwYXl6WFIybDFnbURKVXpMaFJfRXE4QnlqZndjNktkUkNFLW5HbzR2V1VKZjJfMjhpQWFoNVlhTl9PbGxsREJVbUg4UQ?oc=5",
-      "source": "The Athletic (Pelicans)",
-      "kind": "news",
-      "published": "2023-08-28T07:00:00+00:00",
-      "thumbnail": "",
-      "language": "en",
-      "publisher": "The New York Times",
-      "publisher_url": "https://www.nytimes.com",
-      "status": "partial",
-      "source_id": "athletic",
-      "dedupe_text_en": "Zion Williamson and Anthony Edwards headline The Athletic’s NBA All-23-and-Under mock draft",
-      "dedupe_original_title": "Zion Williamson and Anthony Edwards headline The Athletic’s NBA All-23-and-Under mock draft",
-      "title_ko": "Zion Williamson과 Anthony Edwards가 The Athletic의 NBA All-23-and-Under 모의 드래프트의 헤드라인을 장식했습니다. - The New York Times",
-      "translation_errors": {},
-      "last_attempt_at": "2026-10-18T05:37:59.276949+00:00",
-      "content_error": "HTTP 403",
-      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
-    },
-    {
-      "title": "Zion Williamson and the wackiest first 100 games of an NBA star’s career - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPOFJWUExHYTZ1WHhGWGZwTGZXMTh6aUlTUWtVdVV5OU9vMGNva3praUJ5U0VrWGd4eWNxUXFDa3dheWhGQWxaREhOY3pLT2hlY3ZxQU1ZRmZnUUZsWVcweGdlMndyN1lsc2JaV1hhNjZlSS15MlN3MXlQTHFKQ0ljRFJybjlSNFJ0NFNkdg?oc=5",
-      "source": "The Athletic (Pelicans)",
-      "kind": "news",
-      "published": "2023-06-20T07:00:00+00:00",
-      "thumbnail": "",
-      "language": "en",
-      "publisher": "The New York Times",
-      "publisher_url": "https://www.nytimes.com",
-      "status": "partial",
-      "source_id": "athletic",
-      "dedupe_text_en": "Zion Williamson and the wackiest first 100 games of an NBA star’s career",
-      "dedupe_original_title": "Zion Williamson and the wackiest first 100 games of an NBA star’s career",
-      "title_ko": "자이언 윌리엄슨과 NBA 스타의 생애 가장 엉뚱한 첫 100경기 - The New York Times",
-      "translation_errors": {},
-      "last_attempt_at": "2026-10-18T05:37:59.276949+00:00",
-      "content_error": "HTTP 403",
-      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
-    },
-    {
-      "title": "Pelicans and assistant coach Teresa Weatherspoon are parting ways, sources say - NOLA.com",
-      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQNDc3cGdseHNMZ19fSDRXUHJRZTh0NV9nZ2hfSTVranV5ekt1X20xZlpueXY2b3JzZWRabm12eC1Rd0NrRkNFc0drMlExam5RN0IydUxScVNtTjYzVnViTjFISnU0M2xLQ21FVFhHS20zMnAzWUxTelZUWkVFWUZkZkx6WUZXOGM4QV9aTV9JT0FITmlXS0MyZk4ySm8zNzJ1dzBnOWdTMVVIUjI4c0hPdDdwQTktNF9FcnpPS0tHdC1uMXpMSmdYdnFpYk1DNklGcThyc3hlZDBIQzVWa1pRZVZwOUFvZ1lXRUV6NmR0UVlzajdad1pF0gH8AUFVX3lxTE16MEc2SVFuLVA3cXZGZF94ZURNeE1UbmJmYVlpbDJTa2I3b3NXSERoQVplekZNTnRXNHBrN0VLcUxfM29NRzBaT2tCWWU3X0dLRnladGJ5QUtERkM5MDJCdzk4N0dSVHN6b25tYmwzam5nbERaQkJpcDlBZXdYYjV2dGIzNEdYb2s0dFRwMldWUFRqV1ZOcWh3cGJmb1MtRXdLZndIaVJnQ2hRMFVvTVZUajl2VGZ6N25mMDF4Y0hqWGlYdVI2NUEtcEw1MkZUM1ZVeC0yamJXT0h1WHRCdFYzN2hQSVQzeFpPRlJkcXpmLTZqMnZjTEt0Q0xvWg?oc=5",
-      "source": "NOLA.com (Times-Picayune)",
-      "kind": "news",
-      "published": "2023-06-15T07:00:00+00:00",
-      "thumbnail": "",
-      "language": "en",
-      "publisher": "NOLA.com",
-      "publisher_url": "https://www.nola.com",
-      "status": "partial",
-      "source_id": "nola",
-      "dedupe_text_en": "Pelicans and assistant coach Teresa Weatherspoon are parting ways, sources say",
-      "dedupe_original_title": "Pelicans and assistant coach Teresa Weatherspoon are parting ways, sources say",
-      "title_ko": "펠리컨스와 보조 코치 테레사 웨더스푼이 헤어지고 있다고 소식통에 따르면 - NOLA.com",
-      "translation_errors": {},
-      "last_attempt_at": "2026-10-18T05:37:59.276949+00:00",
-      "content_error": "HTTP 429",
-      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
-    },
-    {
-      "title": "Spurs Trade Josh Richardson To Pelicans - Hoops Rumors",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPRjlZSk9mdlNET1R2NlFMUHhRal8ycGRRbVJNd0F0cUFyVVlKbkk3Y1g0N2Q4LVdLVGlyb0M1c1JXV0xMTkhpdGhXanlKdU5Eb1d0MW5kdDJpN0lBcW15S2NlaUt0WGRNOXh4V0xUU2hlN1BDWFY2aDB2Qm9oRi1lSllEOE9EQzhKZDJF?oc=5",
-      "source": "HoopsRumors",
-      "kind": "news",
-      "published": "2023-02-09T08:00:00+00:00",
-      "thumbnail": "https://cdn.hoopsrumors.com/files/2023/02/Josh-Richardson-horizontal-900x600.jpg",
-      "language": "en",
-      "publisher": "Hoops Rumors",
-      "publisher_url": "https://www.hoopsrumors.com",
-      "status": "ready",
-      "source_id": "hoopsrumors",
-      "dedupe_text_en": "Spurs Trade Josh Richardson To Pelicans",
-      "dedupe_original_title": "Spurs Trade Josh Richardson To Pelicans",
-      "title_ko": "토트넘, 조쉬 리처드슨을 펠리컨으로 트레이드하다",
-      "translation_errors": {},
-      "last_attempt_at": "2026-10-18T05:37:59.276949+00:00",
-      "original_url": "https://www.hoopsrumors.com/2023/02/spurs-to-trade-josh-richardson-to-pelicans.html",
-      "summary_en": [
-        "9:47pm: The trade sending Richardson to New Orleans and Graham to San Antonio is now official, the Pelicans announced in a press release.",
-        "According to Andrew Lopez of ESPN (Twitter link), the 2024 second-rounder going to the Spurs will be either the Bulls’ or Pelicans’ pick (whichever is more favorable), while the 2026 second-rounder will be either the Pelicans’ or Trail Blazers’ pick (whichever is less favorable).",
-        "The 2028 and 2029 second-round picks headed to San Antonio are New Orleans’ own."
-      ],
-      "summary_source": "article",
-      "summary_ko": [
-        "오후 9시 47분: 리처드슨을 뉴올리언스로, 그레이엄을 샌안토니오로 보내는 트레이드가 이제 공식화되었다고 펠리컨스는 보도자료를 통해 발표했습니다.",
-        "ESPN(트위터 링크)의 Andrew Lopez에 따르면 스퍼스에 진출하는 2024년 2라운드 선수는 Bulls 또는 Pelicans의 선택(둘 중 더 유리한 쪽)이 될 것이며, 2026년 2라운드 선수는 Pelicans 또는 Trail Blazers의 선택(둘 중 덜 유리한 쪽)이 될 것입니다.",
-        "샌안토니오로 향하는 2028년과 2029년 2라운드 지명권은 뉴올리언스의 것이다."
-      ],
-      "processed_at": "2026-10-18T05:40:08.731110+00:00"
-    },
-    {
-      "title": "Photos: Zion Williamson and new-look Pelicans rock Smoothie King Center in home preseason debut - NOLA.com",
-      "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQM2U0b1dQM1NkdGpQT3ByUG5CbVlBX1JmT1YxWVgwVkpVVW5faG1BX3BTZ2l3anpFMmhnM2xlNWlsQkJKY05LMEhrbkNvXy1GdmI4R0NUbXRYeHo5UzdGSld5aWQyQTFKdmdFMWlhM3hWaThnZDJqcTBLSGcxdDhQSWFrWjdadlYyWjM0aEU0UTFscmRYa0h6WUFHT21lT21LNG1QU1VsN0dNQWVDUWxHQzdPZG5oUHI4VkJ5VW5yR0lYQnlTRXY5X3N3NS1oRHhJS21wWWdZLUJ1MUJyOWhxWEF1bUVXeXVCS19TR1pFbGF5Y3VwNWFsTEZQT2MzdFU3NWdvczJUZUVyNlozanpvcWxR?oc=5",
-      "source": "NOLA.com (Times-Picayune)",
-      "kind": "news",
-      "published": "2022-11-17T01:19:37+00:00",
-      "thumbnail": "",
-      "language": "en",
-      "publisher": "NOLA.com",
-      "publisher_url": "https://www.nola.com",
-      "status": "partial",
-      "source_id": "nola",
-      "dedupe_text_en": "Photos: Zion Williamson and new-look Pelicans rock Smoothie King Center in home preseason debut",
-      "dedupe_original_title": "Photos: Zion Williamson and new-look Pelicans rock Smoothie King Center in home preseason debut",
-      "title_ko": "사진: Zion Williamson과 새로운 모습의 Pelicans가 스무디 킹 센터를 홈 프리시즌 데뷔전에서 선보였습니다 - NOLA.com",
-      "translation_errors": {},
-      "last_attempt_at": "2026-10-18T05:37:59.276949+00:00",
-      "content_error": "HTTP 429",
-      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
-    },
-    {
-      "title": "Rookie Moms: Mothers of Pelicans' Trey Murphy, Herb Jones and Jose Alvarado discuss Year 1 - NOLA.com",
-      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOWG9JQS1YVG5hM29sMG9pUGRCQW5ESkpKMXpWZjFCYXZkY01nWERSRk5jOExiRWhPMFBIQnctUVd5aS1GcXUwYWxPc0tsMnFqTERBc0pEa2JlbXJvZS1EVXpMM3ktYS1DLXJuN240TVVCZlZ2aWp4bmVWVlpsSTFNWngxLTYzakMzNm1tM2doSmo1akVJVnp2djBCbzFUbmM4ZGk5RWd5RTBfUEN3VGNFVkFNUHN5SU5yZ0lYSkxZdkExSmp4amlOWThSZC0xdUE3d0JCdXhDZUFWV0tiWGJkLTNLekE0VkxvTU1RU2pHN3pFd1Z0MWJ4NzZuYW95QWw5Sm40c9IBigJBVV95cUxNR1QtbnNRbmV1VWEwckZLazlrVWtYQkV5cUFzVzJ0MVpiQ1pEUkgtUmRHNUFhUmNOMGxKeE9nSVpBM0M5ZFR2a3hUa1lzTEMxZ2g4TVE3XzR0QWdlSEpSdnZjQTN5cVVJYlJpWXRVc3ZGUFc1SzJIR3lIQWFWY0t3eHc1Vmk2WmhHRU8xTmowZVA0bVNfX0Q4ZnNtbG13cUVScWp2N3Q2SEJpUC1rSVpPeG5RMlNlTHlpeU5qOFdacGdNVlVWeEo1U053bVFMWHB6RFF6dE1ETXg5Um1ETUNNTUQ2Umt0Und1UGdaeTR5U1Vzd1lGQ25zU2JPT1RKLS1jLUE3eHQ1a2lvZw?oc=5",
-      "source": "NOLA.com (Times-Picayune)",
-      "kind": "news",
-      "published": "2022-05-08T07:00:00+00:00",
-      "thumbnail": "",
-      "language": "en",
-      "publisher": "NOLA.com",
-      "publisher_url": "https://www.nola.com",
-      "status": "partial",
-      "source_id": "nola",
-      "dedupe_text_en": "Rookie Moms: Mothers of Pelicans' Trey Murphy, Herb Jones and Jose Alvarado discuss Year 1",
-      "dedupe_original_title": "Rookie Moms: Mothers of Pelicans' Trey Murphy, Herb Jones and Jose Alvarado discuss Year 1",
-      "title_ko": "신인 엄마: 펠리컨의 어머니 Trey Murphy, Herb Jones, Jose Alvarado가 1학년에 대해 토론합니다. - NOLA.com",
-      "translation_errors": {},
-      "last_attempt_at": "2026-10-18T05:37:59.276949+00:00",
-      "content_error": "HTTP 429",
-      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
-    },
-    {
-      "title": "How historic was Zion Williamson's 4th quarter? He set one NBA record and tied another in debut - NOLA.com",
-      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOS1FDVks4LXEyLWZSZFpUUW9yLW94ZDM0YkFZcEJ2MDI2c1FrOE96MVZnVWthbVJvcXpUaHV5RHdtRFltcWN5V05mLUstS0pjc2dycmVyN2kzdkY4Q2NjZDd0c1I3eHZVb0NhdE5Ka1hxUkpjQlNFUjRjdTBZTkdDbzNxSzNxT1AxcDgxbVI2YmVuUHA4WU5aTEhFMGdPcWJTMy03SzV2d2tTY05hdkNVbEMxRXJQVG16dVFpQnFrTjhWRXE0bmVHSHl2Y3JCWkhRYW9LZTJpMjB2YjlINm1NTUYxMGtIcmdWOU53R1hIOEMxTzFORFVPdV9JRGpuazNF0gGGAkFVX3lxTE1JNjdCTnZxMXZtM3d3Y2I1SzN1Y2lKWGFaSS1RdWZfR1FUU1U3RjBnMy1ZTWk0Q1BmWE00YmpVMnR6M2d4b043Q3ZzQXJzcHFuLU14YVdJOFZIUkxXcHZIQUVTUnp6SXV0elJzZ2I5djdGSkVpV0QwX3hCb0JkR3FNQzFiVWFFUlk3Z3hrOVhBVUVNSWxkM0J4U1pPU3QzX3Bza1RHVldtSGNVRHZUSkZKTHlCUjV6REd3XzU0TlluRTNKcDkxTTZHSGZ5X18yRFFaYV94WV9rc2NLbkNKbGFjNTh0RDVWeko3UVJfUkQybk5hY3Y3OHBGNU5jQlhHcXRibGNhNmc?oc=5",
-      "source": "NOLA.com (Times-Picayune)",
-      "kind": "news",
-      "published": "2020-01-22T08:00:00+00:00",
-      "thumbnail": "",
-      "language": "en",
-      "publisher": "NOLA.com",
-      "publisher_url": "https://www.nola.com",
-      "status": "partial",
-      "source_id": "nola",
-      "dedupe_text_en": "How historic was Zion Williamson's 4th quarter? He set one NBA record and tied another in debut",
-      "dedupe_original_title": "How historic was Zion Williamson's 4th quarter? He set one NBA record and tied another in debut",
-      "title_ko": "자이언 윌리엄슨의 4쿼터는 얼마나 역사적이었나요?\n그는 NBA 기록을 세웠고 데뷔전에서 또 다른 기록을 세웠습니다 - NOLA.com",
-      "translation_errors": {},
-      "last_attempt_at": "2026-10-18T05:37:59.276949+00:00",
-      "content_error": "HTTP 429",
-      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
-    },
-    {
-      "title": "One day after the NBA draft, Zion Williamson is embracing his new home: 'Everybody's family here' - NOLA.com",
-      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPSVFWT0hsLUo5dktaSndrc0dVb19KTkUxVXNZYWRkS3dlYm92cUUwNERBSWs1MW85T19mbExUbUJ3aHhzRGNKMjFGblk3WjRZZG1EMkFtSVc3UHUxVEc0REZQTzdWNHg1RGd4amRvdVNKbmJOcGtCbmI2OHp0M3h1QkQybUxySnN1ajgtbWV2MjViYllKRVlLeE91dGNkZmhpTWwwOHhlNTBnWmJCZkZORVl0MWNDRkQwY2ZPeFJFS1NYM19YMmE5bG9jOTZ0NTNwZ1NBS2VPWE5sN25UNHhPelFZWFlwcHlhUFJfQ2VQeGYwTTlCTlVhdU9zZWFLRlA1ZEtzTg?oc=5",
-      "source": "NOLA.com (Times-Picayune)",
-      "kind": "news",
-      "published": "2019-06-21T07:00:00+00:00",
-      "thumbnail": "https://bloximages.newyork1.vip.townnews.com/nola.com/content/tncms/assets/v3/editorial/b/ae/baebacd3-e125-5fba-8eb5-ce310e20e285/5d1327b43d54c.image.jpg?crop=1750%2C919%2C0%2C132&resize=1200%2C630&order=crop%2Cresize",
-      "language": "en",
-      "publisher": "NOLA.com",
-      "publisher_url": "https://www.nola.com",
-      "status": "ready",
-      "source_id": "nola",
-      "dedupe_text_en": "One day after the NBA draft, Zion Williamson is embracing his new home: 'Everybody's family here'",
-      "dedupe_original_title": "One day after the NBA draft, Zion Williamson is embracing his new home: 'Everybody's family here'",
-      "title_ko": "NBA 드래프트가 끝난 지 하루 만에 자이언 윌리엄슨(Zion Williamson)이 자신의 새 집을 받아들였습니다. '모두의 가족이 여기에 있습니다' - NOLA.com",
-      "translation_errors": {},
-      "last_attempt_at": "2026-10-18T05:37:59.276949+00:00",
-      "original_url": "https://www.nola.com/sports/pelicans/one-day-after-the-nba-draft-zion-williamson-is-embracing-his-new-home-everybodys-family/article_495f0ea3-2054-5642-8fbe-ab551d032a4a.html",
-      "summary_en": [
-        "Watching Friday’s ceremony at the team’s practice facility, it was hard to imagine Zion Williamson had been a New Orleans Pelican for less than 24 hours.",
-        "Pelicans TV announcer Joel Meyers dished out gentle barbs to Williamson like they had spent a lifetime together.",
-        "And David Griffin, the executive vice president of basketball operations, got choked up as his mind drifted back to the night of the draft lottery, when fate allowed New Orleans, a franchise trying to find its way, and college basketball’s superstar, looking to find his home, to cross paths."
-      ],
-      "summary_source": "article",
-      "summary_ko": [
-        "금요일의 세리머니를 팀 연습장에서 지켜보면서 자이언 윌리엄슨이 뉴올리언스 펠리컨으로 활약한 지 24시간도 채 되지 않았다는 사실을 상상하기 어려웠습니다.",
-        "Pelicans TV 아나운서 Joel Meyers는 마치 평생을 함께 보낸 것처럼 Williamson에게 부드러운 미늘을 퍼뜨렸습니다.",
-        "그리고 농구 운영 담당 수석 부사장인 데이비드 그리핀(David Griffin)은 드래프트 복권이 있던 날 밤으로 정신이 돌아가면서 목이 메었습니다. 운명은 뉴올리언스, 프랜차이즈가 길을 찾으려고 애쓰는 것과 대학 농구의 슈퍼스타가 자신의 집을 찾으려고 애쓰는 것을 허락했습니다."
-      ],
-      "processed_at": "2026-10-18T05:40:21.668947+00:00"
-    },
-    {
-      "title": "The NBA has a double standard with the Pelicans and Anthony Davis, but they are doing the right thing to make him play - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQS0ZlNzhYd2ZFQ2J5bmhyZXVndUhYOGxrOUEybm1rSi14cENiaU4yOEg2OUxoYjNNXzloc2FzWmlSUGp6aGVXcVkxTU1rVERtQ0U4by1xQTFWcXBubFl5NzhoblExcXBEQk5OQ2xLb2xwTFVYSktWQ0tKdG5ZMlpHMGt5WWx0YXJ3aVczeEVGME1reTJDeVVJY1FabDlpT2ZIVHZ1eTJYN0pyN2hsUHowT3RCS2lqSmJ2TnJXX1lrbnEyXzVpY3ZhZkpQRWQ0WTRUOXFvaXpfSFlTcDNTNXNuZWo1N3lUdF9kamw4MzhQcC1SckdnMm5BRWlGX3AwUQ?oc=5",
-      "source": "The Athletic (Pelicans)",
-      "kind": "news",
-      "published": "2019-02-13T08:00:00+00:00",
-      "thumbnail": "",
-      "language": "en",
-      "publisher": "The New York Times",
-      "publisher_url": "https://www.nytimes.com",
-      "status": "partial",
-      "source_id": "athletic",
-      "dedupe_text_en": "The NBA has a double standard with the Pelicans and Anthony Davis, but they are doing the right thing to make him play",
-      "dedupe_original_title": "The NBA has a double standard with the Pelicans and Anthony Davis, but they are doing the right thing to make him play",
-      "title_ko": "NBA는 펠리컨스와 앤서니 데이비스에 대해 이중 기준을 가지고 있지만 그들은 그를 플레이하게 하기 위해 옳은 일을 하고 있습니다 - The New York Times",
-      "translation_errors": {},
-      "last_attempt_at": "2026-10-18T05:37:59.276949+00:00",
-      "content_error": "HTTP 403",
-      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
-    },
-    {
-      "title": "Forum | Pelicans Report - Pelicans Report",
-      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBoV21NME1HdUo2ZlF0VkdWaXo2RE1EQmlMMDRCYWl2QXhNV08tNFlEc3I3Z2dTRDZReG5KbUpWQW9WLVVLR1E?oc=5",
-      "source": "Pelicans Report",
-      "kind": "news",
-      "published": "2018-04-29T00:55:44+00:00",
-      "thumbnail": "",
-      "language": "en",
-      "publisher": "Pelicans Report",
-      "publisher_url": "https://www.pelicansreport.com",
-      "status": "ready",
-      "source_id": "pelicansreport",
-      "dedupe_text_en": "Forum | Pelicans Report",
-      "dedupe_original_title": "Forum | Pelicans Report",
-      "title_ko": "포럼 | 펠리컨 보고서 - 펠리컨 보고서",
-      "translation_errors": {},
-      "last_attempt_at": "2026-10-18T05:37:59.276949+00:00",
-      "original_url": "https://www.pelicansreport.com/",
-      "summary_en": [
-        "Discuss, debate and celebrate the New Orleans Pelicans, NBA & everything related to Basketball",
-        "Forum dedicated to Fantasy League and Video Gaming Threads",
-        "The Home of New Orleans Saints and NFL Discussion"
-      ],
-      "summary_source": "article",
-      "summary_ko": [
-        "뉴올리언스 펠리컨스, NBA 및 농구와 관련된 모든 것에 대해 토론하고 토론하고 축하하세요.",
-        "판타지 리그 및 비디오 게임 스레드 전용 포럼",
-        "뉴올리언스 세인츠의 본거지와 NFL 토론"
-      ],
-      "processed_at": "2026-10-18T05:40:28.593636+00:00"
-    },
-    {
-      "title": "After embarrassing leak at Smoothie King Center, Pelicans and NBA try to sort schedule mess - NOLA.com",
-      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQSlZpYVBWLTNpUHdxcWYzSDNvRHRMMlFUR1lTdGE0X2RzQ3lFbWkwZlFRd2ctUWJnX1FSb3hkUk1odVZPRGlmcnN6MEpoV2FZc2FtYlJwTXQta0NPOGZJblh4Vi0xQklObnRGcUxqZDNJLS00OHI4T29uczMxSGtiUUtSaXlmTDF0emVkSEp3S3NDY1BBd0dwRW1UY2RoSlplNVBOT2xoVGdyVmJoRW1JQkpmTnR6RDJlQTMyTUtETVJFNDNKajlFN285VU9ucDN1WUxlQ3NscEg1cnhFazhtZTF1T1NTLWRmcEZxcjE3aEprcFRlUngtUTBWdUcxSk5VWDgwN3lyT0vSAY4CQVVfeXFMTlQxT1RTVUxNNVl2ZFN0UjNRQnJHR3pPdnlSYkxqaldsRWtjY1lWd0gtTjRwMC1XQTFLaXBRZ1FYRGt0dXNBRVFUS29tTW5ZR01FUnc5MjIxM3Z4T1I5VlNra0tKTnplRXlCRXlpa0E1T1FhMjRrZVNNUDdnakVRYXo4cTBXUVpHak5rNHRPb3VoaXo1NVFwSjBBakRkb3BTenloWTFRZ3lPeXROMmx2WHgtbkQ3UFQ0UUhfWEhkLXVFSnNsQWZBMmxtdXI4eV81cnBQNTItX3BtZXhGZE9jRWZfRE12WHhMS2drcWF4am9kdnA5LVlRX0J1aC1iQ0YyZ3JiWDlBVGdoMlQzbnJ3?oc=5",
-      "source": "NOLA.com (Times-Picayune)",
-      "kind": "news",
-      "published": "2018-02-08T08:00:00+00:00",
-      "thumbnail": "",
-      "language": "en",
-      "publisher": "NOLA.com",
-      "publisher_url": "https://www.nola.com",
-      "status": "partial",
-      "source_id": "nola",
-      "dedupe_text_en": "After embarrassing leak at Smoothie King Center, Pelicans and NBA try to sort schedule mess",
-      "dedupe_original_title": "After embarrassing leak at Smoothie King Center, Pelicans and NBA try to sort schedule mess",
-      "title_ko": "스무디 킹 센터에서 당황스러운 유출 사건이 발생한 후 펠리컨스와 NBA는 혼란스러운 일정을 정리하려고 노력합니다 - NOLA.com",
-      "translation_errors": {},
-      "last_attempt_at": "2026-10-18T05:37:59.276949+00:00",
-      "content_error": "HTTP 429",
-      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
-    },
-    {
-      "title": "Creepiest mascot in sports? It's the Pelicans, and they have two - NOLA.com",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQRTNBTk9rZGhUdVc3aTBGWXBXTmpOdEdJZlp0RVI5SXRzWU5kWDJuNnJKSEpiTGJuYWd0dHhRMWxzbWRMVlVkdmJwTDJwNUt0dmVxWUlST3BsN3llcVhNUDVFbVZPQTdhN2RkMkk0UC16b2NaelozNm1BX0g5VFVrN1RNOW15enB5V2pQOXo0cVNON3lCNUtRcGNvNHdvZzFCd0F1TFFVTjRYV0MyaGFiWEt2TlRhTW1EajgycDIxSl9ESkNJdm1Jb2R5eXNXVmJOZXlEQzJvWk5kR0NtRlg0azJ3?oc=5",
-      "source": "NOLA.com (Times-Picayune)",
-      "kind": "news",
-      "published": "2016-10-07T07:00:00+00:00",
-      "thumbnail": "",
-      "language": "en",
-      "publisher": "NOLA.com",
-      "publisher_url": "https://www.nola.com",
-      "status": "partial",
-      "source_id": "nola",
-      "dedupe_text_en": "Creepiest mascot in sports? It's the Pelicans, and they have two",
-      "dedupe_original_title": "Creepiest mascot in sports? It's the Pelicans, and they have two",
-      "title_ko": "스포츠에서 가장 소름 끼치는 마스코트?\n펠리컨스인데 둘이 있어요 - NOLA.com",
-      "translation_errors": {},
-      "last_attempt_at": "2026-10-18T05:37:59.276949+00:00",
-      "content_error": "HTTP 429",
-      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
-    },
-    {
-      "title": "New Orleans Pelicans waive former Orlando Magic second round pick - NOLA.com",
-      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNRUdkYVFVV29mcmd2UXdCZGMybEVCNlV2aW5xNGpQVldQNnRwaDJvdW14U1oxNGxTeDl6VVpaZWt4T1Y2dGJ4ZnRORllUalg5YTJlNjNDLV9nQ25SMUxqdDVvcmFFcWh5dnE3Yk94bm1TMm51N3lhN25iZGNfdm1NdFRMNHZjSTVSSHFlMDM5ZWZHS0F0SDIxRDJjMDdtM2pMaUhuV01scGh0ZlpJdTdiVFY3N3BWTlQ0ZlNzVE1lLW4xZmdoX3pIMHN5TXhibUJHeXZnazdlZHlmN0lMOG5KdFlWRXNiOEXSAewBQVVfeXFMT29VS1pXZW5rWkdFczlKUUs5eGVpVGxUal9zdFVsSE1rTE5zTlJVM3pKSU83anh6RG4yOW9keTVaQXJ1TE1QRnR4YWszVEtSTEk2WWIycng0RlhrMGFpeHJmZVEya2tYTlpScEo3Z3ZHTzB3QXgtcFhiSm1XZEVvQlpocHFQWUV6aGVSUWoyYjB6RC1jU05xaHYzVkg3ZEI3cFdKb1Y3UGxLUjVhU2V1SDNqWlVkQndfT3hSZjJaeXpTYllJWnF5WmZNdmJUU1VabE9CYUdqWFZXbV92MG9Yd1NuRUtTR2UxUmFUV1g?oc=5",
-      "source": "NOLA.com (Times-Picayune)",
-      "kind": "news",
-      "status": "ready",
-      "title_ko": "뉴올리언스 펠리컨스, 전 올랜도 매직 2라운드 지명 선수 방출 - NOLA.com",
-      "translation_errors": {},
-      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
-      "thumbnail": "https://bloximages.newyork1.vip.townnews.com/nola.com/content/tncms/assets/v3/editorial/d/ee/dee2b671-f534-536b-9e00-bf8496bf4c63/65206e4e31e66.image.jpg?crop=1709%2C897%2C300%2C0&resize=1200%2C630&order=crop%2Cresize",
-      "original_url": "https://www.nola.com/sports/pelicans/new-orleans-pelicans-waive-former-orlando-magic-second-round-pick/article_49c0e13a-227c-401e-9e11-9662456a8666.html",
-      "summary_en": [
-        "The New Orleans Pelicans waived forward Caleb Houstan, the team announced Tuesday.",
-        "He played his first three seasons with the Magic under current Pelicans coach Jamahl Mosley.",
-        "It is the second transaction the Pelicans have made over the last four days."
-      ],
-      "summary_source": "article",
-      "summary_ko": [
-        "뉴올리언스 펠리컨스는 포워드 칼렙 휴스턴(Caleb Houstan)을 포기했다고 팀이 화요일 발표했습니다.",
-        "그는 현 펠리컨스 감독인 자말 모슬리 밑에서 매직에서 처음 세 시즌을 뛰었습니다.",
-        "이는 지난 4일 동안 펠리컨스가 체결한 두 번째 거래입니다."
-      ],
-      "processed_at": "2026-10-18T02:57:20.841665+00:00",
-      "source_id": "nola",
-      "language": "en",
-      "dedupe_text_en": "New Orleans Pelicans waive former Orlando Magic second round pick",
-      "dedupe_original_title": "New Orleans Pelicans waive former Orlando Magic second round pick"
+      "processed_at": "2026-10-18T05:48:41.491283+00:00",
+      "event_facts_en": []
     },
     {
       "title": "코비 버프킨을 웨이브한 뉴올리언스 - 에펨코리아",
@@ -3190,204 +2378,6 @@
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
     {
-      "title": "[프리시즌 박스] 워싱턴 위저즈 vs 뉴올리언스 펠리컨스 - 매니아 커뮤니티",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQRFB1blYyWUFBQVlmOVhickVUeVhNdlNHTWFGMllZYTR3Zm5DcnZBMDY0dHNxV2JOejRxWVNEcDFOSEdBc19jZW9RdF9sMUdfYlFxTjVibFMtSGplQjdTY0RVTUwweEQ1d19UUGdKMHo0Um1HYXlpeDZVUGlnWXZCcHNvRTIzM1RZTTAxWElReXBXaThzbmNta2xsQTR0ZEtEdkc1bGptMmI0RF9rdTdtT2drWk1nV0tWa2pBamdROGx1d3c4SFFLQ0ZB?oc=5",
-      "source": "NBA 매니아",
-      "kind": "news",
-      "published": "2026-10-17T02:40:41+00:00",
-      "thumbnail": "",
-      "language": "ko",
-      "publisher": "매니아 커뮤니티",
-      "publisher_url": "https://mania.kr",
-      "status": "partial",
-      "source_id": "nbamania",
-      "dedupe_text_en": "[Preseason Box] Washington Wizards vs. New Orleans Pelicans - Mania Community",
-      "dedupe_original_title": "[프리시즌 박스] 워싱턴 위저즈 vs 뉴올리언스 펠리컨스 - 매니아 커뮤니티",
-      "title_ko": "[프리시즌 박스] 워싱턴 위저즈 vs 뉴올리언스 펠리컨스 - 매니아 커뮤니티",
-      "translation_errors": {},
-      "last_attempt_at": "2026-10-18T05:37:59.276949+00:00",
-      "content_error": "HTTP 429",
-      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
-    },
-    {
-      "title": "[流言板]Stein：鹈鹕正式裁掉科比-巴夫金，后者是23年首轮第15号秀 - 虎扑体育",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBNUlE1ZXVtXzl6NXk1RFdreXNTbVJNZG9kTVVSaHl1NVlhNzYtWU5hNjh3aUdVeVBXMFJlbzdiUFlRWk1mTlhqRTZBaw?oc=5",
-      "source": "후푸 (虎扑)",
-      "kind": "news",
-      "published": "2026-10-17T22:05:44+00:00",
-      "thumbnail": "",
-      "language": "zh",
-      "publisher": "虎扑体育",
-      "publisher_url": "https://bbs.hupu.com",
-      "status": "ready",
-      "source_id": "hupu",
-      "dedupe_text_en": "[Gossip Board] Stein: The Pelicans officially waived Kobe Bavkin, who was the 15th pick in the first round in 2023 - Hupu Sports",
-      "dedupe_original_title": "[流言板]Stein：鹈鹕正式裁掉科比-巴夫金，后者是23年首轮第15号秀 - 虎扑体育",
-      "title_ko": "[가십보드] 스타인: 펠리컨스는 2023년 1라운드 15순위 지명자 고비 바브킨을 공식적으로 포기했다 - Hupu Sports",
-      "translation_errors": {},
-      "last_attempt_at": "2026-10-18T05:37:59.276949+00:00",
-      "original_url": "https://bbs.hupu.com/643040576.html",
-      "summary_en": [
-        "虎扑10月18日讯 NBA记者Marc Stein今日在社交媒体发文，报道了鹈鹕裁掉科比-巴夫金的消息，同时提到了此前被开拓者裁掉的杰里米-索汉。",
-        "Stein写道：“鹈鹕现在已经裁掉了科比-巴夫金。巴夫金是2023年NBA选秀大会的第15顺位新秀。今天早些时候被开拓者裁掉的杰里米-索汉，则是2022年NBA选秀大会的第9顺位新秀。”",
-        "巴夫金于今年7月与鹈鹕签下一份训练营合同。在2026年夏季联赛中，巴夫金代表鹈鹕出战3场比赛，场均得到21.3分、5.3个篮板、3次助攻和2次抢断。"
-      ],
-      "summary_source": "article",
-      "summary_ko": [
-        "Tiger Fight, 10월 18일 NBA 리포터 Marc Stein은 오늘 소셜 미디어에 게시하여 펠리컨스가 코비 배프킨을 포기했다는 소식을 전했으며, 이전에 트레일블레이저스가 포기했던 제레미 소한에 대해서도 언급했습니다.",
-        "Stein은 다음과 같이 썼습니다. \"Pelicans는 이제 Kobe Bafkin을 포기했습니다. Bafkin은 2023 NBA 드래프트에서 전체 15순위입니다. 오늘 초 Trail Blazers에서 면제된 Jeremy Sohan은 2022 NBA 드래프트에서 전체 9순위입니다.\"",
-        "배프킨은 올해 7월 펠리컨스와 훈련캠프 계약을 맺었다. 2026년 여름 리그에서 배프킨은 펠리컨스를 대표해 3경기에 출전해 경기당 평균 21.3득점, 5.3리바운드, 3어시스트, 2스틸을 기록했다."
-      ],
-      "processed_at": "2026-10-18T05:40:49.328635+00:00"
-    },
-    {
-      "title": "[流言板]鹈鹕官方晒视频：新秀马利克-迪亚的车里被塞满了爆米花 - 虎扑体育",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE90TktEQXB3RVFsLUxrXzY2Y3dVVzM2ejU3UEFoRFpocUhqeEpHRThUWlNhbHViVkktWFBhcldMM25sN0hPaGdGcWV4a0JNQQ?oc=5",
-      "source": "후푸 (虎扑)",
-      "kind": "news",
-      "published": "2026-10-17T07:37:31+00:00",
-      "thumbnail": "",
-      "language": "zh",
-      "publisher": "虎扑体育",
-      "publisher_url": "https://bbs.hupu.com",
-      "status": "ready",
-      "source_id": "hupu",
-      "dedupe_text_en": "[Gossip Board] Pelicans official video: Rookie Malik Dia’s car was filled with popcorn - Hupu Sports",
-      "dedupe_original_title": "[流言板]鹈鹕官方晒视频：新秀马利克-迪亚的车里被塞满了爆米花 - 虎扑体育",
-      "title_ko": "[가십게시판] 펠리컨스 공식영상: 신인 말릭 디아 차에 팝콘이 가득 - 후푸스포츠",
-      "translation_errors": {},
-      "last_attempt_at": "2026-10-18T05:37:59.276949+00:00",
-      "original_url": "https://bbs.hupu.com/643022376-2.html",
-      "summary_en": [
-        "把原来生产出来作为食物目的的爆米花用在了毫无意义的恶作剧上就是浪费，这是道德问题，而不是简单的商业问题，你说了一堆只是证明你扭曲的价值观而已，而这些伦理意识恰巧是西方所标榜自己“文明”的主要依据。",
-        "除非这些东西他买了不吃的一瞬间，可以马上飞到加沙缺食物的地方，否则根本构不成浪费，这些东西卖不出去也是扔，卖出去扔了性质一样",
-        "花钱买的爆米花，怎么用是自己的选择，每个人都拿到了自己的应得的，爱怎么用怎么用呗，天天站在道德的制高点，去审判别人，这么喜欢教育吗"
-      ],
-      "summary_source": "article",
-      "summary_ko": [
-        "원래 식용으로 생산된 팝콘을 무의미한 장난에 사용하는 것은 아깝습니다. 이는 단순한 상업적인 문제가 아닌 도덕적인 문제입니다. 당신이 말한 것은 당신들의 왜곡된 가치관을 증명할 뿐이고, 이러한 윤리의식은 서구가 스스로를 '문명'이라고 광고하는 주요 기반이 되었습니다.",
-        "이런 것들을 사서 먹지 않는 순간, 식량이 부족한 가자지구로 곧바로 날아갈 수 있지 않는 한, 그것은 전혀 낭비가 아니다. 이런 것들은 팔 수 없으면 그냥 버려지고, 팔아 버려도 속성은 똑같습니다.",
-        "돈으로 산 팝콘을 어떻게 활용하는지는 본인의 선택이다. 모든 사람은 자신에게 합당한 것을 얻습니다. 원하는 대로 사용하세요. 매일 다른 사람을 판단하기 위해 도덕성의 최고봉에 서십시오. 교육이 그렇게 좋아?"
-      ],
-      "processed_at": "2026-10-18T05:41:01.095872+00:00"
-    },
-    {
-      "title": "[流言板]美记：鹈鹕主帅对威廉森极佳的身体状态感到极为欣喜 - 虎扑体育",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9MbUJFX2N2WXVEUWRYUkdZY1EydmVLaUd3UThXaE1sX3lTQnhMVUZhMUZuY0xyNm15WVpwZHQ1NmFUVGlWTW9uWnBITQ?oc=5",
-      "source": "후푸 (虎扑)",
-      "kind": "news",
-      "published": "2026-10-16T23:42:09+00:00",
-      "thumbnail": "",
-      "language": "zh",
-      "publisher": "虎扑体育",
-      "publisher_url": "https://bbs.hupu.com",
-      "status": "ready",
-      "source_id": "hupu",
-      "dedupe_text_en": "[Gossip Board] Meiji: Pelicans coach is extremely pleased with Williamson’s excellent physical condition - Hupu Sports",
-      "dedupe_original_title": "[流言板]美记：鹈鹕主帅对威廉森极佳的身体状态感到极为欣喜 - 虎扑体育",
-      "title_ko": "[가십게시판] 메이지 : 펠리컨스 감독, 윌리엄슨의 뛰어난 신체조건에 매우 기뻐 - 후푸스포츠",
-      "translation_errors": {},
-      "last_attempt_at": "2026-10-18T05:37:59.276949+00:00",
-      "original_url": "https://bbs.hupu.com/643013037.html",
-      "summary_en": [
-        "鹈鹕主教练贾马尔-莫斯利对蔡恩-威廉森的状态感到极为欣喜，他提到锡安训练营报到时身体状态极佳，体型明显瘦了下来。",
-        "“他对蔡恩感到非常兴奋，很认可锡安的训练成果、训练营报到时的状态以及身体条件。你懂的，几乎每次训练营大家都会关注锡安的体重变化。他瘦下来了，看起来已经准备好上场征战。我们还要看他能否把这个状态维持下去，但他的表现，已经让这位新教练有理由抱有期待。”",
-        "鹈鹕主教练贾马尔-莫斯利对蔡恩-威廉森的状态感到极为欣喜，他提到锡安训练营报到时身体状态极佳，体型明显瘦了下来。"
-      ],
-      "summary_source": "article",
-      "summary_ko": [
-        "펠리컨스의 자말 모슬리 감독은 자이언 윌리엄슨의 상태에 매우 기뻐했습니다. 그는 훈련소에 들어갈 당시 시온의 몸 상태가 매우 좋았고, 체중도 눈에 띄게 줄었다고 언급했다.",
-        "\"자이온에 대해 매우 기뻐하며 훈련소에 나갈 때 자이온의 훈련 결과와 상태, 신체 상태를 인지합니다. 아시다시피, 거의 모든 훈련소에서 모두가 자이온의 체중 변화에 주목하게 될 것입니다. 살이 빠졌고 경기에 임할 준비가 되어 있는 것처럼 보입니다. 이 상태를 유지할 수 있을지는 아직 지켜봐야 하지만, 그의 활약은 신임 코치에게 기대를 갖게 했습니다.\"",
-        "펠리컨스의 자말 모슬리 감독은 자이언 윌리엄슨의 상태에 매우 기뻐했습니다. 그는 훈련소에 들어갈 당시 시온의 몸 상태가 매우 좋았고, 체중도 눈에 띄게 줄었다고 언급했다."
-      ],
-      "processed_at": "2026-10-18T05:41:09.566640+00:00"
-    },
-    {
-      "title": "[流言板]Smith：鹈鹕已经裁掉亨特-迪金森 - 虎扑体育",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE50SkQtVVBHR2czdWJNU1psdWRBS09xU1BseFRBVGoxQWU4MlZtQ09IazNWZkI0UEhBaGRhLWF2Vkx1T2xUMUZ3dk1HYw?oc=5",
-      "source": "후푸 (虎扑)",
-      "kind": "news",
-      "published": "2026-10-16T20:55:15+00:00",
-      "thumbnail": "",
-      "language": "zh",
-      "publisher": "虎扑体育",
-      "publisher_url": "https://bbs.hupu.com",
-      "status": "ready",
-      "source_id": "hupu",
-      "dedupe_text_en": "[Gossip Board] Smith: Pelicans have waived Hunter Dickinson - Hupu Sports",
-      "dedupe_original_title": "[流言板]Smith：鹈鹕已经裁掉亨特-迪金森 - 虎扑体育",
-      "title_ko": "[가십게시판] 스미스: 펠리컨들이 헌터 디킨슨을 포기했다 - Hupu Sports",
-      "translation_errors": {},
-      "last_attempt_at": "2026-10-18T05:37:59.276949+00:00",
-      "original_url": "https://bbs.hupu.com/643012712.html",
-      "summary_en": [
-        "[流言板]Smith：鹈鹕已经裁掉亨特-迪金森由虎扑篮球资讯 发表在篮球资讯 https://bbs.hupu.com/502",
-        "迪金森本周早些时候刚与鹈鹕重新签订一份Exhibit 10合同。预计他将加盟鹈鹕下属的G联赛球队伯明翰中队。",
-        "迪金森本周早些时候刚与鹈鹕重新签订一份Exhibit 10合同。预计他将加盟鹈鹕下属的G联赛球队伯明翰中队。"
-      ],
-      "summary_source": "article",
-      "summary_ko": [
-        "[가십게시판] 스미스: 펠리컨스는 헌터 디킨슨을 포기했습니다. 후푸 농구정보 발행 농구정보 https://bbs.hupu.com/502",
-        "디킨슨은 이번 주 초 펠리컨스와 Exhibit 10 계약을 다시 체결했습니다. 그는 펠리컨스 산하 G리그 팀인 버밍엄 센트럴에 합류할 것으로 예상된다.",
-        "디킨슨은 이번 주 초 펠리컨스와 Exhibit 10 계약을 다시 체결했습니다. 그는 펠리컨스 산하 G리그 팀인 버밍엄 센트럴에 합류할 것으로 예상된다."
-      ],
-      "processed_at": "2026-10-18T05:41:16.187246+00:00"
-    },
-    {
-      "title": "[流言板]天赋大队对决！奇才众将前往新奥尔良，明日将对阵鹈鹕 - 虎扑体育",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFAzdWxPcUtiSHJ1OHQtRHc1dzZLNXB2TVhhVWNyY0E2QV81QlpKajFhUXVwTEJRbHdRUjdhOGdsTUdDQ1FHall1Wjdycw?oc=5",
-      "source": "후푸 (虎扑)",
-      "kind": "news",
-      "published": "2026-10-16T12:22:07+00:00",
-      "thumbnail": "",
-      "language": "zh",
-      "publisher": "虎扑体育",
-      "publisher_url": "https://bbs.hupu.com",
-      "status": "ready",
-      "source_id": "hupu",
-      "dedupe_text_en": "[Gossip Board] Showdown between talented teams! The Wizards will travel to New Orleans and will face the Pelicans tomorrow - Hupu Sports",
-      "dedupe_original_title": "[流言板]天赋大队对决！奇才众将前往新奥尔良，明日将对阵鹈鹕 - 虎扑体育",
-      "title_ko": "[가십게시판] 실력파 팀들의 대결! 위저즈는 뉴올리언스로 이동하여 내일 펠리컨스와 대결할 예정입니다 - Hupu Sports",
-      "translation_errors": {},
-      "last_attempt_at": "2026-10-18T05:37:59.276949+00:00",
-      "original_url": "https://bbs.hupu.com/643005562.html",
-      "summary_en": [
-        "[流言板]天赋大队对决！奇才众将前往新奥尔良，明日将对阵鹈鹕由虎扑篮球资讯 发表在奇才专区 https://bbs.hupu.com/wizards"
-      ],
-      "summary_source": "article",
-      "summary_ko": [
-        "[가십게시판] 실력파 팀들의 대결! 위저즈는 뉴올리언스로 이동하고 내일 펠리컨스와 맞붙게 됩니다. 발행자: Hupu Basketball Information in the Wizards Zone https://bbs.hupu.com/wizards"
-      ],
-      "processed_at": "2026-10-18T05:41:21.143255+00:00"
-    },
-    {
-      "title": "独行侠vs鹈鹕 季前赛meme - 虎扑体育",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE0tZkxUZGpJQVpuN2RuMmV3N0QxWWp4ZjAzd3ZRMXluenM2ZXV3YTFaZS1DR2ZrM3hOWHl4VHdyWnlQczJLcFJpMEpqSQ?oc=5",
-      "source": "후푸 (虎扑)",
-      "kind": "news",
-      "published": "2026-10-15T12:04:25+00:00",
-      "thumbnail": "",
-      "language": "zh",
-      "publisher": "虎扑体育",
-      "publisher_url": "https://bbs.hupu.com",
-      "status": "ready",
-      "source_id": "hupu",
-      "dedupe_text_en": "Mavericks vs Pelicans preseason meme - Hupu Sports",
-      "dedupe_original_title": "独行侠vs鹈鹕 季前赛meme - 虎扑体育",
-      "title_ko": "매버릭스 대 펠리컨스 프리시즌 밈 - Hupu Sports",
-      "translation_errors": {},
-      "last_attempt_at": "2026-10-18T05:37:59.276949+00:00",
-      "original_url": "https://bbs.hupu.com/642984991.html",
-      "summary_en": [
-        "梅教练给我感觉还是不错的，更多方面是球员之间的问题，默契度不够，手感不稳定，对抗不行，有时候专注度不够。。。"
-      ],
-      "summary_source": "article",
-      "summary_ko": [
-        "메이 코치님은 기분이 좋으시지만, 선수들 사이의 문제가 더 큽니다. 암묵적인 이해가 부족하고, 촉감이 불안정하고, 대결이 잘 되지 않고, 집중력이 부족할 때도 있다. . ."
-      ],
-      "processed_at": "2026-10-18T05:41:26.188741+00:00"
-    },
-    {
       "title": "本场比赛新奥尔良街球队比赛表现下列哪个最抽象？ - 虎扑体育",
       "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBFZHgxNDJ1SHhhYUVubkFpSG4xMHFKVjVfNHNlZlpiT0M4bE9VVThWLWFOS2NaaG1yenZQM0JqTXFTQUZWNzVMdFlTSQ?oc=5",
       "source": "후푸 (虎扑)",
@@ -3399,11 +2389,11 @@
       "publisher_url": "https://bbs.hupu.com",
       "status": "ready",
       "source_id": "hupu",
-      "dedupe_text_en": "Which of the following is the most abstract performance of the New Orleans Street Team in this game? - Hupu Sports",
-      "dedupe_original_title": "本场比赛新奥尔良街球队比赛表现下列哪个最抽象？ - 虎扑体育",
+      "dedupe_text_en": "Which of the following is the most abstract performance of the New Orleans Street Team in this game?",
+      "dedupe_original_title": "本场比赛新奥尔良街球队比赛表现下列哪个最抽象？",
       "title_ko": "다음 중 이 게임에서 뉴올리언스 스트리트 팀의 가장 추상적인 성과는 무엇입니까? - 후푸 스포츠",
       "translation_errors": {},
-      "last_attempt_at": "2026-10-18T05:37:59.276949+00:00",
+      "last_attempt_at": "2026-10-18T05:48:34.526828+00:00",
       "original_url": "https://bbs.hupu.com/642973163.html",
       "summary_en": [
         "奎因不多说了，太子任性放开抡。。。 胖虎逐渐深耕给自己打隐身这一领域，比赛影响力无限趋近于空气 墨菲沉迷在控锋幻想里弄丢了投篮包",
@@ -3416,34 +2406,9 @@
         "퀸은 더 이상 말하지 않았고, 왕자는 놓아주었습니다. . . Fat Tiger는 점차 자신을 투명하게 만드는 분야에 뛰어들었고, 게임 내에서의 그의 영향력은 한없이 공중에 가깝습니다. 머피는 포인트 포워드에 대한 환상에 중독되어 슈팅백을 잃어버렸습니다.",
         "오늘은 Fat Tiger가 보이지 않나요? ? ? ? 이 가짜 대체품은 기본적으로 Fat Tiger를 사용하여 점수를 얻습니다. . . 오늘은 리바운드도 막혔고 수비도 문제없었다. Quinn은 대결 없이 더 많은 리바운드를 기록했습니다. 단지 Fat Tiger가 실제로 막혀서 리바운드를 잡았기 때문입니다."
       ],
-      "processed_at": "2026-10-18T05:41:36.277178+00:00"
-    },
-    {
-      "title": "[流言板]好手众多！鹈鹕官方Ins分享球员训练照，普尔等人入镜 - 虎扑体育",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1QX0QwOS1pTWxUeDF0cng1X0Z5MGdQZFhtNlBDLXNYQmNzQWg1Zm5ycHFwUEw3LXo3SmVOR1Y1M0JSUlRGZ0tpYzc1MA?oc=5",
-      "source": "후푸 (虎扑)",
-      "kind": "news",
-      "published": "2026-10-15T08:01:14+00:00",
-      "thumbnail": "",
-      "language": "zh",
-      "publisher": "虎扑体育",
-      "publisher_url": "https://bbs.hupu.com",
-      "status": "ready",
-      "source_id": "hupu",
-      "dedupe_text_en": "[Gossip Board] There are many good players! Pelicans official Instagram shares player training photos, Poole and others are in the photo - Hupu Sports",
-      "dedupe_original_title": "[流言板]好手众多！鹈鹕官方Ins分享球员训练照，普尔等人入镜 - 虎扑体育",
-      "title_ko": "[가십게시판] 좋은 선수들이 많아요! 펠리컨스 공식 인스타그램에서는 선수 훈련 사진을 공유하고, 풀 등도 사진에 등장 - Hupu Sports",
-      "translation_errors": {},
-      "last_attempt_at": "2026-10-18T05:37:59.276949+00:00",
-      "original_url": "https://bbs.hupu.com/642933779.html",
-      "summary_en": [
-        "[流言板]好手众多！鹈鹕官方Ins分享球员训练照，普尔等人入镜由虎扑篮球资讯 发表在篮球资讯 https://bbs.hupu.com/502"
-      ],
-      "summary_source": "article",
-      "summary_ko": [
-        "[가십게시판] 좋은 선수들이 많아요! 펠리컨스 공식 인스타그램에는 풀 등이 함께한 선수 훈련 사진이 공유됐다. 후푸 농구정보 발행 농구정보 https://bbs.hupu.com/502"
-      ],
-      "processed_at": "2026-10-18T05:41:40.601639+00:00"
+      "processed_at": "2026-10-18T05:48:54.950013+00:00",
+      "context_attempted_at": "2026-10-18T05:48:54.752974+00:00",
+      "source_context": "pelicans"
     },
     {
       "title": "感觉鹈鹕队内最爱给锡安传球的 - 虎扑体育",
@@ -3457,11 +2422,11 @@
       "publisher_url": "https://bbs.hupu.com",
       "status": "ready",
       "source_id": "hupu",
-      "dedupe_text_en": "I feel like the Pelicans love to pass the ball to Zion - Hupu Sports",
-      "dedupe_original_title": "感觉鹈鹕队内最爱给锡安传球的 - 虎扑体育",
+      "dedupe_text_en": "I feel like the Pelicans love to pass the ball to Zion the most",
+      "dedupe_original_title": "感觉鹈鹕队内最爱给锡安传球的",
       "title_ko": "펠리컨스가 자이언에게 공을 패스하는 걸 좋아하는 것 같아요 - Hupu Sports",
       "translation_errors": {},
-      "last_attempt_at": "2026-10-18T05:37:59.276949+00:00",
+      "last_attempt_at": "2026-10-18T05:48:34.526828+00:00",
       "original_url": "https://bbs.hupu.com/642973819.html",
       "summary_en": [
         "他俩其实挺适配，普尔没有容错度，锡安也没有原来的球队地位了，实际上磨合好不差，上赛季开赛打快船那场就能看出来"
@@ -3470,38 +2435,49 @@
       "summary_ko": [
         "그 둘은 실제로 꽤 호환됩니다. Poole에는 내결함성이 없으며 Zion은 더 이상 팀과 동일한 상태가 아닙니다. 실제로 그들은 지난 시즌 초 클리퍼스와의 경기에서 볼 수 있듯이 좋은 런인을 하고 있습니다."
       ],
-      "processed_at": "2026-10-18T05:41:45.870832+00:00"
-    },
+      "processed_at": "2026-10-18T05:48:58.672315+00:00",
+      "context_attempted_at": "2026-10-18T05:48:58.608638+00:00",
+      "source_context": "pelicans"
+    }
+  ],
+  "reddit_scan": {
+    "pending_after": []
+  },
+  "deferred_news": [
     {
-      "title": "勇士拿下鹈鹕默菲，还有可能性吗？ - 虎扑体育",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9lVjNCVFlONkd3UmE0OEd6cjZJTkoyTVdjeUEzZWRPakxUd0s4WlBxaHBwTkl2TzhUYTNScFI4VVc1d0U5WUs4U1A3bw?oc=5",
+      "title": "[流言板]鹈鹕官方晒视频：新秀马利克-迪亚的车里被塞满了爆米花 - 虎扑体育",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE90TktEQXB3RVFsLUxrXzY2Y3dVVzM2ejU3UEFoRFpocUhqeEpHRThUWlNhbHViVkktWFBhcldMM25sN0hPaGdGcWV4a0JNQQ?oc=5",
       "source": "후푸 (虎扑)",
       "kind": "news",
-      "published": "2026-10-15T00:42:21+00:00",
+      "published": "2026-10-17T07:37:31+00:00",
       "thumbnail": "",
       "language": "zh",
       "publisher": "虎扑体育",
       "publisher_url": "https://bbs.hupu.com",
-      "status": "ready",
+      "status": "partial",
       "source_id": "hupu",
-      "dedupe_text_en": "Is it still possible for the Warriors to win the Pelicans' Murphy? - Hupu Sports",
-      "dedupe_original_title": "勇士拿下鹈鹕默菲，还有可能性吗？ - 虎扑体育",
-      "title_ko": "Warriors가 Pelicans의 Murphy를 이기는 것이 여전히 가능합니까? - 후푸 스포츠",
+      "dedupe_text_en": "[Gossip Board] Pelicans official video: Rookie Malik Dia’s car was filled with popcorn",
+      "dedupe_original_title": "[流言板]鹈鹕官方晒视频：新秀马利克-迪亚的车里被塞满了爆米花",
+      "title_ko": "[가십게시판] 펠리컨스 공식영상: 신인 말릭 디아 차에 팝콘이 가득 - 후푸스포츠",
       "translation_errors": {},
-      "last_attempt_at": "2026-10-18T05:37:59.276949+00:00",
-      "original_url": "https://bbs.hupu.com/642971923.html",
+      "last_attempt_at": "2026-10-18T05:48:34.526828+00:00",
+      "original_url": "https://bbs.hupu.com/643022376-2.html",
       "summary_en": [
-        "我觉得在唐斯的续约问题解决之前应该都不会做其他涉及首轮的交易的 反正要动首轮 不如多动几个直接去换唐斯这种级别的 不然这些小打小闹真不一定能有啥好效果",
-        "什么叫谈判技巧？用三个首轮拿下，需要他去谈吗？最多一首轮，一互换加点次轮拿下。鹈鹕叫价4首轮，实则3个首轮就卖。有能力的给多点次轮，2个首轮就拿下。",
-        "默菲到了科尔手，就是22年的维金斯！科尔点名想要的球员，每次打鹈鹕，科尔赛后都找默菲说上两句。默菲将在科尔手上改造成下一个顶级3D锋线。他的合同不大，所以影响也不大。不会锁死空间。"
+        "把原来生产出来作为食物目的的爆米花用在了毫无意义的恶作剧上就是浪费，这是道德问题，而不是简单的商业问题，你说了一堆只是证明你扭曲的价值观而已，而这些伦理意识恰巧是西方所标榜自己“文明”的主要依据。",
+        "除非这些东西他买了不吃的一瞬间，可以马上飞到加沙缺食物的地方，否则根本构不成浪费，这些东西卖不出去也是扔，卖出去扔了性质一样",
+        "花钱买的爆米花，怎么用是自己的选择，每个人都拿到了自己的应得的，爱怎么用怎么用呗，天天站在道德的制高点，去审判别人，这么喜欢教育吗"
       ],
       "summary_source": "article",
       "summary_ko": [
-        "타운즈의 계약 연장 문제가 해결될 때까지 1라운드와 관련된 다른 거래는 이루어지지 않을 것으로 생각합니다. 어쨌든 첫 번째 라운드는 옮겨질 예정이다. 몇개 더 옮겨서 타운 레벨의 누군가와 직접 거래하는 것이 좋습니다. 그렇지 않으면 이러한 작은 싸움이 반드시 좋은 결과를 가져오지 못할 수도 있습니다.",
-        "협상 기술이란 무엇입니까? 1라운드에서 3승을 거두었으니 협상이 필요할까요? 두 번째 라운드에서 승리하려면 많아야 한 라운드, 한 번의 스왑 및 추가 포인트가 필요합니다. 펠리컨스는 4명의 1라운더를 요구했지만 실제로는 3명의 1라운더를 팔았습니다. 능력이 있다면 두 번째 라운드를 더 많이 주면 첫 번째 라운드를 두 번 승리할 수 있습니다.",
-        "Murphy가 Cole에 도착하면 2022년에 Wiggins가 됩니다! 콜은 자신이 원하는 선수들의 이름을 지었습니다. Cole은 Pelicans를 상대로 경기를 할 때마다 경기가 끝난 후 Murphy와 대화를 나누곤 했습니다. Murphy는 Cole 밑에서 차세대 3D 포워드로 변신할 것입니다. 계약 규모가 크지 않아 임팩트도 크지 않다. 어떤 공간도 잠기지 않습니다."
+        "원래 식용으로 생산된 팝콘을 무의미한 장난에 사용하는 것은 아깝습니다. 이는 단순한 상업적인 문제가 아닌 도덕적인 문제입니다. 당신이 말한 것은 당신들의 왜곡된 가치관을 증명할 뿐이고, 이러한 윤리의식은 서구가 스스로를 '문명'이라고 광고하는 주요 기반이 되었습니다.",
+        "이런 것들을 사서 먹지 않는 순간, 식량이 부족한 가자지구로 곧바로 날아갈 수 있지 않는 한, 그것은 전혀 낭비가 아니다. 이런 것들은 팔 수 없으면 그냥 버려지고, 팔아 버려도 속성은 똑같습니다.",
+        "돈으로 산 팝콘을 어떻게 활용하는지는 본인의 선택이다. 모든 사람은 자신에게 합당한 것을 얻습니다. 원하는 대로 사용하세요. 매일 다른 사람을 판단하기 위해 도덕성의 최고봉에 서십시오. 교육이 그렇게 좋아?"
       ],
-      "processed_at": "2026-10-18T05:41:57.564039+00:00"
+      "processed_at": "2026-10-18T05:41:01.095872+00:00",
+      "context_attempted_at": "2026-10-18T05:48:43.785232+00:00",
+      "content_error": "RuntimeError",
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
+      "defer_reason": "지정한 게시판의 글인지 확인할 때까지 보류합니다."
     },
     {
       "title": "勇士缺足尺寸的锋线领防人，鹈鹕的赫伯特琼斯是一个良好的选择，就看管理层敢不敢了 - 虎扑体育",
@@ -3513,13 +2489,13 @@
       "language": "zh",
       "publisher": "虎扑体育",
       "publisher_url": "https://bbs.hupu.com",
-      "status": "ready",
+      "status": "partial",
       "source_id": "hupu",
-      "dedupe_text_en": "The Warriors lack a forward leader of sufficient size. Herbert Jones of the Pelicans is a good choice. It depends on whether the management dares to do so - Hupu Sports",
-      "dedupe_original_title": "勇士缺足尺寸的锋线领防人，鹈鹕的赫伯特琼斯是一个良好的选择，就看管理层敢不敢了 - 虎扑体育",
+      "dedupe_text_en": "The Warriors lack a forward leader of sufficient size. Herbert Jones of the Pelicans is a good choice. It depends on whether the management dares to",
+      "dedupe_original_title": "勇士缺足尺寸的锋线领防人，鹈鹕的赫伯特琼斯是一个良好的选择，就看管理层敢不敢了",
       "title_ko": "Warriors에는 충분한 규모의 포워드 리더가 부족합니다. 펠리컨스의 허버트 존스가 좋은 선택이다. 경영진이 감히 그렇게 하느냐에 달렸다 - 후푸스포츠",
       "translation_errors": {},
-      "last_attempt_at": "2026-10-18T05:37:59.276949+00:00",
+      "last_attempt_at": "2026-10-18T05:48:34.526828+00:00",
       "original_url": "https://bbs.hupu.com/642960510-2.html",
       "summary_en": [
         "这种顶薪巨星真的不是那么容易来的，尼克斯不太可能白白放走，要是均薪5500万估计唐斯就留尼克斯了，谨慎看好唐斯来吧反正，能来是最好。",
@@ -3532,53 +2508,25 @@
         "첫 번째 라운드에 +1 스왑이 너무 많습니다. Pelicans와 같은 팀은 커밍아웃에 대해 조심스럽게 낙관하고 있으며 지난 시즌 Jones의 출석률은 좋지 않았습니다. 수비를 이끌려면 내년에는 Thunder에서 Carson Wallace를 잡는 것이 좋습니다. 직접 FA 제안을 해보세요. 그는 여전히 약간의 공을 갖고 있고 앞으로도 성장할 수 있는데 왜 이런 1라운드 스왑에 신경을 쓰는가?",
         "펠리칸은 많은 돈을 요구하고 있는데 전혀 팔 수 없습니다. 가격이 가치가 없습니다. 3점슛을 쏠 수 있는 소수의 포워드 수비수를 제외하고는 워리어스가 키건을 활용해 체중을 감량하고 3점슛을 뛸 수 있다고 항상 생각해왔다. 불행하게도 킹스는 항상 비매품으로 알려졌고 연봉도 낮지 않다. 앞서 언급한 호환성 문제에 대해 버틀러와 그린은 사실상 그린이 트레이드되지 않는 한 그다지 호환성이 좋지 않다."
       ],
-      "processed_at": "2026-10-18T05:42:08.646454+00:00"
-    },
-    {
-      "title": "[流言板]鹈鹕新赛季预计飞行55530英里，联盟最多 - 虎扑体育",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9aSHVyejNIdDlwcDdqYzJSUXRqRzlXMjh5UE9CeS1vZFN2a056UUlHejhHamRFd25abzRQLW1pc2JDQ1NKTWp4dXprbw?oc=5",
-      "source": "후푸 (虎扑)",
-      "kind": "news",
-      "published": "2026-10-11T17:30:53+00:00",
-      "thumbnail": "",
-      "language": "zh",
-      "publisher": "虎扑体育",
-      "publisher_url": "https://bbs.hupu.com",
-      "status": "ready",
-      "source_id": "hupu",
-      "dedupe_text_en": "[Gossip] The Pelicans are expected to fly 55,530 miles in the new season, the most in the league - Hupu Sports",
-      "dedupe_original_title": "[流言板]鹈鹕新赛季预计飞行55530英里，联盟最多 - 虎扑体育",
-      "title_ko": "[가십] 펠리컨스는 새 시즌에 리그 최장 거리인 55,530마일을 비행할 것으로 예상됩니다. - Hupu Sports",
-      "translation_errors": {},
-      "last_attempt_at": "2026-10-18T05:37:59.276949+00:00",
-      "original_url": "https://bbs.hupu.com/642901467.html",
-      "summary_en": [
-        "虎扑10月12日讯 据美媒统计，2026-27赛季NBA各队常规赛预计旅行里程已经出炉，其中鹈鹕以55,530英里排名联盟第一，马刺以54,087英里排名第二，森林狼以49,757英里排名第三。",
-        "鹈鹕和马刺排名前二的重要原因之一，是两队将在明年1月前往欧洲进行海外赛。双方将在1月14日于巴黎交手，随后还将在欧洲继续进行相关赛程。虎扑此前已经报道，两队2027年巴黎站和曼彻斯特站比赛门票均已售罄。",
-        "根据图中数据，旅行里程最多的五支球队分别为鹈鹕55,530英里、马刺54,087英里、森林狼49,757英里、热火49,573英里和爵士49,411英里；旅行里程最少的则是尼克斯35,691英里，其次为奇才35,744英里、公牛36,230英里。"
-      ],
-      "summary_source": "article",
-      "summary_ko": [
-        "타이거 파이트, 10월 12일 미국 언론 통계에 따르면 2026~27 정규시즌 NBA 팀들의 예상 이동 마일리지가 공개됐다. 이 중 펠리컨스는 55,530마일로 리그 1위, 스퍼스는 54,087마일로 2위, 팀버울브스는 49,757마일로 3위를 차지했다.",
-        "펠리컨스와 스퍼스가 상위 2위에 랭크된 중요한 이유 중 하나는 두 팀이 내년 1월 해외 경기를 위해 유럽으로 진출한다는 점이다. 두 팀은 1월 14일 파리에서 맞붙을 예정이며, 유럽에서도 관련 경기를 이어갈 예정이다. Hupu는 이전에 두 팀의 2027년 파리와 맨체스터 경기 티켓이 매진되었다고 보도한 바 있습니다.",
-        "그림의 데이터에 따르면 가장 많은 이동 마일을 보유한 5개 팀은 Pelicans(55,530마일), Spurs(54,087마일), Timberwolves(49,757마일), Heat(49,573마일), Jazz(49,411마일)입니다. 이동 마일이 가장 적은 Knicks는 35,691마일이고, Wizards는 35,744마일, Bulls는 36,230마일을 기록했습니다."
-      ],
-      "processed_at": "2026-10-18T05:42:19.758265+00:00"
+      "processed_at": "2026-10-18T05:42:08.646454+00:00",
+      "context_attempted_at": "2026-10-18T05:49:03.797261+00:00",
+      "content_error": "RuntimeError",
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
+      "defer_reason": "지정한 게시판의 글인지 확인할 때까지 보류합니다."
     }
   ],
-  "reddit_scan": {
-    "pending_after": []
-  },
-  "deferred_news": [],
   "news_policy": {
     "version": 1,
     "english_complete": true,
-    "outside_allowlist": 94,
-    "kept_en": 47,
-    "kept_ko": 2,
-    "kept_zh": 12,
+    "non_article": 5,
+    "outside_date_window": 30,
+    "unknown_date": 1,
+    "kept_en": 12,
+    "kept_ko": 1,
     "duplicate_story": 1,
-    "deferred": 0,
+    "kept_zh": 2,
+    "deferred": 2,
+    "outside_allowlist": 7,
     "kept_ja": 0
   }
 }
