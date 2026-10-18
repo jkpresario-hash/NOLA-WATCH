@@ -109,13 +109,13 @@ EVENTS = set(SYNONYMS.values())
 
 def tokens(text):
     text = re.sub(r"\[[^\]]*\]", " ", text)
-    text = re.sub(r"\bbavkin\b|\bbafkin\b|\bbaffkin\b", "Bufkin", text, flags=re.I)
+    text = re.sub(r"\bbavkin\b|\bbafkin\b|\bbaffkin\b|\bbuffkin\b", "Bufkin", text, flags=re.I)
     words = re.findall(r"[a-z]+|\d+(?:\.\d+)?", unicodedata.normalize("NFKC", text).casefold())
     words = ["waive" if word in ("wave", "waves", "waved") else word for word in words]
     return {SYNONYMS.get(word, word) for word in words if word not in STOP}
 
 PLAYERS = {
-    "kobe_bufkin": r"\bkobe\s+(?:bufkin|bavkin|bafkin)\b",
+    "kobe_bufkin": r"\bkobe\s+(?:bufkin|buffkin|bavkin|bafkin|baffkin)\b",
     "hunter_dickinson": r"\bhunter\s+dickinson\b",
     "jalon_moore": r"\bjalon\s+moore\b",
     "caleb_houstan": r"\bcaleb\s+houstan\b",

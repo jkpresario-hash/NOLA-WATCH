@@ -482,7 +482,7 @@ def main():
     for language in news_policy.LANGUAGES:
         policy_result["stats"]["kept_" + language] = sum(item.get("kind") != "reddit" and item.get("language") == language for item in merged)
     if policy_result["deferred"]:
-        errors.append(f"비영어 뉴스 {len(policy_result['deferred'])}건은 영어와의 중복 확인이 끝날 때까지 보류합니다.")
+        errors.append(f"비영어 뉴스 {len(policy_result['deferred'])}건은 출처·중복 확인이 끝날 때까지 보류합니다.")
     state = dict(updated=datetime.now(timezone.utc).isoformat(), errors=errors, items=merged, reddit_scan=reddit_scan,
                  deferred_news=policy_result["deferred"], news_policy=dict(version=news_policy.CONFIG["version"],
                  english_complete=english_complete, **policy_result["stats"]))

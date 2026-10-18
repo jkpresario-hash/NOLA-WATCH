@@ -122,6 +122,8 @@ class NewsPolicyTests(unittest.TestCase):
         foreign = news('코비 버프킨을 웨이브한 뉴올리언스', 'ko')
         kept, _, _ = policy.curate([english, foreign], lambda title:'New Orleans waves Kobe Bufkin')
         self.assertEqual(len(kept),1)
+        kept, _, _ = policy.curate([english, foreign], lambda title:'New Orleans waves Kobe Buffkin')
+        self.assertEqual(len(kept),1)
         chinese = news('鹈鹕裁掉科比', 'zh')
         kept, _, _ = policy.curate([english, chinese], lambda title:'Stein: Pelicans officially waived Kobe Bavkin, the 15th pick in 2023')
         self.assertEqual(len(kept),1)
