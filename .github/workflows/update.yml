@@ -1,6 +1,14 @@
 name: Update NOLA WATCH
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'collect.py'
+      - 'index.html'
+      - 'requirements.txt'
+      - 'tests/**'
+      - '.github/workflows/update.yml'
   workflow_dispatch:
   schedule:
     - cron: '0 0,9 * * *'
@@ -63,3 +71,4 @@ jobs:
       - name: Deploy site
         id: deployment
         uses: actions/deploy-pages@v4
+
