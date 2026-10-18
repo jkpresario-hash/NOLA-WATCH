@@ -55,6 +55,14 @@ Are the Pelicans bench mob the key to postseason dreams?'''
         self.assertEqual(len(items), 2)
         self.assertEqual(status['state'], 'ready')
 
+    def test_description_summary_ignores_advert_legal_text_and_tag_lists(self):
+        extras = '''Bonuses issued as non-withdrawable free bets that expire in 14 days.
+Anson Belt & Buckle: Step up your belt game this fall and get two free bonuses with our box set.
+Zion Williamson, Jeremiah Fears, Saddiq Bey, Jordan Poole, NBA Trade Rumors, NBA Free Agency, NBA Predictions
+NBA 2K25 features ProPlay, a technology that transforms real NBA footage into animations for players.'''
+        self.assertEqual(social.summary_points(CONTENT + '\n' + extras, content_only=True), social.summary_points(CONTENT))
+        self.assertEqual(social.summary_points(extras, content_only=True), [])
+
     def test_unpunctuated_captions_survive_subscription_request(self):
         words = ' '.join('different%d' % index for index in range(300))
         self.assertEqual(len(social.summary_points('subscribe ' + words)), 3)

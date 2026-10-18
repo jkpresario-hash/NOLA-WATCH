@@ -17,7 +17,7 @@ X_START = datetime.fromisoformat(CONFIG["x"]["start_date"]).replace(tzinfo=ZoneI
 ACCOUNTS = {name.casefold() for name in CONFIG["x"]["accounts"]}
 TOPIC = re.compile(r"pelicans|\bnola\b|펠리컨[스즈]|뉴올리언[스즈]", re.I)
 ADS = re.compile(r"subscribe|sponsor|promo code|prizepicks|fanduel|draftkings|patreon|merch|copyright|welcome back|locked on podcast network|구독|좋아요|광고|협찬", re.I)
-SUMMARY_POLICY = 2
+SUMMARY_POLICY = 3
 NON_CONTENT = re.compile(
     r"download|create an account|first purchase|\$\d|\d+% off|use (?:the )?code|"
     r"follow (?:us|@|this|the)|on instagram|fair use|rights reserved|"
@@ -26,7 +26,14 @@ NON_CONTENT = re.compile(
     r"sign up|shop at|click (?:here|the)|support (?:us|the show)|"
     r"brought to you by|presented by|learn more about your ad choices|"
     r"gametime app|mint mobile|robinhood|policygenius|fabletics|"
-    r"채널 소개|공정 이용|무단 전재|할인 코드|시청해 주셔서|인스타그램", re.I)
+    r"bonus bets|free bets|non-withdrawable|box set|belt.{0,20}buckle|"
+    r"this video features|this guide will|"
+    r"채널 소개|공정 이용|무단 전재|할인 코드|시청해 주셔서|인스타그램|이 영상은", re.I)
+CONTENT_TERMS = re.compile(
+    r"pelicans|new orleans|basketball|bench|offen[cs]e|defen[cs]e|lineup|rotation|"
+    r"rookie|rebound|points|3-point|three-point|playoff|roster|"
+    r"zion|fears|murphy|matkovic|williamson|poole|mathurin|saddiq|derik|mosley|benson|"
+    r"펠리컨|뉴올리언|농구|공격|수비|벤치|라인업|득점|리바운드|트레이드|자이언|로스터", re.I)
 
 def utc(value):
     if not value:
@@ -137,7 +144,7 @@ def youtube_transcript(video_id):
         fetched = next(iter(tracks)).fetch()
     return fetched.to_raw_data()
 
-def summary_points(text, minimum=3):
+def summary_points(text, minimum=3, content_only=False):
     """Select three distinct source passages; never pad with metadata or guesses."""
     text = html.unescape(text or "")
     text = re.sub(r"\[(?:music|applause|laughter)\]", " ", text, flags=re.I)
@@ -153,6 +160,10 @@ def summary_points(text, minimum=3):
         for part in parts:
             if ADS.search(part) or NON_CONTENT.search(part):
                 continue
+            if content_only and not CONTENT_TERMS.search(part):
+                continue
+            if part.count(',') >= 5 and not part.endswith(('.', '!', '。')):
+                continue  # Search tags and keyword lists are not video content.
             korean = bool(re.search(r"[가-힣]", part))
             if len(part) < (30 if korean else 55) or (not korean and len(part.split()) < 9):
                 continue
@@ -191,7 +202,7 @@ def enrich_video(item, translate):
                 item["published"] = details["publishedAt"]
             if details.get("upload_date"):
                 item["upload_date"] = details["upload_date"]
-            original = summary_points(details.get("description", ""))
+            original = summary_points(details.get("description", ""), content_only=True)
             if original:
                 item["summary_source"] = "description"
         if len(original) < 3:
