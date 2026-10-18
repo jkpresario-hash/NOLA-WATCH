@@ -17,6 +17,16 @@ X_START = datetime.fromisoformat(CONFIG["x"]["start_date"]).replace(tzinfo=ZoneI
 ACCOUNTS = {name.casefold() for name in CONFIG["x"]["accounts"]}
 TOPIC = re.compile(r"pelicans|\bnola\b|펠리컨[스즈]|뉴올리언[스즈]", re.I)
 ADS = re.compile(r"subscribe|sponsor|promo code|prizepicks|fanduel|draftkings|patreon|merch|copyright|welcome back|locked on podcast network|구독|좋아요|광고|협찬", re.I)
+SUMMARY_POLICY = 2
+NON_CONTENT = re.compile(
+    r"download|create an account|first purchase|\$\d|\d+% off|use (?:the )?code|"
+    r"follow (?:us|@|this|the)|on instagram|fair use|rights reserved|"
+    r"(?:youtube |our |this )channel|home for (?:all|the)|dedicated to covering|"
+    r"stay tuned|engaging content|video was edited|tournament below|"
+    r"sign up|shop at|click (?:here|the)|support (?:us|the show)|"
+    r"brought to you by|presented by|learn more about your ad choices|"
+    r"gametime app|mint mobile|robinhood|policygenius|fabletics|"
+    r"채널 소개|공정 이용|무단 전재|할인 코드|시청해 주셔서|인스타그램", re.I)
 
 def utc(value):
     if not value:
@@ -89,9 +99,9 @@ def youtube_search(query, now):
             continue
         stamp = entry.get("timestamp") or entry.get("release_timestamp")
         published = iso(datetime.fromtimestamp(stamp, timezone.utc)) if stamp else ""
-        entries.append(dict(id=entry.get("id", ""), title=entry.get("title", ""),
+        entries.append(dict(id=entry.get("id", ""), title=entry.get("title") or "",
             channel=entry.get("channel") or entry.get("uploader", ""), channel_id=entry.get("channel_id", ""),
-            published=published, description=entry.get("description", ""), thumbnail=entry.get("thumbnail", "")))
+            published=published, description=entry.get("description") or "", thumbnail=entry.get("thumbnail", "")))
     return entries
 
 def youtube_details(video_id):
@@ -132,15 +142,19 @@ def summary_points(text, minimum=3):
     text = html.unescape(text or "")
     text = re.sub(r"\[(?:music|applause|laughter)\]", " ", text, flags=re.I)
     candidates = []
-    for line in re.split(r"(?<=[.!?。！？])\s+|\n+", text):
+    for line in re.split(r"(?<!vs\.)(?<=[.!?。！？])\s+|\n+", text):
         line = re.sub(r"https?://\S+|#\S+", "", line).strip(" -•\t")
+        # Chapter titles, rhetorical questions and sentence fragments are not facts.
+        if re.match(r"^(?:\d{1,2}:)?\d{1,2}:\d{2}\b", line) or line.endswith(('?', '？', ',', ':', 'vs.')):
+            continue
         # Automatic captions often lack punctuation. Split into source passages.
         words = line.split()
         parts = [" ".join(words[index:index + 65]) for index in range(0, len(words), 65)]
         for part in parts:
-            if ADS.search(part):
+            if ADS.search(part) or NON_CONTENT.search(part):
                 continue
-            if len(part) < (20 if re.search(r"[가-힣]", part) else 45):
+            korean = bool(re.search(r"[가-힣]", part))
+            if len(part) < (30 if korean else 55) or (not korean and len(part.split()) < 9):
                 continue
             if any(SequenceMatcher(None, part.casefold(), old.casefold()).ratio() > .78 for old in candidates):
                 continue
@@ -169,6 +183,7 @@ def enrich_video(item, translate):
                 item["summary_source"] = "transcript"
         except Exception as exc:
             transcript_error = error_code(exc)
+            item["transcript_error"] = transcript_error
         if not original:
             details = youtube_details(item["video_id"])
             item["channel"] = details.get("channelTitle") or item.get("channel", "")
@@ -186,6 +201,7 @@ def enrich_video(item, translate):
     if len(set(translated)) < 3 or not all(re.search(r"[가-힣]", value) for value in translated):
         raise ValueError("incomplete video translation")
     item["summary_ko"] = translated
+    item["summary_policy"] = SUMMARY_POLICY
     item["status"] = "ready"
     item.pop("error", None)
     item.pop("summary_error", None)
@@ -196,10 +212,10 @@ def collect_youtube(old, translate, now, deadline):
     for query in CONFIG["youtube"]["queries"]:
         try:
             for entry in youtube_search(query, now):
-                video_id = entry.get("id", "")
+                video_id = entry.get("id") or ""
                 if not re.fullmatch(r"[a-zA-Z0-9_-]{11}", video_id):
                     continue
-                if not TOPIC.search(entry.get("title", "") + " " + entry.get("description", "")):
+                if not TOPIC.search((entry.get("title") or "") + " " + (entry.get("description") or "")):
                     continue
                 stamp = utc(entry.get("published"))
                 if stamp and stamp < now - timedelta(days=CONFIG["youtube"]["lookback_days"]):
@@ -214,6 +230,11 @@ def collect_youtube(old, translate, now, deadline):
     merged = {**previous, **entries}
     videos = sorted(merged.values(), key=lambda item:item.get("published") or item.get("discovered_at", ""), reverse=True)[:200]
     for item in videos:
+        if item.get("summary_policy") != SUMMARY_POLICY:
+            for key in ("summary_original", "summary_ko", "summary_attempted_at"):
+                item.pop(key, None)
+            item["status"] = "pending"
+            item["summary_policy"] = SUMMARY_POLICY
         if item.get("status") == "ready" and len(item.get("summary_ko", [])) >= 3:
             continue
         attempted = utc(item.get("summary_attempted_at"))

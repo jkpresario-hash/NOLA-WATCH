@@ -36,6 +36,25 @@ class YouTubeTests(unittest.TestCase):
         self.assertTrue(all('Subscribe' not in point for point in points))
         self.assertEqual(social.summary_points('Pelicans video. Subscribe now. Watch today.'), [])
 
+    def test_chapters_adverts_channel_boilerplate_and_questions_do_not_count(self):
+        padding = '''Download the Gametime app, create an account, and use code LOCKEDON for $20 off your first purchase.
+Pelicans Digest is a YouTube channel dedicated to covering all the latest news, trades, reports, and rumors about the New Orleans Pelicans.
+01:46:42 Philadelphia Seventy Sixers and their new roster heading into this season
+Follow @thegametimehighlights on Instagram to Enter!
+This video was edited to follow youtube's fair use guidelines for basketball highlights.
+Are the Pelicans bench mob the key to postseason dreams?'''
+        self.assertEqual(social.summary_points(padding), [])
+        self.assertEqual(social.summary_points(CONTENT + '\n' + padding), social.summary_points(CONTENT))
+
+    def test_empty_optional_search_description_does_not_abort_query(self):
+        entries = [{'id':'123456789ab','title':'Pelicans update','description':None},
+                   {'id':'123456789ac','title':'New Orleans Pelicans news'}]
+        with patch.object(social, 'youtube_search', return_value=entries), \
+             patch.object(social, 'youtube_transcript', return_value=[{'text':CONTENT}]):
+            items, status = social.collect_youtube([], translated, NOW, time.monotonic()+10)
+        self.assertEqual(len(items), 2)
+        self.assertEqual(status['state'], 'ready')
+
     def test_unpunctuated_captions_survive_subscription_request(self):
         words = ' '.join('different%d' % index for index in range(300))
         self.assertEqual(len(social.summary_points('subscribe ' + words)), 3)
