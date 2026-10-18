@@ -58,6 +58,11 @@ def youtube_options():
                 socket_timeout=15, retries=1, extractor_retries=1, noplaylist=True,
                 ignore_no_formats_error=True)
 
+def youtube_search_url(query):
+    # Explicit search URLs work with current yt-dlp; ytsearchdate was removed.
+    # YouTube removed upload-date sorting in 2026; keep the last-week/video filter.
+    return "https://www.youtube.com/results?" + urllib.parse.urlencode(dict(search_query=query, sp="EgQIAxAB"))
+
 def youtube_search(query, now):
     """Prefer the official API when configured; public search needs no API key."""
     key = os.environ.get("YOUTUBE_API_KEY", "")
@@ -76,8 +81,8 @@ def youtube_search(query, now):
                 thumbnail=snippet.get("thumbnails", {}).get("high", {}).get("url", "")))
         return entries
     import yt_dlp
-    with yt_dlp.YoutubeDL({**youtube_options(), "extract_flat": True}) as client:
-        data = client.extract_info(f"ytsearchdate{limit}:{query}", download=False)
+    with yt_dlp.YoutubeDL({**youtube_options(), "extract_flat": True, "playlistend": limit}) as client:
+        data = client.extract_info(youtube_search_url(query), download=False)
     entries = []
     for entry in (data or {}).get("entries", []):
         if not entry:

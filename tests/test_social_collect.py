@@ -22,6 +22,13 @@ def post(number, **fields):
     return dict(id=str(number), author_id='1', created_at='2026-10-19T00:00:00Z', text='Pelicans update', **fields)
 
 class YouTubeTests(unittest.TestCase):
+    def test_public_search_url_matches_current_youtube_extractor(self):
+        try:
+            from yt_dlp.extractor.youtube import YoutubeSearchURLIE
+        except ModuleNotFoundError:
+            self.skipTest('yt-dlp is installed in CI')
+        self.assertTrue(YoutubeSearchURLIE.suitable(social.youtube_search_url('뉴올리언스 펠리컨스')))
+
     def test_three_distinct_content_points_without_promotional_padding(self):
         points = social.summary_points(CONTENT + ' Subscribe to our channel for more basketball content.')
         self.assertEqual(len(points), 3)
