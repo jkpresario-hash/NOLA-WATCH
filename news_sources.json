@@ -142,7 +142,9 @@
       "aliases": [
         "NBA Mania",
         "NBA매니아",
-        "NBA 매니아"
+        "NBA 매니아",
+        "매니아 커뮤니티",
+        "Mania Community"
       ]
     },
     {
@@ -323,13 +325,16 @@
         "bbs.hupu.com"
       ],
       "search": [
-        "bbs.hupu.com"
+        "bbs.hupu.com \"鹈鹕专区\""
       ],
       "aliases": [
         "虎扑",
         "虎扑社区",
-        "Hupu"
-      ]
+        "Hupu",
+        "虎扑体育",
+        "Hupu Sports"
+      ],
+      "required_context": "pelicans"
     },
     {
       "id": "tieba",
@@ -339,12 +344,13 @@
         "tieba.baidu.com"
       ],
       "search": [
-        "tieba.baidu.com"
+        "tieba.baidu.com \"鹈鹕吧\""
       ],
       "aliases": [
         "百度贴吧",
         "百度"
-      ]
+      ],
+      "required_context": "鹈鹕吧"
     },
     {
       "id": "zhibo8",

@@ -1,5 +1,6 @@
 import unittest
 import urllib.parse
+from datetime import datetime, timezone
 
 import news_policy as policy
 
@@ -115,6 +116,57 @@ class NewsPolicyTests(unittest.TestCase):
         post = dict(kind="reddit", source="Reddit", title="Pelicans sign Hunter Dickinson", url="https://www.reddit.com/r/NOLAPelicans/comments/abc/")
         kept, _, _ = policy.curate([post, news("펠리컨스, 디킨슨 영입", "ko")], lambda title: "Pelicans sign Hunter Dickinson")
         self.assertEqual(kept, [post])
+
+    def test_translated_wave_typo_and_bufkin_spelling_are_duplicates(self):
+        english = news('Pelicans Waive Kobe Bufkin, Jalon Moore')
+        foreign = news('코비 버프킨을 웨이브한 뉴올리언스', 'ko')
+        kept, _, _ = policy.curate([english, foreign], lambda title:'New Orleans waves Kobe Bufkin')
+        self.assertEqual(len(kept),1)
+        chinese = news('鹈鹕裁掉科比', 'zh')
+        kept, _, _ = policy.curate([english, chinese], lambda title:'Stein: Pelicans officially waived Kobe Bavkin, the 15th pick in 2023')
+        self.assertEqual(len(kept),1)
+
+    def test_roundup_facts_can_suppress_reposted_transaction(self):
+        english = news('Minor roster moves around the NBA')
+        english['event_facts_en']=policy.event_facts('The Pelicans have waived Hunter Dickinson.')
+        foreign = news('鹈鹕裁掉亨特迪金森','zh')
+        kept, _, _=policy.curate([english,foreign],lambda title:'Pelicans have waived Hunter Dickinson')
+        self.assertEqual(len(kept),1)
+
+    def test_old_and_undated_articles_do_not_enter_current_news(self):
+        current=news('Pelicans sign Hunter Dickinson')
+        old=news('Pelicans trade a player','ko')
+        old['published']='2023-02-09T08:00:00+00:00'
+        undated=news('Pelicans announcement','ja')
+        undated.pop('published')
+        kept,_,stats=policy.curate([current,old,undated],lambda text:text,now=datetime(2026,10,18,tzinfo=timezone.utc))
+        self.assertEqual(len(kept),1)
+        self.assertEqual(stats['outside_date_window'],1)
+        self.assertEqual(stats['unknown_date'],1)
+
+    def test_indexes_profiles_and_box_scores_are_not_news(self):
+        items=[news('New Orleans Pelicans Draft News, Picks, Rumors, Analysis'),news('[프리시즌 박스] 워싱턴 vs 뉴올리언스','ko'),news('Zion Williamson - News, Stats, Bio and more')]
+        kept,_,stats=policy.curate(items,lambda text:text)
+        self.assertEqual(kept,[])
+        self.assertEqual(stats['non_article'],3)
+
+    def test_other_hupu_boards_are_not_pelicans_source(self):
+        item=news('鹈鹕讨论','zh',source_context='warriors')
+        item['url']='https://bbs.hupu.com/123.html'
+        kept,_,stats=policy.curate([item],lambda title:'Pelicans discussion')
+        self.assertEqual(kept,[])
+        self.assertEqual(stats['outside_allowlist'],1)
+
+    def test_unverified_hupu_board_is_not_published(self):
+        item=news('鹈鹕讨论','zh')
+        item['url']='https://bbs.hupu.com/123.html'
+        kept,deferred,_=policy.curate([item],lambda title:'Pelicans discussion',require_context=True)
+        self.assertEqual(kept,[])
+        self.assertEqual(len(deferred),1)
+
+    def test_historical_subclause_does_not_create_current_waiver(self):
+        facts=policy.event_facts('After waiving Hunter Dickinson in August, the Pelicans have signed Hunter Dickinson again.')
+        self.assertEqual([fact['action'] for fact in facts],['sign'])
 
 
 if __name__ == "__main__":

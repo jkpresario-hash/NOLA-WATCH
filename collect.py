@@ -244,6 +244,20 @@ def article(item):
         item["policy_rejected"] = True
         raise
     soup = BeautifulSoup(raw, "html.parser")
+    source = news_policy.source_for_url(url)
+    if source and source.get("required_context"):
+        item["context_attempted_at"] = datetime.now(timezone.utc).isoformat()
+        if source["id"] == "hupu":
+            board = re.search(r"发表在\s*\S+\s+https?://bbs\.hupu\.com/([a-zA-Z0-9]+)", soup.get_text(" ", strip=True))
+            if board:
+                item["source_context"] = board[1]
+        elif source["id"] == "tieba" and soup.title and "鹈鹕吧" in soup.title.get_text():
+            item["source_context"] = "鹈鹕吧"
+        if item.get("source_context") and item["source_context"] != source["required_context"]:
+            item["policy_rejected"] = True
+            raise ValueError("article outside selected forum board")
+        if not item.get("source_context"):
+            raise RuntimeError("forum board verification unavailable")
     image = soup.find("meta", attrs={"property": "og:image"}) or soup.find("meta", attrs={"name": "twitter:image"})
     if image:
         item["thumbnail"] = safe_url(urllib.parse.urljoin(url, image.get("content", "")))
@@ -251,6 +265,8 @@ def article(item):
     body = trafilatura.extract(raw, include_comments=False, include_tables=False) or ""
     if len(body) < 120:
         raise RuntimeError("article text unavailable")
+    if item.get("language") == "en":
+        item["event_facts_en"] = news_policy.event_facts(body)
     set_original(item, "summary_en", "summary_ko", summarize(body))
     item["summary_source"] = "article"
     if not item["summary_en"]:
@@ -379,6 +395,11 @@ def collect_items(entries, old_items, limit, content_seconds=900, news_filter=No
         except (TypeError, ValueError):
             return float("inf")
     def needs_update(item):
+        source = news_policy.source_for_item(item) if not is_reddit(item) else None
+        if source and source.get("required_context") and not item.get("context_attempted_at"):
+            return True
+        if item.get("language") == "en" and item["status"] == "ready" and "event_facts_en" not in item:
+            return True
         if age(item.get("last_attempt_at")) < 21600:
             return False
         return item["status"] != "ready" or (item["kind"] == "reddit" and age(item.get("processed_at")) >= 21600)
@@ -446,14 +467,18 @@ def main():
     entries = [entry for pair in __import__('itertools').zip_longest(news, community) for entry in pair if entry]
     policy_result = {}
     def curate(items):
-        selected, deferred, stats = news_policy.curate(items, lambda text: translate(text, target="en"), english_complete)
+        selected, deferred, stats = news_policy.curate(items, lambda text: translate(text, target="en"), english_complete, now=datetime.now(timezone.utc))
         policy_result.update(deferred=deferred, stats=stats)
         return selected
     previous = old["items"] + old.get("deferred_news", [])
     merged, processed = collect_items(entries, previous, args.limit, news_filter=curate)
-    rejected = sum(bool(item.get("policy_rejected")) for item in merged)
-    merged = [item for item in merged if not item.get("policy_rejected")]
-    policy_result["stats"]["outside_allowlist"] = policy_result["stats"].get("outside_allowlist", 0) + rejected
+    merged, final_deferred, final_stats = news_policy.curate(merged, lambda text: translate(text, target="en"), english_complete,
+        now=datetime.now(timezone.utc), require_context=True)
+    policy_result["deferred"].extend(final_deferred)
+    for key, count in final_stats.items():
+        if not key.startswith("kept_") and key != "deferred":
+            policy_result["stats"][key] = policy_result["stats"].get(key, 0) + count
+    policy_result["stats"]["deferred"] = len(policy_result["deferred"])
     for language in news_policy.LANGUAGES:
         policy_result["stats"]["kept_" + language] = sum(item.get("kind") != "reddit" and item.get("language") == language for item in merged)
     if policy_result["deferred"]:

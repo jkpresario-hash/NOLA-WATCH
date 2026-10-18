@@ -4,7 +4,7 @@ import re
 import unicodedata
 import urllib.parse
 from collections import Counter
-from datetime import datetime
+from datetime import datetime, timezone
 from difflib import SequenceMatcher
 from pathlib import Path
 
@@ -108,8 +108,48 @@ SYNONYMS = {word: event for event, words in {
 EVENTS = set(SYNONYMS.values())
 
 def tokens(text):
+    text = re.sub(r"\[[^\]]*\]", " ", text)
+    text = re.sub(r"\bbavkin\b|\bbafkin\b|\bbaffkin\b", "Bufkin", text, flags=re.I)
     words = re.findall(r"[a-z]+|\d+(?:\.\d+)?", unicodedata.normalize("NFKC", text).casefold())
+    words = ["waive" if word in ("wave", "waves", "waved") else word for word in words]
     return {SYNONYMS.get(word, word) for word in words if word not in STOP}
+
+PLAYERS = {
+    "kobe_bufkin": r"\bkobe\s+(?:bufkin|bavkin|bafkin)\b",
+    "hunter_dickinson": r"\bhunter\s+dickinson\b",
+    "jalon_moore": r"\bjalon\s+moore\b",
+    "caleb_houstan": r"\bcaleb\s+houstan\b",
+    "zion_williamson": r"\bzion(?:\s+williamson)?\b|\bwilliamson\b",
+    "trey_murphy": r"\btrey\s+murphy\b",
+    "herb_jones": r"\bherb(?:ert)?\s+jones\b",
+    "jeremiah_fears": r"\bjeremiah\s+fears\b",
+    "dejounte_murray": r"\bdejounte\s+murray\b",
+}
+
+def event_facts(text):
+    """Store short event/player fingerprints, never the full article body."""
+    result = []
+    for sentence in re.split(r"(?<=[.!?])\s+|\n+|;|,\s+while\s+", text):
+        sentence = re.sub(r"^After\b[^,]*,\s*", "", sentence, flags=re.I)
+        people = sorted(key for key, pattern in PLAYERS.items() if re.search(pattern, sentence, re.I))
+        actions = tokens(sentence) & {"sign", "waive", "trade", "injury", "return", "coach"}
+        hypothetical = bool(re.search(r"\bcould\b|\bmight\b|\bwould\b|\bpotential\b|\brumou?rs?\b|\binterest\b", sentence, re.I))
+        if people:
+            result.extend(dict(action=action, players=people, hypothetical=hypothetical) for action in sorted(actions))
+    return result
+
+def is_news_page(item):
+    url = item.get("original_url") or item.get("url", "")
+    parsed = urllib.parse.urlsplit(url)
+    path = parsed.path.lower()
+    if parsed.hostname != GOOGLE_HOST:
+        if path in ("", "/", "/sports/pelicans", "/sports/pelicans/"):
+            return False
+        if re.search(r"/nba/(?:game|player|players|teams)(?:/|$)", path):
+            return False
+        if re.fullmatch(r"/new-orleans-pelicans-(?:draft|news|rumors|roster|schedule)/?", path):
+            return False
+    return not re.search(r"\bbox\s*score\b|\bplay.by.play\b|\bnews,\s*picks,\s*rumors\b|\bnews,\s*stats,\s*bio\b|^forum\s*\||프리시즌\s*박스|박스\s*스코어|ボックススコア|技术统计", item["title"], re.I)
 
 def comparable_dates(left, right):
     try:
@@ -126,11 +166,14 @@ def same_story(left, right):
     independent = {"exclusive", "interview", "analysis", "scouting", "opinion", "breakdown"}
     if left.get("language") != "en" and (a & independent) - b:
         return False
-    # Different scores/contract amounts distinguish different facts. Missing
-    # numbers in a short translated headline are not themselves a new fact.
     numbers_a, numbers_b = {x for x in a if x[0].isdigit()}, {x for x in b if x[0].isdigit()}
     if numbers_a and numbers_b and numbers_a != numbers_b:
         return False
+    if left.get("language") != "en":
+        facts = right.get("event_facts_en", []) + event_facts(right["dedupe_text_en"])
+        for fact in event_facts(left["dedupe_text_en"]):
+            if any(fact["action"] == prior["action"] and fact["hypothetical"] == prior["hypothetical"] and set(fact["players"]).issubset(prior["players"]) for prior in facts):
+                return True
     actions_a, actions_b = a & EVENTS, b & EVENTS
     if actions_a and actions_b and not actions_a & actions_b:
         return False
@@ -152,7 +195,7 @@ def canonical_url(url):
     query = urllib.parse.urlencode(sorted((key, value) for key, value in urllib.parse.parse_qsl(parsed.query) if key not in tracking))
     return urllib.parse.urlunsplit(("https", parsed.netloc.lower().removeprefix("www."), parsed.path.rstrip("/"), query, ""))
 
-def curate(items, to_english, english_complete=True):
+def curate(items, to_english, english_complete=True, now=None, require_context=False):
     """Keep English first; publish other languages only after dedupe succeeds."""
     community, news, deferred = [], [], []
     counts = Counter()
@@ -166,7 +209,28 @@ def curate(items, to_english, english_complete=True):
         if not source or item.get("policy_rejected"):
             counts["outside_allowlist"] += 1
             continue
+        if not is_news_page(item):
+            counts["non_article"] += 1
+            continue
+        if now is not None:
+            try:
+                published = datetime.fromisoformat(item["published"])
+                age = (now - published).total_seconds()
+                if age > 7 * 86400 or age < -86400:
+                    counts["outside_date_window"] += 1
+                    continue
+            except (KeyError, TypeError, ValueError):
+                counts["unknown_date"] += 1
+                continue
         item.update(source_id=source["id"], language=source["language"], source=source["name"])
+        if source.get("required_context"):
+            if item.get("source_context") and item["source_context"] != source["required_context"]:
+                counts["outside_allowlist"] += 1
+                continue
+            if require_context and item.get("source_context") != source["required_context"]:
+                item["defer_reason"] = "지정한 게시판의 글인지 확인할 때까지 보류합니다."
+                deferred.append(item)
+                continue
         key = canonical_url(item.get("original_url") or item["url"])
         if key in seen_urls:
             counts["duplicate_url"] += 1

@@ -79,5 +79,23 @@ class FeedTests(unittest.TestCase):
             self.assertEqual(collect.translate('영입', target='en'), 'signed')
         self.assertEqual(fetch.call_count,2)
 
+    def test_hupu_other_board_cannot_enter_pelicans_feed(self):
+        item={'url':'https://bbs.hupu.com/123.html','language':'zh'}
+        raw='<p>发表在 勇士专区 https://bbs.hupu.com/warriors</p>'.encode()
+        with patch.object(collect,'fetch',return_value=raw):
+            with self.assertRaises(ValueError):
+                collect.article(item)
+        self.assertEqual(item['source_context'],'warriors')
+        self.assertTrue(item['policy_rejected'])
+
+    def test_hupu_selected_board_is_verified(self):
+        item={'url':'https://bbs.hupu.com/123.html','language':'zh'}
+        raw='<p>发表在 鹈鹕专区 https://bbs.hupu.com/pelicans</p>'.encode()
+        body='The Pelicans played excellent defense and came back to win the game. Fans were excited about the performance of the team and its new players.'
+        with patch.object(collect,'fetch',return_value=raw),patch.object(collect.trafilatura,'extract',return_value=body),patch.object(collect,'translate',side_effect=lambda text:'번역 '+text):
+            collect.article(item)
+        self.assertEqual(item['source_context'],'pelicans')
+        self.assertFalse(item.get('policy_rejected'))
+
 if __name__=='__main__': unittest.main()
 
