@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-18T05:50:17.823348+00:00",
+  "updated": "2026-10-18T09:16:15.192971+00:00",
   "errors": [
     "비영어 뉴스 2건은 출처·중복 확인이 끝날 때까지 보류합니다."
   ],
@@ -12,11 +12,11 @@
       "published": "2026-10-17T11:36:40+00:00",
       "thumbnail": "",
       "body_en": "https://www.nba.com/pelicans/news/preseason-postgame-wrap-pelicans-107-wizards-106\nFor three quarters, New Orleans and Washington treated Friday’s preseason game similarly to a regular season matchup, with starters logging relatively significant minutes. The rotations of head coaches Jamahl Mosley and Brian Keefe seemed to reflect what may be the case Wednesday, when both squads tip off their 2026-27 campaigns in separate games that count in the NBA standings. The Pelicans won those 36 minutes of exhibition hoops by double digits, showing more positive signs on the defensive end by limiting the Wizards to just 70 points and 35 percent shooting.",
-      "status": "ready",
+      "status": "partial",
       "title_ko": "프리시즌 정리: 펠리컨스 107, 위저즈 106",
       "body_ko": "https://www.nba.com/pelicans/news/preseason-postgame-wrap-pelicans-107-wizards-106\n3쿼터 동안 뉴올리언스와 워싱턴은 금요일의 프리시즌 경기를 정규 시즌 매치업과 유사하게 처리했으며 선발 투수는 상대적으로 상당한 시간을 기록했습니다.\n자말 모슬리 감독과 브라이언 키프 감독의 로테이션은 수요일 두 팀 모두 NBA 순위에 포함되는 별도의 경기에서 2026~27년 캠페인을 마무리하는 상황을 반영한 것으로 보입니다.\n펠리컨스는 36분간의 시범 경기에서 두 자릿수 차이로 승리했으며, 위저즈를 70득점과 35%의 슈팅률로 제한함으로써 수비 측면에서 더 긍정적인 신호를 보였습니다.",
       "translation_errors": {},
-      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "last_attempt_at": "2026-10-18T09:16:11.211938+00:00",
       "comments": [
         {
           "author": "9_Nightwing_1",
@@ -85,7 +85,9 @@
         "3쿼터 동안 뉴올리언스와 워싱턴은 금요일의 프리시즌 경기를 정규 시즌 매치업과 유사하게 처리했으며 선발 투수는 상대적으로 상당한 시간을 기록했습니다.",
         "펠리컨스는 36분간의 시범 경기에서 두 자릿수 차이로 승리했으며, 위저즈를 70득점과 35%의 슈팅률로 제한함으로써 수비 측면에서 더 긍정적인 신호를 보였습니다."
       ],
-      "processed_at": "2026-10-18T02:53:25.395174+00:00"
+      "processed_at": "2026-10-18T02:53:25.395174+00:00",
+      "content_error": "HTTP 429",
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
     {
       "title": "JEREMIAH FEARS",
@@ -100,7 +102,7 @@
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
       "body_ko": "광고도 엿먹어",
       "translation_errors": {},
-      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "last_attempt_at": "2026-10-18T09:16:11.211938+00:00",
       "content_error": "HTTP 429"
     },
     {
@@ -114,7 +116,7 @@
       "title_ko": "이 수비 보고 있나요? 그 말까지 하게 만들지는 마세요…",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
       "translation_errors": {},
-      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "last_attempt_at": "2026-10-18T09:16:11.211938+00:00",
       "content_error": "HTTP 429"
     },
     {
@@ -130,7 +132,7 @@
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
       "body_ko": "그 게시물입니다.\n우리는 그를 위해 첫 번째 라운드를 포기했기 때문에 그가 준비되는 것보다 더 빨리 준비하도록 강요하는 DQ에 대해 이야기하는 데 너무 많은 시간을 소비합니다.\n실제 진정한 1위 픽인 Fears가 이제 준비되었습니다.",
       "translation_errors": {},
-      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "last_attempt_at": "2026-10-18T09:16:11.211938+00:00",
       "content_error": "HTTP 429"
     },
     {
@@ -140,7 +142,7 @@
       "kind": "reddit",
       "published": "2026-10-17T00:24:17+00:00",
       "thumbnail": "",
-      "status": "ready",
+      "status": "partial",
       "title_ko": "[경기 토론] 펠리컨스 대 위저즈",
       "body_en": "",
       "body_ko": "",
@@ -218,7 +220,10 @@
       ],
       "summary_ko": [],
       "processed_at": "2026-10-18T00:15:17.262494+00:00",
-      "translation_errors": {}
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T09:16:11.211938+00:00",
+      "content_error": "HTTP 429",
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
     {
       "title": "Our stadium graphics person needs a proofreader smh",
@@ -227,10 +232,10 @@
       "kind": "reddit",
       "published": "2026-10-16T23:39:34+00:00",
       "thumbnail": "https://preview.redd.it/nczm5fot0xvh1.jpeg?width=640&crop=smart&auto=webp&s=f864581668cd3c2c25c7baf73dabeb838ab2291a",
-      "status": "ready",
+      "status": "partial",
       "title_ko": "우리 경기장 그래픽 담당자에게 교정자가 필요하네요, 참…",
       "translation_errors": {},
-      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "last_attempt_at": "2026-10-18T09:16:11.211938+00:00",
       "body_en": "",
       "comments": [
         {
@@ -249,7 +254,9 @@
         }
       ],
       "summary_en": [],
-      "processed_at": "2026-10-18T02:54:02.582572+00:00"
+      "processed_at": "2026-10-18T02:54:02.582572+00:00",
+      "content_error": "HTTP 429",
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
     {
       "title": "Wild 24 hours I guess",
@@ -262,7 +269,7 @@
       "title_ko": "정말 정신없는 24시간이었네요",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
       "translation_errors": {},
-      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "last_attempt_at": "2026-10-18T09:16:11.211938+00:00",
       "content_error": "HTTP 429"
     },
     {
@@ -278,7 +285,7 @@
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
       "body_ko": "작년 12월쯤 MSY 공항에서 봤는데 딱 제 스타일이었는데 가격대를 좀 벗어나서 잠시 고민하다가 결정을 하게 됐어요.\n불행하게도 내가 공항에 있는 매장에 들를 또 다른 기회가 있었을 때 그들은 이미 이 시간을 지나 이동하고 있었습니다.\n누군가가 발견한 온라인 어딘가에 다른 목록이 있는지 궁금합니다.",
       "translation_errors": {},
-      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "last_attempt_at": "2026-10-18T09:16:11.211938+00:00",
       "content_error": "HTTP 429"
     },
     {
@@ -294,7 +301,7 @@
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
       "body_ko": "24\n디준트 머레이\n예레미야는 두려워한다\n이건 좀 낮은 것 같아요.\n너그스, 매직, 호크스(CJ, 플레밍스 포함)가 더 높은 평가를 받았습니다.\n16\n허버트 존스\n조던 풀\n리그의 나머지 부분을 살펴보고 다른 팀이 SG에서 얼마나 나쁜지 확인하기 전까지는 처음에는 높은 것처럼 보일 것입니다.\n14\n트레이 머피 3세\n베네딕트 마투랭\n이것도 낮은 것 같아요.\n트레이는 올스타 팀을 이루지는 못했지만 매우 탄탄한 선수입니다.\n나는 그가 Kon과 Jaden McDaniels보다 훨씬 낫다고 생각합니다.\nMarkkanen이 유타에서 5년 동안 농구 경기에 출전하지 않았다면 그가 좋은 선수인지 어떻게 알 수 있습니까?\n프란츠는 올스타급 외모를 갖고 있지만 프란츠와 케인이 매직을 하는 것보다는 트레이와 마투린의 콤보가 더 낫다고 생각합니다.\n13\n자이언 윌리엄슨\n사디크 베이\n위에 순위가 매겨진 주목할만한 선수/팀은 Nets/Randle, Knicks 및 Utah/JJJ입니다.\n뒤에는 Gordon이 있는 Denver, Naz Reid가 있는 Charlotte, Rockets와 같은 팀이 있습니다.\nBey는 파워 포워드로서 꼭 맞는 선수는 아니지만 이번 연습에서는 Zion/Bey 콤보가 적절해 보입니다.\n27\n이브 미시\n데릭 퀸\n이보다 더 나쁜 상황은 많지 않습니다.\n잠재력과 성과로 볼 때 이 듀오가 약간 뒤쳐져 있다고 주장하기는 어렵습니다.\n개선이 이루어지면 급등할 수도 있지만 이 순위에 대해 논쟁을 벌이기는 어렵습니다.\n요약하자면, 그들은 상위 10위권의 위치 그룹을 갖고 있지 않습니다.\n각 포지션마다 괜찮은 깊이를 갖고 있지만 전체 순위를 끌어올 슈퍼스타는 없습니다.",
       "translation_errors": {},
-      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "last_attempt_at": "2026-10-18T09:16:11.211938+00:00",
       "content_error": "HTTP 429"
     },
     {
@@ -308,7 +315,7 @@
       "title_ko": "조던 풀 문신까지 했다면 경기에서 입은 사인 유니폼을 받을 자격이 있죠",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
       "translation_errors": {},
-      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "last_attempt_at": "2026-10-18T09:16:11.211938+00:00",
       "content_error": "HTTP 429"
     },
     {
@@ -324,7 +331,7 @@
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
       "body_ko": "너희들 이 거래를 할래?",
       "translation_errors": {},
-      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "last_attempt_at": "2026-10-18T09:16:11.211938+00:00",
       "content_error": "HTTP 429"
     },
     {
@@ -340,7 +347,7 @@
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
       "body_ko": "만약 올해 펠리컨들이 그것을 무너뜨린다면 Kel'el Ware를 목표로 삼는 것이 Queen and Fears가 이끄는 미래 팀의 센터로서 가장 적합할까요?",
       "translation_errors": {},
-      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "last_attempt_at": "2026-10-18T09:16:11.211938+00:00",
       "content_error": "HTTP 429"
     },
     {
@@ -354,7 +361,7 @@
       "title_ko": "우리가 헌터 디킨슨과 계약하려는 이유가 뭘까요?",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
       "translation_errors": {},
-      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "last_attempt_at": "2026-10-18T09:16:11.211938+00:00",
       "content_error": "HTTP 429"
     },
     {
@@ -370,7 +377,7 @@
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
       "body_ko": "1992년부터 Alonzo Mourning 거래를 추적하면 Hornets/Pelicans가 Trey Murphy와 Dejounte Murray를 영입하는 데 도움이 됩니다.\nCharlotte는 1992년 Mourning을 드래프트한 후 Glen Rice를 위해 마이애미로 트레이드되었습니다.\n라이스 → 에디 존스 → PJ 브라운 → 타이슨 챈들러 → 에메카 오카포 → 2012년 2번픽 → 드래프트 다리우스 밀러\n→ 스티븐 아담스 & Eric Bledsoe →\n트레이 머피\n→ 2025년 1차 Rd 픽 → 래리 낸스 →\n디준트 머레이",
       "translation_errors": {},
-      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "last_attempt_at": "2026-10-18T09:16:11.211938+00:00",
       "content_error": "HTTP 429"
     },
     {
@@ -386,7 +393,7 @@
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
       "body_ko": "https://sports.yahoo.com/articles/jamahl-mosley-radically-changing-ways-231639694.html\n\"Mosley는 Green의 친숙한 10경기 평가 창을 문제가 습관화되기 전에 문제를 식별하도록 설계된 더 짧은 플레이오프 스타일 평가로 대체하고 있습니다.\n기본적으로 철학은 3주를 기다리지 않는 것입니다.\n문제를 다루다\n그러면 팀이 내일 승리를 거두지 못할 수도 있습니다.\"",
       "translation_errors": {},
-      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "last_attempt_at": "2026-10-18T09:16:11.211938+00:00",
       "content_error": "HTTP 429"
     },
     {
@@ -396,10 +403,10 @@
       "kind": "reddit",
       "published": "2026-10-15T02:08:14+00:00",
       "thumbnail": "https://preview.redd.it/01m3v4nhhjvh1.jpg?width=140&height=140&crop=1:1,smart&auto=webp&s=a8dab4442136267bb5bff1f599c9554ede68d2a0",
-      "status": "ready",
+      "status": "partial",
       "title_ko": "이 기사에 대해 어떻게 생각하세요?",
       "translation_errors": {},
-      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "last_attempt_at": "2026-10-18T09:16:11.211938+00:00",
       "body_en": "",
       "comments": [
         {
@@ -474,7 +481,9 @@
         }
       ],
       "summary_en": [],
-      "processed_at": "2026-10-18T02:55:15.503892+00:00"
+      "processed_at": "2026-10-18T02:55:15.503892+00:00",
+      "content_error": "HTTP 429",
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
     {
       "title": "Who is going to lead the team in FGA this season?",
@@ -484,7 +493,7 @@
       "published": "2026-10-15T02:02:57+00:00",
       "thumbnail": "",
       "body_en": "This team has a lot of mouths to feed. It’s not like SGA always going to lead the team, or Edwards/Ball on Minny, or KAT/Brunson on Knicks. There are a lot of guys that would like a steady shot diet. Let’s go through those with a chance:\n3rd String - Bryce, Pierre Jr, Jordan, etc. just deserve a mention because they’re on the team. Bryce can do it in April if the team is mathematically eliminated and others are hurt/pulled.d\n2nd string but highly unlikely - Missi, Karlo just won’t’ get enough shot attempts. They do not create on their own.\n2nd string but possible a couple of times a month - Mathurin, Poole and sometimes Queen. Mathurin and Poole are shooters. They can get hot and if they do, only Mosley can slow them down. Queen has scored more than 30 in a game and he will operate as the hub of the offense. I could imagine him having the most shots a few times this season. Bey can fit in this category as well if he goes on a heater, but he too usually seems to thrive if someone sets the table for him\nDefensive wing that seems unlikely - Herb. He’s just not going to shoot the ball 20 times in a game. And that’s ok.\nPoint guards - DJM and Fears. Both will have the ball in their respective hands. Fears will likely have it more due to DJM’s injury history. Fears has taken a lot of shots tonight, and this could be the best way for him in the event he can maintain above average shooting. Last season we saw DJM shoot more, which could result in some inefficient performances.\nVeterans forwards - Trey and Zion. These 2 should lead the team in shot attempts. Zion shoots a very high percentage from the paint, who knows if he’ll shoot a 3 during the season. We know Trey can. Trey can light it up and shoots well above league average from deep.\nI think this will be interesting development this season. I would think at the end of the season Zion will lead and Trey will be second. However, I think that on any night DJM, Fears, Queen, Mathurin and Poole could have the most shots. If they can figure out to use this efficiently, they can improve offense along with defense.",
-      "status": "ready",
+      "status": "partial",
       "title_ko": "이번 시즌 팀에서 야투를 가장 많이 시도할 선수는 누구일까요?",
       "body_ko": "이 팀에는 슛 기회를 원하는 선수가 많습니다. SGA가 항상 공격을 이끄는 팀이나 미네소타의 에드워즈·볼, 닉스의 KAT·브런슨처럼 구도가 뚜렷한 상황은 아닙니다. 꾸준히 슛을 던지고 싶은 선수들이 여럿 있죠. 가능성이 있는 선수들을 살펴보겠습니다.\n\n3군 — 브라이스, 피에르 주니어, 조던 등도 팀의 일원이니 언급은 해야겠죠. 브라이스는 팀의 플레이오프 진출이 수학적으로 불가능해지고 다른 선수들이 부상이나 휴식으로 빠지는 4월이라면 가능할 수 있습니다.\n\n2군이지만 가능성이 매우 낮은 선수 — 미시와 카를로는 슛 시도 자체가 충분하지 않을 겁니다. 스스로 공격 기회를 만들어내는 유형도 아닙니다.\n\n2군이지만 한 달에 몇 번은 가능할 선수 — 매서린, 풀, 그리고 때에 따라 퀸입니다. 매서린과 풀은 슈터라서 한번 슛 감각이 달아오르면 모슬리 감독만이 이들을 멈출 수 있겠죠. 퀸은 한 경기에서 30점 이상 넣은 적이 있고 공격의 중심 역할도 맡을 겁니다. 이번 시즌 몇 경기에서는 그가 가장 많은 슛을 던질 수도 있다고 봅니다. 베이도 슛 감각이 좋을 때는 여기에 들어갈 수 있지만, 보통은 동료가 기회를 만들어줄 때 더 잘하는 것 같습니다.\n\n가능성이 낮아 보이는 수비형 윙 — 허브입니다. 한 경기에서 슛을 20개씩 던질 선수는 아니죠. 그래도 괜찮습니다.\n\n포인트가드 — DJM과 피어스입니다. 둘 다 공을 다룰 기회가 많겠지만, DJM의 부상 이력을 생각하면 피어스가 더 많이 공을 잡을 가능성이 있습니다. 피어스는 오늘 밤 슛을 많이 던졌는데, 평균 이상의 슛 성공률을 유지할 수 있다면 이 방식이 가장 좋을 수도 있습니다. 지난 시즌에는 DJM의 슛 시도가 늘었고, 그로 인해 효율이 떨어지는 경기도 나올 수 있었습니다.\n\n베테랑 포워드 — 트레이와 자이언입니다. 두 선수가 팀에서 가장 많은 슛을 던져야 한다고 봅니다. 자이언은 페인트존에서 매우 높은 성공률을 보이지만 이번 시즌 3점슛을 던질지는 모르겠습니다. 트레이는 3점슛을 넣을 수 있다는 걸 알고 있죠. 한번 터지면 득점을 쏟아낼 수 있고, 3점 성공률도 리그 평균보다 훨씬 높습니다.\n\n이번 시즌 흥미롭게 지켜볼 부분이라고 생각합니다. 시즌이 끝났을 때는 자이언이 야투 시도 1위, 트레이가 2위일 것으로 예상합니다. 다만 경기마다 DJM, 피어스, 퀸, 매서린, 풀이 가장 많은 슛을 던지는 날도 있을 겁니다. 이런 자원을 효율적으로 활용할 방법을 찾으면 수비와 함께 공격도 좋아질 수 있습니다.",
       "comments": [
@@ -521,7 +530,10 @@
         "There are a lot of guys that would like a steady shot diet.",
         "just deserve a mention because they’re on the team."
       ],
-      "translation_errors": {}
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-18T09:16:11.211938+00:00",
+      "content_error": "HTTP 429",
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
     {
       "title": "Fears is clearly the best guard on the team at this point hopefully the coming off the bench gimmick doesn’t last too long",
@@ -536,7 +548,7 @@
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
       "body_ko": "Dejounte는 확실히 쇠퇴하고 있으며 예전과 같은 선수가 아닙니다. 벽에 글을 쓴 것은 20번째 게임 마크부터 시작하는 Fears가 필요하다는 것입니다.",
       "translation_errors": {},
-      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "last_attempt_at": "2026-10-18T09:16:11.211938+00:00",
       "content_error": "HTTP 429"
     },
     {
@@ -552,7 +564,7 @@
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
       "body_ko": "Mavs 엿 먹어라.\n게임 @ 19:00 CST\n혹시 나중에 게임 후 글을 올리고 싶은 분이 계시다면 저는 아마 자고 있을 것 같습니다.",
       "translation_errors": {},
-      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "last_attempt_at": "2026-10-18T09:16:11.211938+00:00",
       "content_error": "HTTP 429"
     },
     {
@@ -568,7 +580,7 @@
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
       "body_ko": "안녕하세요, Pelicans 팬 여러분, 저는 각 프랜차이즈의 가장 큰 이변(승리할 것으로 예상되지 않았을 때)과 각 프랜차이즈의 가장 큰 질식(심각하게 느껴지셨다면 죄송합니다)에 대한 영상을 만들고 있습니다.\n각각에 대해 추측이 있지만 실제 펠리컨스 팬들에게 여러분이 어떻게 생각하는지, 그리고 제가 살펴보아야 할 더 나은 답변이 있는지 물어보고 싶었습니다.\n나는 ~을 고려하고 있다\n당황하다\n엄밀히 말하면 그 팀이 이기지 못하거나 큰 약자여서 이겼을 때와 마찬가지입니다.\n에이\n초크\n팀이 승리할 것으로 예상됐지만 성과가 저조했을 때일 수도 있고, 중요한 경기나 플레이오프에서 큰 선두를 날렸을 때(이런 수준에 해당하는 것)일 수도 있습니다.\n플레이오프에서 리드가 터질 수도 있습니다(예: 3-1 리드).\n여러분의 생각을 알려주세요. 완료되면 여기에 동영상을 링크하겠습니다.\n이번시즌도 잘 부탁드려요!!",
       "translation_errors": {},
-      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "last_attempt_at": "2026-10-18T09:16:11.211938+00:00",
       "content_error": "HTTP 429"
     },
     {
@@ -582,7 +594,7 @@
       "title_ko": "이제 펠리컨스도 해주세요",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
       "translation_errors": {},
-      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "last_attempt_at": "2026-10-18T09:16:11.211938+00:00",
       "content_error": "HTTP 429"
     },
     {
@@ -597,7 +609,7 @@
       "title_ko": "제가 이상하다고 해도 좋습니다",
       "body_ko": "다들 어떻게 생각하시는지 알고 싶습니다. 뉴올리언스의 누구도 Zion을 포기할 준비가 되어 있지 않을 것 같습니다. 하지만 조직이 Queens를 중심으로 Zion을 포기하기로 선택한다면 이는 괜찮은 거래가 될 수 있습니다.",
       "translation_errors": {},
-      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "last_attempt_at": "2026-10-18T09:16:11.211938+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -613,7 +625,7 @@
       "title_ko": "이브 미시",
       "body_ko": "당신은 그가 올해의 수비 선수 잠재력을 가지고 있다고 생각합니까, 아니면 전체 수비 팀을 가지고 있다고 생각합니까?\n나는 그가 플레이하는 것을 보았고 그는 매년 나아지고 있습니다.\n나는 그가 내부에서 총격을 가하는 것에 짜증이 난다.\n하지만 나는 그에게 기분 좋게 놀랐습니다.\n올해의 수비 선수는 무리라고 생각하지만, 내가 틀리고 싶어할 줄 누가 알겠어요.",
       "translation_errors": {},
-      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "last_attempt_at": "2026-10-18T09:16:11.211938+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -627,7 +639,7 @@
       "status": "partial",
       "title_ko": "펠리컨스는 어떻게 '할리반'을 봉쇄하고 페이서스를 이길 수 있을까요?",
       "translation_errors": {},
-      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "last_attempt_at": "2026-10-18T09:16:11.211938+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -643,7 +655,7 @@
       "title_ko": "이제 이 구단에 지친 분 있나요?",
       "body_ko": "이기기를 원하지만 전혀 긍정적인 움직임이 없거나 다시 시작하지 않는 끊임없는 울타리, 우리의 정점이 몰래 플레이인 모습을 보일 수도 있다는 것을 아는 것은 너무 피곤합니다. 이 시점에서 제가 90% 아웃된 것 같은 느낌이 듭니다. 여러분 중 일부는 그만 두기까지 얼마나 남았습니까?",
       "translation_errors": {},
-      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "last_attempt_at": "2026-10-18T09:16:11.211938+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -2167,7 +2179,7 @@
       "title_ko": "뉴올리언스 펠리컨스 2026-27시즌 시청 안내: 자이언 윌리엄슨과 동료들의 TV 중계·글로벌 경기 - The New York Times",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
       "translation_errors": {},
-      "last_attempt_at": "2026-10-18T02:53:09.142209+00:00",
+      "last_attempt_at": "2026-10-18T09:16:11.211938+00:00",
       "content_error": "HTTP 403",
       "source_id": "athletic",
       "language": "en",
