@@ -1,9 +1,57 @@
 {
-  "updated": "2026-10-20T07:52:22.653135+00:00",
+  "updated": "2026-10-20T09:23:12.833546+00:00",
   "errors": [
     "비영어 뉴스 2건은 출처·중복 확인이 끝날 때까지 보류합니다."
   ],
   "items": [
+    {
+      "kind": "youtube",
+      "source": "YouTube",
+      "video_id": "WWFpGjNDGyE",
+      "title": "STATE OF THE TEAM: Where Does New Orleans Pelicans Defense, Offense Stand After Preseason",
+      "url": "https://www.youtube.com/watch?v=WWFpGjNDGyE",
+      "channel": "Locked On Pelicans - Hit",
+      "thumbnail": "https://i.ytimg.com/vi/WWFpGjNDGyE/hqdefault.jpg",
+      "published": "",
+      "discovered_at": "2026-10-20T09:23:01.758012Z",
+      "status": "ready",
+      "summary_policy": 4,
+      "summary_attempted_at": "2026-10-20T09:23:01.758012Z",
+      "title_ko": "팀 현황: 프리시즌 이후 뉴올리언스 펠리컨스의 수비와 공격은 어디에 있습니까?",
+      "transcript_error": "RequestBlocked",
+      "upload_date": "2026-10-19",
+      "summary_source": "description",
+      "summary_original": [
+        "Defense takes center stage as the New Orleans Pelicans wrap up preseason action, showing significant improvement under Jamahl Mosley.",
+        "Yet, questions linger about the Pelicans’ offense, still hampered by last year’s struggles with shooting, spacing, and assist rate.",
+        "Find out what the numbers, roster decisions, and preseason observations mean for New Orleans’ playoff hopes and opening night ambitions."
+      ],
+      "summary_ko": [
+        "뉴올리언스 펠리컨스가 프리시즌 활동을 마무리하면서 수비가 중심 무대에 오르며 자말 모슬리 밑에서 상당한 발전을 보여줍니다.",
+        "그러나 펠리컨스의 공격력에 대한 의문은 여전히 ​​남아 있으며, 작년의 슈팅, 간격, 지원률 문제로 인해 여전히 어려움을 겪고 있습니다.",
+        "숫자, 명단 결정, 프리시즌 관찰이 뉴올리언스의 플레이오프 희망과 오프닝 나이트 야망에 어떤 의미를 갖는지 알아보세요."
+      ]
+    },
+    {
+      "title": "웸비,자이언,르브론 동시에 드랩나오면 누가 1순위일까 - 에펨코리아",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBWVWZRSS0yTm1neklUSW45aEFVc2lSZDExMkpxSmZhc08yNVNJaEdYblFPTGNXVVpNQ0ZkZUpDSXdNR1NycS1HWFR3bw?oc=5",
+      "source": "에펨코리아 (미국농구)",
+      "kind": "news",
+      "published": "2026-10-20T07:51:00+00:00",
+      "thumbnail": "",
+      "language": "ko",
+      "publisher": "에펨코리아",
+      "publisher_url": "https://www.fmkorea.com",
+      "status": "partial",
+      "source_id": "fmkorea",
+      "dedupe_text_en": "If Wembe, Zion, and LeBron are drafted at the same time, who will be first?",
+      "dedupe_original_title": "웸비,자이언,르브론 동시에 드랩나오면 누가 1순위일까",
+      "title_ko": "웸비,자이언,르브론 동시에 드랩나오면 누가 1순위일까 - 에펨코리아",
+      "translation_errors": {},
+      "last_attempt_at": "2026-10-20T09:23:10.918584+00:00",
+      "content_error": "HTTP 430",
+      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
+    },
     {
       "kind": "youtube",
       "source": "YouTube",
@@ -5440,9 +5488,9 @@
   "channels": {
     "youtube": {
       "state": "ready",
-      "checked_at": "2026-10-20T07:47:46.329053Z",
-      "count": 78,
-      "summarized": 15,
+      "checked_at": "2026-10-20T09:23:01.758012Z",
+      "count": 79,
+      "summarized": 16,
       "message": "매일 09:00·18:00에 펠리컨스 영상을 검색합니다. 자막 또는 영상 설명에서 핵심 내용 3개 이상을 한국어로 제공합니다."
     },
     "news": {
@@ -5530,9 +5578,9 @@
     "version": 1,
     "english_complete": true,
     "non_article": 2,
-    "outside_date_window": 38,
+    "outside_date_window": 39,
     "kept_en": 12,
-    "kept_ko": 1,
+    "kept_ko": 2,
     "duplicate_story": 1,
     "kept_zh": 2,
     "deferred": 2,
