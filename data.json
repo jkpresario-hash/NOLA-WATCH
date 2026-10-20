@@ -1,9 +1,56 @@
 {
-  "updated": "2026-10-20T13:12:24.711279+00:00",
+  "updated": "2026-10-20T13:35:18.886675+00:00",
   "errors": [
     "비영어 뉴스 2건은 출처·중복 확인이 끝날 때까지 보류합니다."
   ],
   "items": [
+    {
+      "kind": "youtube",
+      "source": "YouTube",
+      "video_id": "-G7S9lYTj-o",
+      "title": "PREDICTING The New Orleans Pelicans STARTING LINEUP For Opening Night Against Indiana Pacers",
+      "url": "https://www.youtube.com/watch?v=-G7S9lYTj-o",
+      "channel": "Locked On Pelicans - Hit",
+      "thumbnail": "https://i.ytimg.com/vi/-G7S9lYTj-o/hqdefault.jpg",
+      "published": "",
+      "discovered_at": "2026-10-20T13:35:07.715292Z",
+      "status": "ready",
+      "summary_policy": 4,
+      "summary_attempted_at": "2026-10-20T13:35:07.715292Z",
+      "title_ko": "인디애나 페이서스와의 개막전을 위한 뉴올리언스 펠리컨스의 선발 라인업 예측",
+      "transcript_error": "RequestBlocked",
+      "upload_date": "2026-10-20",
+      "summary_source": "description",
+      "summary_original": [
+        "The New Orleans Pelicans approach opening night with intrigue around their starting lineup, as Dejounte Murray, Herb Jones, Trey Murphy, Zion Williamson, and Yves Misi are top candidates.",
+        "Questions swirl around Herb Jones’ role at the 2-guard spot, while standout guard Jeremiah Fears is pushing for increased minutes after a strong preseason.",
+        "Pelicans fans are eager to see Zion Williamson's physical evolution, Trey Murphy’s offensive workload, and the defensive impact of Yves Misi, whom Jamal Mosley has publicly challenged for Defensive Player of the Year honors."
+      ],
+      "summary_ko": [
+        "Dejounte Murray, Herb Jones, Trey Murphy, Zion Williamson 및 Yves Misi가 최고의 후보이기 때문에 New Orleans Pelicans는 선발 라인업에 대한 음모로 개막전을 앞두고 있습니다.",
+        "2-가드 자리에서 Herb Jones의 역할에 대한 질문이 소용돌이치고 있는 반면, 뛰어난 가드 Jeremiah Fears는 강력한 프리시즌 이후 더 많은 시간을 요구하고 있습니다.",
+        "Pelicans 팬들은 Zion Williamson의 신체적 진화, Trey Murphy의 공격 작업량, Jamal Mosley가 올해의 수비 선수 영예를 위해 공개적으로 도전한 Yves Misi의 수비 영향을 보고 싶어합니다."
+      ]
+    },
+    {
+      "kind": "youtube",
+      "source": "YouTube",
+      "video_id": "e_Gf5KL5BW0",
+      "title": "The Pelicans Already Made Their Decision On Zion Williamson",
+      "url": "https://www.youtube.com/watch?v=e_Gf5KL5BW0",
+      "channel": "TheFlightMike",
+      "thumbnail": "https://i.ytimg.com/vi/e_Gf5KL5BW0/hqdefault.jpg",
+      "published": "",
+      "discovered_at": "2026-10-20T13:35:07.715292Z",
+      "status": "partial",
+      "summary_policy": 4,
+      "summary_attempted_at": "2026-10-20T13:35:07.715292Z",
+      "title_ko": "펠리컨스는 이미 자이언 윌리엄슨에 대한 결정을 내렸습니다.",
+      "transcript_error": "RequestBlocked",
+      "upload_date": "2026-10-15",
+      "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
+      "summary_error": "ValueError"
+    },
     {
       "kind": "youtube",
       "source": "YouTube",
@@ -3047,7 +3094,8 @@
       "summary_source": "article_body",
       "access": "public",
       "relevance_verified": true,
-      "relevance_checked_at": "2026-10-20T13:11:09.067463Z",
+      "relevance_policy": 2,
+      "relevance_checked_at": "2026-10-20T13:34:33.311656Z",
       "body_characters": 29803,
       "status": "ready",
       "title_ko": "2027 NBA 모의 초안 V.1",
@@ -3354,7 +3402,8 @@
       "summary_source": "article_body",
       "access": "public",
       "relevance_verified": true,
-      "relevance_checked_at": "2026-10-20T13:11:09.067463Z",
+      "relevance_policy": 2,
+      "relevance_checked_at": "2026-10-20T13:34:33.311656Z",
       "body_characters": 10720,
       "status": "ready",
       "title_ko": "2026-27 NBA 시즌에 대한 가능성은 낮지만 그럴듯한 예측 14가지",
@@ -4193,7 +4242,8 @@
       "summary_source": "article_body",
       "access": "public",
       "relevance_verified": true,
-      "relevance_checked_at": "2026-10-20T13:11:09.067463Z",
+      "relevance_policy": 2,
+      "relevance_checked_at": "2026-10-20T13:34:33.311656Z",
       "body_characters": 16406,
       "status": "ready",
       "title_ko": "2026-27년 NBA 리그 패스 순위, 1부",
@@ -4915,31 +4965,6 @@
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
     {
-      "kind": "article",
-      "source_id": "poetry",
-      "source": "Basketball Poetry",
-      "url": "https://www.basketballpoetry.com/p/predicting-the-nbas-top-10-defenses",
-      "title": "Predicting the NBA’s Top 10 Defenses for 2026-27",
-      "author": "Mike Shearer",
-      "published": "2026-09-25T15:19:01.004000Z",
-      "thumbnail": "",
-      "summary_original": [
-        "I think he’s an excellent defensive coach in particular, and he could have a transformative effect on New Orleans’ sad-sack defense.",
-        "But there was too much tension in the Orlando locker room, and the players had, if not tuned him out entirely, at least put their AirPods in when he tried to talk to them."
-      ],
-      "summary_source": "article_body",
-      "access": "public",
-      "relevance_verified": true,
-      "relevance_checked_at": "2026-10-20T13:11:09.067463Z",
-      "body_characters": 16241,
-      "status": "ready",
-      "title_ko": "2026-27년 NBA의 상위 10개 방어 예측",
-      "summary_ko": [
-        "나는 그가 특히 뛰어난 수비 코치라고 생각하고, 뉴올리언스의 수비에 변화를 가져올 수 있다고 생각한다.",
-        "그러나 올랜도 라커룸에는 긴장감이 너무 컸고, 선수들은 그를 완전히 무시하지는 않더라도 적어도 그가 그들과 대화를 시도할 때 에어팟을 꽂아두었습니다."
-      ]
-    },
-    {
       "title": "Hollinger says take the over!!!!!!!!!!",
       "url": "https://www.reddit.com/r/NOLAPelicans/comments/1wpbaq9/hollinger_says_take_the_over/",
       "source": "Reddit · NOLAPelicans",
@@ -5051,6 +5076,38 @@
       "last_attempt_at": "2026-10-20T07:49:38.724197+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
+    },
+    {
+      "kind": "article",
+      "source_id": "hardwood",
+      "source": "The Hardwood Collective",
+      "url": "https://thehardwoodcollective.com/articles/30-teams-30-days-new-orleans-pelicans-2027-season-preview",
+      "title": "30 teams, 30 days: New Orleans Pelicans | 2027 Season Preview",
+      "author": "David Lee",
+      "published": "2026-09-24T13:11:33.430000Z",
+      "thumbnail": "https://thehardwoodcollective.com/api/media/file/Untitled%20design-Max-Quality%20-%202026-09-21T183707.578-1600x900.jpg",
+      "summary_original": [
+        "Throughout their 20 or so years of existence, the Pelicans have had an unbelievably tough time avoiding injuries.",
+        "In the last 3 years, New Orleans has lost 753 games to player injury, slightly above the average games lost among teams.",
+        "Even with this uncharacteristically strong streak of health that included Zion playing his most minutes in 2 years, New Orleans was sitting at 14th in the West with a 18-42 record.",
+        "They had a 41.8 rim frequency, the highest team rim rate since the 21 Pelicans, which drove their league-leading loc eFG%.",
+        "6 Pelicans averaged at least 1 isolation FGA per game last year, joining Miami and Philly as the only teams in the league to democratize their isolation creation to this extent."
+      ],
+      "summary_source": "article_body",
+      "access": "public",
+      "relevance_verified": true,
+      "relevance_policy": 2,
+      "relevance_checked_at": "2026-10-20T13:34:33.311656Z",
+      "body_characters": 16114,
+      "status": "ready",
+      "title_ko": "30개 팀, 30일: 뉴올리언스 펠리컨스 | 2027 시즌 미리보기",
+      "summary_ko": [
+        "20년 남짓의 존재 기간 동안 펠리컨스는 부상을 피하는 데 믿을 수 없을 정도로 힘든 시간을 보냈습니다.",
+        "지난 3년 동안 뉴올리언스는 선수 부상으로 인해 753경기를 잃었습니다. 이는 팀 평균 패배 경기보다 약간 높은 수치입니다.",
+        "Zion이 2년 만에 가장 많은 시간을 뛰는 것을 포함하여 이례적으로 강한 건강 행진에도 불구하고 New Orleans는 18-42 기록으로 서부에서 14위를 기록했습니다.",
+        "그들은 41.8 림 빈도를 기록했는데, 이는 리그 선두의 loc eFG%를 달성한 21 Pelicans 이후 가장 높은 팀 림 비율입니다.",
+        "6개의 Pelicans는 작년에 게임당 평균 최소 1개의 아이솔레이션 FGA를 기록했으며, 이 정도까지 아이솔레이션 생성을 민주화한 리그 내 유일한 팀으로 마이애미와 필라델피아에 합류했습니다."
+      ]
     },
     {
       "title": "Unlike what rumors say, a Pelicans legend Lonzo Ball is NOT retiring and is in fact still waiting for a call!",
@@ -5583,7 +5640,8 @@
       "summary_source": "article_body",
       "access": "public",
       "relevance_verified": true,
-      "relevance_checked_at": "2026-10-20T13:11:09.067463Z",
+      "relevance_policy": 2,
+      "relevance_checked_at": "2026-10-20T13:34:33.311656Z",
       "body_characters": 17693,
       "status": "ready",
       "title_ko": "프로 스카우트 철학",
@@ -5646,7 +5704,8 @@
       "summary_source": "article_body",
       "access": "public",
       "relevance_verified": true,
-      "relevance_checked_at": "2026-10-20T13:11:09.067463Z",
+      "relevance_policy": 2,
+      "relevance_checked_at": "2026-10-20T13:34:33.311656Z",
       "body_characters": 2871,
       "status": "ready",
       "title_ko": "모든 NBA 팀에 대해 긍정적인 점, Pt.\nII",
@@ -5657,62 +5716,6 @@
         "바닥에 0이 없는 것에는 가치가 있습니다(그리고 그것은 Jeremiah Fears의 농담일 뿐입니다).",
         "일전에 돈을 깎는 거래를 한 후에도 펠리컨들은 여전히 ​​불안합니다."
       ]
-    },
-    {
-      "kind": "article",
-      "source_id": "poetry",
-      "source": "Basketball Poetry",
-      "url": "https://www.basketballpoetry.com/p/examining-wins-and-salaries-by-player",
-      "title": "Examining wins and salaries by player age bands",
-      "author": "Mike Shearer",
-      "published": "2026-08-25T15:30:33.446000Z",
-      "thumbnail": "",
-      "summary_original": [
-        "Schwartz’s wrath — somewhat hilariously misplaced, given that his agency managed to nab DeAndre Jordan two guaranteed years from the New Orleans Pelicans and Khris Middleton three years and a partially-guaranteed $18 million from the Wizards, among others — did pique my curiosity.",
-        "When viewed in the aggregate, did the league spend on vets in 2025-26?"
-      ],
-      "summary_source": "article_body",
-      "access": "public",
-      "relevance_verified": true,
-      "relevance_checked_at": "2026-10-20T13:11:09.067463Z",
-      "body_characters": 721,
-      "status": "ready",
-      "title_ko": "선수 연령대별 승률과 연봉 조사",
-      "summary_ko": [
-        "슈워츠의 분노는 - 그의 회사가 뉴올리언스 펠리컨스로부터 2년 보장된 디안드레 조던과 3년 보장된 크리스 미들턴, 위저즈로부터 1,800만 달러를 부분적으로 보장받은 등의 점을 감안할 때 다소 웃기게도 잘못된 위치에 있었습니다 - 내 호기심을 자극했습니다.",
-        "전체적으로 볼 때 리그가 2025-26년에 수의사에 지출했습니까?"
-      ]
-    },
-    {
-      "kind": "article",
-      "source_id": "swish",
-      "source": "Swish Theory",
-      "url": "https://theswishtheory.com/analysis/2026/08/simulating-size-tyler-tanner-and-chance-mallory",
-      "title": "Tyler Tanner, by Lukas Spinnler",
-      "author": "Swish Theory",
-      "published": "2026-08-19T16:39:26Z",
-      "thumbnail": "",
-      "summary_original": [
-        "It would be in the best interest of practically every other player his size on the planet to get back on defense here: what more could such a small player do to contribute here?",
-        "Instead (you could probably sense this coming), Mallory slowly creeps in for the offensive rebound.",
-        "He times his jump perfectly, somehow winning an aerial duel against 6’6 Dayton guard Keonte Jones, snatching the ball away at the apex of his leap.",
-        "Mallory’s offensive rebounding is a surefire indicator of his unique blend of spatial processing and physicality.",
-        "(On the 2023 Under Armor Circuit, Mallory had the second-most total rebounds for a strong Team Thrill, only trailing now-Pelicans forward Derik Queen.)"
-      ],
-      "summary_source": "article_body",
-      "access": "public",
-      "relevance_verified": true,
-      "relevance_checked_at": "2026-10-20T13:11:09.067463Z",
-      "body_characters": 30956,
-      "status": "ready",
-      "title_ko": "타일러 태너(Lukas Spinnler)",
-      "summary_ko": [
-        "여기서 수비에 복귀하는 것은 지구상의 거의 모든 다른 플레이어에게 가장 큰 이익이 될 것입니다. 이렇게 작은 플레이어가 여기서 기여하기 위해 무엇을 더 할 수 있을까요?",
-        "대신(아마도 이것이 다가오는 것을 느낄 수 있을 것입니다) 말로리는 공격 리바운드를 위해 천천히 기어들어옵니다.",
-        "그는 점프 시간을 완벽하게 맞추었고, 어떻게든 6'6 데이턴 가드 Keonte Jones와의 공중 결투에서 승리하여 도약의 정점에서 공을 낚아챘습니다.",
-        "Mallory의 공격 리바운드는 공간 처리와 신체성이 독특하게 혼합되어 있음을 보여주는 확실한 지표입니다.",
-        "(2023 Under Armour Circuit에서 Mallory는 강력한 Team Thrill에서 두 번째로 많은 총 리바운드를 기록했으며 현재 Pelicans 포워드 Derik Queen에 뒤처졌습니다.)"
-      ]
     }
   ],
   "reddit_scan": {
@@ -5722,25 +5725,25 @@
   "channels": {
     "youtube": {
       "state": "ready",
-      "checked_at": "2026-10-20T13:12:22.796556Z",
-      "count": 79,
-      "summarized": 16,
+      "checked_at": "2026-10-20T13:35:07.715292Z",
+      "count": 81,
+      "summarized": 17,
       "message": "매일 09:00·18:00에 펠리컨스 영상을 검색합니다. 자막 또는 영상 설명에서 핵심 내용 3개 이상을 한국어로 제공합니다."
     },
     "article": {
       "state": "partial",
-      "checked_at": "2026-10-20T13:11:09.067463Z",
-      "count": 8,
-      "pending": 7,
+      "checked_at": "2026-10-20T13:34:33.311656Z",
+      "count": 6,
+      "pending": 3,
       "retention_days": 90,
-      "message": "선택한 5개 소스의 최근 90일 글 중 본문에서 펠리컨스 관련 내용을 확인한 아티클입니다. 수집 지연: In The N.O.. 본문·발행일 확인 대기 7건은 다음 수집에서 이어서 확인합니다. 90일 글 목록 추가 확인 중: In The N.O..",
+      "message": "선택한 5개 소스의 최근 90일 글 중 본문에서 펠리컨스 관련 내용을 확인한 아티클입니다. 수집 지연: In The N.O.. 본문·발행일 확인 대기 3건은 다음 수집에서 이어서 확인합니다. 90일 글 목록 추가 확인 중: In The N.O..",
       "sources": [
         {
           "id": "hardwood",
           "name": "The Hardwood Collective",
-          "count": 0,
-          "checked_at": "2026-10-20T13:11:09.067463Z",
-          "discovered": 87,
+          "count": 1,
+          "checked_at": "2026-10-20T13:34:33.311656Z",
+          "discovered": 83,
           "errors": [
             "rss: HTTP 404",
             "rss: HTTP 404"
@@ -5752,7 +5755,7 @@
           "name": "In The N.O.",
           "count": 0,
           "backfill_pending": true,
-          "checked_at": "2026-10-20T13:11:09.067463Z",
+          "checked_at": "2026-10-20T13:34:33.311656Z",
           "discovered": 0,
           "errors": [
             "list: HTTP 403",
@@ -5764,10 +5767,10 @@
         {
           "id": "poetry",
           "name": "Basketball Poetry",
-          "count": 5,
+          "count": 3,
           "archive_offset": 0,
           "backfill_pending": false,
-          "checked_at": "2026-10-20T13:11:09.067463Z",
+          "checked_at": "2026-10-20T13:34:33.311656Z",
           "discovered": 23,
           "errors": [],
           "state": "ready"
@@ -5775,10 +5778,10 @@
         {
           "id": "swish",
           "name": "Swish Theory",
-          "count": 2,
+          "count": 1,
           "archive_offset": 0,
           "backfill_pending": false,
-          "checked_at": "2026-10-20T13:11:09.067463Z",
+          "checked_at": "2026-10-20T13:34:33.311656Z",
           "discovered": 10,
           "errors": [],
           "state": "ready"
@@ -5789,7 +5792,7 @@
           "count": 1,
           "archive_offset": 0,
           "backfill_pending": false,
-          "checked_at": "2026-10-20T13:11:09.067463Z",
+          "checked_at": "2026-10-20T13:34:33.311656Z",
           "discovered": 23,
           "errors": [],
           "state": "ready"
@@ -5808,8 +5811,8 @@
   "article_state": {
     "sources": {
       "hardwood": {
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "discovered": 87,
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "discovered": 83,
         "errors": [
           "rss: HTTP 404",
           "rss: HTTP 404"
@@ -5818,7 +5821,7 @@
       },
       "intheno": {
         "backfill_pending": true,
-        "checked_at": "2026-10-20T13:11:09.067463Z",
+        "checked_at": "2026-10-20T13:34:33.311656Z",
         "discovered": 0,
         "errors": [
           "list: HTTP 403",
@@ -5830,7 +5833,7 @@
       "poetry": {
         "archive_offset": 0,
         "backfill_pending": false,
-        "checked_at": "2026-10-20T13:11:09.067463Z",
+        "checked_at": "2026-10-20T13:34:33.311656Z",
         "discovered": 23,
         "errors": [],
         "state": "ready"
@@ -5838,7 +5841,7 @@
       "swish": {
         "archive_offset": 0,
         "backfill_pending": false,
-        "checked_at": "2026-10-20T13:11:09.067463Z",
+        "checked_at": "2026-10-20T13:34:33.311656Z",
         "discovered": 10,
         "errors": [],
         "state": "ready"
@@ -5846,7 +5849,7 @@
       "noceilings": {
         "archive_offset": 0,
         "backfill_pending": false,
-        "checked_at": "2026-10-20T13:11:09.067463Z",
+        "checked_at": "2026-10-20T13:34:33.311656Z",
         "discovered": 23,
         "errors": [],
         "state": "ready"
@@ -5854,731 +5857,1367 @@
     },
     "checks": {
       "https://theswishtheory.com/analysis/2026/08/simulating-size-tyler-tanner-and-chance-mallory": {
-        "result": "included",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "swish"
+        "result": "unrelated",
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "swish",
+        "published": "2026-08-19T16:39:26",
+        "body_characters": 30956,
+        "canonical_url": "",
+        "document_title": "Tyler Tanner, by Lukas Spinnler",
+        "topic_mentions": 2
       },
       "https://www.basketballpoetry.com/p/examining-wins-and-salaries-by-player": {
-        "result": "included",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "poetry"
+        "result": "unrelated",
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "poetry",
+        "published": "2026-08-25T15:30:33.446Z",
+        "body_characters": 721,
+        "canonical_url": "",
+        "document_title": "Examining wins and salaries by player age bands",
+        "topic_mentions": 2
       },
       "https://www.basketballpoetry.com/p/something-positive-about-every-nba-360": {
         "result": "included",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "poetry"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "poetry",
+        "published": "2026-09-09T15:26:30.187Z",
+        "body_characters": 2871,
+        "canonical_url": "",
+        "document_title": "Something positive about every NBA team, Pt. II",
+        "topic_mentions": 8
       },
       "https://theswishtheory.com/analysis/2026/09/the-pro-scouting-philosophy": {
         "result": "included",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "swish"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "swish",
+        "published": "2026-09-10T15:54:05",
+        "body_characters": 17693,
+        "canonical_url": "",
+        "document_title": "The Pro Scouting Philosophy",
+        "topic_mentions": 4
       },
       "https://www.basketballpoetry.com/p/predicting-the-nbas-top-10-defenses": {
-        "result": "included",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "poetry"
+        "result": "unrelated",
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "poetry",
+        "published": "2026-09-25T15:19:01.004Z",
+        "body_characters": 16241,
+        "canonical_url": "",
+        "document_title": "Predicting the NBA’s Top 10 Defenses for 2026-27",
+        "topic_mentions": 1
       },
       "https://www.basketballpoetry.com/p/nba-league-pass-rankings-for-2026": {
         "result": "included",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "poetry"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "poetry",
+        "published": "2026-10-02T17:40:20.448Z",
+        "body_characters": 16406,
+        "canonical_url": "",
+        "document_title": "NBA League Pass Rankings for 2026-27, Part I",
+        "topic_mentions": 6
       },
       "https://www.basketballpoetry.com/p/14-unlikely-but-plausible-predictions": {
         "result": "included",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "poetry"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "poetry",
+        "published": "2026-10-09T12:31:52.739Z",
+        "body_characters": 10720,
+        "canonical_url": "",
+        "document_title": "14 unlikely-but-plausible predictions for the 2026-27 NBA season",
+        "topic_mentions": 2
       },
       "https://www.basketballpoetry.com/p/sion-james-and-the-competitive-advantage": {
         "result": "unrelated",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "poetry"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "poetry",
+        "published": "2026-10-13T12:03:15.630Z",
+        "body_characters": 7243,
+        "canonical_url": "",
+        "document_title": "Sion James and the competitive advantage of integrity",
+        "topic_mentions": 1
       },
       "https://www.noceilingsnba.com/p/2027-nba-mock-draft-v1": {
         "result": "included",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "noceilings"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "noceilings",
+        "published": "2026-10-14T13:03:20.555Z",
+        "body_characters": 29803,
+        "canonical_url": "",
+        "document_title": "2027 NBA Mock Draft V.1",
+        "topic_mentions": 3
       },
       "https://thehardwoodcollective.com/articles/30-teams-30-days-washington-wizards-2027-season-preview-copy": {
         "result": "unrelated",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2026-10-20T01:56:21.185Z",
+        "body_characters": 33250,
+        "canonical_url": "https://thehardwoodcollective.com/articles/30-teams-30-days-washington-wizards-2027-season-preview-copy",
+        "document_title": "30 teams, 30 days: Washington Wizards | 2027 Season Preview",
+        "topic_mentions": 0
       },
       "https://thehardwoodcollective.com/articles/30-teams-30-days-cleveland-cavaliers-2027-season-preview-copy": {
         "result": "unrelated",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2026-10-17T21:05:25.370Z",
+        "body_characters": 35239,
+        "canonical_url": "https://thehardwoodcollective.com/articles/30-teams-30-days-cleveland-cavaliers-2027-season-preview-copy",
+        "document_title": "30 teams, 30 days: Cleveland Cavaliers | 2027 Season Preview",
+        "topic_mentions": 1
       },
       "https://thehardwoodcollective.com/articles/30-teams-30-days-los-angeles-clippers-2027-season-preview-copy": {
         "result": "unrelated",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2026-10-16T03:42:55.906Z",
+        "body_characters": 27386,
+        "canonical_url": "https://thehardwoodcollective.com/articles/30-teams-30-days-los-angeles-clippers-2027-season-preview-copy",
+        "document_title": "30 teams, 30 days: Los Angeles Clippers | 2027 Season Preview",
+        "topic_mentions": 0
       },
       "https://thehardwoodcollective.com/articles/30-teams-30-days-chicago-bulls-2027-season-preview-copy-copy": {
         "result": "unrelated",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2026-10-08T19:29:11.284Z",
+        "body_characters": 22681,
+        "canonical_url": "https://thehardwoodcollective.com/articles/30-teams-30-days-chicago-bulls-2027-season-preview-copy-copy",
+        "document_title": "30 teams, 30 days: Chicago Bulls | 2027 Season Preview",
+        "topic_mentions": 2
       },
       "https://thehardwoodcollective.com/articles/30-teams-30-days-minnesota-timberwolves-2027-season-preview": {
         "result": "unrelated",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
-      },
-      "https://thehardwoodcollective.com/articles/nba": {
-        "result": "undated",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
-      },
-      "https://thehardwoodcollective.com/articles/wnba": {
-        "result": "undated",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
-      },
-      "https://thehardwoodcollective.com/articles/ncaa": {
-        "result": "undated",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
-      },
-      "https://thehardwoodcollective.com/articles/grassroots": {
-        "result": "undated",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2026-10-06T19:10:40.343Z",
+        "body_characters": 27510,
+        "canonical_url": "https://thehardwoodcollective.com/articles/30-teams-30-days-minnesota-timberwolves-2027-season-preview",
+        "document_title": "30 teams, 30 days: Minnesota Timberwolves | 2027 Season Preview",
+        "topic_mentions": 0
       },
       "https://thehardwoodcollective.com/articles/stirtz-draft-notes-v2": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2026-06-21T23:02:55.397Z",
+        "body_characters": 13368,
+        "canonical_url": "https://thehardwoodcollective.com/articles/stirtz-draft-notes-v2",
+        "document_title": "Draft Notes: Bennett Stirtz",
+        "topic_mentions": 0
       },
       "https://thehardwoodcollective.com/articles/2026-draft-philosophy-and-final-board": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2026-06-17T15:00:00.000Z",
+        "body_characters": 22770,
+        "canonical_url": "https://thehardwoodcollective.com/articles/2026-draft-philosophy-and-final-board",
+        "document_title": "2026 Draft Philosophy and Final Board",
+        "topic_mentions": 0
       },
       "https://thehardwoodcollective.com/articles/game-over-long-term-outlooks-of-sharife-cooper-jarred-vanderbilt-trayce-jackson-davis-and-more-of-basketball-s-forgotten": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2026-06-12T23:00:00.000Z",
+        "body_characters": 27007,
+        "canonical_url": "https://thehardwoodcollective.com/articles/game-over-long-term-outlooks-of-sharife-cooper-jarred-vanderbilt-trayce-jackson-davis-and-more-of-basketball-s-forgotten",
+        "document_title": "Game Over? Long-Term Outlooks of Sharife Cooper, Jarred Vanderbilt, Trayce Jackson-Davis, and More of Basketball's Forgotten Prospects",
+        "topic_mentions": 1
       },
       "https://thehardwoodcollective.com/articles/the-anomalous-mutability-of-kingston-flemings": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2026-06-03T04:42:50.000Z",
+        "body_characters": 27612,
+        "canonical_url": "https://thehardwoodcollective.com/articles/the-anomalous-mutability-of-kingston-flemings",
+        "document_title": "The Anomalous Mutability of Kingston Flemings",
+        "topic_mentions": 0
       },
       "https://thehardwoodcollective.com/articles/2001-born-basketball-age-ranking-notes-featuring-franz-wagner-anthony-edwards-and-lamelo-ball-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2026-05-29T17:46:00.489Z",
+        "body_characters": 19312,
+        "canonical_url": "https://thehardwoodcollective.com/articles/2001-born-basketball-age-ranking-notes-featuring-franz-wagner-anthony-edwards-and-lamelo-ball-legacy",
+        "document_title": "2001-Born Basketball Age Ranking Notes, featuring Franz Wagner, Anthony Edwards, and LaMelo Ball",
+        "topic_mentions": 0
       },
       "https://thehardwoodcollective.com/articles/hawks-pbp-tracking-initial": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2026-04-15T13:57:29.749Z",
+        "body_characters": 14258,
+        "canonical_url": "https://thehardwoodcollective.com/articles/hawks-pbp-tracking-initial",
+        "document_title": "Hand-Tracking the 2025-26 Atlanta Hawks Offense",
+        "topic_mentions": 0
       },
       "https://thehardwoodcollective.com/articles/193335060-a-quick-primer-on-skill-singularity-legacy-morzop3a": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2026-05-05T02:08:31.754Z",
+        "body_characters": 15752,
+        "canonical_url": "https://thehardwoodcollective.com/articles/193335060-a-quick-primer-on-skill-singularity-legacy-morzop3a",
+        "document_title": "A Primer on Skill Singularity",
+        "topic_mentions": 0
       },
       "https://thehardwoodcollective.com/articles/hand-tracking-the-2025-26-atlanta-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2026-03-10T21:39:59.824Z",
+        "body_characters": 12959,
+        "canonical_url": "https://thehardwoodcollective.com/articles/hand-tracking-the-2025-26-atlanta-legacy",
+        "document_title": "Hand-Tracking the 2025-26 Atlanta Hawks Offense",
+        "topic_mentions": 0
       },
       "https://thehardwoodcollective.com/articles/zaccharie-risacher-is-exactly-where-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2026-02-24T22:28:49.079Z",
+        "body_characters": 19194,
+        "canonical_url": "https://thehardwoodcollective.com/articles/zaccharie-risacher-is-exactly-where-legacy",
+        "document_title": "Zaccharie Risacher Is Exactly Where We Should Have Expected | A Retrospective",
+        "topic_mentions": 1
       },
       "https://thehardwoodcollective.com/articles/a-domain-expansion-for-the-5th-factor-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2026-02-21T22:21:15.601Z",
+        "body_characters": 10070,
+        "canonical_url": "https://thehardwoodcollective.com/articles/a-domain-expansion-for-the-5th-factor-legacy",
+        "document_title": "A Domain Expansion for The 5th Factor | Widening the Scope of NBA Draft Analysis",
+        "topic_mentions": 0
       },
       "https://thehardwoodcollective.com/articles/the-many-magicians-of-orlando-the-origins-and-predictive-value-of-jeff-weltman-s-teambuilding-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2026-01-16T22:20:36.459Z",
+        "body_characters": 15314,
+        "canonical_url": "https://thehardwoodcollective.com/articles/the-many-magicians-of-orlando-the-origins-and-predictive-value-of-jeff-weltman-s-teambuilding-legacy",
+        "document_title": "The Many Magicians of Orlando: The Origins and Predictive Value of Jeff Weltman’s Teambuilding…",
+        "topic_mentions": 0
       },
       "https://thehardwoodcollective.com/articles/dread-it-run-from-it-conference-play-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2026-01-08T16:03:07.876Z",
+        "body_characters": 26198,
+        "canonical_url": "https://thehardwoodcollective.com/articles/dread-it-run-from-it-conference-play-legacy",
+        "document_title": "Dread It, Run From It, Conference Play Arrives All The Same | Part 1",
+        "topic_mentions": 0
       },
       "https://thehardwoodcollective.com/articles/to-what-extent-should-we-value-collegiate-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2025-12-30T03:28:15.581Z",
+        "body_characters": 24026,
+        "canonical_url": "https://thehardwoodcollective.com/articles/to-what-extent-should-we-value-collegiate-legacy",
+        "document_title": "To What Extent Should We Value Collegiate Production? | Exploring the Predictive Power of a New Way to Scout NBA Draft Prospects",
+        "topic_mentions": 0
       },
       "https://thehardwoodcollective.com/articles/my-perfect-prospect-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2025-12-01T16:11:02.058Z",
+        "body_characters": 18300,
+        "canonical_url": "https://thehardwoodcollective.com/articles/my-perfect-prospect-legacy",
+        "document_title": "My Perfect Prospect",
+        "topic_mentions": 0
       },
       "https://thehardwoodcollective.com/articles/hawks-vs-spurs-preview-game-16-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2025-11-21T01:09:23.519Z",
+        "body_characters": 4152,
+        "canonical_url": "https://thehardwoodcollective.com/articles/hawks-vs-spurs-preview-game-16-legacy",
+        "document_title": "Hawks vs Spurs Preview: Game 16",
+        "topic_mentions": 0
       },
       "https://thehardwoodcollective.com/articles/hawks-vs-pistons-preview-game-15-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2025-11-19T00:18:04.190Z",
+        "body_characters": 5395,
+        "canonical_url": "https://thehardwoodcollective.com/articles/hawks-vs-pistons-preview-game-15-legacy",
+        "document_title": "Hawks vs Pistons Preview: Game 15",
+        "topic_mentions": 0
       },
       "https://thehardwoodcollective.com/articles/machine-gun-mississippi-state-s-josh-hubbard-and-his-imminent-nba-success-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2025-11-17T16:18:01.571Z",
+        "body_characters": 11549,
+        "canonical_url": "https://thehardwoodcollective.com/articles/machine-gun-mississippi-state-s-josh-hubbard-and-his-imminent-nba-success-legacy",
+        "document_title": "Machine Gun: Mississippi State’s Josh Hubbard and his Imminent NBA Success",
+        "topic_mentions": 0
       },
       "https://thehardwoodcollective.com/articles/nuggets-vs-wolves-matchup-preview-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2025-11-16T00:34:54.376Z",
+        "body_characters": 6078,
+        "canonical_url": "https://thehardwoodcollective.com/articles/nuggets-vs-wolves-matchup-preview-legacy",
+        "document_title": "Nuggets vs Wolves Matchup Preview",
+        "topic_mentions": 1
       },
       "https://thehardwoodcollective.com/articles/warriors-vs-spurs-matchup-preview-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2025-11-15T01:05:59.336Z",
+        "body_characters": 5177,
+        "canonical_url": "https://thehardwoodcollective.com/articles/warriors-vs-spurs-matchup-preview-legacy",
+        "document_title": "Warriors vs Spurs Matchup Preview",
+        "topic_mentions": 0
       },
       "https://thehardwoodcollective.com/articles/hawks-matchup-preview-game-13-vs-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2025-11-14T00:30:47.012Z",
+        "body_characters": 6135,
+        "canonical_url": "https://thehardwoodcollective.com/articles/hawks-matchup-preview-game-13-vs-legacy",
+        "document_title": "Hawks Matchup Preview: Game 13 vs the Jazz",
+        "topic_mentions": 0
       },
       "https://thehardwoodcollective.com/articles/hawks-matchup-preview-game-12-vs-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2025-11-13T01:33:19.916Z",
+        "body_characters": 5444,
+        "canonical_url": "https://thehardwoodcollective.com/articles/hawks-matchup-preview-game-12-vs-legacy",
+        "document_title": "Hawks Matchup Preview: Game 12 vs the Kings",
+        "topic_mentions": 0
       },
       "https://thehardwoodcollective.com/articles/the-exhaustive-2026-nba-draft-watchlist-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2025-11-10T22:30:19.616Z",
+        "body_characters": 36748,
+        "canonical_url": "https://thehardwoodcollective.com/articles/the-exhaustive-2026-nba-draft-watchlist-legacy",
+        "document_title": "The *Exhaustive* 2026 NBA Draft Watchlist",
+        "topic_mentions": 1
       },
       "https://thehardwoodcollective.com/articles/hawks-matchup-preview-game-9-vs-the-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2025-11-08T00:45:51.976Z",
+        "body_characters": 4358,
+        "canonical_url": "https://thehardwoodcollective.com/articles/hawks-matchup-preview-game-9-vs-the-legacy",
+        "document_title": "Hawks Matchup Preview: Game 9 vs the Raptors",
+        "topic_mentions": 0
       },
       "https://thehardwoodcollective.com/articles/matchup-preview-lakers-vs-spurs-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2025-11-06T00:45:32.418Z",
+        "body_characters": 5733,
+        "canonical_url": "https://thehardwoodcollective.com/articles/matchup-preview-lakers-vs-spurs-legacy",
+        "document_title": "Matchup Preview: Lakers vs Spurs",
+        "topic_mentions": 0
       },
       "https://thehardwoodcollective.com/articles/hawks-matchup-preview-game-8-vs-orlando-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2025-11-04T22:58:01.493Z",
+        "body_characters": 7852,
+        "canonical_url": "https://thehardwoodcollective.com/articles/hawks-matchup-preview-game-8-vs-orlando-legacy",
+        "document_title": "Hawks Matchup Preview: Game 8 vs Orlando",
+        "topic_mentions": 0
       },
       "https://thehardwoodcollective.com/articles/hawks-matchup-preview-game-7-cleveland-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2025-11-02T17:35:42.410Z",
+        "body_characters": 5846,
+        "canonical_url": "https://thehardwoodcollective.com/articles/hawks-matchup-preview-game-7-cleveland-legacy",
+        "document_title": "Hawks Matchup Preview: Game 7 @ Cleveland",
+        "topic_mentions": 0
       },
       "https://thehardwoodcollective.com/articles/hawks-matchup-preview-game-6-indiana-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2025-10-31T22:25:29.520Z",
+        "body_characters": 4974,
+        "canonical_url": "https://thehardwoodcollective.com/articles/hawks-matchup-preview-game-6-indiana-legacy",
+        "document_title": "Hawks Matchup Preview: Game 6 @ Indiana",
+        "topic_mentions": 0
       },
       "https://thehardwoodcollective.com/articles/hawks-matchup-preview-game-5-brooklyn-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2025-10-29T21:53:26.336Z",
+        "body_characters": 4802,
+        "canonical_url": "https://thehardwoodcollective.com/articles/hawks-matchup-preview-game-5-brooklyn-legacy",
+        "document_title": "Hawks Matchup Preview: Game 5 @ Brooklyn",
+        "topic_mentions": 0
       },
       "https://thehardwoodcollective.com/articles/matchup-preview-hornets-v-heat-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2025-10-28T21:28:15.957Z",
+        "body_characters": 7187,
+        "canonical_url": "https://thehardwoodcollective.com/articles/matchup-preview-hornets-v-heat-legacy",
+        "document_title": "Matchup Preview: Hornets v Heat",
+        "topic_mentions": 0
       },
       "https://thehardwoodcollective.com/articles/hawks-matchup-preview-game-4-bulls-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2025-10-27T19:10:48.947Z",
+        "body_characters": 7504,
+        "canonical_url": "https://thehardwoodcollective.com/articles/hawks-matchup-preview-game-4-bulls-legacy",
+        "document_title": "Hawks Matchup Preview: Game 4 @ Bulls",
+        "topic_mentions": 0
       },
       "https://thehardwoodcollective.com/articles/30-teams-30-days-atlanta-hawks-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2025-10-21T01:53:22.066Z",
+        "body_characters": 13315,
+        "canonical_url": "https://thehardwoodcollective.com/articles/30-teams-30-days-atlanta-hawks-legacy",
+        "document_title": "30 teams, 30 days: Atlanta Hawks | 2026 Season Preview",
+        "topic_mentions": 2
       },
       "https://thehardwoodcollective.com/articles/30-teams-30-days-detroit-pistons-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2025-10-21T01:37:46.487Z",
+        "body_characters": 9796,
+        "canonical_url": "https://thehardwoodcollective.com/articles/30-teams-30-days-detroit-pistons-legacy",
+        "document_title": "30 teams, 30 days: Detroit Pistons | 2026 Season Preview",
+        "topic_mentions": 0
       },
       "https://thehardwoodcollective.com/articles/30-teams-30-days-los-angeles-lakers-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2025-10-21T01:37:35.014Z",
+        "body_characters": 9777,
+        "canonical_url": "https://thehardwoodcollective.com/articles/30-teams-30-days-los-angeles-lakers-legacy",
+        "document_title": "30 teams, 30 days: Los Angeles Lakers | 2026 Season Preview",
+        "topic_mentions": 0
       },
       "https://thehardwoodcollective.com/articles/30-teams-30-days-los-angeles-clippers-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2025-10-21T01:37:23.615Z",
+        "body_characters": 10187,
+        "canonical_url": "https://thehardwoodcollective.com/articles/30-teams-30-days-los-angeles-clippers-legacy",
+        "document_title": "30 teams, 30 days: Los Angeles Clippers | 2026 Season Preview",
+        "topic_mentions": 0
       },
       "https://thehardwoodcollective.com/articles/30-teams-30-days-sacramento-kings-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2025-10-21T01:37:11.405Z",
+        "body_characters": 10186,
+        "canonical_url": "https://thehardwoodcollective.com/articles/30-teams-30-days-sacramento-kings-legacy",
+        "document_title": "30 teams, 30 days: Sacramento Kings | 2026 Season Preview",
+        "topic_mentions": 0
       },
       "https://thehardwoodcollective.com/articles/30-teams-30-days-cleveland-cavaliers-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2025-10-21T01:36:57.276Z",
+        "body_characters": 10555,
+        "canonical_url": "https://thehardwoodcollective.com/articles/30-teams-30-days-cleveland-cavaliers-legacy",
+        "document_title": "30 teams, 30 days: Cleveland Cavaliers | 2026 Season Preview",
+        "topic_mentions": 0
       },
       "https://thehardwoodcollective.com/articles/30-teams-30-days-milwaukee-bucks-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2025-10-21T01:36:43.576Z",
+        "body_characters": 10821,
+        "canonical_url": "https://thehardwoodcollective.com/articles/30-teams-30-days-milwaukee-bucks-legacy",
+        "document_title": "30 teams, 30 days: Milwaukee Bucks | 2026 Season Preview",
+        "topic_mentions": 0
       },
       "https://thehardwoodcollective.com/articles/30-teams-30-days-dallas-mavericks-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2025-10-21T01:36:30.474Z",
+        "body_characters": 10773,
+        "canonical_url": "https://thehardwoodcollective.com/articles/30-teams-30-days-dallas-mavericks-legacy",
+        "document_title": "30 teams, 30 days: Dallas Mavericks | 2026 Season Preview",
+        "topic_mentions": 0
       },
       "https://thehardwoodcollective.com/articles/30-teams-30-days-golden-state-warriors-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2025-10-21T01:36:17.609Z",
+        "body_characters": 11720,
+        "canonical_url": "https://thehardwoodcollective.com/articles/30-teams-30-days-golden-state-warriors-legacy",
+        "document_title": "30 teams, 30 days: Golden State Warriors | 2026 Season Preview",
+        "topic_mentions": 0
       },
       "https://thehardwoodcollective.com/articles/30-teams-30-days-miami-heat-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2025-10-21T01:36:02.382Z",
+        "body_characters": 10029,
+        "canonical_url": "https://thehardwoodcollective.com/articles/30-teams-30-days-miami-heat-legacy",
+        "document_title": "30 teams, 30 days: Miami Heat | 2026 Season Preview",
+        "topic_mentions": 0
       },
       "https://thehardwoodcollective.com/articles/30-teams-30-days-boston-celtics-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2025-10-21T01:35:51.680Z",
+        "body_characters": 11930,
+        "canonical_url": "https://thehardwoodcollective.com/articles/30-teams-30-days-boston-celtics-legacy",
+        "document_title": "30 teams, 30 days: Boston Celtics | 2026 Season Preview",
+        "topic_mentions": 0
       },
       "https://thehardwoodcollective.com/articles/30-teams-30-days-memphis-grizzlies-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2025-10-21T01:35:39.039Z",
+        "body_characters": 11779,
+        "canonical_url": "https://thehardwoodcollective.com/articles/30-teams-30-days-memphis-grizzlies-legacy",
+        "document_title": "30 teams, 30 days: Memphis Grizzlies | 2026 Season Preview",
+        "topic_mentions": 0
       },
       "https://thehardwoodcollective.com/articles/30-teams-30-days-minnesota-timberwolves-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2025-10-21T01:35:26.671Z",
+        "body_characters": 12654,
+        "canonical_url": "https://thehardwoodcollective.com/articles/30-teams-30-days-minnesota-timberwolves-legacy",
+        "document_title": "30 teams, 30 days: Minnesota Timberwolves | 2026 Season Preview",
+        "topic_mentions": 0
       },
       "https://thehardwoodcollective.com/articles/30-teams-30-days-indiana-pacers-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2025-10-21T01:35:13.696Z",
+        "body_characters": 9261,
+        "canonical_url": "https://thehardwoodcollective.com/articles/30-teams-30-days-indiana-pacers-legacy",
+        "document_title": "30 teams, 30 days: Indiana Pacers | 2026 Season Preview",
+        "topic_mentions": 0
       },
       "https://thehardwoodcollective.com/articles/30-teams-30-days-orlando-magic-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2025-10-21T01:34:59.931Z",
+        "body_characters": 12571,
+        "canonical_url": "https://thehardwoodcollective.com/articles/30-teams-30-days-orlando-magic-legacy",
+        "document_title": "30 teams, 30 days: Orlando Magic | 2026 Season Preview",
+        "topic_mentions": 0
       },
       "https://thehardwoodcollective.com/articles/30-teams-30-days-denver-nuggets-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2025-10-21T01:34:42.416Z",
+        "body_characters": 12622,
+        "canonical_url": "https://thehardwoodcollective.com/articles/30-teams-30-days-denver-nuggets-legacy",
+        "document_title": "30 teams, 30 days: Denver Nuggets | 2026 Season Preview",
+        "topic_mentions": 0
       },
       "https://thehardwoodcollective.com/articles/30-teams-30-days-phoenix-suns-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2025-10-21T01:34:28.078Z",
+        "body_characters": 11972,
+        "canonical_url": "https://thehardwoodcollective.com/articles/30-teams-30-days-phoenix-suns-legacy",
+        "document_title": "30 teams, 30 days: Phoenix Suns | 2026 Season Preview",
+        "topic_mentions": 0
       },
       "https://thehardwoodcollective.com/articles/30-teams-30-days-brooklyn-nets-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2025-10-21T01:34:03.761Z",
+        "body_characters": 10103,
+        "canonical_url": "https://thehardwoodcollective.com/articles/30-teams-30-days-brooklyn-nets-legacy",
+        "document_title": "30 teams, 30 days: Brooklyn Nets | 2026 Season Preview",
+        "topic_mentions": 0
       },
       "https://thehardwoodcollective.com/articles/30-teams-30-days-washington-wizards-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2025-10-21T01:31:23.799Z",
+        "body_characters": 10699,
+        "canonical_url": "https://thehardwoodcollective.com/articles/30-teams-30-days-washington-wizards-legacy",
+        "document_title": "30 teams, 30 days: Washington Wizards | 2026 Season Preview",
+        "topic_mentions": 0
       },
       "https://thehardwoodcollective.com/articles/30-teams-30-days-utah-jazz-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2025-10-21T01:31:06.165Z",
+        "body_characters": 9011,
+        "canonical_url": "https://thehardwoodcollective.com/articles/30-teams-30-days-utah-jazz-legacy",
+        "document_title": "30 teams, 30 days: Utah Jazz | 2026 Season Preview",
+        "topic_mentions": 0
       },
       "https://thehardwoodcollective.com/articles/30-teams-30-days-new-orleans-pelicans-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2025-10-21T01:30:44.874Z",
+        "body_characters": 9201,
+        "canonical_url": "https://thehardwoodcollective.com/articles/30-teams-30-days-new-orleans-pelicans-legacy",
+        "document_title": "30 teams, 30 days: New Orleans Pelicans | 2026 Season Preview",
+        "topic_mentions": 25
       },
       "https://thehardwoodcollective.com/articles/30-teams-30-days-charlotte-hornets-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2025-10-21T01:30:26.189Z",
+        "body_characters": 10305,
+        "canonical_url": "https://thehardwoodcollective.com/articles/30-teams-30-days-charlotte-hornets-legacy",
+        "document_title": "30 teams, 30 days: Charlotte Hornets | 2026 Season Preview",
+        "topic_mentions": 2
       },
       "https://thehardwoodcollective.com/articles/30-teams-30-days-toronto-raptors-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2025-10-20T16:11:28.626Z",
+        "body_characters": 8820,
+        "canonical_url": "https://thehardwoodcollective.com/articles/30-teams-30-days-toronto-raptors-legacy",
+        "document_title": "30 teams, 30 days: Toronto Raptors | 2026 Season Preview",
+        "topic_mentions": 0
       },
       "https://thehardwoodcollective.com/articles/30-teams-30-days-portland-trailblazers-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2025-10-20T15:59:54.015Z",
+        "body_characters": 10051,
+        "canonical_url": "https://thehardwoodcollective.com/articles/30-teams-30-days-portland-trailblazers-legacy",
+        "document_title": "30 teams, 30 days: Portland Trailblazers | 2026 Season Preview",
+        "topic_mentions": 0
       },
       "https://thehardwoodcollective.com/articles/30-teams-30-days-new-york-knicks-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2025-10-20T15:38:38.886Z",
+        "body_characters": 10769,
+        "canonical_url": "https://thehardwoodcollective.com/articles/30-teams-30-days-new-york-knicks-legacy",
+        "document_title": "30 teams, 30 days: New York Knicks | 2026 Season Preview",
+        "topic_mentions": 0
       },
       "https://thehardwoodcollective.com/articles/30-teams-30-days-chicago-bulls-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2025-10-13T17:03:05.258Z",
+        "body_characters": 8312,
+        "canonical_url": "https://thehardwoodcollective.com/articles/30-teams-30-days-chicago-bulls-legacy",
+        "document_title": "30 teams, 30 days: Chicago Bulls | 2026 Season Preview",
+        "topic_mentions": 0
       },
       "https://thehardwoodcollective.com/articles/30-teams-30-days-san-antonio-spurs-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2025-10-08T21:34:51.723Z",
+        "body_characters": 10567,
+        "canonical_url": "https://thehardwoodcollective.com/articles/30-teams-30-days-san-antonio-spurs-legacy",
+        "document_title": "30 teams, 30 days: San Antonio Spurs | 2026 Season Preview",
+        "topic_mentions": 0
       },
       "https://thehardwoodcollective.com/articles/30-teams-30-days-philadelphia-76ers-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2025-10-08T21:08:57.226Z",
+        "body_characters": 8824,
+        "canonical_url": "https://thehardwoodcollective.com/articles/30-teams-30-days-philadelphia-76ers-legacy",
+        "document_title": "30 teams, 30 days: Philadelphia 76ers | 2026 Season Preview",
+        "topic_mentions": 0
       },
       "https://thehardwoodcollective.com/articles/30-teams-30-days-houston-rockets-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2025-10-08T20:50:10.700Z",
+        "body_characters": 9597,
+        "canonical_url": "https://thehardwoodcollective.com/articles/30-teams-30-days-houston-rockets-legacy",
+        "document_title": "30 teams, 30 days: Houston Rockets | 2026 Season Preview",
+        "topic_mentions": 0
       },
       "https://thehardwoodcollective.com/articles/30-teams-30-days-oklahoma-city-thunder-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2025-10-08T20:29:16.899Z",
+        "body_characters": 9721,
+        "canonical_url": "https://thehardwoodcollective.com/articles/30-teams-30-days-oklahoma-city-thunder-legacy",
+        "document_title": "30 teams, 30 days: Oklahoma City Thunder | 2026 Season Preview",
+        "topic_mentions": 0
       },
       "https://thehardwoodcollective.com/articles/the-revenge-of-talen-horton-tucker-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2025-09-22T21:01:46.917Z",
+        "body_characters": 12912,
+        "canonical_url": "https://thehardwoodcollective.com/articles/the-revenge-of-talen-horton-tucker-legacy",
+        "document_title": "The Revenge of Talen Horton-Tucker",
+        "topic_mentions": 0
       },
       "https://thehardwoodcollective.com/articles/chiseled-from-stone-eric-bledsoe-maximizing-versatility-as-a-power-guard-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2025-09-09T16:01:44.558Z",
+        "body_characters": 36487,
+        "canonical_url": "https://thehardwoodcollective.com/articles/chiseled-from-stone-eric-bledsoe-maximizing-versatility-as-a-power-guard-legacy",
+        "document_title": "Chiseled From Stone: Eric Bledsoe maximizing versatility as a power guard",
+        "topic_mentions": 6
       },
       "https://thehardwoodcollective.com/articles/supplemental-strategy-for-the-2025-portland-state-basketball-blueprint-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2025-08-18T18:42:03.060Z",
+        "body_characters": 23090,
+        "canonical_url": "https://thehardwoodcollective.com/articles/supplemental-strategy-for-the-2025-portland-state-basketball-blueprint-legacy",
+        "document_title": "Supplemental Strategy for the 2025 Portland State Basketball Blueprint",
+        "topic_mentions": 1
       },
       "https://thehardwoodcollective.com/articles/nile-presents-2025-nba-draft-master-notes-part-three-of-three-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2025-06-26T16:36:40.673Z",
+        "body_characters": 21638,
+        "canonical_url": "https://thehardwoodcollective.com/articles/nile-presents-2025-nba-draft-master-notes-part-three-of-three-legacy",
+        "document_title": "Nile! Presents: 2025 NBA Draft Master Notes, Part Three of Three",
+        "topic_mentions": 3
       },
       "https://thehardwoodcollective.com/articles/nile-presents-2025-nba-draft-master-notes-part-2-of-3-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2025-06-25T18:21:47.370Z",
+        "body_characters": 26114,
+        "canonical_url": "https://thehardwoodcollective.com/articles/nile-presents-2025-nba-draft-master-notes-part-2-of-3-legacy",
+        "document_title": "Nile! Presents: 2025 NBA Draft Master Notes, Part 2 of 3",
+        "topic_mentions": 0
       },
       "https://thehardwoodcollective.com/articles/nile-presents-2025-nba-draft-master-notes-part-one-of-three-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2025-06-25T16:36:02.626Z",
+        "body_characters": 16620,
+        "canonical_url": "https://thehardwoodcollective.com/articles/nile-presents-2025-nba-draft-master-notes-part-one-of-three-legacy",
+        "document_title": "Nile! Presents: 2025 NBA Draft Master Notes, Part One of Three",
+        "topic_mentions": 4
       },
       "https://thehardwoodcollective.com/articles/kadary-richmond-and-mitchell-saxen-anatomy-of-a-missed-layup-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2025-06-09T19:02:13.224Z",
+        "body_characters": 24469,
+        "canonical_url": "https://thehardwoodcollective.com/articles/kadary-richmond-and-mitchell-saxen-anatomy-of-a-missed-layup-legacy",
+        "document_title": "Kadary Richmond and Mitchell Saxen: Anatomy of a Missed Layup",
+        "topic_mentions": 4
       },
       "https://thehardwoodcollective.com/articles/calling-connor-vanover-advocating-for-the-nba-s-absent-titan-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2025-05-13T16:32:25.755Z",
+        "body_characters": 13994,
+        "canonical_url": "https://thehardwoodcollective.com/articles/calling-connor-vanover-advocating-for-the-nba-s-absent-titan-legacy",
+        "document_title": "Calling Connor Vanover: Advocating for the NBA’s Absent Titan",
+        "topic_mentions": 0
       },
       "https://thehardwoodcollective.com/articles/anthony-davis-never-generational-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2025-04-18T15:01:33.863Z",
+        "body_characters": 12859,
+        "canonical_url": "https://thehardwoodcollective.com/articles/anthony-davis-never-generational-legacy",
+        "document_title": "Anthony Davis: Never Generational",
+        "topic_mentions": 1
       },
       "https://thehardwoodcollective.com/articles/2025-portland-state-basketball-strategy-blueprint-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2025-04-15T16:01:32.152Z",
+        "body_characters": 14890,
+        "canonical_url": "https://thehardwoodcollective.com/articles/2025-portland-state-basketball-strategy-blueprint-legacy",
+        "document_title": "2025 Portland State Basketball Strategy Blueprint",
+        "topic_mentions": 0
       },
       "https://thehardwoodcollective.com/articles/the-pitfalls-of-pure-box-plus-minus-scouting-ben-mclemore-s-kansas-profile-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2025-01-12T12:57:30.766Z",
+        "body_characters": 9145,
+        "canonical_url": "https://thehardwoodcollective.com/articles/the-pitfalls-of-pure-box-plus-minus-scouting-ben-mclemore-s-kansas-profile-legacy",
+        "document_title": "The Pitfalls of Pure Box Plus-Minus Scouting: Ben McLemore’s Kansas Profile",
+        "topic_mentions": 0
       },
       "https://thehardwoodcollective.com/articles/jaelen-house-the-nba-s-next-margin-win-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2024-11-15T19:47:50.148Z",
+        "body_characters": 8330,
+        "canonical_url": "https://thehardwoodcollective.com/articles/jaelen-house-the-nba-s-next-margin-win-legacy",
+        "document_title": "Jaelen House, the NBA’s next margin win",
+        "topic_mentions": 1
       },
       "https://thehardwoodcollective.com/articles/2025-ncaa-draft-prospects-nile-is-lower-on-than-consensus-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2024-11-11T22:39:29.986Z",
+        "body_characters": 12558,
+        "canonical_url": "https://thehardwoodcollective.com/articles/2025-ncaa-draft-prospects-nile-is-lower-on-than-consensus-legacy",
+        "document_title": "2025 NCAA Draft Prospects Nile! is Lower on than Consensus",
+        "topic_mentions": 0
       },
       "https://thehardwoodcollective.com/articles/kofi-cockburn-dominance-omitted-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2024-10-07T14:25:16.145Z",
+        "body_characters": 7246,
+        "canonical_url": "https://thehardwoodcollective.com/articles/kofi-cockburn-dominance-omitted-legacy",
+        "document_title": "Kofi Cockburn: Dominance Omitted",
+        "topic_mentions": 0
       },
       "https://thehardwoodcollective.com/articles/nile-presents-2024-nba-draft-master-notes-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2024-06-26T20:40:03.367Z",
+        "body_characters": 25773,
+        "canonical_url": "https://thehardwoodcollective.com/articles/nile-presents-2024-nba-draft-master-notes-legacy",
+        "document_title": "Nile! Presents 2024 NBA Draft Master Notes",
+        "topic_mentions": 2
       },
       "https://thehardwoodcollective.com/articles/the-house-of-hauser-part-2-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2024-04-10T15:02:15.513Z",
+        "body_characters": 12723,
+        "canonical_url": "https://thehardwoodcollective.com/articles/the-house-of-hauser-part-2-legacy",
+        "document_title": "The House of Hauser, Part 2",
+        "topic_mentions": 0
       },
       "https://thehardwoodcollective.com/articles/the-house-of-hauser-part-1-legacy": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2024-04-10T14:32:01.040Z",
+        "body_characters": 8642,
+        "canonical_url": "https://thehardwoodcollective.com/articles/the-house-of-hauser-part-1-legacy",
+        "document_title": "The House of Hauser’, Part 1",
+        "topic_mentions": 0
       },
       "https://thehardwoodcollective.com/articles/30-teams-30-days-new-orleans-pelicans-2027-season-preview": {
-        "result": "unrelated",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "hardwood"
+        "result": "included",
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "hardwood",
+        "published": "2026-09-24T13:11:33.430Z",
+        "body_characters": 16114,
+        "canonical_url": "https://thehardwoodcollective.com/articles/30-teams-30-days-new-orleans-pelicans-2027-season-preview",
+        "document_title": "30 teams, 30 days: New Orleans Pelicans | 2027 Season Preview",
+        "topic_mentions": 34
       },
       "https://theswishtheory.com/analysis/2026/07/second-year-standouts-which-sophomores-look-ready-for-a-more-significant-nba-role": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "swish"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "swish",
+        "published": "2026-07-17T16:17:14+00:00",
+        "body_characters": 12289,
+        "canonical_url": "https://theswishtheory.com/analysis/2026/07/second-year-standouts-which-sophomores-look-ready-for-a-more-significant-nba-role/",
+        "document_title": "Second-Year Standouts: Which Sophomores Look Ready for a More Significant NBA Role? | Swish Theory",
+        "topic_mentions": 0
       },
       "https://theswishtheory.com/analysis/2026/07/why-rookie-production-could-shape-the-2026-27-playoff-race": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "swish"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "swish",
+        "published": "2026-07-13T15:44:23+00:00",
+        "body_characters": 16095,
+        "canonical_url": "https://theswishtheory.com/analysis/2026/07/why-rookie-production-could-shape-the-2026-27-playoff-race/",
+        "document_title": "Why Rookie Production Could Shape the 2026-27 Playoff Race | Swish Theory",
+        "topic_mentions": 0
       },
       "https://theswishtheory.com/analysis/2026/07/26-summer-league-rookie-watch-list": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "swish"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "swish",
+        "published": "2026-07-09T16:14:16+00:00",
+        "body_characters": 14691,
+        "canonical_url": "https://theswishtheory.com/analysis/2026/07/26-summer-league-rookie-watch-list/",
+        "document_title": "'26 Summer League Rookie Watch List | Swish Theory",
+        "topic_mentions": 3
       },
       "https://theswishtheory.com/analysis/2026/06/warriors-2026-draft-guide": {
         "result": "old",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "swish"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "swish",
+        "published": "2026-06-19T21:39:19+00:00",
+        "body_characters": 15784,
+        "canonical_url": "https://theswishtheory.com/analysis/2026/06/warriors-2026-draft-guide/",
+        "document_title": "Warriors 2026 Draft Guide | Swish Theory",
+        "topic_mentions": 0
       },
       "https://www.basketballpoetry.com/p/the-2026-nba-offseasons-most-interesting": {
         "result": "unrelated",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "poetry"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "poetry",
+        "published": "2026-07-28T14:18:26+00:00",
+        "body_characters": 10887,
+        "canonical_url": "https://www.basketballpoetry.com/p/the-2026-nba-offseasons-most-interesting",
+        "document_title": "The 2026 NBA offseason's most interesting remaining storylines",
+        "topic_mentions": 0
       },
       "https://www.basketballpoetry.com/p/an-ode-to-restricted-free-agency": {
         "result": "preview_insufficient",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "poetry"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "poetry",
+        "published": "2026-07-31T16:57:02+00:00",
+        "body_characters": 790,
+        "canonical_url": "https://www.basketballpoetry.com/p/an-ode-to-restricted-free-agency",
+        "document_title": "An ode to restricted free agency",
+        "topic_mentions": 0
       },
       "https://www.basketballpoetry.com/p/grading-my-2025-26-unlikely-but-plausible": {
         "result": "preview_insufficient",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "poetry"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "poetry",
+        "published": "2026-08-04T15:20:54+00:00",
+        "body_characters": 7618,
+        "canonical_url": "https://www.basketballpoetry.com/p/grading-my-2025-26-unlikely-but-plausible",
+        "document_title": "Grading my 2025-26 unlikely-but-plausible predictions",
+        "topic_mentions": 0
       },
       "https://www.basketballpoetry.com/p/four-breakout-players": {
         "result": "unrelated",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "poetry"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "poetry",
+        "published": "2026-08-07T16:40:01.453Z",
+        "body_characters": 10974,
+        "canonical_url": "",
+        "document_title": "Four Breakout Players",
+        "topic_mentions": 0
       },
       "https://www.basketballpoetry.com/p/the-7-riskiest-moves-of-the-offseason-eab": {
         "result": "unrelated",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "poetry"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "poetry",
+        "published": "2026-08-11T14:25:29.945Z",
+        "body_characters": 1141,
+        "canonical_url": "",
+        "document_title": "The 7 riskiest moves of the offseason",
+        "topic_mentions": 0
       },
       "https://www.basketballpoetry.com/p/another-russell-westbrook-tribute": {
         "result": "unrelated",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "poetry"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "poetry",
+        "published": "2026-08-18T16:19:33.587Z",
+        "body_characters": 8009,
+        "canonical_url": "",
+        "document_title": "Another Russell Westbrook tribute",
+        "topic_mentions": 0
       },
       "https://www.basketballpoetry.com/p/peyton-watsonmax-strus-trade-grades": {
         "result": "unrelated",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "poetry"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "poetry",
+        "published": "2026-08-20T02:26:02.032Z",
+        "body_characters": 2694,
+        "canonical_url": "",
+        "document_title": "Peyton Watson/Max Strus Trade Grades",
+        "topic_mentions": 0
       },
       "https://www.basketballpoetry.com/p/kuminga-and-ball-basketball-epinephrine": {
         "result": "unrelated",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "poetry"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "poetry",
+        "published": "2026-08-28T14:32:14.943Z",
+        "body_characters": 13829,
+        "canonical_url": "",
+        "document_title": "Kuminga and Ball, basketball epinephrine",
+        "topic_mentions": 0
       },
       "https://www.basketballpoetry.com/p/something-positive-about-every-nba-34e": {
         "result": "unrelated",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "poetry"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "poetry",
+        "published": "2026-09-01T15:06:23.124Z",
+        "body_characters": 11971,
+        "canonical_url": "",
+        "document_title": "Something positive about every NBA team, Pt. 1",
+        "topic_mentions": 0
       },
       "https://www.basketballpoetry.com/p/silver-brings-down-the-hammer-and": {
         "result": "unrelated",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "poetry"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "poetry",
+        "published": "2026-09-03T04:02:20.867Z",
+        "body_characters": 2870,
+        "canonical_url": "",
+        "document_title": "Silver brings down the hammer (and the axe, and the knife, and...)",
+        "topic_mentions": 0
       },
       "https://theswishtheory.com/analysis/2026/09/the-three-bets-that-could-define-the-2027-nba-drafts-top-college-returners": {
         "result": "unrelated",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "swish"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "swish",
+        "published": "2026-09-08T17:47:17",
+        "body_characters": 9153,
+        "canonical_url": "",
+        "document_title": "The Three Bets That Could Define the 2027 NBA Draft’s Top College Returners",
+        "topic_mentions": 0
       },
       "https://www.basketballpoetry.com/p/5-weird-lineups-i-cant-wait-to-see": {
         "result": "unrelated",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "poetry"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "poetry",
+        "published": "2026-09-11T15:07:37.453Z",
+        "body_characters": 3240,
+        "canonical_url": "",
+        "document_title": "5 weird lineups I can’t wait to see",
+        "topic_mentions": 0
       },
       "https://www.basketballpoetry.com/p/ballmer-accepts-toronto-prays-for": {
         "result": "unrelated",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "poetry"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "poetry",
+        "published": "2026-09-15T15:47:48.323Z",
+        "body_characters": 5070,
+        "canonical_url": "",
+        "document_title": "Ballmer accepts, Toronto prays for lightning",
+        "topic_mentions": 0
       },
       "https://www.basketballpoetry.com/p/picking-the-nbas-top-10-offenses": {
         "result": "unrelated",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "poetry"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "poetry",
+        "published": "2026-09-18T15:44:35.026Z",
+        "body_characters": 5811,
+        "canonical_url": "",
+        "document_title": "Picking the NBA’s top-10 offenses for 2026-27",
+        "topic_mentions": 0
       },
       "https://www.basketballpoetry.com/p/something-positive-about-every-nba-673": {
         "result": "unrelated",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "poetry"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "poetry",
+        "published": "2026-09-22T16:32:05.840Z",
+        "body_characters": 2509,
+        "canonical_url": "",
+        "document_title": "Something positive about every NBA team, Pt. III",
+        "topic_mentions": 0
       },
       "https://www.noceilingsnba.com/p/uncut-gems": {
         "result": "unrelated",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "noceilings"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "noceilings",
+        "published": "2026-09-23T13:03:52+00:00",
+        "body_characters": 32829,
+        "canonical_url": "https://www.noceilingsnba.com/p/uncut-gems",
+        "document_title": "Uncut Gems: Mining for 2027 NBA Draft Sleeper Forwards",
+        "topic_mentions": 0
       },
       "https://www.noceilingsnba.com/p/ahead-of-the-curve-2026-acc-bigs": {
         "result": "preview_insufficient",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "noceilings"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "noceilings",
+        "published": "2026-09-25T13:01:34+00:00",
+        "body_characters": 1429,
+        "canonical_url": "https://www.noceilingsnba.com/p/ahead-of-the-curve-2026-acc-bigs",
+        "document_title": "Ahead of the Curve 2026: ACC Bigs",
+        "topic_mentions": 0
       },
       "https://www.noceilingsnba.com/p/standouts-sleepers-and-stock-risers": {
         "result": "unrelated",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "noceilings"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "noceilings",
+        "published": "2026-09-28T16:01:29+00:00",
+        "body_characters": 10504,
+        "canonical_url": "https://www.noceilingsnba.com/p/standouts-sleepers-and-stock-risers",
+        "document_title": "Standouts, Sleepers and Stock Risers from the 2026 HS Fall Invite",
+        "topic_mentions": 0
       },
       "https://www.noceilingsnba.com/p/the-shot-is-just-the-beginning-diving": {
         "result": "unrelated",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "noceilings"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "noceilings",
+        "published": "2026-09-29T13:02:00.090Z",
+        "body_characters": 1848,
+        "canonical_url": "",
+        "document_title": "The Shot is Just the Beginning: Diving into What Braylon Mullins’s Ceiling Could Be",
+        "topic_mentions": 0
       },
       "https://www.basketballpoetry.com/p/9-nba-players-with-a-surprising-skill-b6d": {
         "result": "unrelated",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "poetry"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "poetry",
+        "published": "2026-09-29T16:21:07.762Z",
+        "body_characters": 5830,
+        "canonical_url": "",
+        "document_title": "9 NBA players with a surprising skill (2026)",
+        "topic_mentions": 0
       },
       "https://www.noceilingsnba.com/p/the-leap-before-the-leap-jacob-cofie": {
         "result": "unrelated",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "noceilings"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "noceilings",
+        "published": "2026-09-30T13:02:41.382Z",
+        "body_characters": 3293,
+        "canonical_url": "",
+        "document_title": "The leap before The Leap: Jacob Cofie",
+        "topic_mentions": 0
       },
       "https://www.noceilingsnba.com/p/five-offseason-findings-early-thoughts-45e": {
         "result": "unrelated",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "noceilings"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "noceilings",
+        "published": "2026-10-01T13:04:27.585Z",
+        "body_characters": 22544,
+        "canonical_url": "",
+        "document_title": "Five Offseason Findings: Early Thoughts on the 2027 NBA Draft Class",
+        "topic_mentions": 0
       },
       "https://www.noceilingsnba.com/p/2027-nba-draft-mid-major-prospect": {
         "result": "unrelated",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "noceilings"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "noceilings",
+        "published": "2026-10-01T16:01:00.572Z",
+        "body_characters": 2991,
+        "canonical_url": "",
+        "document_title": "Gonzaga",
+        "topic_mentions": 0
       },
       "https://www.noceilingsnba.com/p/2026-ahead-of-the-curve-big-east": {
         "result": "unrelated",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "noceilings"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "noceilings",
+        "published": "2026-10-02T13:04:10.027Z",
+        "body_characters": 977,
+        "canonical_url": "",
+        "document_title": "2026 Ahead of the Curve: Big East Guards",
+        "topic_mentions": 0
       },
       "https://www.noceilingsnba.com/p/2026-27-two-way-contract-breakout": {
         "result": "unrelated",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "noceilings"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "noceilings",
+        "published": "2026-10-05T13:04:12.257Z",
+        "body_characters": 6381,
+        "canonical_url": "",
+        "document_title": "2026-27 Two-Way Contract Breakout Candidates: 2026 Second-Rounders",
+        "topic_mentions": 0
       },
       "https://www.noceilingsnba.com/p/the-los-angeles-clippers-and-the": {
         "result": "unrelated",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "noceilings"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "noceilings",
+        "published": "2026-10-05T16:01:22.882Z",
+        "body_characters": 2838,
+        "canonical_url": "",
+        "document_title": "The Los Angeles Clippers and the Most Fascinating Rebuild Case Study in the NBA",
+        "topic_mentions": 0
       },
       "https://www.noceilingsnba.com/p/2027-nba-draft-big-east-prospect": {
         "result": "unrelated",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "noceilings"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "noceilings",
+        "published": "2026-10-06T13:04:01.140Z",
+        "body_characters": 29035,
+        "canonical_url": "",
+        "document_title": "Butler",
+        "topic_mentions": 0
       },
       "https://www.basketballpoetry.com/p/nba-league-pass-rankings-for-2026-da0": {
         "result": "unrelated",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "poetry"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "poetry",
+        "published": "2026-10-06T15:28:05.506Z",
+        "body_characters": 1287,
+        "canonical_url": "",
+        "document_title": "NBA League Pass rankings for 2026-27, Part II",
+        "topic_mentions": 0
       },
       "https://www.noceilingsnba.com/p/2027-nba-draft-big-board-v1": {
         "result": "unrelated",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "noceilings"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "noceilings",
+        "published": "2026-10-07T17:02:52.604Z",
+        "body_characters": 7735,
+        "canonical_url": "",
+        "document_title": "2027 NBA Draft BIG Board V.1",
+        "topic_mentions": 0
       },
       "https://www.noceilingsnba.com/p/make-your-case-opening-arguments": {
         "result": "unrelated",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "noceilings"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "noceilings",
+        "published": "2026-10-08T13:01:05.877Z",
+        "body_characters": 17351,
+        "canonical_url": "",
+        "document_title": "Make Your Case: Opening Arguments for the 2027 NBA Draft’s #1 Pick",
+        "topic_mentions": 0
       },
       "https://www.noceilingsnba.com/p/2026-ahead-of-the-curve-big-east-a59": {
         "result": "unrelated",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "noceilings"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "noceilings",
+        "published": "2026-10-09T20:02:21.980Z",
+        "body_characters": 7774,
+        "canonical_url": "",
+        "document_title": "2026 Ahead of the Curve: Big East Bigs",
+        "topic_mentions": 0
       },
       "https://www.noceilingsnba.com/p/lazerek-houston-is-a-problem": {
         "result": "unrelated",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "noceilings"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "noceilings",
+        "published": "2026-10-12T13:03:11.132Z",
+        "body_characters": 93018,
+        "canonical_url": "",
+        "document_title": "Lazerek Houston is a Problem",
+        "topic_mentions": 0
       },
       "https://www.noceilingsnba.com/p/2027-nba-draft-big-12-prospect-cheat": {
         "result": "unrelated",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "noceilings"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "noceilings",
+        "published": "2026-10-12T16:04:16.327Z",
+        "body_characters": 2630,
+        "canonical_url": "",
+        "document_title": "Arizona",
+        "topic_mentions": 0
       },
       "https://www.noceilingsnba.com/p/buying-the-dip-what-10-guards-need": {
         "result": "unrelated",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "noceilings"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "noceilings",
+        "published": "2026-10-13T13:01:51.504Z",
+        "body_characters": 14681,
+        "canonical_url": "",
+        "document_title": "Three-Headed Monster",
+        "topic_mentions": 0
       },
       "https://www.noceilingsnba.com/p/2027-nba-mock-draft-v1-video": {
         "result": "unrelated",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "noceilings"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "noceilings",
+        "published": "2026-10-14T16:01:25.201Z",
+        "body_characters": 420,
+        "canonical_url": "",
+        "document_title": "2027 NBA Mock Draft V.1 Video",
+        "topic_mentions": 0
       },
       "https://www.noceilingsnba.com/p/international-snapshot-stefan-joksimovic": {
         "result": "unrelated",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "noceilings"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "noceilings",
+        "published": "2026-10-15T13:04:47.968Z",
+        "body_characters": 12101,
+        "canonical_url": "",
+        "document_title": "International Snapshot: Stefan Joksimovic | 2027 NBA Draft",
+        "topic_mentions": 0
       },
       "https://www.noceilingsnba.com/p/trey-mckenney-michigans-most-interesting": {
         "result": "unrelated",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "noceilings"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "noceilings",
+        "published": "2026-10-16T13:03:25.173Z",
+        "body_characters": 9094,
+        "canonical_url": "",
+        "document_title": "Trey McKenney: Michigan’s Most Interesting Man",
+        "topic_mentions": 0
       },
       "https://www.basketballpoetry.com/p/2026-27-preview-haikus-and-key-questions": {
         "result": "unrelated",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "poetry"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "poetry",
+        "published": "2026-10-16T15:24:20.163Z",
+        "body_characters": 5966,
+        "canonical_url": "",
+        "document_title": "2026-27 preview haikus and key questions: Eastern edition",
+        "topic_mentions": 0
       },
       "https://www.noceilingsnba.com/p/10-young-players-who-can-swing-the": {
         "result": "unrelated",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "noceilings"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "noceilings",
+        "published": "2026-10-19T13:02:17.682Z",
+        "body_characters": 24696,
+        "canonical_url": "",
+        "document_title": "10 Young Players Who Can Swing the NBA Playoff Picture",
+        "topic_mentions": 0
       },
       "https://www.noceilingsnba.com/p/the-10-nba-rookies-im-most-interested": {
         "result": "unrelated",
-        "checked_at": "2026-10-20T13:11:09.067463Z",
-        "source_id": "noceilings"
+        "checked_at": "2026-10-20T13:34:33.311656Z",
+        "source_id": "noceilings",
+        "published": "2026-10-20T13:04:08.114Z",
+        "body_characters": 28978,
+        "canonical_url": "",
+        "document_title": "Rookies",
+        "topic_mentions": 0
       }
     },
     "queue": [
-      {
-        "url": "https://thehardwoodcollective.com/articles/nba",
-        "title": "NBA",
-        "source_id": "hardwood",
-        "discovered_at": "2026-10-20T13:11:09.067463Z"
-      },
-      {
-        "url": "https://thehardwoodcollective.com/articles/wnba",
-        "title": "WNBA",
-        "source_id": "hardwood",
-        "discovered_at": "2026-10-20T13:11:09.067463Z"
-      },
-      {
-        "url": "https://thehardwoodcollective.com/articles/ncaa",
-        "title": "NCAA",
-        "source_id": "hardwood",
-        "discovered_at": "2026-10-20T13:11:09.067463Z"
-      },
-      {
-        "url": "https://thehardwoodcollective.com/articles/grassroots",
-        "title": "Grassroots",
-        "source_id": "hardwood",
-        "discovered_at": "2026-10-20T13:11:09.067463Z"
-      },
       {
         "url": "https://www.basketballpoetry.com/p/an-ode-to-restricted-free-agency",
         "title": "An ode to restricted free agency",
@@ -6600,7 +7239,8 @@
         "source_id": "noceilings",
         "discovered_at": "2026-10-20T13:11:09.067463Z"
       }
-    ]
+    ],
+    "relevance_policy": 2
   },
   "deferred_news": [
     {
