@@ -391,21 +391,5 @@
       "all_topics": true
     }
   },
-  "pending_integrations": [
-    {
-      "name": "X / Locked On Pelicans",
-      "references": [
-        "https://x.com/NOLAJake",
-        "https://x.com/PelicansNBA"
-      ],
-      "reason": "X API 인증 및 별도 연동 필요. 자동 검색 소스로 활성화하지 않음."
-    },
-    {
-      "name": "X (Twitter Japan)",
-      "hashtags": [
-        "ペリカンズ"
-      ],
-      "reason": "X API 인증 및 별도 연동 필요. 자동 검색 소스로 활성화하지 않음."
-    }
-  ]
+  "pending_integrations": []
 }

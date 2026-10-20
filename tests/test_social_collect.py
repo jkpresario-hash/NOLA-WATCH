@@ -1,7 +1,5 @@
-import copy
 import time
 import unittest
-import urllib.error
 from datetime import datetime, timezone
 from unittest.mock import patch
 
@@ -17,9 +15,6 @@ def translated(text):
 
 def video(**fields):
     return dict(kind='youtube', video_id='123456789ab', title='New Orleans Pelicans analysis', **fields)
-
-def post(number, **fields):
-    return dict(id=str(number), author_id='1', created_at='2026-10-19T00:00:00Z', text='Pelicans update', **fields)
 
 class YouTubeTests(unittest.TestCase):
     def test_public_search_url_matches_current_youtube_extractor(self):
@@ -133,80 +128,15 @@ NBA 2K25 features ProPlay, a technology that transforms real NBA footage into an
             items, _ = social.collect_youtube([], translated, NOW, time.monotonic()+10)
         self.assertEqual(items, [])
 
-class XTests(unittest.TestCase):
-    def setUp(self):
-        self.accounts = patch.dict(social.CONFIG['x'], {'accounts':['PelicansLead']})
-        self.accounts.start()
-        self.addCleanup(self.accounts.stop)
-
-    def test_exact_account_scope_and_korean_midnight_cutoff(self):
-        good = dict(kind='x',author='PelicansLead',published='2026-10-18T15:00:00Z')
-        self.assertTrue(social.eligible_x(good))
-        self.assertFalse(social.eligible_x({**good,'published':'2026-10-18T14:59:59Z'}))
-        self.assertFalse(social.eligible_x({**good,'author':'OtherPelicansAccount'}))
-        self.assertEqual(social.iso(social.X_START), '2026-10-18T15:00:00Z')
-
-    def test_no_token_is_honest_and_does_not_call_x(self):
-        with patch.object(social, 'x_get') as api:
-            items, status = social.collect_x([], {}, translated, NOW, time.monotonic()+10, token='')
-        api.assert_not_called()
-        self.assertEqual(status['state'], 'needs_connection')
+class CancelledChannelTests(unittest.TestCase):
+    def test_cancelled_data_and_cursors_are_removed(self):
+        old = [{"kind":"x", "post_id":"123", "body_ko":"취소된 게시글"}]
+        with patch.object(social, 'collect_youtube', return_value=([], {"state":"ready"})) as youtube:
+            items, state, channels = social.collect(old, {"x":{"PelicansLead":{"since_id":"123"}}}, translated)
         self.assertEqual(items, [])
-
-    def test_paginated_run_resumes_before_advancing_high_water_mark(self):
-        checkpoint = {'PelicansLead':{'user_id':'1','since_id':'100'}}
-        with patch.object(social, 'x_get', return_value={'data':[post(300)],'meta':{'next_token':'page2'}}):
-            items, status = social.collect_x([], checkpoint, translated, NOW, time.monotonic()+10, token='secret', max_pages=1)
-        self.assertEqual(checkpoint['PelicansLead']['since_id'], '100')
-        self.assertEqual(checkpoint['PelicansLead']['pending_token'], 'page2')
-        with patch.object(social, 'x_get', return_value={'data':[post(200)],'meta':{}}) as api:
-            items, _ = social.collect_x(items, checkpoint, translated, NOW, time.monotonic()+10, token='secret')
-        self.assertEqual(api.call_args.args[1]['pagination_token'], 'page2')
-        self.assertEqual(api.call_args.args[1]['since_id'], '100')
-        self.assertEqual(checkpoint['PelicansLead']['since_id'], '300')
-        self.assertNotIn('pending_token', checkpoint['PelicansLead'])
-        self.assertEqual({item['post_id'] for item in items}, {'200','300'})
-        self.assertTrue(all(item['body_ko'] for item in items))
-
-    def test_wrong_account_and_before_cutoff_posts_are_rejected(self):
-        response = {'data':[post(10), {**post(11),'author_id':'2'}, {**post(12),'created_at':'2026-10-18T14:59:59Z'}]}
-        with patch.object(social, 'x_get', return_value=response):
-            items, _ = social.collect_x([], {'PelicansLead':{'user_id':'1'}}, translated, NOW, time.monotonic()+10, token='secret')
-        self.assertEqual([item['post_id'] for item in items], ['10'])
-
-    def test_usernames_are_not_silently_substituted(self):
-        with patch.object(social, 'x_get', return_value={'data':{'id':'1','username':'DifferentHandle'}}) as api:
-            items, status = social.collect_x([], {}, translated, NOW, time.monotonic()+10, token='secret')
-        self.assertEqual(api.call_count, 1)
-        self.assertEqual(items, [])
-        self.assertEqual(status['state'], 'partial')
-
-    def test_error_keeps_cursor_and_never_exposes_token(self):
-        checkpoint = {'PelicansLead':{'user_id':'1','since_id':'100'}}
-        original = copy.deepcopy(checkpoint)
-        error = urllib.error.HTTPError('https://api.x.com',403,'secret-token',{},None)
-        with patch.object(social, 'x_get', side_effect=error):
-            _, status = social.collect_x([], checkpoint, translated, NOW, time.monotonic()+10, token='secret-token')
-        self.assertEqual(checkpoint, original)
-        self.assertNotIn('secret-token', str(status))
-        self.assertIn('HTTP 403', str(status))
-
-    def test_long_post_is_translated_and_changed_content_invalidates_cache(self):
-        old = dict(kind='x',author='PelicansLead',post_id='10',published='2026-10-19T00:00:00Z',
-                   body_en='Old content',body_ko='이전 번역',status='ready')
-        long = 'The entire long post instead of a truncated preview.'
-        with patch.object(social, 'x_get', return_value={'data':[post(10,note_tweet={'text':long})]}):
-            items, _ = social.collect_x([old], {'PelicansLead':{'user_id':'1'}}, translated, NOW, time.monotonic()+10, token='secret')
-        self.assertEqual(items[0]['body_en'], long)
-        self.assertEqual(items[0]['body_ko'], translated(long))
-
-    def test_error_payload_does_not_mark_pagination_complete(self):
-        checkpoint = {'PelicansLead':{'user_id':'1','since_id':'100','pending_token':'page2','pending_since_id':'100','pending_newest_id':'300'}}
-        old = copy.deepcopy(checkpoint)
-        with patch.object(social, 'x_get', return_value={'errors':[{'detail':'Not available'}]}):
-            _, status = social.collect_x([], checkpoint, translated, NOW, time.monotonic()+10, token='secret')
-        self.assertEqual(checkpoint, old)
-        self.assertEqual(status['state'], 'partial')
+        self.assertEqual(state, {})
+        self.assertEqual(set(channels), {"youtube"})
+        youtube.assert_called_once()
 
 if __name__ == '__main__':
     unittest.main()

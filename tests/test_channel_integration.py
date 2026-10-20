@@ -23,21 +23,21 @@ class ChannelIntegrationTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory:
             try:
                 os.chdir(directory)
-                Path('data.json').write_text(json.dumps({'items':[news,video,tweet]}))
+                Path('data.json').write_text(json.dumps({'items':[news,video,tweet], 'social_state':{'x':{'cursor':'cancelled'}}, 'channels':{'x':{'state':'needs_connection'}}}))
                 with patch('sys.argv', ['collect.py']), \
                      patch.object(collect.news_policy, 'search_feeds', return_value=[]), \
                      patch.dict(collect.SOURCES, {}, clear=True), \
                      patch.object(collect.news_policy, 'curate', side_effect=curate), \
                      patch.object(collect, 'collect_items', side_effect=collect_items), \
-                     patch.object(collect.social_collect, 'collect', return_value=([video,tweet], {'x':{'cursor':'saved'}}, {'x':{'state':'needs_connection'}, 'youtube':{'state':'ready'}})):
+                     patch.object(collect.social_collect, 'collect', return_value=([video], {}, {'youtube':{'state':'ready'}})):
                     collect.main()
                 result = json.loads(Path('data.json').read_text())
             finally:
                 os.chdir(current)
-        self.assertEqual({item['kind'] for item in result['items']}, {'news','youtube','x'})
+        self.assertEqual({item['kind'] for item in result['items']}, {'news','youtube'})
         self.assertTrue(passed)
-        self.assertEqual(result['channels']['x']['state'], 'needs_connection')
-        self.assertEqual(result['social_state']['x']['cursor'], 'saved')
+        self.assertNotIn('x', result['channels'])
+        self.assertNotIn('x', result['social_state'])
 
 if __name__ == '__main__':
     unittest.main()

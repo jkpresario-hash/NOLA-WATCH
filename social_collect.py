@@ -1,4 +1,4 @@
-"""Independent YouTube and X collectors. Credentials never enter public data."""
+"""YouTube collector. Credentials never enter public data."""
 import html
 import json
 import os
@@ -10,11 +10,8 @@ import urllib.request
 from datetime import datetime, timedelta, timezone
 from difflib import SequenceMatcher
 from pathlib import Path
-from zoneinfo import ZoneInfo
 
 CONFIG = json.loads(Path(__file__).with_name("social_sources.json").read_text(encoding="utf-8"))
-X_START = datetime.fromisoformat(CONFIG["x"]["start_date"]).replace(tzinfo=ZoneInfo(CONFIG["timezone"])).astimezone(timezone.utc)
-ACCOUNTS = {name.casefold() for name in CONFIG["x"]["accounts"]}
 TOPIC = re.compile(r"pelicans|\bnola\b|펠리컨[스즈]|뉴올리언[스즈]", re.I)
 ADS = re.compile(r"subscribe|sponsor|promo code|prizepicks|fanduel|draftkings|patreon|merch|copyright|welcome back|locked on podcast network|구독|좋아요|광고|협찬", re.I)
 SUMMARY_POLICY = 4
@@ -271,110 +268,8 @@ def collect_youtube(old, translate, now, deadline):
         status["message"] = "매일 09:00·18:00에 펠리컨스 영상을 검색합니다. 자막 또는 영상 설명에서 핵심 내용 3개 이상을 한국어로 제공합니다."
     return videos, status
 
-def eligible_x(item):
-    date = utc(item.get("published"))
-    return item.get("kind") == "x" and item.get("author", "").casefold() in ACCOUNTS and date is not None and date >= X_START
-
-def x_get(path, params, token):
-    return get_json("https://api.x.com/2/" + path + "?" + urllib.parse.urlencode(params), {"Authorization": "Bearer " + token})
-
-def collect_x(old, checkpoint, translate, now, deadline, token=None, max_pages=10):
-    posts = {str(item["post_id"]): dict(item) for item in old if eligible_x(item) and item.get("post_id")}
-    token = token if token is not None else (os.environ.get("X_BEARER_TOKEN") or os.environ.get("X_API_BEARER_TOKEN") or os.environ.get("TWITTER_BEARER_TOKEN", ""))
-    if not token:
-        return list(posts.values()), dict(state="needs_connection", checked_at=iso(now), count=len(posts),
-            message="X 수집 연결을 기다리고 있습니다. 연결되면 지정된 10개 계정의 10월 19일 이후 게시글을 표시합니다.")
-    failures = []
-    for handle in CONFIG["x"]["accounts"]:
-        if time.monotonic() >= deadline:
-            failures.append("collection time budget")
-            break
-        account = checkpoint.setdefault(handle, {})
-        try:
-            if not account.get("user_id"):
-                resolved = x_get("users/by/username/" + urllib.parse.quote(handle), {}, token).get("data", {})
-                if resolved.get("username", "").casefold() != handle.casefold() or not str(resolved.get("id", "")).isdigit():
-                    raise ValueError("account lookup mismatch")
-                account["user_id"] = str(resolved["id"])
-            pending = account.get("pending_token")
-            since = account.get("pending_since_id") if pending else account.get("since_id")
-            newest = account.get("pending_newest_id", "0") if pending else account.get("since_id", "0")
-            for page in range(max_pages):
-                params = dict(max_results=100, start_time=iso(X_START),
-                    **{"tweet.fields":"created_at,author_id,note_tweet,attachments,referenced_tweets", "expansions":"attachments.media_keys", "media.fields":"url,preview_image_url,type"})
-                if since:
-                    params["since_id"] = since
-                if pending:
-                    params["pagination_token"] = pending
-                payload = x_get("users/" + account["user_id"] + "/tweets", params, token)
-                if payload.get("errors") and not payload.get("data"):
-                    raise ValueError("timeline response unavailable")
-                media = {entry["media_key"]: entry for entry in payload.get("includes", {}).get("media", [])}
-                for entry in payload.get("data", []):
-                    post_id = str(entry.get("id", ""))
-                    published = utc(entry.get("created_at"))
-                    if not post_id.isdigit() or str(entry.get("author_id")) != account["user_id"]:
-                        continue
-                    newest = str(max(int(newest or "0"), int(post_id)))
-                    if published is None or published < X_START:
-                        continue
-                    text = entry.get("note_tweet", {}).get("text") or entry.get("text", "")
-                    if not text.strip():
-                        continue
-                    item = {**posts.get(post_id, {}), "kind":"x", "source":"X · @" + handle,
-                        "author":handle, "post_id":post_id, "title":text[:180], "body_en":text,
-                        "published":iso(published), "url":f"https://x.com/{handle}/status/{post_id}"}
-                    if posts.get(post_id, {}).get("body_en") != text:
-                        item.pop("body_ko", None)
-                        item.pop("title_ko", None)
-                        item["status"] = "pending"
-                    media_keys = entry.get("attachments", {}).get("media_keys", [])
-                    if media_keys:
-                        attachment = media.get(media_keys[0], {})
-                        item["thumbnail"] = safe_url(attachment.get("url") or attachment.get("preview_image_url"))
-                    posts[post_id] = item
-                pending = payload.get("meta", {}).get("next_token")
-                if pending:
-                    account.update(pending_token=pending, pending_since_id=since, pending_newest_id=newest)
-                    if time.monotonic() >= deadline:
-                        break
-                else:
-                    if int(newest or "0"):
-                        account["since_id"] = newest
-                    for key in ("pending_token", "pending_since_id", "pending_newest_id"):
-                        account.pop(key, None)
-                    break
-        except Exception as exc:
-            failures.append(handle + ": " + error_code(exc))
-            if isinstance(exc, urllib.error.HTTPError) and exc.code in (401, 403, 429):
-                break
-    for item in posts.values():
-        if item.get("body_ko") or time.monotonic() >= deadline:
-            continue
-        try:
-            item["body_ko"] = translate(item["body_en"])
-            if not item["body_ko"].strip():
-                raise ValueError("empty post translation")
-            item["title_ko"] = item["body_ko"][:180]
-            item["status"] = "ready"
-            item.pop("error", None)
-        except Exception:
-            item["status"] = "partial"
-            item["error"] = "한국어 번역을 준비하고 있습니다. 다음 수집 때 재시도합니다."
-    pending_accounts = [handle for handle, state in checkpoint.items() if state.get("pending_token")]
-    status = dict(state="partial" if failures or pending_accounts else "ready", checked_at=iso(now), count=len(posts),
-        message="지정된 10개 계정의 한국시간 10월 19일 이후 게시글을 수집·번역합니다.")
-    if failures:
-        status.update(message="일부 X 계정을 확인하지 못했습니다. 기존 게시글을 유지하며 다음 수집 때 재시도합니다.", error_codes=failures)
-    if pending_accounts:
-        status["pending_accounts"] = pending_accounts
-    return sorted(posts.values(), key=lambda item:item["published"], reverse=True), status
-
 def collect(old, old_state, translate, seconds=300):
-    state = dict(old_state or {})
+    # Cancelled channels must never carry their data or cursors into a new feed.
     now = datetime.now(timezone.utc)
-    deadline = time.monotonic() + seconds
-    x_state = state.setdefault("x", {})
-    x_posts, x_status = collect_x(old, x_state, translate, now, min(deadline, time.monotonic() + 90))
-    videos, youtube_status = collect_youtube(old, translate, now, deadline)
-    return x_posts + videos, state, {"x":x_status, "youtube":youtube_status}
+    videos, youtube_status = collect_youtube(old, translate, now, time.monotonic() + seconds)
+    return videos, {}, {"youtube": youtube_status}
