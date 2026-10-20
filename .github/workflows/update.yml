@@ -9,6 +9,7 @@ on:
       - 'news_sources.json'
       - 'index.html'
       - 'feed.js'
+      - 'assets/**'
       - 'social_collect.py'
       - 'social_sources.json'
       - 'article_collect.py'
@@ -38,6 +39,24 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Check whether feed collection is needed
+        id: collection
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          BEFORE_SHA: ${{ github.event.before }}
+        run: |
+          collect=true
+          if [[ "$EVENT_NAME" == push ]] && git cat-file -e "$BEFORE_SHA^{commit}" 2>/dev/null; then
+            if git diff --name-only "$BEFORE_SHA" HEAD > "$RUNNER_TEMP/nola-changed-files"; then
+              if ! grep -qEv '^(index\.html|feed\.js|assets/.*|\.github/workflows/update\.yml)$' "$RUNNER_TEMP/nola-changed-files"; then
+                collect=false
+              fi
+            fi
+          fi
+          echo "run=$collect" >> "$GITHUB_OUTPUT"
 
       - uses: actions/setup-python@v5
         with:
@@ -56,11 +75,13 @@ jobs:
       - run: node --test tests/feed.test.js
 
       - run: python collect.py
+        if: steps.collection.outputs.run == 'true'
         env:
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
         timeout-minutes: 25
 
       - name: Save feed
+        if: steps.collection.outputs.run == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -72,6 +93,7 @@ jobs:
         run: |
           mkdir -p public
           cp index.html feed.js data.json public/
+          cp -R assets public/assets
 
       - uses: actions/configure-pages@v5
 
