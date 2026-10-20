@@ -58,6 +58,22 @@ class DiscoveryTests(unittest.TestCase):
         self.assertNotIn('body_html',item)
         self.assertNotIn('private content',str(item))
 
+    def test_archive_older_alias_is_rebuilt_on_the_selected_publisher(self):
+        raw=json.dumps([{'slug':'old-analysis','canonical_url':'https://oldname.substack.com/p/old-analysis','title':'Analysis'}])
+        self.assertEqual(a.parse_archive(raw,SOURCE)[0]['url'],'https://intheno.substack.com/p/old-analysis')
+
+    def test_archive_uses_actual_page_size_instead_of_requested_limit(self):
+        offsets=[]
+        def fetch(url,source):
+            if '/api/v1/archive' not in url:return b'<rss><channel/></rss>'
+            offset=int(urllib.parse.parse_qs(urllib.parse.urlsplit(url).query)['offset'][0]);offsets.append(offset)
+            entries=[] if offset>=40 else [dict(slug=f'post-{offset+i}',title='Analysis',post_date=a.iso(NOW-timedelta(days=offset+1))) for i in range(20)]
+            return json.dumps(entries).encode()
+        with patch.object(a,'fetch',side_effect=fetch):
+            _,state=a.discover(SOURCE,{},NOW,time.monotonic()+10)
+        self.assertEqual(offsets,[0,20,40])
+        self.assertFalse(state['backfill_pending'])
+
     def test_pagination_reaches_90_day_boundary_and_stops(self):
         offsets=[]
         def fetch(url,source):

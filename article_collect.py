@@ -151,6 +151,10 @@ def parse_archive(raw, source):
     for post in payload:
         url = post.get('canonical_url') or post.get('link') or urllib.parse.urljoin(source['home'], 'p/'+post.get('slug',''))
         url = source_url(url, source, article=True)
+        if not url and post.get('slug'):
+            # Older entries can name a retired Substack alias. Keep the selected
+            # publisher's own host and its public slug rather than following it.
+            url = source_url(urllib.parse.urljoin(source['home'],'p/'+post['slug']),source,article=True)
         if not url:
             continue
         title = post.get('title', '')
@@ -197,15 +201,18 @@ def discover(source, old_state, now, deadline):
                 params = urllib.parse.urlencode(dict(after=iso(cutoff), per_page=100, page=value+1, _fields='link,date,date_gmt,title'))
                 url = urllib.parse.urljoin(source['home'], 'wp-json/wp/v2/posts') + '?' + params
             try:
-                entries = parse_archive(fetch(url, source), source); succeeded += 1; found.extend(entries)
+                raw = fetch(url, source)
+                returned = len(json.loads(raw))
+                entries = parse_archive(raw, source); succeeded += 1; found.extend(entries)
+                state['last_archive_page_size'] = returned
                 dates = [utc(item.get('published')) for item in entries]
                 dates = [date for date in dates if date]
-                more = len(entries) >= (50 if source['archive']=='substack' else 100) and not (dates and min(dates) <= cutoff)
+                more = (returned>0 if source['archive']=='substack' else returned>=100) and not (dates and min(dates) <= cutoff)
                 if value == resume or not more:
-                    resume = value + (50 if source['archive']=='substack' else 1) if more else 0
+                    resume = value + (returned if source['archive']=='substack' else 1) if more else 0
                     state['archive_offset'] = resume
                     state['backfill_pending'] = more
-                    if more and len(offsets)<4 and resume not in offsets:
+                    if more and len(offsets)<12 and resume not in offsets:
                         offsets.append(resume)
                 if not more:
                     break
