@@ -21,6 +21,7 @@ PLAYERS = re.compile('|'.join(re.escape(name) + r'(?:\s+III)?\b' for name in CON
 PROMO = re.compile(r'subscribe|sign up|share this|thanks for reading|sponsored|promo code|affiliate|follow me|all rights reserved|cookie policy', re.I)
 PAYWALL = re.compile(r'this post is for paid subscribers|subscribe to (?:continue|keep) reading|to keep reading.{0,80}subscribe', re.I)
 UA = 'Mozilla/5.0 (compatible; NOLAWatch/4.0; public basketball analysis reader)'
+RELEVANCE_POLICY = 2
 
 def utc(value):
     if not value:
@@ -46,6 +47,8 @@ def source_url(url, source, article=False):
         if '..' in path.split('/') or '\\' in path:
             return ''
         if article:
+            if path.rstrip('/') in source.get('exclude_paths', []):
+                return ''
             prefix = source.get('article_prefix', '\0')
             slug = path[len(prefix):].strip('/') if path.startswith(prefix) else ''
             if not (slug and '/' not in slug or re.fullmatch(source.get('article_pattern', r'(?!)'), path)):
@@ -74,11 +77,13 @@ class PublisherRedirect(urllib.request.HTTPRedirectHandler):
             raise ValueError('redirect outside selected publisher')
         return super().redirect_request(req, fp, code, msg, headers, newurl)
 
-def fetch(url, source):
+def fetch(url, source, article=False):
     if not source_url(url, source):
         raise ValueError('URL outside selected publisher')
     req = urllib.request.Request(url, headers={'User-Agent':UA, 'Accept':'application/rss+xml, application/atom+xml, application/xml, text/html, application/json, */*;q=0.5'})
     with urllib.request.build_opener(PublisherRedirect(source)).open(req, timeout=15) as response:
+        if article and not source_url(response.geturl(), source, article=True):
+            raise ValueError('article redirected to a publisher index')
         return response.read(6_000_000)
 
 class LinkList(HTMLParser):
@@ -257,6 +262,7 @@ def document(raw, candidate):
     published = meta('article:published_time') or meta('datePublished')
     author = meta('author') or candidate.get('author','')
     preview = False
+    public_structured_body = ''
     for script in soup.find_all('script',type='application/ld+json'):
         try:
             value = json.loads(script.string or script.get_text())
@@ -265,6 +271,8 @@ def document(raw, candidate):
                 if 'Article' in str(entry.get('@type','')) or entry.get('@type')=='BlogPosting':
                     published = published or entry.get('datePublished','')
                     preview = preview or entry.get('isAccessibleForFree') in (False,'False','false')
+                    if entry.get('isAccessibleForFree') in (True,'true','True'):
+                        public_structured_body = entry.get('articleBody') or public_structured_body
                     by = entry.get('author',{})
                     if isinstance(by,dict): author = author or by.get('name','')
         except (ValueError, TypeError, AttributeError):
@@ -274,13 +282,19 @@ def document(raw, candidate):
     heading = soup.find('h1')
     title = meta('og:title') or (heading.get_text(' ',strip=True) if heading else '') or candidate.get('title','')
     image = public_image(meta('og:image'))
-    scope = soup.select_one('.body.markup') or soup.select_one('[itemprop="articleBody"]') or soup.find('article') or soup.find('main') or soup
+    canonical = soup.find('link',rel='canonical')
+    canonical_url = canonical.get('href','') if canonical else meta('og:url')
+    # Some publishers use <article> for recommendation cards before the real body.
+    containers = soup.select('.body.markup,[itemprop="articleBody"],.entry-content,.post-content,.article-content,.article-body')
+    scope = max(containers,key=lambda node:len(node.get_text(' ',strip=True))) if containers else (soup.find('main') or soup)
     preview = preview or bool(PAYWALL.search(scope.get_text(' ',strip=True)))
     for node in scope.select('script,style,noscript,nav,footer,header,aside,form,button,.comments,.related-posts,.recommended-posts,.subscribe-widget,.subscription-widget,.post-footer,.share-dialog'):
         node.decompose()
     body = trafilatura.extract(str(scope), include_comments=False, include_tables=True) or scope.get_text('\n',strip=True)
+    if not preview and isinstance(public_structured_body,str) and len(public_structured_body)>len(body):
+        body = BeautifulSoup(public_structured_body,'html.parser').get_text('\n',strip=True)
     paragraphs = [p.strip() for p in body.splitlines() if p.strip() and not PROMO.search(p)]
-    return dict(title=html.unescape(title), published=published, author=author, thumbnail=image,
+    return dict(title=html.unescape(title), published=published, author=author, thumbnail=image, canonical_url=canonical_url,
                 body='\n'.join(paragraphs)[:160000], access='preview' if preview else 'public')
 
 def related_passages(body, title=''):
@@ -289,6 +303,10 @@ def related_passages(body, title=''):
     paragraphs = [p.strip() for p in body.splitlines() if len(p.strip()) >= 80 and not PROMO.search(p)]
     relevant = [p for p in paragraphs if TEAM.search(p) or PLAYERS.search(p)]
     if not relevant or (sum(map(len,relevant)) < 240 and not (TEAM.search(title) or PLAYERS.search(title))):
+        return []
+    mentions = [s for p in relevant for s in re.split(r'(?<=[.!?])\s+',p) if TEAM.search(s) or PLAYERS.search(s)]
+    # A parenthetical former-team credit in another prospect's profile is not analysis.
+    if not (TEAM.search(title) or PLAYERS.search(title)) and len(mentions)<2:
         return []
     return relevant
 
@@ -324,11 +342,11 @@ def collect(old, old_state, translate, seconds=360, now=None):
     deadline = time.monotonic()+seconds
     previous, candidates = {}, {}
     state = dict(old_state or {}); source_states = dict(state.get('sources',{}))
-    checks = dict(state.get('checks',{}))
+    checks = dict(state.get('checks',{})) if state.get('relevance_policy')==RELEVANCE_POLICY else {}
     for item in old:
         source = SOURCES.get(item.get('source_id'))
         stamp = utc(item.get('published'))
-        if item.get('kind')=='article' and source and source_url(item.get('url'),source,article=True) and stamp and cutoff<=stamp<=now+timedelta(days=1) and item.get('relevance_verified'):
+        if item.get('kind')=='article' and source and source_url(item.get('url'),source,article=True) and stamp and cutoff<=stamp<=now+timedelta(days=1) and item.get('relevance_verified') and item.get('relevance_policy')==RELEVANCE_POLICY:
             previous[source_url(item['url'],source,article=True)] = dict(item)
     for item in state.get('queue',[]):
         source = SOURCES.get(item.get('source_id'))
@@ -374,11 +392,14 @@ def collect(old, old_state, translate, seconds=360, now=None):
             queue.update({item['url']:{k:v for k,v in item.items() if k!='feed_body'} for item in ordered[index:] if item['url'] not in previous})
             break
         result = 'pending'
+        doc = None
         try:
             raw = candidate.get('feed_body')
             doc = document(raw,candidate) if raw else None
             if not doc or len(doc['body'])<CONFIG['minimum_body_chars'] or doc['access']=='preview':
-                doc = document(fetch(url,source),candidate)
+                doc = document(fetch(url,source,article=True),candidate)
+            if doc.get('canonical_url') and not source_url(doc['canonical_url'],source,article=True):
+                raise ValueError('publisher index is not an article')
             stamp = utc(doc.get('published'))
             if not stamp:
                 result = 'undated'
@@ -393,18 +414,20 @@ def collect(old, old_state, translate, seconds=360, now=None):
                     item = dict(kind='article',source_id=source['id'],source=source['name'],url=url,
                         title=doc['title'] or candidate.get('title') or '펠리컨스 분석',author=doc['author'],published=iso(stamp),
                         thumbnail=doc['thumbnail'],summary_original=points,summary_source='article_body',access=doc['access'],
-                        relevance_verified=True,relevance_checked_at=iso(now),body_characters=len(doc['body']),status='pending')
+                        relevance_verified=True,relevance_policy=RELEVANCE_POLICY,relevance_checked_at=iso(now),body_characters=len(doc['body']),status='pending')
                     translate_item(item,translate); translated_urls.add(url); previous[url]=item; result='included'
         except Exception as exc:
             result='fetch_error'; candidate['error_code']=error_code(exc)
         checks[url] = dict(result=result,checked_at=iso(now),source_id=source['id'])
+        if doc:
+            checks[url].update(published=doc.get('published',''),body_characters=len(doc.get('body','')),canonical_url=doc.get('canonical_url',''),document_title=doc.get('title',''),topic_mentions=len(TEAM.findall(doc.get('body','')))+len(PLAYERS.findall(doc.get('body',''))))
         if result not in ('included','unrelated','old'):
             queue[url] = {k:v for k,v in candidate.items() if k!='feed_body'}
     for item in previous.values():
         if item['url'] not in translated_urls and item.get('status')!='ready' and time.monotonic()<deadline:
             translate_item(item,translate)
     checks = {url:entry for url,entry in checks.items() if (utc(entry.get('checked_at')) or cutoff)>=cutoff}
-    state = dict(sources=source_states,checks=checks,queue=list(queue.values()))
+    state = dict(sources=source_states,checks=checks,queue=list(queue.values()),relevance_policy=RELEVANCE_POLICY)
     delayed = [SOURCES[s]['name'] for s,status in source_states.items() if status.get('state')!='ready']
     backfill = [SOURCES[s]['name'] for s,status in source_states.items() if status.get('backfill_pending') or status.get('listing_next')]
     message = '선택한 5개 소스의 최근 90일 글 중 본문에서 펠리컨스 관련 내용을 확인한 아티클입니다.'

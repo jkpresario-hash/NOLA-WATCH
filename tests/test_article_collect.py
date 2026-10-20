@@ -21,7 +21,7 @@ def candidate(**fields): return dict(url=URL,source_id='intheno',title='A new ap
 def doc(**fields): return dict(title='A new approach to the rotation',published=a.iso(NOW-timedelta(days=45)),body=BODY,author='Writer',thumbnail='',access='public',**fields)
 def discover(source,state,now,deadline): return ([candidate(feed_body='<p>Public publisher body</p>')] if source['id']=='intheno' else []),{'state':'ready','discovered':1 if source['id']=='intheno' else 0}
 def old_article(days=30,**fields):
-    return dict(kind='article',source_id='intheno',source='In The N.O.',url=URL,title='Pelicans analysis',published=a.iso(NOW-timedelta(days=days)),relevance_verified=True,status='ready',title_ko='기존 제목',summary_original=['Original sentence'],summary_ko=['기존 번역'],**fields)
+    return dict(kind='article',source_id='intheno',source='In The N.O.',url=URL,title='Pelicans analysis',published=a.iso(NOW-timedelta(days=days)),relevance_verified=True,relevance_policy=a.RELEVANCE_POLICY,status='ready',title_ko='기존 제목',summary_original=['Original sentence'],summary_ko=['기존 번역'],**fields)
 
 class DiscoveryTests(unittest.TestCase):
     def test_only_five_selected_publishers_and_real_article_paths(self):
@@ -30,6 +30,7 @@ class DiscoveryTests(unittest.TestCase):
             self.assertEqual(a.source_url(url,SOURCE,article=True),'')
         self.assertTrue(a.source_url(URL,SOURCE,article=True))
         self.assertFalse(a.source_url('https://theswishtheory.com/category/nba/',a.SOURCES['swish'],article=True))
+        self.assertFalse(a.source_url('https://thehardwoodcollective.com/articles/nba',a.SOURCES['hardwood'],article=True))
 
     def test_url_identity_removes_tracking_and_folds_www_alias(self):
         source=a.SOURCES['poetry']
@@ -92,6 +93,14 @@ class ArticlePolicyTests(unittest.TestCase):
         unrelated=('The Celtics are adjusting their rotation and looking for better perimeter defense. '*12)
         self.assertEqual(a.related_passages(unrelated,'Pelicans analysis'),[])
         self.assertEqual(a.related_passages(unrelated+'\nHe once played for the Pelicans.','League notes'),[])
+
+    def test_long_prospect_profile_with_only_one_team_credit_is_not_analysis(self):
+        paragraph=('Mallory is a smaller college guard with excellent rebounding instincts and strong timing. '*8)+'His teammate was current Pelicans forward Derik Queen.'
+        self.assertFalse(a.related_passages(paragraph,'Tyler Tanner scouting report'))
+
+    def test_redirect_handler_rejects_external_publisher_before_request(self):
+        with self.assertRaises(ValueError):
+            a.PublisherRedirect(SOURCE).redirect_request(None,None,302,'',{},'https://example.com/p/analysis')
 
     def test_body_verified_45_day_article_publishes_and_translates(self):
         with patch.object(a,'discover',side_effect=discover),patch.object(a,'document',return_value=doc()),patch.object(a,'fetch') as fetch:
@@ -161,6 +170,12 @@ class ExtractionTests(unittest.TestCase):
         d=a.document(raw,candidate())
         self.assertNotIn('Pelicans',d['body'])
         self.assertFalse(a.related_passages(d['body'],d['title']))
+
+    def test_recommendation_article_before_main_body_is_not_selected(self):
+        raw=f'<html><article>Another prospect and other unrelated basketball stories.</article><main><h1>Pelicans analysis</h1><div class="article-body"><p>{BODY}</p></div></main></html>'
+        d=a.document(raw,candidate())
+        self.assertTrue(a.related_passages(d['body'],d['title']))
+        self.assertNotIn('Another prospect',d['body'])
 
     def test_publication_date_not_modified_date_and_paywall_is_labeled(self):
         raw=f'''<html><meta property="article:published_time" content="2026-08-01T00:00:00Z"><meta property="article:modified_time" content="2026-10-20T00:00:00Z"><article><h1>Pelicans analysis</h1><p>{BODY}</p><p>Subscribe to keep reading.</p></article></html>'''

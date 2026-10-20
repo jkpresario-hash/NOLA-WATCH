@@ -9,6 +9,7 @@
       "hosts": ["thehardwoodcollective.com", "www.thehardwoodcollective.com"],
       "home": "https://thehardwoodcollective.com/",
       "article_prefix": "/articles/",
+      "exclude_paths": ["/articles/nba", "/articles/wnba", "/articles/ncaa", "/articles/grassroots", "/articles/draft"],
       "feeds": ["https://thehardwoodcollective.com/rss.xml", "https://thehardwoodcollective.com/feed"],
       "listings": ["https://thehardwoodcollective.com/?cat=NBA"],
       "sitemap": "https://thehardwoodcollective.com/sitemap.xml",
