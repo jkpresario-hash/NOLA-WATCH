@@ -11,6 +11,8 @@ on:
       - 'feed.js'
       - 'social_collect.py'
       - 'social_sources.json'
+      - 'article_collect.py'
+      - 'article_sources.json'
       - 'requirements.txt'
       - 'tests/**'
       - '.github/workflows/update.yml'

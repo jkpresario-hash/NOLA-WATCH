@@ -1,7 +1,7 @@
 'use strict';
 
 const INITIAL_TAB = 'news';
-const TABS = ['news', 'reddit', 'youtube'];
+const TABS = ['reddit', 'news', 'youtube', 'article'];
 const escapeHTML = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 function safeURL(value) {
   try {
@@ -33,18 +33,20 @@ function card(i) {
   const validVideoSummary = summaries.length >= 3 && new Set(summaries).size >= 3 && summaries.every(s => /[가-힣]/.test(s));
   const displayedSummary = video && !validVideoSummary ? [] : summaries;
   const published = date(i.published) || (i.upload_date ? `${escapeHTML(i.upload_date)} 업로드` : (video ? '업로드 시각 확인 중' : ''));
-  const badge = {news:'NEWS', reddit:'REDDIT', youtube:'YOUTUBE'}[kind] || 'NEWS';
+  const badge = {news:'NEWS', reddit:'REDDIT', youtube:'YOUTUBE', article:'ARTICLE'}[kind] || 'NEWS';
   const title = link(i.original_url || i.url, escapeHTML(i.title_ko || i.title), 'headline');
   const source = video ? i.channel || 'YouTube' : i.source;
   let content = '';
   content += `<h2>${title}</h2>`;
+  if (kind === 'article') content += `<p class="original">${i.author ? `${escapeHTML(i.author)} · ` : ''}본문 관련성 확인 · 최근 90일</p>`;
   if (i.title_ko) content += `<details class="original"><summary>원문 제목 보기</summary><p>${escapeHTML(i.title)}</p></details>`;
   if (displayedSummary.length) {
-    const label = video ? (i.summary_source === 'description' ? '영상 설명에서 뽑은 핵심 내용 · 한국어' : '영상 자막에서 뽑은 핵심 내용 · 한국어') : reddit ? '게시글 요약' : i.summary_source === 'feed' ? '피드 소개문 번역' : '한국어 발췌 요약';
+    const label = video ? (i.summary_source === 'description' ? '영상 설명에서 뽑은 핵심 내용 · 한국어' : '영상 자막에서 뽑은 핵심 내용 · 한국어') : kind === 'article' ? (i.access === 'preview' ? '공개 소개문에서 확인한 한국어 요약' : '펠리컨스 관련 본문 · 한국어 요약') : reddit ? '게시글 요약' : i.summary_source === 'feed' ? '피드 소개문 번역' : '한국어 발췌 요약';
     content += `<div class="label">${label}</div><ul class="summary">${displayedSummary.map(s => `<li>${escapeHTML(s)}</li>`).join('')}</ul>`;
   }
   if (video && !validVideoSummary) content += `<p class="notice">${escapeHTML(i.error || '영상 내용에서 한국어 요약 3개 이상을 준비하고 있습니다.')}</p>`;
   else if (!video && i.status !== 'ready') content += `<p class="notice">${escapeHTML(i.error || (i.title_ko ? '본문 번역 대기 중입니다.' : '번역 대기 중입니다. 원문을 먼저 확인할 수 있습니다.'))}</p>`;
+  if (kind === 'article' && i.access === 'preview') content += '<p class="notice">공개된 소개문 범위에서 확인한 내용입니다. 전체 본문은 원문에서 확인하세요.</p>';
   if (reddit) {
     content += `<details><summary>게시글 · 댓글 ${comments.length}개 읽기</summary>${i.body_ko ? `<p class="body">${escapeHTML(i.body_ko)}</p>` : `<p class="original">${i.status === 'ready' ? '텍스트 본문이 없는 이미지·링크 게시글입니다.' : '게시글 본문을 아직 가져오지 못했습니다.'}</p>`}${comments.map(c => `<div class="comment"><small>u/${escapeHTML(c.author)}${c.score == null ? '' : ` · 추천 ${escapeHTML(c.score)}`}</small><p class="body">${escapeHTML(c.body_ko || '댓글 번역 대기 중입니다.')}</p><details class="original"><summary>원문 댓글 보기</summary><p class="body">${escapeHTML(c.body_en)}</p></details>${link(c.url, '댓글 원문 ↗')}</div>`).join('')}${comments.length ? '' : '<p class="original">표시할 번역 댓글이 없습니다.</p>'}</details>`;
   }
@@ -53,12 +55,13 @@ function card(i) {
 function channelMessage(data, tab) {
   if (data.channels?.[tab]?.message) return data.channels[tab].message;
   if (tab === 'youtube') return '매일 한국시간 09:00·18:00에 펠리컨스 영상을 검색하고 핵심 내용 3개 이상을 한국어로 제공합니다.';
+  if (tab === 'article') return '선택한 5개 분석 매체의 최근 90일 글 중 본문에서 펠리컨스 관련 내용을 확인한 아티클을 제공합니다.';
   return (data.errors || []).filter(error => tab === 'reddit' ? error.startsWith('Reddit') : !error.startsWith('Reddit')).join(' · ');
 }
 function init() {
   const $ = selector => document.querySelector(selector);
   let data = {items:[]}, tab = INITIAL_TAB, limit = 20;
-  const empty = {news:'조건에 맞는 뉴스가 없습니다.', reddit:'조건에 맞는 Reddit 게시글이 없습니다.', youtube:'수집된 YouTube 영상이 없습니다. 다음 검색 결과가 여기에 표시됩니다.'};
+  const empty = {news:'조건에 맞는 뉴스가 없습니다.', reddit:'조건에 맞는 Reddit 게시글이 없습니다.', youtube:'수집된 YouTube 영상이 없습니다. 다음 검색 결과가 여기에 표시됩니다.', article:'본문에서 펠리컨스 관련 내용을 확인한 아티클이 아직 없습니다. 소스 확인이 끝나면 여기에 표시됩니다.'};
   function render() {
     const filtered = filterItems(data.items || [], tab, $('#search').value);
     $('#count').textContent = `${filtered.length}개의 ${tab === 'youtube' ? '영상' : '소식'} · 최신순`;

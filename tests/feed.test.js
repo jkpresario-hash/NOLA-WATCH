@@ -3,11 +3,11 @@ const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const feed = require('../feed.js');
 
-test('exactly three tabs and news is the initial page', () => {
+test('four requested tabs in order and news is the initial page', () => {
   const html = fs.readFileSync('index.html', 'utf8');
   assert.equal(feed.INITIAL_TAB, 'news');
   assert.deepEqual([...html.matchAll(/data-tab="([^"]+)"/g)].map(m => m[1]), feed.TABS);
-  assert.deepEqual(feed.TABS, ['news', 'reddit', 'youtube']);
+  assert.deepEqual(feed.TABS, ['reddit', 'news', 'youtube', 'article']);
   assert.match(html, /data-tab="news" aria-pressed="true"/);
   assert.doesNotMatch(html, /data-tab="(?:all|x)"/);
 });
@@ -18,6 +18,15 @@ test('each tab contains only its channel and cancelled posts cannot enter news',
   assert.deepEqual(feed.filterItems(items,'x','pelicanslead'), []);
   assert.deepEqual(feed.filterItems(items,'youtube','수비'), [items[3]]);
   assert.deepEqual(feed.filterItems(items,'all'), []);
+});
+test('articles have their own tab, relevance label and preview disclosure', () => {
+  const article = {kind:'article',title:'Deep analysis',source:'In The N.O.',author:'Shamit Dua',access:'preview',summary_ko:['첫 번째 분석','두 번째 분석','세 번째 분석'],status:'ready',url:'https://intheno.substack.com/p/test'};
+  assert.deepEqual(feed.filterItems([article,{kind:'news'}],'article'), [article]);
+  assert.deepEqual(feed.filterItems([article],'news'), []);
+  const html=feed.card(article);
+  for(const value of ['ARTICLE','본문 관련성 확인','최근 90일','공개 소개문','Shamit Dua']) assert.ok(html.includes(value));
+  assert.equal((html.match(/<li>/g)||[]).length,3);
+  assert.doesNotMatch(feed.channelMessage({errors:['Unrelated news warning']},'article'),/Unrelated news/);
 });
 test('videos show three verified Korean points and indicate their source', () => {
   const html = feed.card({kind:'youtube',title:'Video',url:'https://youtube.com/watch?v=123456789ab',summary_ko:['첫 번째 수비 분석','두 번째 공격 분석','세 번째 선수 분석'],summary_source:'transcript'});

@@ -1,0 +1,43 @@
+{
+  "retention_days": 90,
+  "minimum_body_chars": 400,
+  "summary_points": 5,
+  "players": ["Zion Williamson", "Trey Murphy", "Herb Jones", "Herbert Jones", "Jeremiah Fears", "Derik Queen"],
+  "sources": [
+    {
+      "id": "hardwood", "name": "The Hardwood Collective",
+      "hosts": ["thehardwoodcollective.com", "www.thehardwoodcollective.com"],
+      "home": "https://thehardwoodcollective.com/",
+      "article_prefix": "/articles/",
+      "feeds": ["https://thehardwoodcollective.com/rss.xml", "https://thehardwoodcollective.com/feed"],
+      "listings": ["https://thehardwoodcollective.com/?cat=NBA"],
+      "sitemap": "https://thehardwoodcollective.com/sitemap.xml",
+      "seed_urls": ["https://thehardwoodcollective.com/articles/30-teams-30-days-new-orleans-pelicans-2027-season-preview"]
+    },
+    {
+      "id": "intheno", "name": "In The N.O.",
+      "hosts": ["intheno.substack.com"], "home": "https://intheno.substack.com/",
+      "article_prefix": "/p/", "feeds": ["https://intheno.substack.com/feed"],
+      "archive": "substack", "listings": ["https://intheno.substack.com/archive"]
+    },
+    {
+      "id": "poetry", "name": "Basketball Poetry",
+      "hosts": ["www.basketballpoetry.com", "basketballpoetry.com"], "home": "https://www.basketballpoetry.com/",
+      "article_prefix": "/p/", "feeds": ["https://www.basketballpoetry.com/feed"],
+      "archive": "substack", "listings": ["https://www.basketballpoetry.com/archive"]
+    },
+    {
+      "id": "swish", "name": "Swish Theory",
+      "hosts": ["theswishtheory.com", "www.theswishtheory.com"], "home": "https://theswishtheory.com/",
+      "article_pattern": "^/(?:nba|analysis|nba-draft|scouting-reports)/[0-9]{4}/[0-9]{2}/[^/]+/?$",
+      "feeds": ["https://theswishtheory.com/analysis/feed/", "https://theswishtheory.com/feed/"],
+      "archive": "wordpress", "listings": ["https://theswishtheory.com/"]
+    },
+    {
+      "id": "noceilings", "name": "No Ceilings",
+      "hosts": ["www.noceilingsnba.com", "noceilingsnba.com"], "home": "https://www.noceilingsnba.com/",
+      "article_prefix": "/p/", "feeds": ["https://www.noceilingsnba.com/feed"],
+      "archive": "substack", "listings": ["https://www.noceilingsnba.com/archive"]
+    }
+  ]
+}

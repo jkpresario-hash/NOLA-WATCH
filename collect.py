@@ -18,6 +18,7 @@ from bs4 import BeautifulSoup
 import trafilatura
 import news_policy
 import social_collect
+import article_collect
 
 SOURCES = {
     "Reddit · NOLAPelicans": "https://www.reddit.com/r/NOLAPelicans/new/.rss?limit=100",
@@ -472,10 +473,12 @@ def main():
         selected, deferred, stats = news_policy.curate(items, lambda text: translate(text, target="en"), english_complete, now=datetime.now(timezone.utc))
         policy_result.update(deferred=deferred, stats=stats)
         return selected
-    # Social channels have their own scope; never send them through news allowlisting.
-    social_items, social_state, channels = social_collect.collect(old["items"], old.get("social_state"), translate)
-    previous = [item for item in old["items"] if item.get("kind") not in ("x", "youtube")] + old.get("deferred_news", [])
-    merged, processed = collect_items(entries, previous, args.limit, content_seconds=600, news_filter=curate)
+    # Long-form articles keep their own publishers, body checks and 90-day window.
+    articles, article_state, article_status = article_collect.collect(old["items"], old.get("article_state"), translate)
+    social_items, social_state, channels = social_collect.collect(old["items"], old.get("social_state"), translate, seconds=180)
+    channels["article"] = article_status
+    previous = [item for item in old["items"] if item.get("kind") not in ("x", "youtube", "article")] + old.get("deferred_news", [])
+    merged, processed = collect_items(entries, previous, args.limit, content_seconds=450, news_filter=curate)
     merged, final_deferred, final_stats = news_policy.curate(merged, lambda text: translate(text, target="en"), english_complete,
         now=datetime.now(timezone.utc), require_context=True)
     policy_result["deferred"].extend(final_deferred)
@@ -491,9 +494,11 @@ def main():
     channels["reddit"] = dict(state="partial" if any(error.startswith("Reddit") for error in errors) else "ready",
         message=" · ".join(error for error in errors if error.startswith("Reddit")))
     merged.extend(social_items)
+    merged.extend(articles)
     merged.sort(key=lambda item: item.get("published") or item.get("discovered_at", ""), reverse=True)
     state = dict(updated=datetime.now(timezone.utc).isoformat(), errors=errors, items=merged, reddit_scan=reddit_scan,
                  social_state=social_state, channels=channels,
+                 article_state=article_state,
                  deferred_news=policy_result["deferred"], news_policy=dict(version=news_policy.CONFIG["version"],
                  english_complete=english_complete, **policy_result["stats"]))
     path.write_text(json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")
