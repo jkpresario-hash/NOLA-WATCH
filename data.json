@@ -1,9 +1,322 @@
 {
-  "updated": "2026-11-14T00:51:12.680707+00:00",
+  "updated": "2026-11-14T09:54:41.370981+00:00",
   "errors": [
-    "비영어 뉴스 5건은 출처·중복 확인이 끝날 때까지 보류합니다."
+    "비영어 뉴스 6건은 출처·중복 확인이 끝날 때까지 보류합니다."
   ],
   "items": [
+    {
+      "kind": "youtube",
+      "source": "YouTube",
+      "video_id": "aYzIJLJoGLc",
+      "title": "금·토 다 잡자더니 금요일 31점 차 대패한 뉴올리언스.. | NBA 프리뷰 덴버 VS 뉴올리언스 외 2경기 (11/15)",
+      "url": "https://www.youtube.com/watch?v=aYzIJLJoGLc",
+      "channel": "로고투림(Logo To Rim)",
+      "thumbnail": "https://i.ytimg.com/vi/aYzIJLJoGLc/hqdefault.jpg",
+      "published": "",
+      "discovered_at": "2026-11-14T09:34:23.096536Z",
+      "status": "partial",
+      "summary_policy": 4,
+      "summary_attempted_at": "2026-11-14T09:34:23.096536Z",
+      "transcript_error": "RequestBlocked",
+      "upload_date": "2026-11-14",
+      "summary_source": "description",
+      "summary_original": [
+        "금요일 멤피스전은 142-111, 31점 차 패배였고, 뉴올리언스는 세 경기 연속 30점 넘게 졌습니다(합계 116점 차).",
+        "토요일 상대 덴버는 요키치가 코트에 있을 때 100번 공격당 +3.2, 벤치에 있을 때 -9.2인 팀이고, 이번 시즌 뉴올리언스와 두 번 만나 모두 이겼습니다.",
+        "공개 직전(11/14 18시 11분, 한국시간) 확인 · NBA 공식 부상 리포트 Injury-Report_2026-11-14_04_00AM.pdf 기준: 뉴올리언스·멤피스·클리블랜드는 공식 리포트 미제출(연이틀 경기, 출전 미정), 댈러스 라이블리 Out·크리스티 Questionable, 덴버 스트로더 Out."
+      ],
+      "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
+      "summary_error": "RuntimeError"
+    },
+    {
+      "kind": "youtube",
+      "source": "YouTube",
+      "video_id": "vHCd8_swduw",
+      "title": "Golden State Warriors vs New Orleans Pelicans Full Game Highlights - Nov 9, 2026",
+      "url": "https://www.youtube.com/watch?v=vHCd8_swduw",
+      "channel": "Highlights TV",
+      "thumbnail": "https://i.ytimg.com/vi/vHCd8_swduw/hqdefault.jpg",
+      "published": "",
+      "discovered_at": "2026-11-14T09:34:23.096536Z",
+      "status": "partial",
+      "summary_policy": 4,
+      "summary_attempted_at": "2026-11-14T09:34:23.096536Z",
+      "transcript_error": "RequestBlocked",
+      "upload_date": "2026-11-10",
+      "summary_source": "description",
+      "summary_original": [
+        "The Golden State Warriors beat the New Orleans Pelicans 138-87 at Chase Center in San Francisco on November 9, 2026, scoring 72 points before halftime to build a 29-point lead and never letting the game back within reach.",
+        "Stephen Curry scored 25 points with five rebounds and two assists, Brandin Podziemski also had 25 points with two rebounds and four assists, and Yaxel Lendeborg added 23 points, seven rebounds and four assists as Golden State put up 35, 37 and 40 points across the first three quarters.",
+        "Derik Queen led the Pelicans with 16 points and four rebounds, Dejounte Murray scored 12 points with three rebounds, and Jeremiah Fears finished with 11 points and eight assists, but New Orleans managed only 65 points through three quarters and 87 for the game."
+      ],
+      "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
+      "summary_error": "RuntimeError"
+    },
+    {
+      "kind": "youtube",
+      "source": "YouTube",
+      "video_id": "yWGEy0FOwvM",
+      "title": "The Warriors' Unbelievable 8-Game Winning Streak🔥Found the Winning Formula!",
+      "url": "https://www.youtube.com/watch?v=yWGEy0FOwvM",
+      "channel": "블랙 워리어",
+      "thumbnail": "https://i.ytimg.com/vi/yWGEy0FOwvM/hqdefault.jpg",
+      "published": "",
+      "discovered_at": "2026-11-14T09:34:23.096536Z",
+      "status": "partial",
+      "summary_policy": 4,
+      "summary_attempted_at": "2026-11-14T09:34:23.096536Z",
+      "transcript_error": "RequestBlocked",
+      "upload_date": "2026-11-10",
+      "summary_source": "description",
+      "summary_original": [
+        "The Golden State Warriors defeated the New Orleans Pelicans 138-87 by a margin of 51 points to extend their winning streak to eight games.",
+        "From Curry, who scored 25 points in just 20 minutes, to the explosive performances of Poziemski and Leinderborg, and a team basketball display featuring 37 assists.",
+        "We have summarized this game, which remains the Pelicans' largest margin of defeat in franchise history, using foreign media reports and match records."
+      ],
+      "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
+      "summary_error": "RuntimeError"
+    },
+    {
+      "kind": "youtube",
+      "source": "YouTube",
+      "video_id": "iIN3T_W7W5k",
+      "title": "TAMBAK! | 51 point Lead! | Kinawawa ng Warriors ang New Orleans Pelicans | History Made si Curry!",
+      "url": "https://www.youtube.com/watch?v=iIN3T_W7W5k",
+      "channel": "LH Sports",
+      "thumbnail": "https://i.ytimg.com/vi/iIN3T_W7W5k/hqdefault.jpg",
+      "published": "",
+      "discovered_at": "2026-11-14T09:34:23.096536Z",
+      "status": "partial",
+      "summary_policy": 4,
+      "summary_attempted_at": "2026-11-14T09:34:23.096536Z",
+      "transcript_error": "RequestBlocked",
+      "upload_date": "2026-11-10",
+      "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
+      "summary_error": "ValueError"
+    },
+    {
+      "kind": "youtube",
+      "source": "YouTube",
+      "video_id": "zw-SrX41CVw",
+      "title": "Cedric Coward Player Full High Lowlights vs Pelicans 02 11 2026 NBA Regular Season Game",
+      "url": "https://www.youtube.com/watch?v=zw-SrX41CVw",
+      "channel": "All-Court Highlights",
+      "thumbnail": "https://i.ytimg.com/vi/zw-SrX41CVw/hqdefault.jpg",
+      "published": "",
+      "discovered_at": "2026-11-14T09:34:23.096536Z",
+      "status": "partial",
+      "summary_policy": 4,
+      "summary_attempted_at": "2026-11-14T09:34:23.096536Z",
+      "transcript_error": "RequestBlocked",
+      "upload_date": "2026-11-10",
+      "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
+      "summary_error": "ValueError"
+    },
+    {
+      "kind": "youtube",
+      "source": "YouTube",
+      "video_id": "4XH4jirhxT8",
+      "title": "Warriors vs Pelicans Highlights: Epic NBA Clash\\! 🏀🔥",
+      "url": "https://www.youtube.com/watch?v=4XH4jirhxT8",
+      "channel": "Eliubay Vlog",
+      "thumbnail": "https://i.ytimg.com/vi/4XH4jirhxT8/hqdefault.jpg",
+      "published": "",
+      "discovered_at": "2026-11-14T09:34:23.096536Z",
+      "status": "partial",
+      "summary_policy": 4,
+      "summary_attempted_at": "2026-11-14T09:34:23.096536Z",
+      "transcript_error": "RequestBlocked",
+      "upload_date": "2026-11-10",
+      "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
+      "summary_error": "ValueError"
+    },
+    {
+      "kind": "youtube",
+      "source": "YouTube",
+      "video_id": "pW8Zq151Q_U",
+      "title": "GRIZZLIES AT PELICANS | EMIRATES NBA CUP 🏆 | FULL GAME HIGHLIGHTS | November 13, 2026",
+      "url": "https://www.youtube.com/watch?v=pW8Zq151Q_U",
+      "channel": "NBA",
+      "thumbnail": "https://i.ytimg.com/vi/pW8Zq151Q_U/hqdefault.jpg",
+      "published": "",
+      "discovered_at": "2026-11-14T09:34:23.096536Z",
+      "status": "partial",
+      "summary_policy": 4,
+      "summary_attempted_at": "2026-11-14T09:34:23.096536Z",
+      "transcript_error": "RequestBlocked",
+      "upload_date": "2026-11-14",
+      "summary_source": "description",
+      "summary_original": [
+        "The Grizzlies defeated the Pelicans, 142-111 tonight in New Orleans.",
+        "Jerami Grant finished with a team-high 22 points along with 3 three pointers for the Grizzlies, while Ty Jerome tallied 17 points, 9 assists and 2 rebounds in the game.",
+        "The Grizzlies improve their record to 8-4 with the win, while the Pelicans fall to 4-9 for the season."
+      ],
+      "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
+      "summary_error": "RuntimeError"
+    },
+    {
+      "kind": "youtube",
+      "source": "YouTube",
+      "video_id": "hQbIldMTLKg",
+      "title": "LIVE REACTION POSTGAME SHOW: New Orleans Pelicans vs Memphis Grizzlies",
+      "url": "https://www.youtube.com/watch?v=hQbIldMTLKg",
+      "channel": "Boot Krewe Media",
+      "thumbnail": "https://i.ytimg.com/vi/hQbIldMTLKg/hqdefault.jpg",
+      "published": "",
+      "discovered_at": "2026-11-14T09:34:23.096536Z",
+      "status": "partial",
+      "summary_policy": 4,
+      "summary_attempted_at": "2026-11-14T09:34:23.096536Z",
+      "title_ko": "라이브 반응 포스트게임 쇼: 뉴올리언스 펠리컨스 vs 멤피스 그리즐리스",
+      "transcript_error": "RequestBlocked",
+      "upload_date": "2026-11-14",
+      "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
+      "summary_error": "ValueError"
+    },
+    {
+      "kind": "youtube",
+      "source": "YouTube",
+      "video_id": "qs2pu9tqn4I",
+      "title": "Jamahl Mosley | Pelicans vs. Grizzlies Postgame Interview 11/13/26",
+      "url": "https://www.youtube.com/watch?v=qs2pu9tqn4I",
+      "channel": "New Orleans Pelicans",
+      "thumbnail": "https://i.ytimg.com/vi/qs2pu9tqn4I/hqdefault.jpg",
+      "published": "",
+      "discovered_at": "2026-11-14T09:34:23.096536Z",
+      "status": "partial",
+      "summary_policy": 4,
+      "summary_attempted_at": "2026-11-14T09:34:23.096536Z",
+      "transcript_error": "RequestBlocked",
+      "upload_date": "2026-11-14",
+      "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
+      "summary_error": "ValueError"
+    },
+    {
+      "kind": "youtube",
+      "source": "YouTube",
+      "video_id": "27QxklWF3I8",
+      "title": "Memphis Grizzlies vs New Orleans Pelicans Full Game Highlights - November 13, 2026",
+      "url": "https://www.youtube.com/watch?v=27QxklWF3I8",
+      "channel": "GAMETIME HIGHLIGHTS",
+      "thumbnail": "https://i.ytimg.com/vi/27QxklWF3I8/hqdefault.jpg",
+      "published": "",
+      "discovered_at": "2026-11-14T09:34:23.096536Z",
+      "status": "partial",
+      "summary_policy": 4,
+      "summary_attempted_at": "2026-11-14T09:34:23.096536Z",
+      "transcript_error": "RequestBlocked",
+      "upload_date": "2026-11-14",
+      "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
+      "summary_error": "ValueError"
+    },
+    {
+      "kind": "youtube",
+      "source": "YouTube",
+      "video_id": "RfaqD9CLzf0",
+      "title": "LIVE: Pelicans vs. Grizzlies Pregame w/ Jamahl Mosley 11/13/2026",
+      "url": "https://www.youtube.com/watch?v=RfaqD9CLzf0",
+      "channel": "New Orleans Pelicans",
+      "thumbnail": "https://i.ytimg.com/vi/RfaqD9CLzf0/hqdefault.jpg",
+      "published": "",
+      "discovered_at": "2026-11-14T09:34:23.096536Z",
+      "status": "partial",
+      "summary_policy": 4,
+      "summary_attempted_at": "2026-11-14T09:34:23.096536Z",
+      "transcript_error": "RequestBlocked",
+      "upload_date": "2026-11-14",
+      "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
+      "summary_error": "ValueError"
+    },
+    {
+      "kind": "youtube",
+      "source": "YouTube",
+      "video_id": "hHUYVvAjY5k",
+      "title": "🔴 LIVE | NBA CUP MEMPHIS GRIZZLIES vs NEW ORLEANS PELICANS | LIVE SCORE UPDATE | 2026-2027 SEASON",
+      "url": "https://www.youtube.com/watch?v=hHUYVvAjY5k",
+      "channel": "Dope Media",
+      "thumbnail": "https://i.ytimg.com/vi/hHUYVvAjY5k/hqdefault.jpg",
+      "published": "",
+      "discovered_at": "2026-11-14T09:34:23.096536Z",
+      "status": "partial",
+      "summary_policy": 4,
+      "summary_attempted_at": "2026-11-14T09:34:23.096536Z",
+      "transcript_error": "RequestBlocked",
+      "upload_date": "2026-11-14",
+      "summary_source": "description",
+      "summary_original": [
+        "🏀 MEMPHIS GRIZZLIES vs NEW ORLEANS PELICANS LIVE SCOREBOARD 🏀",
+        "Follow live score updates, play-by-play discussion, reactions, key moments, and basketball conversation throughout the game.",
+        "Whether you're cheering for your favorite team, join the Sports Lounge community and discuss the game with fellow basketball fans."
+      ],
+      "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
+      "summary_error": "RuntimeError"
+    },
+    {
+      "title": "Speculation",
+      "url": "https://www.reddit.com/r/NOLAPelicans/comments/1xvuu88/speculation/",
+      "source": "Reddit · NOLAPelicans",
+      "kind": "reddit",
+      "published": "2026-11-14T05:59:35+00:00",
+      "thumbnail": "",
+      "body_en": "Pelicans a clown rn in a league with new lottery rules that have losing in the play-in tournament the same odds to get the #1 pick as finishing with the worst record in the league does. Celtics desperately need one more guy that can create his own offense whether it be getting to the FT line or creating his own shots and making them, as we saw vs houston and should know just by watching a game and viewing the roster on paper and knowing basketball and what it takes to win a championship.\nWith that being said, Mathurin signed with New Orleans in hopes to start or be 6MOY as he had a healthy offseason last year for the first time in many years, similar to PG this year, and was clearly the clippers best player in their miniscule run last season. He’s a guy who could have taken more money the clippers supposedly offered but he wasn’t willing to do it because he wanted to bet on himself in his agents terms to get a deal from $80-100M after a year in New Orleans, a second in a player option basically just insurance in case of another injury as he’s had plenty of.\nWith them trading Murray, maybe having to shell out a deal like Randle to Brooklyn just to get rid of his contract, and probably leaning towards trading Zion and Murphy as their value is decreasing game after game by their stats considering the pelicans have no pecking order or real system or usage in place, and everyone just chucks at will.\nDo the celtics pull off a HEIST of something like Harper and Dillon Mitchell for Bennedict Mathurin, or Derrick White and a 2030 Celtics 1st for Trey Murphy? Or even someone smaller like Harper and 2 2nds for Mathurin or Jones?",
+      "status": "partial",
+      "translation_errors": {
+        "title": "HTTP 429",
+        "body": "HTTP 429",
+        "comment_0": "HTTP 429",
+        "summary": "HTTP 429"
+      },
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
+      "comments": [
+        {
+          "author": "predw",
+          "score": null,
+          "body_en": "Hey siri how do I delete someone else’s low IQ ramblings?",
+          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1xvuu88/speculation/19sm04fx4ezcy/"
+        }
+      ],
+      "summary_en": [
+        "Pelicans a clown rn in a league with new lottery rules that have losing in the play-in tournament the same odds to get the #1 pick as finishing with the worst record in the league does.",
+        "With that being said, Mathurin signed with New Orleans in hopes to start or be 6MOY as he had a healthy offseason last year for the first time in many years, similar to PG this year, and was clearly the clippers best player in their miniscule run last season.",
+        "He’s a guy who could have taken more money the clippers supposedly offered but he wasn’t willing to do it because he wanted to bet on himself in his agents terms to get a deal from $80-100M after a year in New Orleans, a second in a player option basically just insurance in case of another injury as he’s had plenty of."
+      ],
+      "processed_at": "2026-11-14T09:46:51.464807+00:00",
+      "error": "일부 번역이 지연되고 있습니다. 다음 수집 때 재시도합니다."
+    },
+    {
+      "title": "Can Fans request trades too?",
+      "url": "https://www.reddit.com/r/NOLAPelicans/comments/1xvsjev/can_fans_request_trades_too/",
+      "source": "Reddit · NOLAPelicans",
+      "kind": "reddit",
+      "published": "2026-11-14T03:52:36+00:00",
+      "thumbnail": "",
+      "body_en": "3 straight losses by 30+ points, 5 losses in a row. Yet you expect fans to pay $35 parking, $12+ for a beer, $16 for cold chicken tenders and soggy French fries? Not to mention ticket prices for “good” seats aren’t worth the mediocre basketball being played. How much loyalty can a fanbase show to a whole team, coaching staff, and front office that don’t even show the bare minimum of moving forward\n*note: I don’t know exact prices but I’m pretty sure these are what I remember.",
+      "status": "partial",
+      "translation_errors": {
+        "title": "HTTP 429",
+        "body": "HTTP 429"
+      },
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
+      "content_error": "HTTP 429",
+      "error": "일부 번역이 지연되고 있습니다. 다음 수집 때 재시도합니다."
+    },
+    {
+      "title": "Post-Game Thread: Memphis Grizzlies (8-4) defeat New Orleans Pelicans (0-2), 142-111 | NBA | Nov 13, 2026",
+      "url": "https://www.reddit.com/r/NOLAPelicans/comments/1xvsbl4/postgame_thread_memphis_grizzlies_84_defeat_new/",
+      "source": "Reddit · NOLAPelicans",
+      "kind": "reddit",
+      "published": "2026-11-14T03:40:45+00:00",
+      "thumbnail": "",
+      "body_en": "This post contains content not supported on old Reddit.\nClick here to view the full post",
+      "status": "partial",
+      "body_ko": "이 게시물에는 이전 Reddit에서 지원되지 않는 콘텐츠가 포함되어 있습니다.\n전체 게시물을 보려면 여기를 클릭하세요",
+      "translation_errors": {
+        "title": "HTTP 429"
+      },
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
+      "content_error": "HTTP 429",
+      "error": "일부 번역이 지연되고 있습니다. 다음 수집 때 재시도합니다."
+    },
     {
       "kind": "youtube",
       "source": "YouTube",
@@ -16,7 +329,7 @@
       "discovered_at": "2026-11-14T00:35:24.898905Z",
       "status": "partial",
       "summary_policy": 4,
-      "summary_attempted_at": "2026-11-14T00:35:24.898905Z",
+      "summary_attempted_at": "2026-11-14T09:34:23.096536Z",
       "transcript_error": "RequestBlocked",
       "upload_date": "2026-11-13",
       "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
@@ -34,7 +347,7 @@
       "discovered_at": "2026-11-14T00:35:24.898905Z",
       "status": "partial",
       "summary_policy": 4,
-      "summary_attempted_at": "2026-11-14T00:35:24.898905Z",
+      "summary_attempted_at": "2026-11-14T09:34:23.096536Z",
       "transcript_error": "RequestBlocked",
       "upload_date": "2026-11-13",
       "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
@@ -52,7 +365,7 @@
       "discovered_at": "2026-11-14T00:35:24.898905Z",
       "status": "partial",
       "summary_policy": 4,
-      "summary_attempted_at": "2026-11-14T00:35:24.898905Z",
+      "summary_attempted_at": "2026-11-14T09:34:23.096536Z",
       "transcript_error": "RequestBlocked",
       "upload_date": "2026-11-13",
       "summary_source": "description",
@@ -76,7 +389,7 @@
       "discovered_at": "2026-11-14T00:35:24.898905Z",
       "status": "partial",
       "summary_policy": 4,
-      "summary_attempted_at": "2026-11-14T00:35:24.898905Z",
+      "summary_attempted_at": "2026-11-14T09:34:23.096536Z",
       "transcript_error": "RequestBlocked",
       "upload_date": "2026-11-13",
       "summary_source": "description",
@@ -100,7 +413,7 @@
       "discovered_at": "2026-11-14T00:35:24.898905Z",
       "status": "partial",
       "summary_policy": 4,
-      "summary_attempted_at": "2026-11-14T00:35:24.898905Z",
+      "summary_attempted_at": "2026-11-14T09:34:23.096536Z",
       "transcript_error": "RequestBlocked",
       "upload_date": "2026-11-10",
       "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
@@ -118,7 +431,7 @@
       "discovered_at": "2026-11-14T00:35:24.898905Z",
       "status": "partial",
       "summary_policy": 4,
-      "summary_attempted_at": "2026-11-14T00:35:24.898905Z",
+      "summary_attempted_at": "2026-11-14T09:34:23.096536Z",
       "transcript_error": "RequestBlocked",
       "upload_date": "2026-11-09",
       "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
@@ -136,7 +449,7 @@
       "discovered_at": "2026-11-14T00:35:24.898905Z",
       "status": "partial",
       "summary_policy": 4,
-      "summary_attempted_at": "2026-11-14T00:35:24.898905Z",
+      "summary_attempted_at": "2026-11-14T09:34:23.096536Z",
       "transcript_error": "RequestBlocked",
       "upload_date": "2026-11-10",
       "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
@@ -154,7 +467,7 @@
       "discovered_at": "2026-11-14T00:35:24.898905Z",
       "status": "partial",
       "summary_policy": 4,
-      "summary_attempted_at": "2026-11-14T00:35:24.898905Z",
+      "summary_attempted_at": "2026-11-14T09:34:23.096536Z",
       "transcript_error": "RequestBlocked",
       "upload_date": "2026-11-13",
       "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
@@ -172,7 +485,7 @@
       "discovered_at": "2026-11-14T00:35:24.898905Z",
       "status": "partial",
       "summary_policy": 4,
-      "summary_attempted_at": "2026-11-14T00:35:24.898905Z",
+      "summary_attempted_at": "2026-11-14T09:34:23.096536Z",
       "transcript_error": "RequestBlocked",
       "upload_date": "2026-11-13",
       "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
@@ -190,7 +503,7 @@
       "discovered_at": "2026-11-14T00:35:24.898905Z",
       "status": "partial",
       "summary_policy": 4,
-      "summary_attempted_at": "2026-11-14T00:35:24.898905Z",
+      "summary_attempted_at": "2026-11-14T09:34:23.096536Z",
       "transcript_error": "RequestBlocked",
       "upload_date": "2026-11-13",
       "summary_source": "description",
@@ -214,7 +527,7 @@
       "discovered_at": "2026-11-14T00:35:24.898905Z",
       "status": "partial",
       "summary_policy": 4,
-      "summary_attempted_at": "2026-11-14T00:35:24.898905Z",
+      "summary_attempted_at": "2026-11-14T09:34:23.096536Z",
       "transcript_error": "RequestBlocked",
       "upload_date": "2026-11-13",
       "summary_source": "description",
@@ -238,7 +551,7 @@
       "discovered_at": "2026-11-14T00:35:24.898905Z",
       "status": "partial",
       "summary_policy": 4,
-      "summary_attempted_at": "2026-11-14T00:35:24.898905Z",
+      "summary_attempted_at": "2026-11-14T09:34:23.096536Z",
       "transcript_error": "RequestBlocked",
       "upload_date": "2026-11-13",
       "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
@@ -256,7 +569,7 @@
       "discovered_at": "2026-11-14T00:35:24.898905Z",
       "status": "partial",
       "summary_policy": 4,
-      "summary_attempted_at": "2026-11-14T00:35:24.898905Z",
+      "summary_attempted_at": "2026-11-14T09:34:23.096536Z",
       "transcript_error": "RequestBlocked",
       "upload_date": "2026-11-13",
       "summary_source": "description",
@@ -651,7 +964,7 @@
       "discovered_at": "2026-11-13T09:47:08.882447Z",
       "status": "partial",
       "summary_policy": 4,
-      "summary_attempted_at": "2026-11-14T00:35:24.898905Z",
+      "summary_attempted_at": "2026-11-14T09:34:23.096536Z",
       "transcript_error": "RequestBlocked",
       "upload_date": "2026-11-13",
       "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
@@ -978,11 +1291,52 @@
       "status": "partial",
       "translation_errors": {
         "title": "HTTP 429",
-        "body": "HTTP 429"
+        "body": "HTTP 429",
+        "comment_0": "HTTP 429",
+        "comment_1": "HTTP 429",
+        "comment_2": "HTTP 429",
+        "comment_3": "HTTP 429",
+        "comment_4": "HTTP 429",
+        "summary": "HTTP 429"
       },
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
-      "content_error": "HTTP 429",
-      "error": "일부 번역이 지연되고 있습니다. 다음 수집 때 재시도합니다."
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
+      "error": "일부 번역이 지연되고 있습니다. 다음 수집 때 재시도합니다.",
+      "comments": [
+        {
+          "author": "Financial_Island2353",
+          "score": null,
+          "body_en": "Fork found in kitchen",
+          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1xuvs75/you_dont_say/19sjx1qsp85fp/"
+        },
+        {
+          "author": "Full_Excitement6845",
+          "score": null,
+          "body_en": "Love how he nicely says Joes out of touch and a moron",
+          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1xuvs75/you_dont_say/19sjzbicig39c/"
+        },
+        {
+          "author": "NorthOld6237",
+          "score": null,
+          "body_en": "Should be shipped to Antarctica",
+          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1xuvs75/you_dont_say/19sjwxdzdgeis/"
+        },
+        {
+          "author": "78SuperBeetle",
+          "score": null,
+          "body_en": "Can we just like trade him to the Capitanes or something?",
+          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1xuvs75/you_dont_say/19sjxbxdls2v6/"
+        },
+        {
+          "author": "iircirc",
+          "score": null,
+          "body_en": "In other news, water is wet and the sky is up",
+          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1xuvs75/you_dont_say/19sksubn5o9dx/"
+        }
+      ],
+      "summary_en": [
+        "The energy in New Orleans around Dejounte Murray is ‘fairly negative’"
+      ],
+      "processed_at": "2026-11-14T09:47:34.880618+00:00"
     },
     {
       "title": "Game Thread: Memphis Grizzlies (7-4) vs New Orleans Pelicans (4-8) Live Score | NBA | Nov 13, 2026",
@@ -997,7 +1351,7 @@
       "translation_errors": {
         "title": "HTTP 429"
       },
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "일부 번역이 지연되고 있습니다. 다음 수집 때 재시도합니다."
     },
@@ -1264,7 +1618,7 @@
       "status": "partial",
       "title_ko": "그리고 우리도 실제로 좋은 시즌을 보낼 거라고 생각했어요... 이제 우리는 4-8명이고 DJ들은 트위치에서 신랄한 마음을 잃었습니다. 곧 거래를 할 수 있었으면 좋겠습니다.",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -1280,7 +1634,7 @@
       "title_ko": "염소는 누구입니까?",
       "body_ko": "안녕하세요 펠리컨 팬 여러분!\n당신의 염소는 누구입니까?\n타이!",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -1332,7 +1686,7 @@
       "status": "partial",
       "title_ko": "브루클린 네트의 트롤링을 당하는구나 맙소사",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -1352,7 +1706,7 @@
         "comment_3": "HTTP 429",
         "comment_4": "HTTP 429"
       },
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "error": "일부 번역이 지연되고 있습니다. 다음 수집 때 재시도합니다.",
       "body_en": "",
       "comments": [
@@ -1388,7 +1742,8 @@
         }
       ],
       "summary_en": [],
-      "processed_at": "2026-11-13T09:55:21.755131+00:00"
+      "processed_at": "2026-11-13T09:55:21.755131+00:00",
+      "content_error": "HTTP 429"
     },
     {
       "title": "If Dejounte doesn’t get punished for his behaviour…",
@@ -1402,7 +1757,7 @@
       "title_ko": "Dejounte가 자신의 행동에 대해 처벌을 받지 않는다면…",
       "body_ko": "그들이 이 사람에 대해 조치를 취하지 않고 그에게 몇 분씩 계속 먹이를 주지 않으면 무슨 말을 해야 할지 정말 모르겠습니다.\n그의 법정 밖에서의 장난은 이와 같은 bs를 게시한 후 즉시 삭제하는 사상 최고치를 기록했습니다.\n그는 자신이 하고 있는 일과 그것이 어떻게 보이는지 알고 있습니다. 실제로 조직에 똥을 싸고 자신의 명예를 훼손하려는 신비한 나쁜 배우들에 대해 간접적으로 징징대고 있습니다.\n\"환경의 변화\"를 요청했다면 가서 가져오세요.🤦‍♂️ 그리고 팀의 젊은 핵심이 리더십과 지도력을 찾고 있을 때 두 번의 끔찍한 손실과 플로어 양쪽 끝의 완전한 고장 직후에 이 타이타런 짓을 하는 것은 미친 짓입니다.\n친구는 좀 더 성장해야 하는데, 마법처럼 아이가 되지 않는다고 해도 지금은 너무 멀리 간 것 같아요.\n남은 작은 존경심도 사라졌습니다.",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -1416,7 +1771,7 @@
       "status": "partial",
       "title_ko": "DJM이 게시한 ProPels 동영상 중 하나가 응답하고 있습니다. DJM은 Karlo가 O 리바운드를 얻을 수 있었을 때 3점을 기록하면서 즐겁게 돌아왔습니다.",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -1432,7 +1787,7 @@
       "title_ko": "DJM이 X를 붕괴시키고 있다",
       "body_ko": "Pro Pels Talk의 저스틴과 파이팅 ㅋㅋㅋ",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -1448,7 +1803,7 @@
       "title_ko": "펠리컨은 농구에서 가장 큰 변칙적 존재이다",
       "body_ko": "나는 스포츠에서 이렇게 나쁜 선수, 코치, 프론트 오피스, 불운이 조합된 팀은 없다고 생각합니다.\n어디서부터 시작해야 할까요?\n예전에 AD가 있었을 때, 우리는 Tyreke나 Ryan Anderson과 같은 선수들이 우리 스타 선수의 공을 독식하고 있고 AD가 너무 소극적이라고 불평했습니다.\nDell Demps와 그의 나쁜 계약으로 시작하지 마십시오: Eric Gordon, Omer Asik, Ajincia, Solomon.\n부기 부상은 끔찍한 행운이었습니다.\n그런 다음 David Griffin과 그의 형편없는 계약으로 이동합니다. Favors, Melli, Bledsoe, Kira, Tony Snell, Garret Temple, Larry Nance, Josh Richardson, Devontae Graham, Hawkins 및 아마도 내가 잊어버린 그 이상일 것입니다.\n이제 시온으로 가보겠습니다.\n나는 \"스타\"에게 이런 일이 일어나는 것을 본 적이 없습니다.\n자이언은 차기 르브론이 될 것으로 예상됐다.\n하지만 알고 보니 그는 수동적이고 1차원적이며 최고의 선수로서 2번째 옵션이라는 것이 밝혀졌습니다.\n그의 경력의 대부분 동안 우리는 그의 게으름, 비행에 늦는 것, 과체중, 그의 양아버지가 요구하는 것과 같은 비전문성을 다루어야 했습니다.\n나는 그가 성장했고 헛소리를 버렸다는 점을 그에게 인정할 것입니다.\n하지만 그는 샷을 더 발전시켰어야 했다.\n그리고 앤서니 데이비스처럼 우리에게도 그에게 공을 주기를 거부하는 선수들이 있습니다.\nJoe Dumars는 절대로 고용되어서는 안되는 최악의 GM 중 한 명입니다.\n그는 90년대, 2000년대 농구시대에 갇혀있습니다.\n우리는 플레이어를 너무 오랫동안 유지하여 BI, Herb 등의 가치를 줄였습니다.\nGayle은 Pelicans 및 Saints와의 승리에 대한 관계에 관한 것입니다.\n나는 Dejounte 헛소리에 대해 말할 필요가 없다고 생각합니다.\n마지막으로, 저는 여러분 중 일부 \"팬\"에 대해 호언장담하고 싶습니다.\n펠리칸 팬들은 내가 농구에서 본 최악의 의견 중 하나를 갖고 있다.\n여러분도 금붕어에 대한 추억을 갖고 계시죠?\n마치 이전 시즌에 일어난 모든 일을 문자 그대로 잊어버린 것과 같습니다.\n똑같은 선수 명단이 있는데 왜 이번 시즌이 다를 거라고 생각하시나요?\n많은 분들이 Herb, BI, Jose, Larry Nance와 같은 플레이어에 대한 이상한 환상을 갖고 계십니다.\n사실, 그것은 여러분에게 달려 있었습니다. 나는 그들 모두가 여전히 여기에 있을 것이라고 장담합니다.\nJose는 작은 벤치 스파커였습니다.\n래리 낸스는 말 그대로 쓸모가 없었습니다.\nBI는 그렇지 않은 경우에도 최고의 옵션이 되기를 원했습니다.\n그리고 너희들은 또한 Herb Jones가 여전히 좋은 선수인 것처럼 과대평가하고 있어.\n그는 평균 6-3-1, 필드골 성공률 37%를 기록하고 있습니다.\nGayle과 마찬가지로 이곳의 팬들은 실제로 승리하는 것보다 느낌에 주로 관심을 갖습니다.\n그것이 내가 말해야 했던 전부이다.",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -1464,7 +1819,7 @@
       "title_ko": "Barkley의 발언과 어젯밤에 대한 지역 신문 보도 - Barkley는 수요일 ESPN의 \"Inside The NBA\"에서 \"뉴올리언스, 우리는 시애틀에 그 팀이 필요합니다\"라고 말했습니다.\n“내가 짐 싸는 걸 도와줄게.”",
       "body_ko": "뉴올리언스 펠리컨스는 프랜차이즈 정규 시즌 역사상 가장 일방적인 패배를 당하고 있었습니다.\n자말 모슬리 감독은 그의 팀이 수요일 밤 스무디 킹 센터에서 열린 브루클린 네츠와의 경기에서 월요일 밤 골든스테이트에서 138-87로 패했을 때 보여주지 못했던 강인함과 투지, 싸움으로 대응하는 것을 보고 싶었습니다.\nMosley는 자신이 찾고 있던 것과 비슷한 것을 얻지 못했습니다.\n펠리컨스가 네츠에 145-111로 패한 것은 이틀 전 역사적으로 좋지 않은 성적을 거둔 것과 사실상 구별할 수 없었습니다.\nNBA에서 두 번째로 적은 승리를 거두며 공동 출전한 네츠(3-8)는 시즌 최다 승점, 전반전(1회 83점), 쿼터 득점(2회 44점)을 경신했고, 일요일 로스앤젤레스 클리퍼스에 139-123으로 패한 것을 시작으로 최근 3경기에서 평균 140점을 내준 펠리컨스(4-8)가 허용한 최다 득점도 경신했다.\n모슬리는 \"매일 밤 높은 수준에서 방어하려는 의지와 욕구\"가 없다는 점을 언급하면서 \"많은 것들의 조합\"으로 인해 슬라이드가 발생했다고 말했습니다.\n브루클린 네츠의 포워드 줄리어스 랜들(30)이 11월 수요일 뉴올리언스의 스무디 킹 센터에서 열린 농구 경기 전반전에서 뉴올리언스 펠리컨스의 포워드 카를로 마트코비치(17)를 상대로 득점을 시도하고 있다.\n2026년 11월 11일.\n직원 사진: 소피아 거머\n소피아 거머\nMosley는 \"그들을 준비시키는 것이 내 일입니다. 그리고 일이 뜻대로 되지 않을 때에도 함께 묶일 수 있는 능력이기도 합니다.\"라고 말했습니다.\n허용 점수가 특히 우려스럽습니다.\n모슬리가 오프 시즌에 고용된 이유 중 하나는 올랜도의 감독으로서 5시즌 동안 NBA에서 더 나은 수비팀 중 하나를 이끌었던 그의 이력 때문이었습니다.\nMosley는 \"나는 지금 사람들에게 앉아서 감시하도록 하는 것이 내 일을 하는 것이 아닙니다\"라고 말했습니다.\n펠리컨스는 어린 시즌 두 번째로 4연패를 기록했으며, 둘 사이의 4연승을 압도했습니다.\n그들은 금요일 밤에 멤피스 그리즐리스를 개최하는 시즌 초반에도 Mosley가 팀의 행운을 위해 \"거대한\"이라고 불렀던 5경기 홈 스탠드의 두 번째 경기를 치릅니다.\nZion Williamson은 휴식을 위해 1경기 결장 후 돌아와 뉴올리언스 선수 중 시즌 최고인 29득점으로 펠리컨스를 이끌었습니다. Saddiq Bey는 15를 추가했습니다. Jeremiah Fears와 Jordan Poole은 각각 14개를 기록했습니다. 브라이스 맥고웬스는 11득점을 기록했다.\n윌리엄슨은 최근의 성과를 \"용납할 수 없다\"고 말했습니다.\n윌리엄슨은 \"선수, 코치, 모두가 하나의 단위로 혼자 있을 때 거울을 보며 '내가 팀을 위해 해야 할 일을 다 했나요?'라고 물어야 한다\"고 말했다. 이는 내부적으로 시작된다.\"\n트레이 머피 3세(무릎)와 트렌던 왓포드(발목)가 2경기 연속 결장했고, 베네딕트 마투린(엄지)도 결장했고 이브 미시(무릎)도 10경기 연속 결장했다.\n네츠(3-8)는 1쿼터 이후 14점 차로 앞서며 시즌의 가장 생산적인 공격 반이 끝날 무렵 17점으로 우위를 점했습니다.\n후반 들어 득점력은 주춤했지만 마진은 계속 커져 브루클린이 3쿼터 말까지 107-81로 앞서갔다.\nNets는 8명의 두 자릿수 득점자로 경기를 마쳤습니다.\n마이클 포터 주니어\nEgor Demin은 각각 22득점을 기록했습니다. 줄리어스 랜들(Julius Randle)은 17명을 기록했다. Moritz Wagner와 Noah Clowney는 각각 16개를 가지고 있었습니다. Day'Ron Sharpe는 15를 추가했습니다. Keon Ellis는 11득점을 기록했습니다. Danny Wolf는 10득점 11리바운드를 기록했습니다.\n펠리컨스는 경기 초반 4득점을 올렸지만 나머지 1쿼터 동안은 압도당했다.\n네츠는 바닥에서 61.5%의 성공률을 기록했고, 뉴올리언스를 페인트에서 24-10으로 앞질렀으며, 시즌 1쿼터에서 39-25로 앞서며 가장 높은 득점을 기록하며 경기를 마쳤습니다.\n브루클린의 공세는 2쿼터 내내 이어졌다.\n시즌 최고 득점을 기록한 후 83-66 리드를 유지했습니다.\n이번 시즌 Nets의 이전 최대 하프타임 리드는 5점이었습니다.\n그들은 바닥에서 57%, 3점슛에서 48.8%(41개 중 20개)를 성공시켰습니다.\n찰스 바클리\n뉴올리언스 펠리컨스가 경기 후 무엇을 해야 할지에 대한 생각을 숨기지 않았습니다.\n브루클린 네츠가 팀을 145-111로 압도했습니다.\n수요일 밤에.\n바클리는 \"뉴올리언스, 시애틀에는 그 팀이 필요하다\"고 말했다.\n수요일 '인사이드 더 NBA'\nESPN에서.\n“내가 짐 싸는 걸 도와줄게.”\n펠리컨스의 구단주인 게일 벤슨은 조만간 팀을 매각할 계획이 없다고 강조했습니다.\n협상이 진행 중입니다.\n스무디킹 센터를 리모델링하고 홈경기장 근처에 새로운 연습시설을 건립할 계획입니다.\n11월 11일 수요일 뉴올리언스의 스무디 킹 센터에서 열린 뉴올리언스 펠리컨스와 브루클린 네츠 간의 농구 경기 중 4쿼터 중반 관중들이 떠나고 있습니다.\n2026년 11월 11일.\n수요일의 패배는 뉴올리언스가 유망한 4연승에 이어 4연패였습니다.\n현재 팀은 4-8이다.\n그 기간 동안 Pelicans는 Nets에 34차, Golden State Warriors에 51차, Los Angeles Clippers에 16차로 패했습니다.\n펠리컨스의 포워드 자이언 윌리엄슨은 수요일 경기 후 기자회견에서 \"받아들일 수 없다\"고 말했습니다.\n“나도 말이 별로 없어요.\n용납할 수 없는 일입니다. 특히 [우리] 홈 코트에서는요?\n팬들은 이럴 자격이 없습니다.\n도시는 이것을 받을 자격이 없으며, 그들을 위해 더 나아지는 것은 우리에게 달려 있습니다.\n도시와 프랜차이즈 전체를 위해 더 나은 결과를 얻으십시오.”\n팀 부사장 Joe Dumars가 지난 시즌 26승 56패를 기록한 이후 선수 명단에 큰 변화를 주지 않았기 때문에 문제가 확대되고 있습니다.\nDumars는 기자회견에서 자신이 받은 제안이 방아쇠를 당길 만큼 충분하지 않다는 점을 암시함으로써 자신의 움직임 부족을 변호했습니다.\nDumars는 언론에 자신이 움직이기 위해 움직이고 싶지 않다고 반복했습니다.\n펠리컨스는 오후 7시에 스무디 킹 센터로 돌아옵니다.\n금요일에 NBA 컵 매치업에서 멤피스 그리즐리스를 개최합니다.",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -1527,9 +1882,39 @@
       "title_ko": "이전 게시물을 삭제했지만 이것이 2, 3게임 기간 동안 최악의 패배 마진임을 확인할 수 있습니다.",
       "body_ko": "역대 최악의 2게임 패배 마진\n뉴올리언스 펠리컨스\n역사는\n합산 포인트 85점\n, 설정\n2026년 11월 9일 및 11월 11일\n.\n[\n1\n,\n2\n]\n엄밀히 따지면\n허용되는 총 포인트\n승점차가 아닌 연패로 프랜차이즈 기록은\n289점\n, 에서 일어난 일\n2025년 4월\n.\n[\n1\n]\n최악의 2게임 패전 마진(포인트 차등)\n2026년 11월 9일(Golden State Warriors에서):\n분실\n138–87\n(프랜차이즈 기록인 51점 정규 시즌 패배).\n2026년 11월 11일(vs.\n브루클린 네츠):\n분실\n145–111\n(34점 패배).\n합산 합계:\n펠리컨스가 압도당했습니다.\n85점\n이 두 게임에 걸쳐.\n(이것은 또한 프랜차이즈 최악의 3게임 포인트 차이를 상쇄시켰습니다.\n-101\n11월 8일 LA Clippers에 대한 139-123 패배를 포함할 때).\n[\n1\n,\n2\n,\n3\n,\n4\n]\n2연패 시 허용되는 최다 득점\n2025년 4월 10일 (밀워키 벅스에서):\n분실\n136–111\n.\n2025년 4월 11일(vs.\n마이애미 히트):\n분실\n153~104\n(프랜차이즈 역사상 단일 게임에 허용되는 최대 포인트)\n합산 합계:\n득점한 상대\n289점\n이번 연속 경기에서 뉴올리언스와의 경기(합산 패배 마진은 74점)입니다.\n[\n1\n]",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
+    },
+    {
+      "title": "Charles Barkley says Pelicans should be moved to a new city after another embarrassing loss - NOLA.com",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPMml4VzR2dGt2TGYxYnF2cFdaWkFuRVpQampZeW9zRnJlNkVKLTZFSjVlcjR4MHBZSDdXc1huczJaWmNoV0IwdVZZS3ZPNkYyYnczaHF6NUx3NmF4ZGxUUzJJcHZEeGZkY3hxb1YtbzM3T2YtYUg1cHdkNXM3a3BSTk43NnRVTENUQkMtd3N0WVd2ZDEzOGc0UHZUazF0R2lVZG5jaHo3N09zZXV3bVVYcTA3UmtWVFM1UDFhYWJvVU80aUdkcVJPMmFn?oc=5",
+      "source": "NOLA.com (Times-Picayune)",
+      "kind": "news",
+      "published": "2026-11-12T16:34:00+00:00",
+      "thumbnail": "https://bloximages.newyork1.vip.townnews.com/nola.com/content/tncms/assets/v3/editorial/9/df/9dfd53a1-5cc3-5feb-906c-2e65cb3774c9/6af540c8bfd17.image.jpg?crop=1762%2C925%2C0%2C124&resize=1200%2C630&order=crop%2Cresize",
+      "language": "en",
+      "publisher": "NOLA.com",
+      "publisher_url": "https://www.nola.com",
+      "status": "partial",
+      "source_id": "nola",
+      "dedupe_text_en": "Charles Barkley says Pelicans should be moved to a new city after another embarrassing loss",
+      "dedupe_original_title": "Charles Barkley says Pelicans should be moved to a new city after another embarrassing loss",
+      "translation_errors": {
+        "title": "HTTP 429",
+        "summary": "HTTP 429"
+      },
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
+      "original_url": "https://www.nola.com/sports/pelicans/charles-barkley-pelicans-relocation-seattle/article_b58de74f-f589-472e-8ead-4eb413da687c.html",
+      "event_facts_en": [],
+      "summary_en": [
+        "Charles Barkley didn’t hold back his thoughts on what the New Orleans Pelicans should do after the Brooklyn Nets blew out the team 145-111 on Wednesday night.",
+        "“New Orleans, we need that team in Seattle,” Barkley said on Wednesday’s “Inside The NBA” on ESPN.",
+        "Pelicans owner Gayle Benson has emphasized that she does not plan to sell the team anytime soon."
+      ],
+      "summary_source": "article",
+      "processed_at": "2026-11-14T09:47:01.176590+00:00",
+      "error": "일부 번역이 지연되고 있습니다. 다음 수집 때 재시도합니다."
     },
     {
       "title": "“Can’t believe we were finally able to pull together a 4 game winstreak, reach .500 for the first time in years, and get into the tenth seed.Surely no one will fuck it up-“",
@@ -1541,7 +1926,7 @@
       "status": "partial",
       "title_ko": "\"우리가 마침내 4연승을 거두고 몇 년 만에 처음으로 .500에 도달하고 10번째 시드에 들어갈 수 있었다니 믿을 수 없습니다. 확실히 누구도 망칠 수 없을 것입니다.\"",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -1557,7 +1942,7 @@
       "title_ko": "그녀는 우리 12명 모두가 필요했어요",
       "body_ko": "그래, 내 말을 믿으세요. 우리는 시끄러울 이유가 없습니다.",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -1573,7 +1958,7 @@
       "title_ko": "이번 시즌 펠리컨스가 단 한 번의 휴식 어드밴티지 게임을 가졌나요?",
       "body_ko": "휴식 중립과 휴식 불이익이 많지만, 상대보다 경기 전 쉬는 날이 더 많은 경기를 찾을 수 없습니다.",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -1589,7 +1974,7 @@
       "title_ko": "자이언 포스트게임, 선수들에게 '거울 좀 보세요' 호소",
       "body_ko": "적어도 누군가는 똥을줍니다.",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -1605,7 +1990,7 @@
       "title_ko": "\"팬들은 이런 일을 당할 자격이 없습니다. 도시는 이런 일을 당할 자격이 없습니다.\" - 자이언 윌리엄슨은 당황스러운 연속 패배 후 펠리컨을 불렀습니다.",
       "body_ko": "Zion은 Pels가 2경기 연속 30+ 패배를 당하면서 그의 팀을 위해 강력한 말을 했습니다.",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -1621,7 +2006,7 @@
       "title_ko": "Murray가 Mosely를 나쁜 놈이라고 부르는 것에 대한 확인을 보고 그는 코치 방향에서도 똑바로 보입니다.",
       "body_ko": "하지만 누가 알겠는가",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -1950,7 +2335,7 @@
       "title_ko": "진심으로 지친 NOLA 팬",
       "body_ko": "아시다시피, 저는 경영진의 변화, 코칭의 변화(그리핀이 윌리 그린의 성공을 방해했다고 믿습니다)에 전적으로 찬성했고, 현재의 경영진의 거친 거래에 대해 회의적이지 않기 위해 최선을 다하는 편이었습니다.\n하지만 솔직하게 말해서 지난 몇 경기를 보고 나서 스스로에게 묻고 싶습니다. 우리 팀을 위해 뛰는 것이 정말 그렇게 나쁜 걸까요?\n일부 선수들이 실제로 팀에서 트레이드를 요청하고 있다는 소문을 들을 때, 선수들이 말 그대로 하룻밤에 30점씩 날려버릴 정도의 추진력이나 노력이 없고, 코치들은 로테이션에 대해 정말 의심스러운 결정을 내리고, 경영진은 뭔가를 하고 있습니다... 전혀 가스라이팅 경험이 아닙니다.\n이 사람들은 모두 어린이용 게임을 하고 챔피언십을 놓고 경쟁하기 위해 수백만 달러를 받습니다.\nTrey에 관해서는 그가 여기에 있고 싶지 않다는 것을 알 수 있습니다.\n자이온, 그는 훌륭하고 능력이 있지만 그에게 리더의 뼈대가 있다고는 생각하지 않습니다.\nDJM은 신 쓰레기입니다.\nHerb는 시작해야 하고 DQ와 Fears는 유망하지만 정말 어립니다.\n솔직히?\nDQ와 Fears는 팀에서 내가 실제로 여기에 있고 싶다고 느끼는 유일한 사람들입니다.\n전체적으로, 이 호언장담은 내가 깊은 사랑을 갖고 있고 완전히 괜찮은 도시를 여러 남자들이 당황하게 만드는 것을 보고 진심으로 실망한 표현일 뿐입니다.\n어쩌면 언젠가는 이 팀이 모든 것을 함께하게 될지도 모르지만, 그때까지는 해마다 실망을 겪을 수밖에 없습니다.",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -1966,7 +2351,7 @@
       "title_ko": "우리는 재건축에 대해 흥분조차 할 수 없습니다",
       "body_ko": "이 팀이 일을 폭파해야 한다는 것은 매우 분명했습니다. 우리가 두려워하는 것이 무엇인지 확인하고 Queen + 비축 자산을 확인하세요.\n이상적인 세계에서는 이것이 흥미로울 수 있지만 Gayle Benson은 역대 최악의 프론트 오피스를 구축했습니다!!!!!\n모든 유형의 무역 자산에 대해 올바른 유형의 가치를 얻기 위해 Dumars와 그 광대를 신뢰할 수 있는 방법은 전혀 없습니다.\n2019년 AD가 거래를 요구한 후 우리는 합법적인 NBA 프랜차이즈처럼 운영되기 시작하겠다고 약속했습니다.\n7년이 지난 후에도 우리는 여전히 기본적으로 최악의 상황을 겪고 있습니다. 프론트 오피스, 경기장, 유니폼, NBA의 명단 구성 및 출석.\n당신은 AD 트레이드, Pels 12 상황 및 Suns 시리즈 동안 이 팀을 위해 죽을 준비가 된 팬층과 도시를 가지고 있었고 당신은 우리를 너무 심하게 무너뜨려서 우리조차도 더 이상 이 팀에 대해 신경 쓸 수 없습니다.\n터널 끝에는 빛이 없다…",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -1980,7 +2365,7 @@
       "status": "partial",
       "title_ko": "Dejounte Murray: 😂😂😂😂😂😂😂😂😂😂😂😂😂😂 From what’s going on INSIDE This sounds like someone hit you to say this!!\n\"사보타주\"는 진짜입니다!!!!!",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -1996,7 +2381,7 @@
       "title_ko": "또 눈치채신 분 있나요?",
       "body_ko": "3쿼터 중반 우리가 30득점을 기록했을 때 AD와 Joel은 댈러스에서 엉뚱한 일이 벌어졌을 때 Nets가 어떻게 대응했는지 논의하고 있었고 Pelicans는 전반전에 50득점을 기록한 뒤 83득점을 내줬습니다.\nJamal Mosley는 우리 아나운서 바로 앞에 서서 AD가 그의 큰 목소리로 말하는 것을 확실히 듣고 있었습니다.\n나는 AD가 요점을 전달하려고 노력하고 있는지 궁금했습니다. (그가 이를 인식하지 못한 것은 아니지만 코칭 관점에서는 아무런 변화도 없었으며 우리는 무표정하게 나왔습니다.)\n다른 사람이 흥미롭다고 생각합니까?",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -2073,7 +2458,7 @@
       "title_ko": "경기 후 스레드: 브루클린 네츠(3-8), 뉴올리언스 펠리컨스(4-8), 145-111 패배 | NBA | 2026년 11월 11일",
       "body_ko": "이 게시물에는 이전 Reddit에서 지원되지 않는 콘텐츠가 포함되어 있습니다.\n전체 게시물을 보려면 여기를 클릭하세요",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -2087,7 +2472,7 @@
       "status": "partial",
       "title_ko": "더 쉬워지지는 않습니다.",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -2101,7 +2486,7 @@
       "status": "partial",
       "title_ko": "Jamahl Mosley는 펠리컨이 '입에 두 번 맞았다'고 말했으며 이제 그들의 응답을 기다리고 있습니다",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -2115,7 +2500,7 @@
       "status": "partial",
       "title_ko": "D*jounte",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -2129,7 +2514,7 @@
       "status": "partial",
       "title_ko": "4쿼터 중반 조엘 마이어스(Joel Meyers):",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -2221,7 +2606,7 @@
       "thumbnail": "https://external-preview.redd.it/ano0dHQ2eWFrMjFpMf2cExGeNpJtP6TrPeFhvDL6vCmr-4tklGG7SeIjJoaK.png?width=640&crop=smart&auto=webp&s=4cb2e04476fd5fa22f456afa804cd53f9fcab15f",
       "status": "partial",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "body_en": "",
       "comments": [
         {
@@ -2297,7 +2682,7 @@
       "body_en": "I’m playing the National Anthem tonight for Veterans Day.\nI would love a screen grab or video from inside SKC of the Anthem. If you can help, please do.",
       "status": "partial",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
       "title_ko": "네츠 게임",
@@ -2408,7 +2793,7 @@
       "body_en": "***claimed!\nSeason ticket holder too mad to go tonight, even if we do win. 2 tickets, section 315 aisle seats. Free to a good home.\nAs an added bonus, there’s an 70-80 year old man who sits near us every game who hates DJM more than anyone on this earth. You too can hear him scream “get the ball, he gonna lose it” and “he gonna miss” all game long.",
       "status": "partial",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
       "title_ko": "오늘 밤 브루클린 경기 무료 티켓",
@@ -2423,7 +2808,7 @@
       "thumbnail": "https://preview.redd.it/v3qbxp0y701i1.png?width=640&crop=smart&auto=webp&s=7ca84cff5cfb866160c1b969c06f0c4a20ab1ef6",
       "status": "partial",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
       "title_ko": "크리스 폴은 1999~00년부터 2025~26년까지 24세 이하의 NBA 시즌에서 게임당 가장 높은 어시스트를 기록했습니다(2007~08년 11.6, 58+ 게임)."
@@ -2471,7 +2856,7 @@
       "body_en": "Downvote me if you want... but a statement needs to be made. Too ignorant to sit DJM indefinitely and start Herb. I was offered lower bowl tickets. Told them no. Why spend hundreds on parking, gas, food, drinks... to leave frustrated.\nGames Herb Jones Started\nDate\nOpponent\nResult\nPoints\nMinutes\nOct. 29, 2026\nSacramento Kings\nW 132-120\n16\n32\nOct. 31, 2026\nAtlanta Hawks\nW 121-99\n11\n25\nNov. 2, 2026\nMemphis Grizzlies\nW 135-134\n9\n28\nNov. 4, 2026\nUtah Jazz\nW 120-113\n2\n37\nRecord when Jones started: 4-0.\nGames Dejounte Murray Started\nDate\nOpponent\nResult\nPoints\nMinutes\nOct. 21, 2026\nIndiana Pacers\nL 123-120\n23\n34\nOct. 23, 2026\nUtah Jazz\nL 120-119\n16\n30\nOct. 24, 2026\nDenver Nuggets\nL 141-135\n22\n35\nOct. 28, 2026\nDenver Nuggets\nL 104-91\n10\n30\nNov. 4, 2026\nUtah Jazz\nW 120-113\n20\n45\nNov. 6, 2026\nMinnesota Timberwolves\nL 115-109\n7\n35\nNov. 8, 2026\nLA Clippers\nL 139-123\n6\n28\nNov. 9, 2026\nGolden State Warriors\nL 138-87\n12\n18\nRecord when Murray started: 1-8.\nOnly overlapping game that we won was Utah. This is wild. I cannot fathom why we continue to do this. Starting him isn't building any trade value.",
       "status": "partial",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
       "title_ko": "오늘 밤 SKC가 비어 있기를 바랍니다",
@@ -2610,7 +2995,7 @@
       "body_en": "Is he going to get suspended by the team or benched?",
       "status": "partial",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "comments": [
         {
           "author": "Butt_Snorkler_Elite",
@@ -2696,7 +3081,7 @@
       "status": "partial",
       "body_ko": "이 게시물에는 이전 Reddit에서 지원되지 않는 콘텐츠가 포함되어 있습니다.\n전체 게시물을 보려면 여기를 클릭하세요",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
       "title_ko": "게임 스레드: 브루클린 네츠(2-8) 대 뉴올리언스 펠리컨스(4-7) 라이브 스코어 | NBA | 2026년 11월 11일"
@@ -2710,7 +3095,7 @@
       "thumbnail": "https://preview.redd.it/kdzvwdq8sv0i1.jpeg?width=140&height=140&crop=1:1,smart&auto=webp&s=9516129b262c7a644236439a7ad933eef5e9d01a",
       "status": "partial",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
       "title_ko": "프랜차이즈에는 스타가 있습니다.\n스타는 거의 그리워하지 않습니다.\n프랜차이즈는 스타가 더 이상 득점할 수 없을 때까지 득점을 시도하도록 허용하지 않습니다."
@@ -3123,7 +3508,7 @@
       "body_en": "what was that about lol. i mean i understand the frustration but i wonder if anything will come of it. i haven’t seen anyone else mention it but i thought it was funny lmao",
       "status": "partial",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "comments": [
         {
           "author": "Defvac2",
@@ -3239,7 +3624,7 @@
       "thumbnail": "https://preview.redd.it/qjwxy976us0i1.jpeg?width=640&crop=smart&auto=webp&s=155e1db269fecc30122f52a63c1758f7a21408db",
       "status": "partial",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
       "title_ko": "난 그냥 여기 두고 갈래"
@@ -3254,7 +3639,7 @@
       "body_en": "This 2 PG on the floor at the same time is proving not to be a good idea for the team…if DJM is going to be here at least rotate their starts and put The Herbert Keshawn Jones in the starting lineup….starting them both seems to be doing them,the team & fans a disservice…don’t know if it’s a coach Mal call or coming from Joe…but I know they’ve seen the obvious difference when DJM was out…& do something with Jordan Poole while we at it.",
       "status": "partial",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
       "title_ko": "Fears와 DJM 중 하나를 선택하세요.",
@@ -3768,7 +4153,7 @@
       "status": "partial",
       "title_ko": "경기 후 스레드: 골든스테이트 워리어스(8-3), 뉴올리언스 펠리컨스(4-7), 138-87 패배 | NBA | 2026년 11월 9일",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
       "comments": [
         {
@@ -3864,7 +4249,7 @@
       "title_ko": "마튀랭",
       "body_ko": "경력 15-17ppg 득점자가 어떻게 역대 가장 쓸모없는 농구 선수로 변합니까?",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -3925,7 +4310,7 @@
       "title_ko": "게임 스레드",
       "body_ko": "어디야?",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -4140,7 +4525,7 @@
       "thumbnail": "",
       "status": "partial",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "body_en": "",
       "comments": [
         {
@@ -4194,7 +4579,7 @@
       "thumbnail": "https://external-preview.redd.it/YzY3YjB5dGw4bjBpMfXImRd0D8TW0kPJXhbvJXgb62nxAJCwXpIwMckRGi7w.png?width=640&crop=smart&auto=webp&s=7a3aba1e6d35b9e3f676a17778d9311c0ec21eb2",
       "status": "partial",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
       "title_ko": "DJM 똥인데 다른 경비원이 이런 짓을 할 때 그 사람이 모든 비난을 받는 것을 보는 것은 매우 슬프다"
@@ -4209,7 +4594,7 @@
       "body_en": "28 minutes last night just to go 1-6 and 3 assists. Straight up useless.\n35 minutes from the Timberwolves to go 3-11 for 7 points and 4 assists.\nEat the money.",
       "status": "partial",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
       "title_ko": "DJM이 무기한 벤치에 앉을 수 있나요?",
@@ -4258,7 +4643,7 @@
       "body_en": "3 picks for Trey Murphy and cap flexibility, thoughts?",
       "status": "partial",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
       "title_ko": "GSW-NOP-ORL",
       "body_ko": "Trey Murphy를 위한 3가지 추천 및 캡 유연성, 생각은?",
@@ -4573,7 +4958,7 @@
       "title_ko": "대체 허브가 시작되지 않는 이유와 특히 게임을 위해 100% 촬영할 때 Zion이 초점이 아닌 이유는 무엇입니까?",
       "body_ko": "팀 불면",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
       "comments": [
         {
@@ -4694,7 +5079,7 @@
       "title_ko": "경기 후 스레드: LA 클리퍼스(2-7), 뉴올리언스 펠리컨스(4-6), 139-123 패배 | NBA | 2026년 11월 8일",
       "body_ko": "이 게시물에는 이전 Reddit에서 지원되지 않는 콘텐츠가 포함되어 있습니다.\n전체 게시물을 보려면 여기를 클릭하세요",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -4710,7 +5095,7 @@
       "title_ko": "저는 우리 코치를 사랑해요!!!",
       "body_ko": "우리가 리그에서 하위 5위 수비팀이 되는 것을 결코 허용하지 않을 놀라운 수비 코치가 있어서 정말 기쁩니다.\n확실히 우리는 Clippers가 140점이나 그 어떤 것도 득점하도록 놔두지 않을 것입니다!!!\n이야이이이이이이이이이이이이이이이이이이이이이이이",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -4726,7 +5111,7 @@
       "title_ko": "Z에게 공을 줘",
       "body_ko": "내가 뭘 보고 있는 거지? 너희들은 D를 플레이할 수 없어?\nALR 그런 다음 공격을 하거나 뭔가를 하면 Z에게 공을 패스하세요.\n그들이 원하는 것은 공격 시간을 드리블하고 BS WTF를 치는 것뿐입니다.",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -4762,7 +5147,7 @@
       "title_ko": "게임 스레드: 뉴올리언스 펠리컨스(4-5) vs 골든스테이트 워리어스(7-3) 라이브 스코어 | NBA | 2026년 11월 9일",
       "body_ko": "이 게시물에는 이전 Reddit에서 지원되지 않는 콘텐츠가 포함되어 있습니다.\n전체 게시물을 보려면 여기를 클릭하세요",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -5022,7 +5407,7 @@
       "body_en": "Saw this online today and wanted to point out how bad the two pg experiment is when neither point guard can shoot a jumpshot. No NBA team can succeed off contested layups in today’s NBA. Fears gets too much praise for a pg who only has an okay layup package.",
       "status": "partial",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "comments": [
         {
           "author": "Extreme-Analysis-337",
@@ -5139,9 +5524,9 @@
       "published": "2026-11-08T13:43:53+00:00",
       "thumbnail": "",
       "body_en": "Pelicans are dead last in jump shots per game. The issues with this team are so glaringly obvious.",
-      "status": "partial",
+      "status": "ready",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "comments": [
         {
           "author": "roostor222",
@@ -5218,15 +5603,13 @@
         "Pelicans are dead last in jump shots per game.",
         "The issues with this team are so glaringly obvious."
       ],
-      "processed_at": "2026-11-09T00:49:20.743749+00:00",
-      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
+      "processed_at": "2026-11-14T09:48:11.911474+00:00",
       "title_ko": "케빈 오코너 인스타그램",
       "body_ko": "펠리컨은 경기당 점프슛에서 꼴찌입니다.\n이 팀의 문제는 너무나 명백합니다.",
       "summary_ko": [
         "펠리컨은 경기당 점프슛에서 꼴찌입니다.",
         "이 팀의 문제는 너무나 명백합니다."
-      ],
-      "content_error": "HTTP 429"
+      ]
     },
     {
       "kind": "youtube",
@@ -5383,7 +5766,7 @@
       "body_en": "Game Thread\nNew Orleans Pelicans\nvs.\nLA Clippers\nSCHEDULED\n· 09:00 pm ET\nBox Scores:\nNBA\nGAME SUMMARY\nVenue:\nIntuit Dome, Inglewood, CA\nOfficials:\nUnavailable\nTeam\nQ1\nQ2\nQ3\nQ4\nTotal\nNew Orleans Pelicans\n—\n—\n—\n—\n—\nLA Clippers\n—\n—\n—\n—\n—\nThis post contains content not supported on old Reddit.\nClick here to view the full post",
       "status": "partial",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "comments": [
         {
           "author": "Worth_Werewolf_1065",
@@ -5428,7 +5811,7 @@
       "thumbnail": "https://preview.redd.it/d8bryirxja0i1.png?width=640&crop=smart&auto=webp&s=9b0b6a902834b9a95ac9f2a91e2b2e439548c607",
       "status": "partial",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
       "title_ko": "매 펠리컨스 경기 후 그래픽 만들기 - 2026년 11월 4일"
@@ -5480,7 +5863,7 @@
       "thumbnail": "",
       "status": "partial",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "body_en": "",
       "comments": [
         {
@@ -5570,7 +5953,7 @@
       "body_en": "35 seconds left Pels got a chance at a 2 for 1.\nDJM rushes the ball unnecessarily leading to a drive into two defenders, a high dribble, and a turnover.\nAfter a miss DJM gets the ball with 13 seconds left. Dribbles clock down to 5 seconds, doesn't even look for anyone else, then drives and takes an off balance shit that hits the backboard and doesn't even touch rim.\nDJM also throws a lot of reckless passes.\nI was a fan last season when he came back and the team seemed to click.\nBut this year the whole squad seems disjointed when him and Fears are running the show together.\nFears is young and the future but growing pains are expected.\nDJM this season just isn't a good fit and he needs to be part of the second team with DQ.\nI hope ego or some blind loyalty doesn't prevent coach from seeing the obvious.",
       "status": "partial",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "comments": [
         {
           "author": "SkepticalHippo93",
@@ -5636,7 +6019,7 @@
       "translation_errors": {
         "comment_5": "HTTP 429"
       },
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "comments": [
         {
           "author": "LanguageOdd4031",
@@ -5721,7 +6104,8 @@
         "기자는 \"오늘밤부터 허브가 시작하지 않는 것에 대해 무슨 생각을 하게 됐나요?\"라고 묻습니다.",
         "Mosley의 대답은 \"Rudy와 대결하면서 Karlo가 더 나은 선택이라고 느꼈습니다.\"",
         "... 세상에서 가장 쉬운 후속 조치는 DJM/Fears 백코트에 대해 물어보고 왜 Herb가 아닌 Herb/Karlo와 분명히 탠덤으로 작동하지 않는 두 출발 포인트 가드 중 하나에 대해 묻는 것입니다."
-      ]
+      ],
+      "content_error": "HTTP 429"
     },
     {
       "kind": "youtube",
@@ -6101,7 +6485,7 @@
       "status": "partial",
       "title_ko": "박람회",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
       "body_en": "",
       "comments": [
@@ -6278,30 +6662,6 @@
       "processed_at": "2026-11-09T09:57:20.895389+00:00"
     },
     {
-      "title": "Video: Top Plays from Timberwolves @ Pelicans - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA0QkhzYzE0VVNfeVJScFZwTC1uc3FGVzlWS0ZOMXV1cmR0LV9LanRhYWQ5NVlCT1g2WENVamFpZHN5Z3JXQ0hTdmtBeGRvRmtZTVJBZFhHekZxc21pZVRtcGc3akdYUQ?oc=5",
-      "source": "The Athletic (Pelicans)",
-      "kind": "news",
-      "published": "2026-11-07T03:55:55+00:00",
-      "thumbnail": "https://cdn-media.theathletic.com/video-stream/auto-thumbnail/OmdkECJZFAbDmcO/20261107035318_wscathleticcontent_532E74CE456F9E04CB0B555C826F05E55BF2A25E_1794023617000.0000000.jpg",
-      "language": "en",
-      "publisher": "The New York Times",
-      "publisher_url": "https://www.nytimes.com",
-      "status": "partial",
-      "source_id": "athletic",
-      "dedupe_text_en": "Video: Top Plays from Timberwolves @ Pelicans",
-      "dedupe_original_title": "Video: Top Plays from Timberwolves @ Pelicans",
-      "title_ko": "비디오: Timberwolves @ Pelicans의 인기 플레이 - The New York Times",
-      "translation_errors": {},
-      "last_attempt_at": "2026-11-14T00:42:52.589485+00:00",
-      "content_error": "RuntimeError",
-      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
-      "original_url": "https://www.nytimes.com/athletic/video/OmdkECJZFAbDmcO/",
-      "event_facts_en": [],
-      "summary_en": [],
-      "summary_source": "article"
-    },
-    {
       "title": "Not the end of the world, but",
       "url": "https://www.reddit.com/r/NOLAPelicans/comments/1xpws59/not_the_end_of_the_world_but/",
       "source": "Reddit · NOLAPelicans",
@@ -6313,63 +6673,9 @@
       "title_ko": "세상의 종말은 아니지만,",
       "body_ko": "Mosely는 자신의 라인업 결정과 공격적인 게임 계획에 대해 책임을 져야 합니다.\n언론의 누군가가 이 문제를 다루어야 합니다.\n허브를 시작하지 않을 수 없고, 베테랑 코치로서 언제 그를 데리고 나갈지 알 수 있습니다.\n샷이 필요할 때 실제로 샷을 할 수 있는 카를로는 앉을 수가 없어요.\n그리고 저는 Zion이 오늘 밤 어떤 면에서든 그다지 대단하지 않았다는 것을 알고 있지만 전반전이나 심지어 후반전에 그를 통해 공이 흐르지 않는 상황은 때때로 말이 되지 않습니다.\nMurray와 Fears는 전혀 함께 작동하지 않습니다.\n그리고 Trey, 나는 아무것도 얻지 못했습니다. 그가 신경 쓰지 않거나 이 직원이 그에게 기회를 주기 위해 아무것도 실행할 수 없습니다.\n아, 그리고 DQ는 게임에서 가장 무작위적인 시간에 벤치로 사라졌습니다.\n선수들에게 경기가 진행되는 동안 어떤 일이 발생한다는 것을 알고 있지만 코칭 스태프는 곧 배워야 합니다.\nMosely는 확실히 이 팀의 수비적 사고방식을 개선했으며 여전히 개선의 여지가 많이 있지만 그는 깨어나서 이 공격을 재구성하고 우리가 실제로 가지고 있는 무기를 활용해야 합니다.\n어느 쪽이든, 어떤 것은 선수들에게 있고, 어떤 것은 스태프에게 있습니다. 저는 두 사람이 함께 힘을 합쳐 이 팀이 상당히 멀리 갈 수 있는 공의 공격적인 면을 부드럽게 만들 수 있다고 생각합니다.\n죄송합니다. 저는 2019년부터 팬이었지만 충성심을 유지했고 Mosley가 일하기를 원하지만 조금 깨어나면 됩니다. 여기에는 물론 우리 GM도 포함됩니다.",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
-    },
-    {
-      "title": "Pelicans' four-game winning streak snapped a Timberwolves win NBA Cup game - NOLA.com",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOYXlSaUowd1pjOHdoS3lLWkhoNUxYejR2bjQxTWRVSlROTDUwQUVvSENRc1M2dF96MWNFa29pcFpjVmQ3clpZR0hmRW9RU3pIdTFjQTAxRjFHOXZEMHlZbGdad3dHdHBIbFoxeWJwNGwxZ0tSd2xZdUppTGxLNURsNEZMX212WWg2bzBxdmltRXkwc3RObElCX0NfaXFKSmZCWllYRnl4cmhhQm90Vk5raFJnRlFTbXBlUlpSaGFEYUJTNXRFTlVsci1NUUlLQzk5TVl3WdIB2gFBVV95cUxNWl9nOWpjdWFPSHBnLWVWRkJPZ1lZX1ZCaWJuU0pJNVFTZmpVdWRBRWVrbk5oYmhFdGxMOUdrSHF6Z1NiVS12ak9YV3o5OUxMMFV2eDhZUTlBQm9oRElDUWtmcHVLb0lDdnpsM0xWUTN6VUhZQm5OUC1qV2NfMWhuNC1lRjN6T1VMZFVrVGlrclBlUVA2SkxXOGRyM3VONjRqT0JwQWV0bTNRZFh5dnFRY1hGWXF3NGJ0bzJWVENlZEFMRnJEWnhYSWRQOUFkbGRRbUVsSlhDdW9aUQ?oc=5",
-      "source": "NOLA.com (Times-Picayune)",
-      "kind": "news",
-      "published": "2026-11-07T03:52:00+00:00",
-      "thumbnail": "https://bloximages.newyork1.vip.townnews.com/nola.com/content/tncms/assets/v3/editorial/6/d6/6d6966e5-b0c5-5486-9762-a78d5d92ce66/6aee8f80a7793.image.jpg?crop=1465%2C769%2C12%2C46&resize=1200%2C630&order=crop%2Cresize",
-      "language": "en",
-      "publisher": "NOLA.com",
-      "publisher_url": "https://www.nola.com",
-      "status": "ready",
-      "source_id": "nola",
-      "dedupe_text_en": "Pelicans' four-game winning streak snapped a Timberwolves win NBA Cup game",
-      "dedupe_original_title": "Pelicans' four-game winning streak snapped a Timberwolves win NBA Cup game",
-      "title_ko": "펠리컨스, 4연승으로 팀버울브스 NBA 컵 우승 - NOLA.com",
-      "translation_errors": {},
-      "last_attempt_at": "2026-11-07T09:40:24.459944+00:00",
-      "original_url": "https://www.nola.com/sports/pelicans/timberwolves-snap-pelicans-four-game-winning-streak/article_1f84df0f-2faf-41d2-b574-c170345266d0.html",
-      "event_facts_en": [
-        {
-          "action": "return",
-          "players": [
-            "herb_jones"
-          ],
-          "hypothetical": false
-        },
-        {
-          "action": "injury",
-          "players": [
-            "trey_murphy"
-          ],
-          "hypothetical": false
-        },
-        {
-          "action": "return",
-          "players": [
-            "trey_murphy"
-          ],
-          "hypothetical": false
-        }
-      ],
-      "summary_en": [
-        "An eight-second stretch took the New Orleans Pelicans from winning in the fourth quarter of their opening NBA Cup tie to playing catch-up without their best defender.",
-        "On a court striped navy blue with a gold trophy insignia for the in-season NBA Cup tournament, the New Orleans Pelicans (4-5) fell 115-109 to the Minnesota Timberwolves in a closely fought game Friday at the Smoothie King Center.",
-        "The Timberwolves had three starters score more than 20 points, and they bested the Pelicans physically."
-      ],
-      "summary_source": "article",
-      "summary_ko": [
-        "New Orleans Pelicans가 NBA 컵 개막전 4쿼터에서 승리한 후 최고의 수비수 없이 따라잡기까지 8초의 시간이 걸렸습니다.",
-        "시즌 내 NBA 컵 토너먼트를 위한 금 트로피 휘장이 달린 코트 스트라이프 네이비 블루를 입은 뉴올리언스 펠리컨스(4-5)가 금요일 스무디 킹 센터에서 열린 접전에서 미네소타 팀버울브스에게 115-109로 패했습니다.",
-        "팀버울브스는 선발 투수 3명이 20득점 이상을 기록했고, 육체적으로 펠리컨스를 이겼다."
-      ],
-      "processed_at": "2026-11-07T09:40:34.522162+00:00"
     },
     {
       "title": "Dejounte...",
@@ -6383,7 +6689,7 @@
       "title_ko": "데욘테...",
       "body_ko": "그 사람이 이미 거래를 요청하지 않았나요?\n이미 이 종양을 제거할 수 있을까요 맙소사, 몇 분만 시간을 들여 심장 강화 운동을 하고, Z smh에서 공을 독차지하면서",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -6398,7 +6704,7 @@
       "status": "partial",
       "title_ko": "경기 후 스레드: 미네소타 팀버울브스(7-3), 뉴올리언스 펠리컨스(4-5), 115-109 패배 | NBA | 2026년 11월 6일",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
       "comments": [
         {
@@ -6494,7 +6800,7 @@
       "title_ko": "자이언을 \"Z\"라고 부르는 아나운서?",
       "body_ko": "팀버울브스 팬이 평화롭게 찾아오고 있습니다.\n오늘 밤 경기 중에 Pelicans의 아나운서는 계속해서 Zion을 \"Z\"라고 불렀습니다.\n시온이 부르고 싶다고 한 말인가요?\n아니면 아나운서가 생각해 낸 것입니까?\n다른 사람이 그를 그렇게 부르는 것을 들어본 적이 없는 것 같아요.",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
       "comments": [
         {
@@ -6586,48 +6892,8 @@
       "title_ko": "안테나 조언?",
       "body_ko": "저처럼 너무 저렴해서 Pels+를 구매할 수 없는 분들을 위해 어떤 종류의 안테나를 사용하고 계시나요?\n저는 BR 교외 지역에 있는데 \"최대 100마일\"의 채널을 포착할 수 있는 안테나에서 GCSEN을 수신할 수 없는 것 같습니다. 천장에 가까운 창문에 설치했지만 창문 반대편에는 지붕이 있는 테라스가 있습니다.\n금속 커버가 부족한 범위와 관련이 있을 수 있다고 생각합니다.",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
-      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
-    },
-    {
-      "title": "뉴올리언스 왜케 잘함 - 에펨코리아",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9Qcm1RUl9tMGxzTGJSaktwYzJFN0loRkZUMWxVM3FwODk5ekZOUUZ2TVI0WFRjRGlZNDVkX2FvQ3J2UVJoX1VITGRHVQ?oc=5",
-      "source": "에펨코리아 (미국농구)",
-      "kind": "news",
-      "published": "2026-11-07T02:47:00+00:00",
-      "thumbnail": "",
-      "language": "ko",
-      "publisher": "에펨코리아",
-      "publisher_url": "https://www.fmkorea.com",
-      "status": "partial",
-      "source_id": "fmkorea",
-      "dedupe_text_en": "Why are New Orleans so good?",
-      "dedupe_original_title": "뉴올리언스 왜케 잘함",
-      "title_ko": "뉴올리언스 왜케 잘함 - 에펨코리아",
-      "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
-      "content_error": "HTTP 430",
-      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
-    },
-    {
-      "title": "자이언 0점 뭔가요 - 에펨코리아",
-      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1XR0FEUENsdHdqNWVTMlpXSkhkOVI0LXphVzVqX3FyY2gtNnBuLUQ5WjltWUJUWnNwZ3JBMWFsT3hJMjc1elB2UER3NA?oc=5",
-      "source": "에펨코리아 (미국농구)",
-      "kind": "news",
-      "published": "2026-11-07T01:46:00+00:00",
-      "thumbnail": "",
-      "language": "ko",
-      "publisher": "에펨코리아",
-      "publisher_url": "https://www.fmkorea.com",
-      "status": "partial",
-      "source_id": "fmkorea",
-      "dedupe_text_en": "What is Zion’s 0 points?",
-      "dedupe_original_title": "자이언 0점 뭔가요",
-      "title_ko": "자이언 0점 뭔가요 - 에펨코리아",
-      "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
-      "content_error": "HTTP 430",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
     {
@@ -7090,7 +7356,7 @@
       "thumbnail": "https://preview.redd.it/62t4kygauzzh1.jpeg?width=640&crop=smart&auto=webp&s=f5dead015fb3aad161d529906d8c53a0b1b5a601",
       "status": "partial",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
       "title_ko": "놀라에서 펠리컨을 봤어요",
       "body_en": "",
@@ -7327,7 +7593,7 @@
       "thumbnail": "https://external-preview.redd.it/YnVtNm9maHV4d3poMfbigeFq2Il0rqIoFsCsryDKIEu12kx3HwYj6Lva5RYM.jpeg?width=640&crop=smart&auto=webp&s=46d039da5f02ddf3b0f601798cf15643c7d83352",
       "status": "partial",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "body_en": "",
       "comments": [
         {
@@ -7351,59 +7617,82 @@
       "kind": "reddit",
       "published": "2026-11-06T01:00:12+00:00",
       "thumbnail": "",
-      "body_en": "Game Thread\nMinnesota Timberwolves\nvs.\nNew Orleans Pelicans\nSCHEDULED\n· 08:00 pm ET\nBox Scores:\nNBA\nGAME SUMMARY\nVenue:\nSmoothie King Center, New Orleans, LA\nOfficials:\nUnavailable\nTeam\nQ1\nQ2\nQ3\nQ4\nTotal\nMinnesota Timberwolves\n—\n—\n—\n—\n—\nNew Orleans Pelicans\n—\n—\n—\n—\n—\nThis post contains content not supported on old Reddit.\nClick here to view the full post",
+      "body_en": "Game Thread\nMinnesota Timberwolves\nvs.\nNew Orleans Pelicans\nFINAL\n— 115 - 109\nBox Scores:\nNBA\nGAME SUMMARY\nVenue:\nSmoothie King Center, New Orleans, LA\nOfficials:\nAaron Smith, Simone Jelks, James Williams\nTeam\nQ1\nQ2\nQ3\nQ4\nTotal\nMinnesota Timberwolves\n27\n30\n20\n38\n115\nNew Orleans Pelicans\n30\n21\n28\n30\n109\nThis post contains content not supported on old Reddit.\nClick here to view the full post",
       "status": "partial",
-      "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "translation_errors": {
+        "body": "HTTP 429",
+        "comment_0": "HTTP 429",
+        "comment_1": "HTTP 429",
+        "comment_2": "HTTP 429",
+        "comment_3": "HTTP 429",
+        "comment_4": "HTTP 429",
+        "comment_5": "HTTP 429",
+        "comment_6": "HTTP 429",
+        "comment_7": "HTTP 429",
+        "comment_8": "HTTP 429",
+        "comment_9": "HTTP 429"
+      },
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "comments": [
         {
-          "author": "InvincibleIronStan",
+          "author": "drwatsonlll",
           "score": null,
-          "body_en": "Hopefully Rudy starts",
-          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1xoznqt/game_thread_minnesota_timberwolves_63_vs_new/19s7ca95buoec/",
-          "body_ko": "루디가 시작하길 바라요"
+          "body_en": "Refs have completely taken control of this game",
+          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1xoznqt/game_thread_minnesota_timberwolves_63_vs_new/19s99ufxzbuh0/"
         },
         {
-          "author": "Unusual-Pain-7617",
+          "author": "leemojames",
           "score": null,
-          "body_en": "I think Karlo taking Rudy out of the paint is going to be so fucking useful.",
-          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1xoznqt/game_thread_minnesota_timberwolves_63_vs_new/19s7e174emfi8/",
-          "body_ko": "내 생각엔 Karlo가 Rudy를 페인트에서 꺼내는 게 존나 유용할 것 같아."
+          "body_en": "It’s wild how much shoving in the back and off ball contact Gobert gets away with. Fully shoved karlo in the back there and he ends up getting free throws",
+          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1xoznqt/game_thread_minnesota_timberwolves_63_vs_new/19s99wyh43i10/"
         },
         {
-          "author": "kingralek",
+          "author": "hollowdawg51",
           "score": null,
-          "body_en": "No way Wolves win. They can kick rocks",
-          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1xoznqt/game_thread_minnesota_timberwolves_63_vs_new/19s7f5ep39ts2/",
-          "body_ko": "늑대가 이길 리가 없어요.\n그들은 돌을 찰 수 있다"
+          "body_en": "Really glad we said fuck karlo who can hit a 3",
+          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1xoznqt/game_thread_minnesota_timberwolves_63_vs_new/19s9b4rr56vic/"
         },
         {
-          "author": "bex199",
+          "author": "xxPuff",
           "score": null,
-          "body_en": "gotta grab a last minute ticket for tomorrow, hoping angel reese shows up courtside. yesterday was soooo fun",
-          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1xoznqt/game_thread_minnesota_timberwolves_63_vs_new/19s7ljpnp7dog/",
-          "body_ko": "엔젤 리스가 코트에 나타나기를 바라면서 내일 막바지 티켓을 구해야 해요.\n어제는 정말 재미있었어"
+          "body_en": "6th man of the year Sadiq",
+          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1xoznqt/game_thread_minnesota_timberwolves_63_vs_new/19s95fxg7ua6c/"
         },
         {
-          "author": "vicecityhustle",
+          "author": "Independent-Craft634",
           "score": null,
-          "body_en": "I was gonna ask why would she but forget she won the state a championship. Time flies",
-          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1xoznqt/game_thread_minnesota_timberwolves_63_vs_new/19s7uffmz8r2c/",
-          "body_ko": "나는 왜 그녀가 주 챔피언십에서 우승했는지 잊어버리려고 하는지 묻고 싶었습니다.\n시간이 빨리 간다"
+          "body_en": "We keep winning he gonna win that no doubt",
+          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1xoznqt/game_thread_minnesota_timberwolves_63_vs_new/19s95gm9niuip/"
         },
         {
-          "author": "bex199",
+          "author": "xxPuff",
           "score": null,
-          "body_en": "she got honored at the lsu game tonight so she’s around, and her brothers on a 2 way contract, played a few min in the hawks blowout",
-          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1xoznqt/game_thread_minnesota_timberwolves_63_vs_new/19s7umpl9nnya/",
-          "body_ko": "그녀는 오늘 밤 LSU 게임에서 영예를 얻었으므로 그녀는 주변에 있고 그녀의 형제는 양방향 계약을 맺고 Hawks 폭발에서 몇 분 동안 플레이했습니다."
+          "body_en": "I think if Melo is on the floor than Herb should be in",
+          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1xoznqt/game_thread_minnesota_timberwolves_63_vs_new/19s96u2rv7vgj/"
         },
         {
-          "author": "mrb532",
+          "author": "poorwhitecash",
           "score": null,
-          "body_en": "We own the Timberpuppies",
-          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1xoznqt/game_thread_minnesota_timberwolves_63_vs_new/19s7fjkr3m8zp/",
-          "body_ko": "우리는 Timberpuppies를 소유하고 있습니다"
+          "body_en": "Karlo has the best quarter of his career, then barely sees the floor",
+          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1xoznqt/game_thread_minnesota_timberwolves_63_vs_new/19s9b0owc3h8l/"
+        },
+        {
+          "author": "_Einveru_",
+          "score": null,
+          "body_en": "WTF, herb not starting?! Make it make sense.",
+          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1xoznqt/game_thread_minnesota_timberwolves_63_vs_new/19s93d5bofwg2/"
+        },
+        {
+          "author": "TankSignificant4859",
+          "score": null,
+          "body_en": "This is getting ridiculous how they refuse to play herb",
+          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1xoznqt/game_thread_minnesota_timberwolves_63_vs_new/19s94putreiv8/"
+        },
+        {
+          "author": "xxPuff",
+          "score": null,
+          "body_en": "And being insistent on playing Fears and DJM despite it clearly not working",
+          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1xoznqt/game_thread_minnesota_timberwolves_63_vs_new/19s94qsn1670i/"
         }
       ],
       "summary_en": [
@@ -7412,11 +7701,9 @@
       "summary_ko": [
         "이 게시물에는 이전 Reddit에서 지원되지 않는 콘텐츠가 포함되어 있습니다."
       ],
-      "processed_at": "2026-11-06T09:54:46.080279+00:00",
-      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
-      "content_error": "HTTP 429",
-      "title_ko": "게임 스레드: 미네소타 팀버울브스(6-3) 대 뉴올리언스 펠리컨스(4-4) 라이브 스코어 | NBA | 2026년 11월 6일",
-      "body_ko": "게임 스레드\n미네소타 팀버울브스\n대\n뉴올리언스 펠리컨스\n예정됨\n· 오후 8시(동부 표준시)\n박스 스코어:\nNBA\n게임 요약\n장소:\n스무디 킹 센터, 뉴올리언스, LA\n관계자:\n이용 불가\n팀\n1분기\n2분기\n3분기\n4분기\n합계\n미네소타 팀버울브스\n—\n—\n—\n—\n—\n뉴올리언스 펠리컨스\n—\n—\n—\n—\n—\n이 게시물에는 이전 Reddit에서 지원되지 않는 콘텐츠가 포함되어 있습니다.\n전체 게시물을 보려면 여기를 클릭하세요"
+      "processed_at": "2026-11-14T09:49:49.584275+00:00",
+      "error": "일부 번역이 지연되고 있습니다. 다음 수집 때 재시도합니다.",
+      "title_ko": "게임 스레드: 미네소타 팀버울브스(6-3) 대 뉴올리언스 펠리컨스(4-4) 라이브 스코어 | NBA | 2026년 11월 6일"
     },
     {
       "kind": "youtube",
@@ -7712,7 +7999,7 @@
       "title_ko": "2024년 11월 이후 처음으로 .500을 기록했습니다.\n모슬리에게 신용을 좀 줘야지",
       "body_ko": "2024년 11월 이후 펠리컨스가 최소 .500을 기록한 것은 이번이 처음이라는 것이 놀랍습니다.\n평균 기록도 없이 2년이 넘었습니다.\n우리는 그것을 겪었습니다 😂\n나는 초기에 Mosley에 대해 매우 비판적이었습니다. 회전, 게임 후반 실행, 특히 그가 Herb Jones를 사용하는 방식이었습니다.\n하지만 상황이 안 좋을 때 그를 비난하려면 상황이 좋아지면 그에게 공을 돌려야 합니다.\n최근 그와 이 팀은 정말 눈에 띄게 나타났습니다.\n이번 기간 동안 수비는 훌륭했고, 우리는 실제로 아슬아슬한 경기에서 승리할 수 있는 방법을 찾고 있습니다.\n지난 3년 동안 우리가 게임을 마무리하기 위해 얼마나 애썼는지 생각하면 그것이 아마도 나에게 가장 고무적인 부분일 것입니다.\n그들은 견고하고 연결된 팀처럼 보이기 시작했습니다.\nTrey가 돌아오고 Dejounte도 다시 합류하면 금요일에 로테이션이 어떤 모습일지 궁금합니다.\nMosley가 Dejounte를 벤치에서 데려왔나요?\n누가 마감 회의록을 얻나요?\n우리는 볼 것이다.\n아직 시즌이 많이 남았지만 0-4에서 4-4로 가는 것은 정말 기분이 좋습니다.\n마침내 .500으로 돌아와서 반가워요.\n계속 진행합시다.",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -7726,7 +8013,7 @@
       "status": "partial",
       "title_ko": "+/- 리그 선두와 각각의 기록",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
       "body_en": "",
       "comments": [
@@ -7817,7 +8104,7 @@
       "title_ko": "후반 DQ는 어젯밤에 요리를 했어요 🍛",
       "body_ko": "나는 DQ를 좋아하는데 그가 어젯밤에 요리를 했을 때 마침내 Z가 야수 모드로 갈 수 있는 기회가 열렸습니다.\n나는 배심원들이 동시에 두 사람을 동시에 바닥에 두는 것을 알고 있지만 숫자를 보지 않고도 어젯밤에 최선을 다한 것 같았습니다.",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -8124,7 +8411,7 @@
       "title_ko": "군중 속에서 만료된 시간이 아닌 게임 승자에 대한 나의 견해",
       "body_ko": "촬영 직후에도 사람들이 출구로 향하기 시작했어요 ㅋㅋㅋ",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -8140,7 +8427,7 @@
       "title_ko": "레트로!",
       "body_ko": "u/레트로펠\n당신을 여기로 다시 데려오려면 어떻게 해야 하나요?",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -8154,7 +8441,7 @@
       "status": "partial",
       "title_ko": "이 팀은 우리에게 평생 심장약을 공급할 의무가 있습니다.",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -8352,7 +8639,7 @@
       "title_ko": "허브는 필수",
       "body_ko": "허브를 사용하지 않기에는 공격적인 옵션이 너무 많습니다.\n이상적으로는 trigga trey, big z 및 Herb에 집중하고 싶습니다.\n하지만 트레이가 정말로 거래되고 있다면, saddiq, 두려움과 여왕은 공격 옵션이 너무 많아서 어떤 라인업에서든 허브를 어딘가에 연결해야 합니다.",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
       "comments": [
         {
@@ -8449,7 +8736,7 @@
       "status": "partial",
       "title_ko": "유타에서 온 그 팀",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -8464,7 +8751,7 @@
       "status": "partial",
       "title_ko": "게임 후 스레드: 뉴올리언스 펠리컨스(4-4), OT에서 유타 재즈(1-7), 120-113 패배 | NBA | 2026년 11월 4일",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
       "comments": [
         {
@@ -8851,7 +9138,7 @@
       "body_en": "Zion has the best FG% of anyone getting 16 PPG- .\n636.\n(21.3)\nAnd no one else is in his league.\nHe even has the best EFG% and TS%.\nNow account for all the times he was hacked with no call. Instead of a missed FGA, Zion gets 2 FTA (and a handful of extra and-1's). His \"efficiency\" would be off the charts, at more like 25PPG.\nNow put some of best opposing defenders who pile on him every night into early foul trouble- maybe he gets to 30PPG, because it's a virtous cycle.\nJust look at the scoring \"virtues\" of SGA, Luka, Brunson, Giannis...the great charity stripe merchants of the NBA. (Giannis arguably creates a lane with leading reckless elbows- he does get fouled a lot...though still not as often as Zion by percentage.)\nCall the hacks, reach-ins, and blocking fouls\nfairly\nand Zion may get 30 PPG...\nwith .700 FG%.\nAt that rate he starts to approach his FT%. You must then double him outside like they do to KD, making easy money for teammates.\nIf you don't foul or double Zion he will score the ball...on just about anyone...because he is too fast for a big man and too strong for anyone his length or smaller. \"All\" he shoots is dominant-hand layups. He has finally added a changeup every once in a while to keep the hitters honest.\nBernard King had a very limited bag also- never shot a 3 and didn't dunk much. Anyone who thinks his game was dull was not there. It was predictable- everyone in the building knew Bernard wanted to pull up for a line drive or spin by left or right- including the 5 men on defense.\nThat's what made it so thrilling. The awesome efficiency, at volume. King never once flopped, pushed off, or baited. That would have been beneath him as Brooklyn-born-and-bred basketball royalty. He wanted to beat you by the book. (But he did have the sold out crowd at MSG at full blast to make sure the refs saw what we purists did.)\nNate Diaz beat Connor McGregor with\nthe left jab-\nthe most basic punch in boxing...the most basic of the combat sports. Unstoppable. It was beautiful.\nIf you don't appreciate the beauty of watching Zion Williamson drive for lefty layups 20 times a game- the easier the finish the better- kindly demand that they trade him (or let them relocate the franchise).. It won't last past 30 even if he gets chiseled.\nBut if he stays you need to get on the refs...much, much louder. It will probably encourage him to score even more- like it did Bernard.",
       "status": "partial",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
       "title_ko": "나는 심지어 펠리컨의 후원자로 추정되는 이들로부터의 무례함에 너무 지쳤습니다.\n이것을 읽고 Mr.\nWilliamson은 다른 NBA 득점자들이 매일 밤 받는 스타 휘슬을 받았습니다.",
@@ -9104,100 +9391,6 @@
       "title_ko": "CAMERON BOOZER가 멤피스를 다섯 번째 승리로 이끌었습니다 | NBA 요약 결과(2026년 10월 29일)"
     },
     {
-      "kind": "youtube",
-      "source": "YouTube",
-      "video_id": "MiDBJePp4CM",
-      "title": "Dejounte Murray Trade Rumors: What's REALLY Happening With the Pelicans?",
-      "url": "https://www.youtube.com/watch?v=MiDBJePp4CM",
-      "channel": "Locked On Pelicans",
-      "thumbnail": "https://i.ytimg.com/vi/MiDBJePp4CM/hqdefault.jpg",
-      "published": "",
-      "discovered_at": "2026-11-04T09:48:44.653554Z",
-      "status": "ready",
-      "summary_policy": 4,
-      "summary_attempted_at": "2026-11-05T09:48:11.510132Z",
-      "transcript_error": "RequestBlocked",
-      "upload_date": "2026-11-04",
-      "summary_source": "description",
-      "summary_original": [
-        "With three straight wins and Jeremiah Fears excelling in the backcourt, questions swirl around Murray's future and the front office’s confidence in their roster construction and long-term vision.",
-        "Jake Madison spotlights the emerging dilemma at center: Karlo Matkovic and Derik Queen make a strong case for big minutes while Yves Missi’s return from injury looms.",
-        "Plus, Herb Jones’ puzzling late-game usage draws scrutiny as the Pelicans eye .500 against the Utah Jazz."
-      ],
-      "title_ko": "Dejounte Murray Trade 소문: 펠리컨들에게 실제로 무슨 일이 일어나고 있는 걸까요?",
-      "summary_ko": [
-        "3연속 승리와 백코트에서 뛰어난 Jeremiah Fears로 인해 Murray의 미래와 로스터 구성 및 장기 비전에 대한 프론트 오피스의 자신감에 대한 질문이 소용돌이치고 있습니다.",
-        "Jake Madison은 중앙의 새로운 딜레마에 대해 조명합니다. Karlo Matkovic과 Derik Queen이 큰 시간 동안 강력한 주장을 펼치고 Yves Missi가 부상에서 복귀할 예정입니다.",
-        "게다가 Herb Jones의 수수께끼 같은 게임 후반 활용은 Utah Jazz를 상대로 Pelicans가 .500을 기록하면서 면밀한 조사를 불러일으켰습니다."
-      ]
-    },
-    {
-      "kind": "youtube",
-      "source": "YouTube",
-      "video_id": "7Q9FnuKI--I",
-      "title": "Jamahl Mosley on taking care of the basketball, Derik Queen | New Orleans Pelicans",
-      "url": "https://www.youtube.com/watch?v=7Q9FnuKI--I",
-      "channel": "New Orleans Pelicans",
-      "thumbnail": "https://i.ytimg.com/vi/7Q9FnuKI--I/hqdefault.jpg",
-      "published": "",
-      "discovered_at": "2026-11-04T09:48:44.653554Z",
-      "status": "partial",
-      "summary_policy": 4,
-      "summary_attempted_at": "2026-11-08T09:35:11.072649Z",
-      "transcript_error": "RequestBlocked",
-      "upload_date": "2026-11-03",
-      "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
-      "summary_error": "ValueError",
-      "title_ko": "농구를 돌보는 데릭 퀸(Derik Queen)의 자말 모슬리(Jamahl Mosley) | 뉴올리언스 펠리컨스"
-    },
-    {
-      "kind": "youtube",
-      "source": "YouTube",
-      "video_id": "bK9u7b9HpjY",
-      "title": "The Pelicans Just Stumbled Onto Something Special",
-      "url": "https://www.youtube.com/watch?v=bK9u7b9HpjY",
-      "channel": "Hot Hand Theory",
-      "thumbnail": "https://i.ytimg.com/vi/bK9u7b9HpjY/hqdefault.jpg",
-      "published": "",
-      "discovered_at": "2026-11-04T09:48:44.653554Z",
-      "status": "ready",
-      "summary_policy": 4,
-      "summary_attempted_at": "2026-11-05T09:48:11.510132Z",
-      "transcript_error": "RequestBlocked",
-      "upload_date": "2026-11-03",
-      "summary_source": "description",
-      "summary_original": [
-        "On the 95th episode of Hot Hand Theory, XJ and Geoff break down why Zion Williamson, Trey Murphy III, Jeremiah Fears, Derik Queen, Karlo Matkovic, and head coach Jamahl Mosley may finally be finding the right formula for the New Orleans Pelicans.",
-        "The Pelicans are creating turnovers, attacking in transition, and using the athleticism of Zion Williamson, Trey Murphy III, Jeremiah Fears, and Bennedict Mathurin to put enormous pressure on opposing defenses.",
-        "🔹 How Trey Murphy III, Herb Jones, Saddiq Bey, and Bennedict Mathurin fit into the Pelicans' offense"
-      ],
-      "title_ko": "펠리컨들이 우연히 특별한 것을 발견했습니다",
-      "summary_ko": [
-        "Hot Hand Theory의 95번째 에피소드에서 XJ와 Geoff는 Zion Williamson, Trey Murphy III, Jeremiah Fears, Derik Queen, Karlo Matkovic 및 감독 Jamahl Mosley가 마침내 New Orleans Pelicans에 적합한 공식을 찾을 수 있는 이유를 분석합니다.",
-        "펠리컨스는 턴오버를 만들고, 전환 과정에서 공격하며, Zion Williamson, Trey Murphy III, Jeremiah Fears, Bennedict Mathurin의 운동 능력을 활용하여 상대 수비진에게 막대한 압박을 가하고 있습니다.",
-        "🔹 Trey Murphy III, Herb Jones, Saddiq Bey 및 Bennedict Mathurin이 펠리컨스의 공격에 어떻게 적응하는지"
-      ]
-    },
-    {
-      "kind": "youtube",
-      "source": "YouTube",
-      "video_id": "o0vl9iXoDns",
-      "title": "This Is Exactly The Spark The Pelicans Needed...",
-      "url": "https://www.youtube.com/watch?v=o0vl9iXoDns",
-      "channel": "Pelicans Digest",
-      "thumbnail": "https://i.ytimg.com/vi/o0vl9iXoDns/hqdefault.jpg",
-      "published": "",
-      "discovered_at": "2026-11-04T09:48:44.653554Z",
-      "status": "partial",
-      "summary_policy": 4,
-      "summary_attempted_at": "2026-11-08T09:35:11.072649Z",
-      "transcript_error": "RequestBlocked",
-      "upload_date": "2026-11-04",
-      "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
-      "summary_error": "ValueError",
-      "title_ko": "이것이 바로 펠리컨이 필요로 하는 불꽃입니다..."
-    },
-    {
       "title": "Christmas gift",
       "url": "https://www.reddit.com/r/NOLAPelicans/comments/1xncjeb/christmas_gift/",
       "source": "Reddit · NOLAPelicans",
@@ -9207,7 +9400,7 @@
       "body_en": "Got my nephew some great seats for December 21st for Christmas to be the greatest uncle EVER. How early and where do I have to go to get this kid some autos???? Any help would be super appreciated! Thanks!",
       "status": "partial",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "comments": [
         {
           "author": "sillypenguinman",
@@ -9241,7 +9434,7 @@
       "body_en": "People were crying all summer about how we don't have a center. Well karlo and DQ looked pretty damn dominant last night and Missi was looking like a beast before he got hurt. Our problems lie elsewhere.",
       "status": "partial",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
       "title_ko": "아니 센터!!",
@@ -9258,171 +9451,10 @@
       "status": "partial",
       "body_ko": "이 게시물에는 이전 Reddit에서 지원되지 않는 콘텐츠가 포함되어 있습니다.\n전체 게시물을 보려면 여기를 클릭하세요",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
       "title_ko": "게임 스레드: 유타 재즈(1-6) 대 뉴올리언스 펠리컨스(3-4) 라이브 스코어 | NBA | 2026년 11월 4일"
-    },
-    {
-      "kind": "youtube",
-      "source": "YouTube",
-      "video_id": "iu2Xxsv5B6w",
-      "title": "Sacramento Kings vs New Orleans Pelicans Full Game Highlights - October 29, 2026 | NBA Season",
-      "url": "https://www.youtube.com/watch?v=iu2Xxsv5B6w",
-      "channel": "The CCB Network",
-      "thumbnail": "https://i.ytimg.com/vi/iu2Xxsv5B6w/hqdefault.jpg",
-      "published": "",
-      "discovered_at": "2026-11-04T00:33:41.609619Z",
-      "status": "partial",
-      "summary_policy": 4,
-      "summary_attempted_at": "2026-11-08T09:35:11.072649Z",
-      "title_ko": "새크라멘토 킹스 vs 뉴올리언스 펠리컨스 전체 경기 하이라이트 - 2026년 10월 29일 | NBA 시즌",
-      "transcript_error": "RequestBlocked",
-      "upload_date": "2026-10-30",
-      "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
-      "summary_error": "ValueError"
-    },
-    {
-      "kind": "youtube",
-      "source": "YouTube",
-      "video_id": "hvK3WTfk9pM",
-      "title": "Sacramento Kings vs New Orleans Pelicans Game 2ND-QTR Highlights | Oct 29, 2026 | Highlights NBA",
-      "url": "https://www.youtube.com/watch?v=hvK3WTfk9pM",
-      "channel": "তাসবি টিভি",
-      "thumbnail": "https://i.ytimg.com/vi/hvK3WTfk9pM/hqdefault.jpg",
-      "published": "",
-      "discovered_at": "2026-11-04T00:33:41.609619Z",
-      "status": "partial",
-      "summary_policy": 4,
-      "summary_attempted_at": "2026-11-08T09:35:11.072649Z",
-      "title_ko": "새크라멘토 킹스 vs 뉴올리언스 펠리컨스 경기 2ND-QTR 하이라이트 | 2026년 10월 29일 | NBA 하이라이트",
-      "transcript_error": "RequestBlocked",
-      "upload_date": "2026-10-30",
-      "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
-      "summary_error": "ValueError"
-    },
-    {
-      "kind": "youtube",
-      "source": "YouTube",
-      "video_id": "R8nBzKn4SQg",
-      "title": "DENVER Vs NEW ORLEAN Full Game Highlights October 27, 2026 | NBA Regular season",
-      "url": "https://www.youtube.com/watch?v=R8nBzKn4SQg",
-      "channel": "Golden Hoops HighLights",
-      "thumbnail": "https://i.ytimg.com/vi/R8nBzKn4SQg/hqdefault.jpg",
-      "published": "",
-      "discovered_at": "2026-11-04T00:33:41.609619Z",
-      "status": "partial",
-      "summary_policy": 4,
-      "summary_attempted_at": "2026-11-08T09:35:11.072649Z",
-      "title_ko": "DENVER 대 NEW ORLEAN 전체 게임 하이라이트 2026년 10월 27일 | NBA 정규시즌",
-      "transcript_error": "RequestBlocked",
-      "upload_date": "2026-10-29",
-      "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
-      "summary_error": "ValueError"
-    },
-    {
-      "kind": "youtube",
-      "source": "YouTube",
-      "video_id": "gMC0DICrT0g",
-      "title": "Denver Nuggets vs New Orleans Pelicans | 2ND Highlights – Oct 28, 2026 | NBA Regular Season Schedule",
-      "url": "https://www.youtube.com/watch?v=gMC0DICrT0g",
-      "channel": "伊藤和也",
-      "thumbnail": "https://i.ytimg.com/vi/gMC0DICrT0g/hqdefault.jpg",
-      "published": "",
-      "discovered_at": "2026-11-04T00:33:41.609619Z",
-      "status": "partial",
-      "summary_policy": 4,
-      "summary_attempted_at": "2026-11-08T09:35:11.072649Z",
-      "title_ko": "덴버 너기츠 vs 뉴올리언스 펠리컨스 | 2차 하이라이트 – 2026년 10월 28일 | NBA 정규 시즌 일정",
-      "transcript_error": "RequestBlocked",
-      "upload_date": "2026-10-29",
-      "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
-      "summary_error": "ValueError"
-    },
-    {
-      "kind": "youtube",
-      "source": "YouTube",
-      "video_id": "nCDkxqEv1Yg",
-      "title": "Derik Queen on Zion Williamson's overtime performance, Karlo Matković | New Orleans Pelicans",
-      "url": "https://www.youtube.com/watch?v=nCDkxqEv1Yg",
-      "channel": "New Orleans Pelicans",
-      "thumbnail": "https://i.ytimg.com/vi/nCDkxqEv1Yg/hqdefault.jpg",
-      "published": "",
-      "discovered_at": "2026-11-04T00:33:41.609619Z",
-      "status": "partial",
-      "summary_policy": 4,
-      "summary_attempted_at": "2026-11-08T09:35:11.072649Z",
-      "title_ko": "Zion Williamson의 연장전 성과에 대한 Derik Queen, Karlo Matković | 뉴올리언스 펠리컨스",
-      "transcript_error": "RequestBlocked",
-      "upload_date": "2026-11-03",
-      "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
-      "summary_error": "ValueError"
-    },
-    {
-      "kind": "youtube",
-      "source": "YouTube",
-      "video_id": "yunivyaU7-A",
-      "title": "Karlo Matković | Pelicans vs Grizzlies Postgame Interview 11/2/26",
-      "url": "https://www.youtube.com/watch?v=yunivyaU7-A",
-      "channel": "New Orleans Pelicans",
-      "thumbnail": "https://i.ytimg.com/vi/yunivyaU7-A/hqdefault.jpg",
-      "published": "",
-      "discovered_at": "2026-11-04T00:33:41.609619Z",
-      "status": "partial",
-      "summary_policy": 4,
-      "summary_attempted_at": "2026-11-08T09:35:11.072649Z",
-      "title_ko": "카를로 마트코비치 | 펠리컨스 vs 그리즐리스 경기 후 인터뷰 11/2/26",
-      "transcript_error": "RequestBlocked",
-      "upload_date": "2026-11-03",
-      "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
-      "summary_error": "ValueError"
-    },
-    {
-      "kind": "youtube",
-      "source": "YouTube",
-      "video_id": "GIDZ04-GiV8",
-      "title": "Cameron Boozer Press Conference | Grizzlies vs. Pelicans",
-      "url": "https://www.youtube.com/watch?v=GIDZ04-GiV8",
-      "channel": "Memphis Grizzlies",
-      "thumbnail": "https://i.ytimg.com/vi/GIDZ04-GiV8/hqdefault.jpg",
-      "published": "",
-      "discovered_at": "2026-11-04T00:33:41.609619Z",
-      "status": "partial",
-      "summary_policy": 4,
-      "summary_attempted_at": "2026-11-08T09:35:11.072649Z",
-      "title_ko": "카메론 부저 기자회견 | 그리즐리스 vs.\n펠리컨",
-      "transcript_error": "RequestBlocked",
-      "upload_date": "2026-11-03",
-      "error": "자막·영상 설명을 확인해 한국어 요약 3개 이상을 준비하고 있습니다.",
-      "summary_error": "ValueError"
-    },
-    {
-      "kind": "youtube",
-      "source": "YouTube",
-      "video_id": "h1Cv8fydUMQ",
-      "title": "ARE THE PELICANS BETTER WITHOUT DEJOUNTE MURRAY?! Jeremiah Fears EXPLODES in First Win!",
-      "url": "https://www.youtube.com/watch?v=h1Cv8fydUMQ",
-      "channel": "Pelicans Scoop",
-      "thumbnail": "https://i.ytimg.com/vi/h1Cv8fydUMQ/hqdefault.jpg",
-      "published": "",
-      "discovered_at": "2026-11-04T00:33:41.609619Z",
-      "status": "ready",
-      "summary_policy": 4,
-      "summary_attempted_at": "2026-11-04T00:33:41.609619Z",
-      "title_ko": "DEJOUNTE MURRAY 없이 펠리컨이 더 나은가요?!\nJeremiah는 첫 승리에서 폭발을 두려워합니다!",
-      "transcript_error": "RequestBlocked",
-      "upload_date": "2026-10-30",
-      "summary_source": "description",
-      "summary_original": [
-        "The New Orleans Pelicans are finally in the win column!",
-        "After an ugly 0-4 start to the 2026 season, the Pelicans picked up their first victory of the year against the Sacramento Kings, and they did it without Dejounte Murray in the lineup.",
-        "The vibes were higher, the energy was better, and the offense flowed in a way we haven't seen yet this year."
-      ],
-      "summary_ko": [
-        "뉴올리언스 펠리컨스가 마침내 승리 열에 올랐습니다!",
-        "2026년 시즌을 0-4로 좋지 못한 출발을 한 후, 펠리컨스는 새크라멘토 킹스를 상대로 올해 첫 승리를 거두었고, 라인업에 Dejounte Murray 없이 승리를 거두었습니다.",
-        "분위기는 더 높았고, 에너지는 더 좋았으며, 공격은 올해 우리가 아직 보지 못한 방식으로 흘러갔습니다."
-      ]
     },
     {
       "title": "Whats the go with missi, how much longer he out for?",
@@ -9457,9 +9489,11 @@
       "thumbnail": "https://external-preview.redd.it/cTM0ang2ZjlxZ3poMf9rJwTNUVJNLHy0qbMdiLfMq5Bc8M2tHilYltpb2Mf2.png?width=640&crop=smart&auto=webp&s=b959322b954adcaee1d89443debd7eec442fc374",
       "status": "partial",
       "title_ko": "DQ는 Edey를 잠들게 하고 AD를 웃게 만든다",
-      "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
-      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
+      "translation_errors": {
+        "comment_5": "HTTP 429"
+      },
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
+      "error": "일부 번역이 지연되고 있습니다. 다음 수집 때 재시도합니다.",
       "body_en": "",
       "comments": [
         {
@@ -9491,23 +9525,28 @@
           "body_ko": "경기 속도가 그에게 느려지고 있는 것처럼 보이며 그는 지금 공을 가지고 무엇을 하고 싶은지, 그리고 각 소유권에서 방어적으로 필요한 위치에 대해 훨씬 더 결단력이 있습니다."
         },
         {
-          "author": "OOManatee",
-          "score": null,
-          "body_en": "His handling of Edey reminds me of how Jokic made wemby look in their last match before the playoffs last season. Different height and caliber of players, but the same type of archetypes colliding where BBIQ trumps height and athleticism.",
-          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1xn598p/dq_putting_edey_to_sleep_and_gets_ad_laughing/19s3qaknjuhoh/",
-          "body_ko": "Edey를 다루는 그의 모습은 지난 시즌 플레이오프 전 마지막 경기에서 Jokic이 어떻게 웸비한 모습을 보였는지 생각나게 합니다.\n선수들의 키와 역량은 다르지만 BBIQ가 키와 운동 능력을 능가하는 동일한 유형의 원형이 충돌합니다."
-        },
-        {
           "author": "Maleficent-Clue5056",
           "score": null,
           "body_en": "im a wizards fan who became a half pels fan cause i love the guy so much",
           "url": "https://www.reddit.com/r/NOLAPelicans/comments/1xn598p/dq_putting_edey_to_sleep_and_gets_ad_laughing/19s445a8wxqf5/",
           "body_ko": "나는 그 사람을 너무 사랑해서 반 펠스 팬이 된 마법사 팬입니다."
+        },
+        {
+          "author": "DrummerRealistic2863",
+          "score": null,
+          "body_en": "Same here my guy, DQ and Sarr would’ve been so perfect. Guard/wing logjam over there but they won’t draft any other position",
+          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1xn598p/dq_putting_edey_to_sleep_and_gets_ad_laughing/19s4s2rwdpo8w/"
+        },
+        {
+          "author": "OOManatee",
+          "score": null,
+          "body_en": "His handling of Edey reminds me of how Jokic made wemby look in their last match before the playoffs last season. Different height and caliber of players, but the same type of archetypes colliding where BBIQ trumps height and athleticism.",
+          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1xn598p/dq_putting_edey_to_sleep_and_gets_ad_laughing/19s3qaknjuhoh/",
+          "body_ko": "Edey를 다루는 그의 모습은 지난 시즌 플레이오프 전 마지막 경기에서 Jokic이 어떻게 웸비한 모습을 보였는지 생각나게 합니다.\n선수들의 키와 역량은 다르지만 BBIQ가 키와 운동 능력을 능가하는 동일한 유형의 원형이 충돌합니다."
         }
       ],
       "summary_en": [],
-      "processed_at": "2026-11-04T09:53:25.296748+00:00",
-      "content_error": "HTTP 429"
+      "processed_at": "2026-11-14T09:50:19.856860+00:00"
     },
     {
       "title": "All the possessions in overtime - Memphis Grizzlies vs. New Orleans Pelicans - 11/2/26. Zion Williamson takes over with 9 points in OT, Jryome with 8, and Fears makes the clutch free throws.The Pelicans win against the undefeated Grizzlies.",
@@ -9537,7 +9576,7 @@
       "title_ko": "전자레인지 DQ?",
       "body_ko": "지난 몇 경기 Derik Queen은 벤치에서 나와 빠르게 수치를 올렸습니다. 그와 Zion은 밤낮으로 가장 일관된 모습을 보여주었습니다. 이 작은 연속 기록에 누가 없더라도 저 역시 마찬가지입니다.",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -9553,7 +9592,7 @@
       "title_ko": "OT에서 중거리 슛을 하는 Z",
       "body_ko": "드디어 일관성 있는 점퍼를 개발해주세요👍🏻",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -9601,7 +9640,7 @@
       "title_ko": "다들 잘 지내요",
       "body_ko": "나는 말벌 팬이지만 너희들이 내가 생각했던 것보다 더 낫다는 것을 인정해야 한다.\n그래도 나는 당신의 방송 전체에 음악, 아나운서, 분위기를 엿먹이기 때문에 행복합니다.\n포스트시즌도 잘되길 바라지만 허브를 더 많이 활용해주세요.",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -9844,7 +9883,7 @@
       "body_en": "Best believe I was in section 112 behind the pels bench during the Denver game giving the coach an earful for disrespecting Herb w 17 mpg and 0 starts for ZERO DUBS.\nBETTER RECOGNIZE WHO BEEN HERE😤\nLETS GO PELS #NotOnHerb🔒",
       "status": "partial",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
       "title_ko": "Herb의 이름을 존중한 이후: 3 HERB STARTS (28 mpg) 3DUBS",
       "body_ko": "내가 덴버 경기 중 펠스 벤치 뒤 섹션 112에 있었고 코치가 Herb를 17mpg로 무례하게 여기고 ZERO DUBS에서 0번의 선발 출전을 한 것에 대해 귀를 기울였다고 생각합니다.\n누가 여기에 왔는지 더 잘 인식하세요😤\nPELS 가자 #NotOnHerb🔒",
@@ -9924,7 +9963,7 @@
       "thumbnail": "",
       "status": "partial",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
       "title_ko": "멤피스와의 경기에서 펠리컨스의 선발 센터로 활약한 카를로 마트코비치: 25득점, 6리바운드, 3득점 5-8"
@@ -9938,7 +9977,7 @@
       "thumbnail": "https://preview.redd.it/qcxn9m00obzh1.jpeg?width=640&crop=smart&auto=webp&s=d402e1b1691b026aed1701e4c782ad458a4635ee",
       "status": "partial",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
       "title_ko": "이 사람을 숨긴 지 얼마나 됐나요?!??",
       "body_en": "",
@@ -15250,7 +15289,7 @@
       "title_ko": "평생 팬으로서 개인적인 생각입니다.",
       "body_ko": "저는 기본적으로 2012년 7살 때부터 평생 펠리컨스 팬이었습니다.\n우리 가족이 영국 팬이었고, 제가 농구를 접한 사람이 앤서니 데이비스였기 때문입니다.\n펠리컨은 제가 농구를 사랑하게 된 계기가 되었고, 아직도 데이비스와 홀리데이 펠리컨의 추억을 발견했습니다.\n즈루는 지금까지 제가 가장 좋아하는 전형을 주었습니다.\n밀웨이크와 LA로 트레이드해 새 팀을 꾸렸을 때 나는 정말 희망적이었다.\n그 이후로 우리가 가장 멀리 만든 것은 첫 번째 라운드 스윕이었습니다.\n시온은 망했습니다.\n팀이 게임을 끝낼 수 없습니다.\n우리 수비가 눈에 띄게 좋아졌음에도 불구하고 여전히 열악하지만 아직 시즌 초반이라 기대가 된다.\n이 모든 것을 말하면서 나는 마음을 굳혔고 펠리컨스 팬이 되는 것을 결코 멈추지 않을 것이라고 생각합니다.\n저는 이 도시와 아무런 관련이 없지만 제가 가장 좋아하는 농구 추억은 이 팀과 연결되어 있습니다.\n그들은 엉덩이일지도 모르지만 그들은 우리 엉덩이입니다.",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -15266,7 +15305,7 @@
       "title_ko": "모피 전설!",
       "body_ko": "내 아내는 진짜 주부 팬이고 나는 보통 멍하니 있지만 올려다보고 이것을 보고 그녀가 멈추게 만듭니다.",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "comments": [
         {
           "author": "RooflessReAnthony",
@@ -15345,7 +15384,7 @@
       "status": "partial",
       "title_ko": "이거 정말 재미있을 것 같아요",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -15437,7 +15476,7 @@
       "title_ko": "예, 우리는 0-3이고 3개 모두 피할 수 있는 손실이었습니다… 그러나!!!!!!",
       "body_ko": "Zion은 큰 성공을 거두었고, DJM은 맹활약했고, Trey는 마침내 좋은 경기를 펼쳤고, SADDIQ BEY, Mathurin은 좋은 경기를 펼쳤습니다.\n우리는 조각을 가지고 있습니다.\n우리는 너무 가깝습니다.",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -15590,7 +15629,7 @@
       "status": "partial",
       "title_ko": "도로에서 2점 차이로 멈춰야 하며, A) 즉시 전 1군 수비 선수와 플레이하거나 B) 1군 수비 선수를 모두 벤치에 남겨 두어야 합니다.\n허브 존스는 16분 소요됩니다.\n#FreeHerb #NotOnHerb",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
       "body_en": "",
       "comments": [
@@ -15653,7 +15692,7 @@
       "title_ko": "초기 시즌 cleaningtheglass.com 순 평가",
       "body_ko": "풀 +22.8\n허브 +13.5\n칼 +12.9\n+12.3과 같습니다.\n퀸 +12.0\n자이언 +11.4\n디안드레 -2.1\nDJM -4.7\n트레이 -5.7\n두려움 -14.4\n그림 -15.1\n미스 -15.2",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -15669,7 +15708,7 @@
       "title_ko": "4번째 마이너스 34",
       "body_ko": "3경기를 통해 펠리컨스가 4회에서 총 34점 차로 앞섰습니다.\nZion과 나머지 팀원들은 내가 본 선수들 중 가장 목이 막히고 가장 무능한 선수들이다.\n펠과 같은 게임을 질식시킬 수 있는 팀을 기억하는 사람이 있나요?",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -15786,7 +15825,7 @@
         "comment_3": "HTTP 429",
         "summary": "HTTP 429"
       },
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "error": "일부 번역이 지연되고 있습니다. 다음 수집 때 재시도합니다.",
       "comments": [
         {
@@ -15819,7 +15858,8 @@
         "I think we have great pieces to build with, but no clear first option.",
         "Hey, at least New Orleans sports is causing a hike in alcohol sales."
       ],
-      "processed_at": "2026-11-13T09:51:21.738530+00:00"
+      "processed_at": "2026-11-13T09:51:21.738530+00:00",
+      "content_error": "HTTP 429"
     },
     {
       "title": "what's the deal with not playing Herb anymore?",
@@ -15833,7 +15873,7 @@
       "title_ko": "더 이상 Herb를 플레이하지 않는데 무슨 상관이 있나요?",
       "body_ko": "https://preview.redd.it/w11as6b5jjxh1.png?width=1699&format=png&auto=webp&s=ee1826350f6278948b3762101a314c1c0d3cce66",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -15849,7 +15889,7 @@
       "title_ko": "펠스는 여전히 나쁘다",
       "body_ko": "덴버에 대한 이번 손실은 불행히도 펠리컨의 경험에 딱 맞는 예입니다.\n어떻게 수비하고, 리바운드하고, 농구를 관리하는 방법을 완전히 잊어버리고 어떻게 지속적으로 3쿼터의 공을 칠 수 있는지 짐작하기 어렵습니다.\n사람들은 4쿼터가 팀이 최고의 공을 펼칠 때라고 상상하고 싶습니다. 공격에 크런치 타임 세트/액션을 실행하여 계속 움직이고 비-iso적인 모습을 생성하고, 남자에게 달려가거나 상대 최고의 선수의 손에서 공을 빼내기 위해 수비에 함정을 가하고, 공을 뒤집는 것이 아니라 복싱을 하는 등 이 모든 것이 NBA 팀이 해야 할 간단한 일처럼 보입니다.\n아쉽게도 Pels 시즌이 정말로 다가오고 있으며, 우리도 같은 시즌을 더 맞이하고 있는 것 같습니다.\n가장 나쁜 점은 제가 이 사실을 충분히 알고 있다는 점이며, 다음 게임에서도 상황이 똑같은 방식으로 진행되면 똑같이 속상할 것입니다.",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -15986,7 +16026,7 @@
       "title_ko": "나는 너무 고통스러워",
       "body_ko": "두 번째로 이 팀이 뭔가를 할 거라고 생각하게 만들면 그들은 내가 왜 그들에 대한 믿음이 별로 없는지 다시 한번 상기시켜 줍니다.",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -15997,14 +16037,93 @@
       "kind": "reddit",
       "published": "2026-10-25T03:57:03+00:00",
       "thumbnail": "",
-      "body_en": "This post contains content not supported on old Reddit.\nClick here to view the full post",
+      "body_en": "Post Game Thread\nNew Orleans Pelicans\nvs.\nDenver Nuggets\nFINAL\n— 135 - 141\nBox Scores:\nNBA\nGAME SUMMARY\nVenue:\nBall Arena, Denver, CO\nOfficials:\nNate Cearley, Scott Foster, John Butler\nTeam\nQ1\nQ2\nQ3\nQ4\nOT\nTotal\nNew Orleans Pelicans\n38\n35\n35\n18\n9\n135\nDenver Nuggets\n24\n33\n32\n37\n15\n141\nThis post contains content not supported on old Reddit.\nClick here to view the full post",
       "status": "partial",
       "title_ko": "게임 후 스레드: 덴버 너기츠(1-1), OT에서 뉴올리언스 펠리컨스(0-3), 141-135 패배 | NBA | 2026년 10월 24일",
-      "body_ko": "이 게시물에는 이전 Reddit에서 지원되지 않는 콘텐츠가 포함되어 있습니다.\n전체 게시물을 보려면 여기를 클릭하세요",
-      "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
-      "content_error": "HTTP 429",
-      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
+      "translation_errors": {
+        "body": "HTTP 429",
+        "comment_0": "HTTP 429",
+        "comment_1": "HTTP 429",
+        "comment_2": "HTTP 429",
+        "comment_3": "HTTP 429",
+        "comment_4": "HTTP 429",
+        "comment_5": "HTTP 429",
+        "comment_6": "HTTP 429",
+        "comment_7": "HTTP 429",
+        "comment_8": "HTTP 429",
+        "comment_9": "HTTP 429"
+      },
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
+      "error": "일부 번역이 지연되고 있습니다. 다음 수집 때 재시도합니다.",
+      "comments": [
+        {
+          "author": "SkepticalHippo93",
+          "score": null,
+          "body_en": "Damn. They managed to fool me this time, I actually thought our lead was large enough to win one. Silly me.",
+          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1xesbr1/postgame_thread_denver_nuggets_11_defeat_new/19rm53iq8f2zo/"
+        },
+        {
+          "author": "WhaleTank196",
+          "score": null,
+          "body_en": "A 50 point lead isn’t safe with this team",
+          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1xesbr1/postgame_thread_denver_nuggets_11_defeat_new/19rm76oejznj7/"
+        },
+        {
+          "author": "GroundbreakingSky354",
+          "score": null,
+          "body_en": "🤣🤣mfs outdone themselves 🤣🤣🤣🤣🤣🤣",
+          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1xesbr1/postgame_thread_denver_nuggets_11_defeat_new/19rm5fyr8s89x/"
+        },
+        {
+          "author": "lmao12367",
+          "score": null,
+          "body_en": "Now that was an all time pelicans game if I’ve ever seen one",
+          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1xesbr1/postgame_thread_denver_nuggets_11_defeat_new/19rm50u4hsc0y/"
+        },
+        {
+          "author": "WildAccident2850",
+          "score": null,
+          "body_en": "Valid melt downs today folks. Have at em. Fears just isnt ready for closing just yet, zion with some horrible turnovers, and as AD said they retreated in the 4th not playing the way they were that got them the lead. Murrays 3 point shooting saved them. Just draining them no matter the defence.",
+          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1xesbr1/postgame_thread_denver_nuggets_11_defeat_new/19rm53bk6wp28/"
+        },
+        {
+          "author": "NoMeaning9887",
+          "score": null,
+          "body_en": "Pretty sure Fears and Murray in the 4th are the main culprits in blowing the lead. The burning down the shot clock and no pass and a shot or a turnover happened a record amount of time imho. Then after blowing the lead down to single digits they start giving the ball to Zion who was wasn’t involved in the offense for the last 3 minutes and hoping that he was going to save the day. The Nuggets defend him very well for the past few seasons with no driving lanes anywhere.",
+          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1xesbr1/postgame_thread_denver_nuggets_11_defeat_new/19rm5lkoi1jvn/"
+        },
+        {
+          "author": "whatjever",
+          "score": null,
+          "body_en": "I became a fan in 2018. I think this is the game that has broken me. I’m throwing out all my Pelicans merch and I’m just gonna be an enjoyer of good hoops. This is not good for my mental health. Goodbye, everyone!",
+          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1xesbr1/postgame_thread_denver_nuggets_11_defeat_new/19rm55s8z4fz8/"
+        },
+        {
+          "author": "Balsamic_ducks",
+          "score": null,
+          "body_en": "Respect. Don’t waste your time on a team whose owner doesn’t give one shit about the team",
+          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1xesbr1/postgame_thread_denver_nuggets_11_defeat_new/19rm5txs9wusg/"
+        },
+        {
+          "author": "maxfaulkner",
+          "score": null,
+          "body_en": "Been following the team since 2008, it’s been a damn tough road. Every year that goes by so does my faith in the team/organisation 😂 I may not even watch a single Pels game this year, I saw the half time box score of today’s game and saw a 20+ point lead and couldn’t even get excited cause I knew we would lose it.",
+          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1xesbr1/postgame_thread_denver_nuggets_11_defeat_new/19rm6fek7sqn8/"
+        },
+        {
+          "author": "hipp0hunt3r",
+          "score": null,
+          "body_en": "If this was any other franchise I would call you a fake fan but honestly, good for you lol You made a mistake, don’t waste another decade of your life on the sunk cost fallacy. I’ve been watching this team without any reward for 20 years now.",
+          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1xesbr1/postgame_thread_denver_nuggets_11_defeat_new/19rm76jpjlzad/"
+        }
+      ],
+      "summary_en": [
+        "This post contains content not supported on old Reddit."
+      ],
+      "summary_ko": [
+        "이 게시물에는 이전 Reddit에서 지원되지 않는 콘텐츠가 포함되어 있습니다."
+      ],
+      "processed_at": "2026-11-14T09:51:50.455146+00:00"
     },
     {
       "title": "I can't man",
@@ -16018,7 +16137,7 @@
       "title_ko": "난 못해",
       "body_ko": "매 경기마다 일찍 일어나 펠리컨을 보기 위해 일찍 자요.\n매 경기, 나는 우리가 플레이하는 방식에 대해 희망으로 가득 차 있고, 매 경기마다 우리 팀이 4위를 기록하고 있습니다.",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -16127,7 +16246,7 @@
       "title_ko": "펠리컨이 아슬아슬한 게임 도전에서 승리했습니다: 불가능합니다!!!",
       "body_ko": "처음 3경기는 정말 믿을 수가 없어요....",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
       "comments": [
         {
@@ -16194,7 +16313,7 @@
       "title_ko": "3경기 만에 시즌 끝났다",
       "body_ko": "게임이 3개뿐인 건 알지만, 맙소사, 대체 뭐야?\n23까지 올라가도 우리는 여전히 패배할 방법을 찾습니다.\n연속 두 번째 게임인 건 알지만, 끝내야 해요.\n특히 좋은 팀을 상대로는요.\n4쿼터를 합치고 게임을 종료할 수 없다면 연장 기간 동안 잘 플레이했다는 평가를 받을 수 없습니다.\n가장 실망스러운 부분은 어떤 리드도 안전하다고 느끼지 않는다는 것입니다.\n다른 팀들도 그들이 아무리 뒤쳐져 있더라도 우리가 그들에게 다시 돌아올 수 있는 기회를 줄 것이라는 것을 알고 있는 것 같습니다.\n그리고 위기의 순간이 오면 우리가 승리할 것이라는 확신이 전혀 없습니다.\n이 친구들은 생명을 구하기 위해 게임을 닫을 수 없습니다.\n나는 패배를 감당할 수 있지만 23점차 리드가 또 다른 리드로 바뀌는 것을 보면서 \"도대체 우리가 그걸 어떻게 졌지?\" 지친다.\n벌써 이런 짓에 지친 사람이 또 있나요?",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
       "comments": [
         {
@@ -16388,7 +16507,7 @@
       "title_ko": "나 지금 진짜 토하고 싶어",
       "body_ko": "그들은 이번 4쿼터가 얼마나 나빴는지 지난 2경기에서 어떻게든 스스로 노력하고 있습니다.",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
       "comments": [
         {
@@ -16483,7 +16602,7 @@
       "title_ko": "게임 스레드: 뉴올리언스 펠리컨스 vs 덴버 너게츠",
       "body_ko": "현재 4쿼터 2분 55초 남았습니다.\n펠리컨은 119-113으로 상승했지만 한때 20포인트 상승했습니다.",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
       "comments": [
         {
@@ -16863,7 +16982,7 @@
       "status": "partial",
       "title_ko": "매 펠리컨스 경기 후 그래픽 만들기 - 2026년 10월 23일",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -16879,7 +16998,7 @@
       "title_ko": "시온이 효과적으로 활용되고 있다고 생각하지 않습니다.\n다들 동의하시나요?",
       "body_ko": "나는 여러분 모두에게 열심히 물어볼 것이며 바닥은 여러분 모두에게 맡기겠습니다.\n우리가 Pels를 볼 때 눈에 띄는 문제 중 하나는 플레이메이킹이 부족하고 이 팀이 수비되는 방식이기 때문에 팀은 이 선수들이 추가 패스를 시도하지 않을 것이며 무너지거나 외곽으로 쫓겨나려고 하지 않을 것임을 알고 있기 때문입니다.\n공이 줄 위에 있지 않습니다.\n자이언은 생산적인 무언가로 이어지는 페인트 터치를 지속적으로 생성할 수 있는 유일한 사람입니다.\n두려움은 페인트 터치를 생성할 수 있지만 그가 그렇게 할 때 반드시 효율적이지는 않습니다.\n벗겨지고 방어를 읽지 않고 뒤집어집니다.\nDeJounte는 몇 년 동안 주요 림 프레셔맨이 아니었습니다.\n풀은 림에 압박을 가할 수 있고 역사적으로 좋은 피니셔이지만 그 역시 의심스러운 샷 선택을 가진 의심스러운 의사 결정자입니다.\n나는 Point Zion이 기능적이라고 생각하지 않지만 Zion이 공을 캐치하고 움직이며 그런 식으로 공격하게 하는 더 많은 행동을 볼 필요가 있다고 생각합니다.\nZion은 공을 잡고 찢고 바스켓에 도달할 수 있는 보조 행동을 만들기 위해 공이 없을 때 공을 요구하는 데 더 적극적이어야 하지만 실제로 효율적인 공격을 위해 신뢰할 수 있는 한 사람에게서 공격이 너무 자주 멀어집니다.\n다들 어떻게 생각하세요?\nZion은 두 경기에서 괜찮았지만 그가 괜찮지 않으면 이 팀은 승리하지 못할 것입니다.",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -16895,7 +17014,7 @@
       "title_ko": "회전?",
       "body_ko": "내 \"누가 가장 많은 분 순위를 받아야 하는지\"는 다음과 같습니다.\n이 명단에는 훌륭한 수비 선수(Herb, DJM, Bey, Yves, Mathurin?)를 포용해야 합니다.\nJP나 Fears가 게임에 등장해도 우리의 공격은 별로 나아지지 않습니다.\n누가 들어가든 공격적으로는 같은 결과인 것 같다.\nHerb가 PT를 받지 못하는 것은 미친 일입니다.\n그는 심지어 Willie Green이나 Borrego 밑에서 충분히 활용되지 못했습니다.\n허브\nDJM\n트레이\n사디크 베이\n시온\n마튀랭\n이브\nDQ\n두려움\n조던 풀",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -16911,7 +17030,7 @@
       "title_ko": "펠리컨스의 이브 미시, 왼쪽 무릎 부상 평가 중",
       "body_ko": "https://www.yardbarker.com/nba/articles/pelicans_yves_missi_being_evaluated_for_left_knee_injury/s1_14822_44466829\n\"이전 1라운드 지명자는 토요일 덴버에서 재평가될 것입니다.\"",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
       "comments": [
         {
@@ -17190,10 +17309,61 @@
       "status": "partial",
       "title_ko": "컵 나이트 당일 티켓을 구매하시나요?",
       "body_ko": "안녕하세요 여러분!\n서브를 검색해본 결과 경기 당일 티켓 가격이 인하될 것이라는 일반적인 인상을 받았습니다. 하지만 NBA 컵 나이트에 그렇게 하는 것에 대한 구체적인 정보를 찾지 못했습니다.\n당일 Tix 구매에 대한 경험이나 제안이 있는 사람이 있습니까?\n저는 11월 6일 팀버울브스와의 경기에 관심이 있어서 가격이 상대보다 조금 더 높을 것이라고 생각하고 가능한 최고의 거래를 원합니다 ㅋㅋㅋ.\n어떤 정보라도 대단히 감사하겠습니다!\n모여라✌️",
-      "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
-      "content_error": "HTTP 429",
-      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
+      "translation_errors": {
+        "comment_0": "HTTP 429",
+        "comment_1": "HTTP 429",
+        "comment_2": "HTTP 429",
+        "comment_3": "HTTP 429",
+        "comment_4": "HTTP 429",
+        "comment_5": "HTTP 429",
+        "summary": "HTTP 429"
+      },
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
+      "error": "일부 번역이 지연되고 있습니다. 다음 수집 때 재시도합니다.",
+      "comments": [
+        {
+          "author": "hbjqwp",
+          "score": null,
+          "body_en": "With the start we’re having, they might pay you to attend",
+          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1xdzcr0/buying_tickets_dayof_for_a_cup_night/19rkf2ecswv51/"
+        },
+        {
+          "author": "jewishramey",
+          "score": null,
+          "body_en": "They aren't bad right now but luckily for you, we will probably have a terrible record and they will be $5 night of. Hard to imagine a sellout. I usually buy day of, I've used game time before too",
+          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1xdzcr0/buying_tickets_dayof_for_a_cup_night/19rkf35wwu17k/"
+        },
+        {
+          "author": "Scary_Cartographer36",
+          "score": null,
+          "body_en": "Why would you buy tickets for yourself or someone you love?",
+          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1xdzcr0/buying_tickets_dayof_for_a_cup_night/19rkfvekxtbqb/"
+        },
+        {
+          "author": "Jakeofall9",
+          "score": null,
+          "body_en": "They’ll be $5 if we keep playing the way we are",
+          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1xdzcr0/buying_tickets_dayof_for_a_cup_night/19rkwb6rahcww/"
+        },
+        {
+          "author": "Full_Excitement6845",
+          "score": null,
+          "body_en": "If you want uppers they’ll be super cheap, lowers just wait as close as u can till game time",
+          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1xdzcr0/buying_tickets_dayof_for_a_cup_night/19rlfsj9rl9cw/"
+        },
+        {
+          "author": "troxieselect",
+          "score": null,
+          "body_en": "Stop giving money to this team",
+          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1xdzcr0/buying_tickets_dayof_for_a_cup_night/19rkj9ana5uw0/"
+        }
+      ],
+      "summary_en": [
+        "I’ve browsed the sub and got the general impression that ticket prices will drop the day of the game; however, I haven’t found any specific info about doing that for an NBA Cup Night.",
+        "Does anyone have any experience/ suggestions with buying tix the day of?",
+        "I’m interested in going Nov 6 vs the Timberwolves, so I figure prices will be a little higher bc of the opponent and would like the best deal possible lol."
+      ],
+      "processed_at": "2026-11-14T09:52:53.002630+00:00"
     },
     {
       "title": "2 Games In...",
@@ -17294,7 +17464,7 @@
       "title_ko": "경기 후 스레드: 유타 재즈(1-1), 뉴올리언스 펠리컨스(0-2), 120-119 패배 | NBA | 2026년 10월 23일",
       "body_ko": "이 게시물에는 이전 Reddit에서 지원되지 않는 콘텐츠가 포함되어 있습니다.\n전체 게시물을 보려면 여기를 클릭하세요",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -17308,7 +17478,7 @@
       "status": "partial",
       "title_ko": "[하이라이트] 조던 풀이 역겨운 스텝백 3점슛으로 이사야 콜리어를 쓰러뜨렸습니다!",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -17477,7 +17647,7 @@
       "title_ko": "Missiah는 9캣 가치에서 모든 센터를 선도합니다.",
       "body_ko": "Missi는 게임당 9가지 범주의 판타지 가치에서 리그 최고의 센터이며 모든 플레이어 중 8위입니다.\n그는 Anthony Davis를 제치고 Sabonis, Jabari Smith Jr.보다 훨씬 앞서 있습니다.\n그리고 쳇.\n그는 단지 13점을 얻었는데, 이는 재미있는 부분이다.\n가치는 그 밖의 모든 것에서 나옵니다. 14리바운드, 5어시스트, 3블록, 스틸, 83% 슈팅에서 30분 이내에 단 1번의 턴오버를 기록했습니다.\n판타지 가치는 9가지 범주를 모두 포함하므로 효율적이고 리바운드하며 림을 보호하고 뒤집지 않는 빅 선수가 34타를 떨어뜨리는 선수를 이길 수 있습니다.\n이것이 그가 포인트의 3분의 1에서 AD의 가치를 일치시키는 방법입니다.\n오랫동안 미시아가 우리를 통치하시기를 바랍니다.",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "comments": [
         {
           "author": "Cheeseish",
@@ -17629,7 +17799,7 @@
       "status": "partial",
       "title_ko": "매 펠리컨스 경기 후 그래픽 만들기 - 2026년 10월 21일",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -17641,10 +17811,10 @@
       "published": "2026-10-23T01:30:10+00:00",
       "thumbnail": "",
       "body_en": "Game Thread\nNew Orleans Pelicans\nvs.\nUtah Jazz\nFINAL\n— 119 - 120\nBox Scores:\nNBA\nGAME SUMMARY\nVenue:\nDelta Center, Salt Lake City, UT\nOfficials:\nJames Capers, Leon Wood, Ray Acosta\nTeam\nQ1\nQ2\nQ3\nQ4\nTotal\nNew Orleans Pelicans\n28\n24\n38\n29\n119\nUtah Jazz\n31\n31\n24\n34\n120\nThis post contains content not supported on old Reddit.\nClick here to view the full post",
-      "status": "partial",
+      "status": "ready",
       "title_ko": "게임 스레드: 뉴올리언스 펠리컨스(0-1) vs 유타 재즈(0-1) 라이브 스코어 | NBA | 2026년 10월 23일",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "comments": [
         {
           "author": "chadd1588",
@@ -17723,9 +17893,7 @@
       "summary_ko": [
         "이 게시물에는 이전 Reddit에서 지원되지 않는 콘텐츠가 포함되어 있습니다."
       ],
-      "processed_at": "2026-10-31T09:37:51.379393+00:00",
-      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
-      "content_error": "HTTP 429",
+      "processed_at": "2026-11-14T09:53:02.551315+00:00",
       "body_ko": "게임 스레드\n뉴올리언스 펠리컨스\n대\n유타 재즈\n최종\n— 119 - 120\n박스 스코어:\nNBA\n게임 요약\n장소:\n델타 센터, 유타주 솔트레이크시티\n관계자:\n제임스 케이퍼스, 레온 우드, 레이 아코스타\n팀\n1분기\n2분기\n3분기\n4분기\n합계\n뉴올리언스 펠리컨스\n28\n24\n38\n29\n119\n유타 재즈\n31\n31\n24\n34\n120\n이 게시물에는 이전 Reddit에서 지원되지 않는 콘텐츠가 포함되어 있습니다.\n전체 게시물을 보려면 여기를 클릭하세요"
     },
     {
@@ -17768,7 +17936,7 @@
       "status": "partial",
       "title_ko": "제로 피어스(Zero Fears) - 영 플라야",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "body_en": "",
       "comments": [
         {
@@ -17859,7 +18027,7 @@
       "title_ko": "페이서스는 정말 좋은 팀이다.",
       "body_ko": "나는 어제 본 것을 좋아합니다.\n예, 우리는 좀 더 긴장을 늦추지 않고 실제로 승리할 수도 있었습니다. 하지만 우리는 리그 최고의 팀 중 하나와 맞붙었습니다.\n내 생각에 사람들은 Pacers가 팀이라는 사실을 무시/망각하고 있는 것 같아요.\n이다\n지난 시즌 최고의 선수 없이 탱킹을 했기 때문에 정말 좋았습니다.\n그 명단의 더 나쁜 버전은 2시즌 전 NBA 챔피언이 되기까지 1경기 남았다는 것입니다.\nHali는 이 리그 최고의 선수 중 한 명이고, Siakam은 상위 20위 선수이며, Zubac/Nembhard/Oubre는 모두 합법적인 평균 이상의 선발 투수입니다.\n서류상으로는 우리보다 훨씬 나은 명단이지만, 우리는 내내 그들과 함께 있었습니다.\n어젯밤 이후 나는 오랜만에 처음으로 다음에 무슨 일이 일어날지 정말 기대됩니다.\nJamahl Mosley는 빌어먹을 G이고 한 게임이 지났는데 절뚝거리는 Willie와 벌써 밤낮의 차이가 엄청나네요",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -18230,7 +18398,7 @@
       "title_ko": "\"3개의 리바운드로는 유연성을 발휘할 수 없습니다\" - Charles Barkley는 Zion Williamson의 부진한 시즌 개막전을 조롱했습니다.",
       "body_ko": "Chuck은 Pelicans의 운동 강국에게 더 많은 것을 요구합니다.",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -18246,7 +18414,7 @@
       "title_ko": "4회 9분 남았을 때 보너스?",
       "body_ko": "집에 없고 운전하면서 게임을 듣고 있었어요.\n3분 안에 5~6번 파울을 범하는 일련의 과정을 누군가 나에게 설명해 줄 수 있나요?\n합법적이었나요?\n가짜였나요?\n내 말은, 우리는 기록적인 시간 안에 그것들을 보너스에 넣은 다음 계속해서 그것들과 하나를 주었다는 것입니다.\n그들이 거친 선두를 차지하자 속도가 느려진 것 같습니다.",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -18327,7 +18495,7 @@
       "title_ko": "JPE - 조던 풀 경험",
       "body_ko": "그 사람은 예전과 똑같은 것 같아요.\nu/Paulspys\n_ 프리시즌 경기를 보고 우리 모두에게 새로운 JP가 생겼다고 말했어요.\n수비, 의사 결정, 비이기적인 플레이가 새로운 똥이 되어야 했습니다.\nHomey는 우리가 그에게 질문했을 때 화를 내기까지 했습니다.\n그래서 무슨 일이 일어났나요?\nu/Paulspys\n_?",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "comments": [
         {
           "author": "Independent-Craft634",
@@ -18389,7 +18557,7 @@
       "title_ko": "내가 넘어진 걸까, 아니면 오늘 누군가가 이걸 입었나?",
       "body_ko": "맹세코 그들이 4쿼터에서 파울을 위해 싸울 때 벤치 위나 근처에 있는 누군가가 이것을 입고 있었지만 가게에는 청소년 버전만 있습니다.",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -18405,7 +18573,7 @@
       "title_ko": "게임 후 스레드",
       "body_ko": "펠리컨은 기절을 잃었습니다!\n자이언은 스테판 커리\n이브는 웸비야\nDQ는 요키치\n팀은 열심히 경기하고 있으며 이번 시즌에 70승을 거둘 것입니다.\n토요일에 봐요!",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "comments": [
         {
           "author": "ToothEducational7795",
@@ -18498,7 +18666,7 @@
       "status": "partial",
       "title_ko": "손실은 손실이지만",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -18514,7 +18682,7 @@
       "title_ko": "경기 후 스레드: 인디애나 페이서스(1-0), 뉴올리언스 펠리컨스(0-1), 123-120 패배 | NBA | 2026년 10월 21일",
       "body_ko": "이 게시물에는 이전 Reddit에서 지원되지 않는 콘텐츠가 포함되어 있습니다.\n전체 게시물을 보려면 여기를 클릭하세요",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -18528,7 +18696,7 @@
       "status": "partial",
       "title_ko": "이기든 지든 군중의 소리를 듣는 게 이렇게 아름다워",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
       "body_en": "",
       "comments": [
@@ -18570,7 +18738,7 @@
       "title_ko": "제발 우리에게 이러지 마세요",
       "body_ko": "우리 이거 가질 수 없나요?\n제발?????",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -18586,7 +18754,7 @@
       "title_ko": "이브 미시(Yves Missi)의 스트레스 테스트",
       "body_ko": "오프닝 나이트 전 포드에서 Missi가 처음 5~10경기 동안 직면하게 될 Mosley의 새로운 평가 일정을 살펴봅니다.",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "comments": [],
       "summary_en": [
         "Pod before Opening Night looking at Mosley’s new eval schedule at what Missi is facing over the first 5-10 games…"
@@ -18610,7 +18778,7 @@
       "title_ko": "나를 사용",
       "body_ko": "시즌권이 있는데 자리를 못 채우신다면 제가 바로 당신의 허클베리입니다.\nHornets 시절부터 팬이었고 Blender 근처에 살고 있습니다.\n빈 자리로 자신과 팀/베이스를 당황하게 하지 마세요!\n나를 이용하세요.\n나는 재판매나 이상한 것에 관심이 없으며 원하시면 경품을 제공해 드리겠습니다.",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -18626,7 +18794,7 @@
       "title_ko": "그래픽 티셔츠",
       "body_ko": "첫 번째 펠리컨 게임에 가는데 멋진 모습을 보여주고 싶어요!\n멋진 디자인의 셔츠를 어디서 구할 수 있는지 추천해 주실 수 있나요?",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -18640,7 +18808,7 @@
       "status": "partial",
       "title_ko": "시온 윌리엄슨NNNN",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
       "body_en": "",
       "comments": [
@@ -18716,7 +18884,7 @@
       "status": "partial",
       "title_ko": "펠스는 좋은 휘파람 소리를 냈습니다.",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
       "comments": [
         {
@@ -18892,7 +19060,7 @@
       "thumbnail": "https://preview.redd.it/6v3k8gmucwwh1.jpeg?width=640&crop=smart&auto=webp&s=032b1f95771d5a1ca21567d78dcf9615baa5dd19",
       "status": "partial",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
       "title_ko": "게임 시간 적합성 확인.\n할리반은 결코 기회를 잡지 못했습니다!"
@@ -19000,7 +19168,7 @@
       "body_en": "Maybe they’ll take Poole back?",
       "status": "partial",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "title_ko": "[Charania] 골든스테이트는 POTS(자세 기립성 빈맥 증후군)로 불리는 자가면역 질환의 재발 증상을 다루면서 현재 농구계에서 자신의 미래를 심각하게 고민하고 있는 Kristaps Porzingis의 트레이드 루트를 탐색하기 시작했다고 소식통이 ESPN에 전했습니다.",
       "body_ko": "어쩌면 그들이 풀을 다시 데려갈지도 모르죠?",
       "comments": [
@@ -19089,7 +19257,7 @@
       "thumbnail": "",
       "status": "partial",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
       "title_ko": "판매되는 주차권이 있나요?"
@@ -19169,7 +19337,7 @@
         "comment_9": "HTTP 429",
         "summary": "HTTP 429"
       },
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "error": "일부 번역이 지연되고 있습니다. 다음 수집 때 재시도합니다.",
       "title_ko": "예측?",
       "body_ko": "나는 그들에게 팀으로 플레이하도록 했습니다.\n많아야 7번째 시드입니다.\n코칭이 개선될지 기대됩니다.\nQueen의 두려움과 이브의 발전을 보게되어 기쁩니다.",
@@ -19238,7 +19406,8 @@
       "summary_en": [
         "I’m excited to see Queen fears and yves development."
       ],
-      "processed_at": "2026-11-13T09:52:49.071049+00:00"
+      "processed_at": "2026-11-13T09:52:49.071049+00:00",
+      "content_error": "HTTP 429"
     },
     {
       "title": "Containing and limiting the Haliban will not be easy tonight, but it is doable.",
@@ -19249,7 +19418,7 @@
       "thumbnail": "",
       "status": "partial",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
       "title_ko": "오늘 밤 할리반을 억제하고 제한하는 것이 쉽지는 않겠지만 가능합니다."
@@ -21201,7 +21370,7 @@
       "title_ko": "[경기 토론] 뉴올리언스 펠리컨스 대 댈러스 매버릭스 — 프리시즌 3차전",
       "body_ko": "Mavs 엿 먹어라.\n게임 @ 19:00 CST\n혹시 나중에 게임 후 글을 올리고 싶은 분이 계시다면 저는 아마 자고 있을 것 같습니다.",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "comments": [
         {
           "author": "TarzantheMan",
@@ -21296,7 +21465,7 @@
       "title_ko": "모든 세대의 펠리컨스 팬들에게 묻습니다!",
       "body_ko": "안녕하세요, Pelicans 팬 여러분, 저는 각 프랜차이즈의 가장 큰 이변(승리할 것으로 예상되지 않았을 때)과 각 프랜차이즈의 가장 큰 질식(심각하게 느껴지셨다면 죄송합니다)에 대한 영상을 만들고 있습니다.\n각각에 대해 추측이 있지만 실제 펠리컨스 팬들에게 여러분이 어떻게 생각하는지, 그리고 제가 살펴보아야 할 더 나은 답변이 있는지 물어보고 싶었습니다.\n나는 ~을 고려하고 있다\n당황하다\n엄밀히 말하면 그 팀이 이기지 못하거나 큰 약자여서 이겼을 때와 마찬가지입니다.\n에이\n초크\n팀이 승리할 것으로 예상됐지만 성과가 저조했을 때일 수도 있고, 중요한 경기나 플레이오프에서 큰 선두를 날렸을 때(이런 수준에 해당하는 것)일 수도 있습니다.\n플레이오프에서 리드가 터질 수도 있습니다(예: 3-1 리드).\n여러분의 생각을 알려주세요. 완료되면 여기에 동영상을 링크하겠습니다.\n이번시즌도 잘 부탁드려요!!",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "comments": [
         {
           "author": "Brave-Survey-67",
@@ -21514,7 +21683,7 @@
       "title_ko": "제가 이상하다고 해도 좋습니다",
       "body_ko": "다들 어떻게 생각하시는지 알고 싶습니다. 뉴올리언스의 누구도 Zion을 포기할 준비가 되어 있지 않을 것 같습니다. 하지만 조직이 Queens를 중심으로 Zion을 포기하기로 선택한다면 이는 괜찮은 거래가 될 수 있습니다.",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
       "comments": [
         {
@@ -21704,7 +21873,7 @@
       "status": "partial",
       "title_ko": "펠리컨스는 어떻게 '할리반'을 봉쇄하고 페이서스를 이길 수 있을까요?",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
       "body_en": "",
       "comments": [
@@ -21795,7 +21964,7 @@
       "title_ko": "이제 이 구단에 지친 분 있나요?",
       "body_ko": "이기기를 원하지만 전혀 긍정적인 움직임이 없거나 다시 시작하지 않는 끊임없는 울타리, 우리의 정점이 몰래 플레이인 모습을 보일 수도 있다는 것을 아는 것은 너무 피곤합니다. 이 시점에서 제가 90% 아웃된 것 같은 느낌이 듭니다. 여러분 중 일부는 그만 두기까지 얼마나 남았습니까?",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "comments": [
         {
           "author": "Odd_String1181",
@@ -22009,7 +22178,7 @@
       "title_ko": "Trey가 프리시즌 2차전에서 Giannis와 Bam을 제치고 승리를 거두었습니다.",
       "body_ko": "프리시즌에 대해 어떻게 생각하시는지 말씀해 보세요. 하지만 그건 냉혹했습니다.🤣\nTrey가 그것을 페인트로 가져갈 때 그것을 보는 것을 좋아합니다.",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -22025,7 +22194,7 @@
       "title_ko": "조던 풀(Jordan Poole)은 역대 가장 혼란스러운 선수입니다.",
       "body_ko": "이 남자는 완전히 완성된 모습에서 이런 모습으로 변했습니다.\n나는 그가 어떻게 어느 날 밤에는 멋져 보였고 다음 날에는 완전히 다른 선수처럼 보일 수 있다는 것을 이해할 수 없습니다.\n나는 그것이 단지 프리시즌 경기라는 것을 알고 있지만, 이것이 그와 항상 함께 있었던 방식입니다.\n그 사람이 양동이를 원하면 가장 높은 수준에서 얻을 수 있습니다.\n이렇게 플레이하면 그는 팀 내 최고의 선수처럼 보인다.\n그가 선수로서 어떤 사람이 될 수 있는지, 그리고 그가 실제로 일관성을 유지한다면 NBA에서 어떤 영향을 미칠 수 있을지 상상해 보세요.\n그래도 나는 그를 응원합니다.",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "comments": [
         {
           "author": "breesyroux",
@@ -22211,7 +22380,7 @@
       "title_ko": "미시는 아직도 공을 못잡아요",
       "body_ko": "Fears는 그에게 어떤 이유로든 잡을 수 없는 완벽한 패스를 던지고 있습니다.\nGuy는 여름 내내 TikTok 실시간으로 Fortnite를 플레이했는데 이제 공을 잡을 수 없습니다",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "comments": [
         {
           "author": "mk512",
@@ -22308,7 +22477,7 @@
       "title_ko": "이제 놓아줄 시간이다… 시온은 프랜차이즈 리더가 될 수 없다",
       "body_ko": "이 버전의 Zion은 단순히 프랜차이즈 플레이어가 될 수 없습니다.\n가치를 얻으려면 그를 내보내야 하고, 특히 Trey Murphy도 마찬가지입니다.\n트레이는 훌륭하지만 그 옆에 가드를 만드는 합법적인 플레이가 필요합니다.",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다.",
       "comments": [
         {
@@ -22593,7 +22762,7 @@
       "title_ko": "프리시즌 개막전에 대해 어떻게 생각하시나요?",
       "body_ko": "-첫 번째 부대는 OKC의 두 번째 부대에 의해 인수되었습니다.\n한 프리시즌 경기에서 너무 열광하지는 않지만 첫 번째 경기에서 가장 멋진 모습은 아닙니다.\nDJM의 표정이 좋지 않았습니다.\nMissi는 쉬운 샷을 너무 많이 놓쳤습니다.\n경기 초반 덩크슛을 시도하는 자이언의 미친 속도 드라이빙은 보기에 좋았다.\n- 두 번째 유닛은 괜찮아 보입니다.\nQueen은 그의 방어가 여전히 불안정하고(Mara는 좋아 보였지만) Fears가 앞으로 몇 년 동안 문제가 될지라도 마음대로 라인에 도달했습니다.\nMathurin과의 케미스트리도 좋아 보였습니다.\n브라이스는 좋은 경기를 펼쳤습니다.\n-23다운에서 돌아와서, 누가 반대하든 신경 안 쓰고 뭔가를 보여줬어요.\n팀은 첫 번째 프리시즌 경기까지 쉽게 생각하고 수건을 던질 수도 있었습니다.\n46-16으로 경기를 마무리하는 것은 지난 시즌 엄청난 양의 경기에서 승리한 팀에게 자신감을 심어주는 요소였습니다.\n-나에게 대규모 업그레이드를 보여준 수비에 대해서는 많이 보지 못했지만 다시 한 번 유일한 게임입니다.\n나는 이 서브의 절반이 무슨 일이 있어도 파멸과 우울함이라는 것을 알고 있고 다른 하나는 낙관적이므로 첫 번째 프리 시즌 경기에서 과잉 반응이 있다고 확신합니까?",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "comments": [
         {
           "author": "jgman22",
@@ -22692,7 +22861,7 @@
       "title_ko": "이번 선발 라인업에 대해 어떻게 생각하시나요?",
       "body_ko": "스타터\n두려움\n베이\n머피\n시온\n미시\n벤치\n머레이\n풀\n마튀랭\n허브\n여왕\n프리시즌 한 경기뿐이라는 건 알지만, 이번 변화에 대해 어떻게 생각하시나요?\n나는 이러한 라인업의 시너지 효과가 더 깨끗하다고 ​​생각합니다.\n선발 투수는 두 가드 위치 모두에서 향상된 슈팅 능력을 얻습니다.\nMissi는 수비 앵커입니다.\nPels가 실행하는 벤치 라인업이 무엇이든 훌륭해야 합니다. 이 라인업도 포함됩니다.\n이는 선발 투수가 벤치 선수보다 더 많은 시간을 플레이해야 한다는 의미는 아니며 단지 재능을 극대화하는 것입니다(그리고 선발 유닛을 플레이하여 Fears가 더 빨리 발전할 수 있도록 허용할 수도 있음).",
       "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
       "content_error": "HTTP 429",
       "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
     },
@@ -22736,10 +22905,78 @@
       "thumbnail": "https://external-preview.redd.it/FrHvDRe0FtRdE2vpQGFy95oKq1bmlrIH3VfzHUmmY4M.jpeg?width=320&crop=smart&auto=webp&s=76ec93ee4e93a10ece8b8c3e82f232ef54a7b9dd",
       "status": "partial",
       "title_ko": "Bennedict Mathurin vs Thunder 2026년 10월 6일 전체 플레이",
-      "translation_errors": {},
-      "last_attempt_at": "2026-11-13T09:50:39.858364+00:00",
-      "content_error": "HTTP 429",
-      "error": "원문 본문·댓글을 가져오지 못했습니다. 수집 가능한 내용은 번역했으며 다음 수집 때 재시도합니다."
+      "translation_errors": {
+        "comment_0": "HTTP 429",
+        "comment_1": "HTTP 429",
+        "comment_2": "HTTP 429",
+        "comment_3": "HTTP 429",
+        "comment_4": "HTTP 429",
+        "comment_5": "HTTP 429",
+        "comment_6": "HTTP 429",
+        "comment_7": "HTTP 429",
+        "comment_8": "HTTP 429"
+      },
+      "last_attempt_at": "2026-11-14T09:46:34.514133+00:00",
+      "error": "일부 번역이 지연되고 있습니다. 다음 수집 때 재시도합니다.",
+      "body_en": "",
+      "comments": [
+        {
+          "author": "9_Nightwing_1",
+          "score": null,
+          "body_en": "Been following Benny since Zona. Biggest knock on him in Indy was not making quick decisions with the ball. I know it was preseason but he was absolutely dealing. Loved the vision and his willingness to find teammates in favorable situations fast. Edit: especially nice to see early chemistry between Mathurin and Fears. We could have ourselves a future backcourt there.",
+          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1wzo4c8/bennedict_mathurin_vs_thunder_oct_6_2026_full_play/peehuqa/"
+        },
+        {
+          "author": "SeaOfSourMilk",
+          "score": null,
+          "body_en": "If Mathurin averages 15pt per game we’ll be winning a lot of those close games we lost last year. Dude is gonna be a phenomenal help, best bench player we’ve had since Jose.",
+          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1wzo4c8/bennedict_mathurin_vs_thunder_oct_6_2026_full_play/pee4akw/"
+        },
+        {
+          "author": "Extreme-Analysis-337",
+          "score": null,
+          "body_en": "Based off last night, I'm not sure we play as many close games this year.",
+          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1wzo4c8/bennedict_mathurin_vs_thunder_oct_6_2026_full_play/pejefd2/"
+        },
+        {
+          "author": "SeaOfSourMilk",
+          "score": null,
+          "body_en": "That’s fine, he played 3 quarters and he typically is a 2nd half kind of player. It’s all preseason anyways, our starters aren’t going to be putting in 100% even if they’re only in for 20 minutes. Their bench are all playing for starting spots, they played great out there. That said they’re likely going to be the winners of the Finals this year. Mara looks like an insane pick up for them, think he’s gonna take Chet Holmgrens job within the next two years. The biggest take away from this game is that McGowens is likely going to be sitting out most of these games because Mathurin is 100% that guy. We have to wait and see Dejounte Murray start the season with us to really see how much momentum these guys can build together. The chemistry was starting to come together at the end of last year, here’s to hoping Mathurin can replace a defensive hole we created when we traded Dyson.",
+          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1wzo4c8/bennedict_mathurin_vs_thunder_oct_6_2026_full_play/pejftlw/"
+        },
+        {
+          "author": "Extreme-Analysis-337",
+          "score": null,
+          "body_en": "I think you won't like my full opinion, but Imma give you a small piece. Mathurin should start and McGowens and Herb should be the ones off the bench in that order. Herbs just not gonna cut it. He's been declining year after year now.",
+          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1wzo4c8/bennedict_mathurin_vs_thunder_oct_6_2026_full_play/pejgiwt/"
+        },
+        {
+          "author": "SeaOfSourMilk",
+          "score": null,
+          "body_en": "I’ve always preferred Herb coming off the bench. Herb and Jose/Dyson combo is too good for most benches to break thru. That said I think that Mathurin should be eased into our offence. We’ve got some absolute weapons on our team and Mathurin is going to be a perimeter threat that will be deadly to opposing benches. Seddiq Bey deserves a shout out here, he’s arguably our best signing outside of the draft class. I think Mathurin is going to help open up the paint and give the ball to whoever has the best look. Pacers are my #2 and Mathurin has been one of my favourite players to follow. People seem to forget that Mathurin won Game #3 for the Pacers in the finals. Off the bench. https://youtu.be/C2A6wQ3Zjh8 He’s got that dawg in him.",
+          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1wzo4c8/bennedict_mathurin_vs_thunder_oct_6_2026_full_play/pejkxb8/"
+        },
+        {
+          "author": "Mfoun10",
+          "score": null,
+          "body_en": "He should be playing with the starting unit.",
+          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1wzo4c8/bennedict_mathurin_vs_thunder_oct_6_2026_full_play/peiancp/"
+        },
+        {
+          "author": "9_Nightwing_1",
+          "score": null,
+          "body_en": "He'll start some games this year and move into the starting lineup full-time next season, imo.",
+          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1wzo4c8/bennedict_mathurin_vs_thunder_oct_6_2026_full_play/pelwy89/"
+        },
+        {
+          "author": "mojopinata",
+          "score": null,
+          "body_en": "Had no idea his release was that slow. Could explain his poor 3pt shooting.",
+          "url": "https://www.reddit.com/r/NOLAPelicans/comments/1wzo4c8/bennedict_mathurin_vs_thunder_oct_6_2026_full_play/pejd755/"
+        }
+      ],
+      "summary_en": [],
+      "processed_at": "2026-11-14T09:54:41.255192+00:00"
     },
     {
       "title": "Pels come back from 23 points down to beat the Thunder in their 1st preseason game.",
@@ -27067,24 +27304,24 @@
   "channels": {
     "youtube": {
       "state": "ready",
-      "checked_at": "2026-11-14T00:35:24.898905Z",
+      "checked_at": "2026-11-14T09:34:23.096536Z",
       "count": 200,
-      "summarized": 51,
+      "summarized": 48,
       "message": "매일 09:00·18:00에 펠리컨스 영상을 검색합니다. 자막 또는 영상 설명에서 핵심 내용 3개 이상을 한국어로 제공합니다."
     },
     "article": {
       "state": "partial",
-      "checked_at": "2026-11-14T00:35:11.325381Z",
+      "checked_at": "2026-11-14T09:34:17.711761Z",
       "count": 12,
       "pending": 25,
       "retention_days": 90,
-      "message": "선택한 5개 소스의 최근 90일 글 중 본문에서 펠리컨스 관련 내용을 확인한 아티클입니다. 본문·발행일 확인 대기 25건은 다음 수집에서 이어서 확인합니다. 90일 글 목록 추가 확인 중: In The N.O., Basketball Poetry, No Ceilings.",
+      "message": "선택한 5개 소스의 최근 90일 글 중 본문에서 펠리컨스 관련 내용을 확인한 아티클입니다. 수집 지연: In The N.O.. 본문·발행일 확인 대기 25건은 다음 수집에서 이어서 확인합니다. 90일 글 목록 추가 확인 중: In The N.O., Basketball Poetry, No Ceilings.",
       "sources": [
         {
           "id": "hardwood",
           "name": "The Hardwood Collective",
           "count": 3,
-          "checked_at": "2026-11-14T00:35:11.325381Z",
+          "checked_at": "2026-11-14T09:34:17.711761Z",
           "discovered": 101,
           "errors": [
             "rss: HTTP 404",
@@ -27097,12 +27334,14 @@
           "name": "In The N.O.",
           "count": 0,
           "backfill_pending": true,
-          "checked_at": "2026-11-14T00:35:11.325381Z",
-          "discovered": 20,
+          "checked_at": "2026-11-14T09:34:17.711761Z",
+          "discovered": 0,
           "errors": [
-            "archive: HTTP 400"
+            "list: HTTP 403",
+            "rss: HTTP 403",
+            "archive: HTTP 403"
           ],
-          "state": "ready"
+          "state": "partial"
         },
         {
           "id": "poetry",
@@ -27110,7 +27349,7 @@
           "count": 3,
           "archive_offset": 0,
           "backfill_pending": true,
-          "checked_at": "2026-11-14T00:35:11.325381Z",
+          "checked_at": "2026-11-14T09:34:17.711761Z",
           "discovered": 20,
           "errors": [
             "archive: HTTP 400"
@@ -27124,7 +27363,7 @@
           "count": 1,
           "archive_offset": 0,
           "backfill_pending": false,
-          "checked_at": "2026-11-14T00:35:11.325381Z",
+          "checked_at": "2026-11-14T09:34:17.711761Z",
           "discovered": 10,
           "errors": [],
           "state": "ready",
@@ -27136,7 +27375,7 @@
           "count": 5,
           "archive_offset": 0,
           "backfill_pending": true,
-          "checked_at": "2026-11-14T00:35:11.325381Z",
+          "checked_at": "2026-11-14T09:34:17.711761Z",
           "discovered": 20,
           "errors": [
             "archive: HTTP 400"
@@ -27148,7 +27387,7 @@
     },
     "news": {
       "state": "ready",
-      "message": "비영어 뉴스 5건은 출처·중복 확인이 끝날 때까지 보류합니다."
+      "message": "비영어 뉴스 6건은 출처·중복 확인이 끝날 때까지 보류합니다."
     },
     "reddit": {
       "state": "ready",
@@ -27158,7 +27397,7 @@
   "article_state": {
     "sources": {
       "hardwood": {
-        "checked_at": "2026-11-14T00:35:11.325381Z",
+        "checked_at": "2026-11-14T09:34:17.711761Z",
         "discovered": 101,
         "errors": [
           "rss: HTTP 404",
@@ -27168,17 +27407,19 @@
       },
       "intheno": {
         "backfill_pending": true,
-        "checked_at": "2026-11-14T00:35:11.325381Z",
-        "discovered": 20,
+        "checked_at": "2026-11-14T09:34:17.711761Z",
+        "discovered": 0,
         "errors": [
-          "archive: HTTP 400"
+          "list: HTTP 403",
+          "rss: HTTP 403",
+          "archive: HTTP 403"
         ],
-        "state": "ready"
+        "state": "partial"
       },
       "poetry": {
         "archive_offset": 0,
         "backfill_pending": true,
-        "checked_at": "2026-11-14T00:35:11.325381Z",
+        "checked_at": "2026-11-14T09:34:17.711761Z",
         "discovered": 20,
         "errors": [
           "archive: HTTP 400"
@@ -27189,7 +27430,7 @@
       "swish": {
         "archive_offset": 0,
         "backfill_pending": false,
-        "checked_at": "2026-11-14T00:35:11.325381Z",
+        "checked_at": "2026-11-14T09:34:17.711761Z",
         "discovered": 10,
         "errors": [],
         "state": "ready",
@@ -27198,7 +27439,7 @@
       "noceilings": {
         "archive_offset": 0,
         "backfill_pending": true,
-        "checked_at": "2026-11-14T00:35:11.325381Z",
+        "checked_at": "2026-11-14T09:34:17.711761Z",
         "discovered": 20,
         "errors": [
           "archive: HTTP 400"
@@ -27220,7 +27461,7 @@
       },
       "https://www.basketballpoetry.com/p/examining-wins-and-salaries-by-player": {
         "result": "preview_insufficient",
-        "checked_at": "2026-11-14T00:35:11.325381Z",
+        "checked_at": "2026-11-14T09:34:17.711761Z",
         "source_id": "poetry",
         "published": "2026-08-25T15:30:33+00:00",
         "body_characters": 721,
@@ -28230,7 +28471,7 @@
       },
       "https://www.basketballpoetry.com/p/peyton-watsonmax-strus-trade-grades": {
         "result": "preview_insufficient",
-        "checked_at": "2026-11-14T00:35:11.325381Z",
+        "checked_at": "2026-11-14T09:34:17.711761Z",
         "source_id": "poetry",
         "published": "2026-08-20T02:26:02+00:00",
         "body_characters": 2694,
@@ -28330,7 +28571,7 @@
       },
       "https://www.noceilingsnba.com/p/ahead-of-the-curve-2026-acc-bigs": {
         "result": "preview_insufficient",
-        "checked_at": "2026-11-14T00:35:11.325381Z",
+        "checked_at": "2026-11-14T09:34:17.711761Z",
         "source_id": "noceilings",
         "published": "2026-09-25T13:01:34+00:00",
         "body_characters": 1429,
@@ -28350,7 +28591,7 @@
       },
       "https://www.noceilingsnba.com/p/the-shot-is-just-the-beginning-diving": {
         "result": "preview_insufficient",
-        "checked_at": "2026-11-14T00:35:11.325381Z",
+        "checked_at": "2026-11-14T09:34:17.711761Z",
         "source_id": "noceilings",
         "published": "2026-09-29T13:02:00+00:00",
         "body_characters": 1848,
@@ -28370,7 +28611,7 @@
       },
       "https://www.noceilingsnba.com/p/the-leap-before-the-leap-jacob-cofie": {
         "result": "preview_insufficient",
-        "checked_at": "2026-11-14T00:35:11.325381Z",
+        "checked_at": "2026-11-14T09:34:17.711761Z",
         "source_id": "noceilings",
         "published": "2026-09-30T13:02:41+00:00",
         "body_characters": 3293,
@@ -28390,7 +28631,7 @@
       },
       "https://www.noceilingsnba.com/p/2027-nba-draft-mid-major-prospect": {
         "result": "preview_insufficient",
-        "checked_at": "2026-11-14T00:35:11.325381Z",
+        "checked_at": "2026-11-14T09:34:17.711761Z",
         "source_id": "noceilings",
         "published": "2026-10-01T16:01:00+00:00",
         "body_characters": 2991,
@@ -28400,7 +28641,7 @@
       },
       "https://www.noceilingsnba.com/p/2026-ahead-of-the-curve-big-east": {
         "result": "preview_insufficient",
-        "checked_at": "2026-11-14T00:35:11.325381Z",
+        "checked_at": "2026-11-14T09:34:17.711761Z",
         "source_id": "noceilings",
         "published": "2026-10-02T13:04:10+00:00",
         "body_characters": 977,
@@ -28420,7 +28661,7 @@
       },
       "https://www.noceilingsnba.com/p/the-los-angeles-clippers-and-the": {
         "result": "preview_insufficient",
-        "checked_at": "2026-11-14T00:35:11.325381Z",
+        "checked_at": "2026-11-14T09:34:17.711761Z",
         "source_id": "noceilings",
         "published": "2026-10-05T16:01:22+00:00",
         "body_characters": 2838,
@@ -28490,7 +28731,7 @@
       },
       "https://www.noceilingsnba.com/p/2027-nba-draft-big-12-prospect-cheat": {
         "result": "preview_insufficient",
-        "checked_at": "2026-11-14T00:35:11.325381Z",
+        "checked_at": "2026-11-14T09:34:17.711761Z",
         "source_id": "noceilings",
         "published": "2026-10-12T16:04:16+00:00",
         "body_characters": 2630,
@@ -28510,7 +28751,7 @@
       },
       "https://www.noceilingsnba.com/p/2027-nba-mock-draft-v1-video": {
         "result": "preview_insufficient",
-        "checked_at": "2026-11-14T00:35:11.325381Z",
+        "checked_at": "2026-11-14T09:34:17.711761Z",
         "source_id": "noceilings",
         "published": "2026-10-14T16:01:25+00:00",
         "body_characters": 420,
@@ -28670,7 +28911,7 @@
       },
       "https://www.noceilingsnba.com/p/ahead-of-the-curve-2026-acc-guards-8e2": {
         "result": "preview_insufficient",
-        "checked_at": "2026-11-14T00:35:11.325381Z",
+        "checked_at": "2026-11-14T09:34:17.711761Z",
         "source_id": "noceilings",
         "published": "2026-08-19T13:03:21+00:00",
         "body_characters": 1510,
@@ -28680,7 +28921,7 @@
       },
       "https://www.noceilingsnba.com/p/size-that-scares-me": {
         "result": "preview_insufficient",
-        "checked_at": "2026-11-14T00:35:11.325381Z",
+        "checked_at": "2026-11-14T09:34:17.711761Z",
         "source_id": "noceilings",
         "published": "2026-08-20T13:01:32+00:00",
         "body_characters": 1756,
@@ -28690,7 +28931,7 @@
       },
       "https://www.noceilingsnba.com/p/editors-notes-offseason-edition": {
         "result": "preview_insufficient",
-        "checked_at": "2026-11-14T00:35:11.325381Z",
+        "checked_at": "2026-11-14T09:34:17.711761Z",
         "source_id": "noceilings",
         "published": "2026-08-21T13:01:10+00:00",
         "body_characters": 1862,
@@ -28710,7 +28951,7 @@
       },
       "https://www.noceilingsnba.com/p/certified-sicko-prospects-15-names-56e": {
         "result": "preview_insufficient",
-        "checked_at": "2026-11-14T00:35:11.325381Z",
+        "checked_at": "2026-11-14T09:34:17.711761Z",
         "source_id": "noceilings",
         "published": "2026-08-27T13:03:39+00:00",
         "body_characters": 2442,
@@ -28730,7 +28971,7 @@
       },
       "https://www.noceilingsnba.com/p/certified-sicko-prospects-more-names": {
         "result": "preview_insufficient",
-        "checked_at": "2026-11-14T00:35:11.325381Z",
+        "checked_at": "2026-11-14T09:34:17.711761Z",
         "source_id": "noceilings",
         "published": "2026-09-02T13:32:17+00:00",
         "body_characters": 1925,
@@ -28740,7 +28981,7 @@
       },
       "https://www.noceilingsnba.com/p/2026-ahead-of-the-curve-acc-wings": {
         "result": "preview_insufficient",
-        "checked_at": "2026-11-14T00:35:11.325381Z",
+        "checked_at": "2026-11-14T09:34:17.711761Z",
         "source_id": "noceilings",
         "published": "2026-09-03T13:28:22+00:00",
         "body_characters": 1190,
@@ -28750,7 +28991,7 @@
       },
       "https://www.noceilingsnba.com/p/buried-treasure-juco": {
         "result": "preview_insufficient",
-        "checked_at": "2026-11-14T00:35:11.325381Z",
+        "checked_at": "2026-11-14T09:34:17.711761Z",
         "source_id": "noceilings",
         "published": "2026-09-04T13:00:18+00:00",
         "body_characters": 3824,
@@ -28770,7 +29011,7 @@
       },
       "https://www.noceilingsnba.com/p/buried-treasure-incoming-freshmen": {
         "result": "preview_insufficient",
-        "checked_at": "2026-11-14T00:35:11.325381Z",
+        "checked_at": "2026-11-14T09:34:17.711761Z",
         "source_id": "noceilings",
         "published": "2026-09-10T13:03:20+00:00",
         "body_characters": 1573,
@@ -28800,7 +29041,7 @@
       },
       "https://www.noceilingsnba.com/p/the-leap-before-the-leap-kanon-catchings": {
         "result": "preview_insufficient",
-        "checked_at": "2026-11-14T00:35:11.325381Z",
+        "checked_at": "2026-11-14T09:34:17.711761Z",
         "source_id": "noceilings",
         "published": "2026-09-16T13:01:19+00:00",
         "body_characters": 1302,
@@ -28810,7 +29051,7 @@
       },
       "https://www.noceilingsnba.com/p/how-important-is-experience-in-building": {
         "result": "preview_insufficient",
-        "checked_at": "2026-11-14T00:35:11.325381Z",
+        "checked_at": "2026-11-14T09:34:17.711761Z",
         "source_id": "noceilings",
         "published": "2026-09-18T13:01:45+00:00",
         "body_characters": 1559,
@@ -28830,7 +29071,7 @@
       },
       "https://www.noceilingsnba.com/p/colben-landrew-commands-your-attention": {
         "result": "preview_insufficient",
-        "checked_at": "2026-11-14T00:35:11.325381Z",
+        "checked_at": "2026-11-14T09:34:17.711761Z",
         "source_id": "noceilings",
         "published": "2026-09-22T13:03:27+00:00",
         "body_characters": 1402,
@@ -28910,7 +29151,7 @@
       },
       "https://www.noceilingsnba.com/p/2027-nba-draft-big-10-prospect-cheat": {
         "result": "preview_insufficient",
-        "checked_at": "2026-11-14T00:35:11.325381Z",
+        "checked_at": "2026-11-14T09:34:17.711761Z",
         "source_id": "noceilings",
         "published": "2026-10-22T16:02:35+00:00",
         "body_characters": 356,
@@ -28960,7 +29201,7 @@
       },
       "https://www.noceilingsnba.com/p/one-trick-pony-or-untapped-ancillaries": {
         "result": "preview_insufficient",
-        "checked_at": "2026-11-14T00:35:11.325381Z",
+        "checked_at": "2026-11-14T09:34:17.711761Z",
         "source_id": "noceilings",
         "published": "2026-10-26T16:01:52+00:00",
         "body_characters": 0,
@@ -29390,7 +29631,7 @@
       },
       "https://www.noceilingsnba.com/p/2027-nba-mock-draft-v2-video": {
         "result": "preview_insufficient",
-        "checked_at": "2026-11-14T00:35:11.325381Z",
+        "checked_at": "2026-11-14T09:34:17.711761Z",
         "source_id": "noceilings",
         "published": "2026-11-11T17:02:59+00:00",
         "body_characters": 377,
@@ -29550,7 +29791,7 @@
       },
       "https://www.noceilingsnba.com/p/the-most-intriguing-player-on-each": {
         "result": "preview_insufficient",
-        "checked_at": "2026-11-14T00:35:11.325381Z",
+        "checked_at": "2026-11-14T09:34:17.711761Z",
         "source_id": "noceilings",
         "published": "2026-11-13T17:03:25+00:00",
         "body_characters": 0,
@@ -29820,6 +30061,20 @@
       "defer_reason": "언어 간 중복 비교를 완료하지 못해 다음 수집 때 재시도합니다."
     },
     {
+      "title": "【NBA】元オールスターのデジャンテ・マレーがペリカンズにトレードを要求、チームの不振と不協和音が背景に - Basket Count",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1rNkQ2eUpYZk9oM0o5UXFXR2VuZzA5LUlGM2xmM0Rzb0YyektTX19nMTJ1UzlELTMzRTRLLXpsRGFveW1XQXFDZHRsSGZQOXlfdkFzRWxmWk9wZw?oc=5",
+      "source": "Basket Count",
+      "kind": "news",
+      "published": "2026-11-14T01:09:00+00:00",
+      "thumbnail": "",
+      "language": "ja",
+      "publisher": "Basket Count",
+      "publisher_url": "https://basket-count.com",
+      "status": "pending",
+      "source_id": "basketcount",
+      "defer_reason": "언어 간 중복 비교를 완료하지 못해 다음 수집 때 재시도합니다."
+    },
+    {
       "title": "【NBA】3戦連続で138失点以上の大敗、ペリカンズのザイオン・ウイリアムソンがチームに苦言「鏡で自分自身を見つめ直す必要がある」 - Basket Count",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5ueklzcWhUd0dWWnU1QXVaNzFxeVY3ajAxSTlCZDY5SnpZeFMwSkFNb0tpWmVoWm4zbmJwWUlaMG5tVmR0T2NBRjM0cHRVd1ZPaE9UR0tqVTJBZw?oc=5",
       "source": "Basket Count",
@@ -29837,12 +30092,12 @@
   "news_policy": {
     "version": 1,
     "english_complete": true,
-    "outside_date_window": 2,
-    "kept_en": 13,
-    "kept_ko": 12,
+    "non_article": 1,
+    "outside_date_window": 5,
+    "kept_en": 12,
+    "kept_ko": 10,
     "kept_ja": 3,
     "kept_zh": 1,
-    "deferred": 5,
-    "outside_allowlist": 2
+    "deferred": 6
   }
 }
